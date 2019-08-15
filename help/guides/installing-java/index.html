@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Installing Java - Hopper</title>
+        
+        
+        
+
+            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+            <link href="/static/css/global.css" rel="stylesheet" media="screen">
+        
+
+    </head>
+
+    <body>
+        
+        <div id="page-content-wrapper">
+            <div id="page-header">
+                <ul class="nav nav-pills pull-right">
+                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
+                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+                    <li><a href="http://help.mojang.com/">Account Support</a></li>
+                </ul>
+                <h3 class="muted">Minecraft Crash Help</h3>
+            </div>
+            <hr>
+            
+	<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb well">
+			<li><a href="/help">Help</a> <span class="divider">/</span></li>			<li><a href="/help/guides/">Guides</a> <span class="divider">/</span></li>			<li class="active">Installing Java</li>		</ul>
+	</div>
+</div>
+<div id="masthead" class="container" style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;">
+	<h1>Installing Java</h1>
+	<div class="offset1 container" style="width: 80%;">
+		<p>
+			The Java Runtime Environment (JRE) is software that allows for programs written in the Java programming language, for example the desktop editions of Minecraft, to run on your computer.
+		</p>
+	</div>
+</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+	<div class="row" style="margin-right: 5%;">
+		<div class="offset1">
+			<h1 class="page-header" style="font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-top: 20px;">Verifying if Java is installed</h1>
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="row-fluid">
+						<div class="span12">
+							<p>
+								Starting from early 2015, the <em>Minecraft</em> launcher for Windows now ships with a built in version of Java that the launcher automatically keeps up-to-date.
+							</p>
+							<p>
+								If you are using the new <em>Minecraft</em> launcher for Windows, you do not have to install Java on your computer unless you need it for applications other than <em>Minecraft</em>. If you are on Windows and are not sure if you are using the new <em>Minecraft</em> launcher or are getting "This application requires a Java Runtime Environment" when launching <em>Minecraft</em>, then you can download <strong>Minecraft.msi</strong> from <a href="https://minecraft.net/download">https://minecraft.net/download</a> under "Minecraft for Windows".
+							</p>
+							<p>
+								If the above does not apply to you, then you can check if Java is installed on your computer with the following instructions:
+							</p>
+							<strong>Windows</strong>
+							<ul>
+								<li>Hold your Windows key (located at the bottom left of your keyboard to the right of the Control key) and press "R".</li>								<li>You should get a "Run" window open up, type in "cmd" and press "OK."</li>								<li>A "Command Prompt" window should open, type in the command: <code>java -version</code></li>								<li>Hit enter and the output should contain <code>java version "[java version here]"</code> if Java is installed. If you instead got <code>'java' is not recognized</code> then Java is not installed properly; see the Windows section below for how to install Java.</li>							</ul>
+							<strong>Mac OSX</strong>
+							<ul>
+								<li>In spotlight, search "Terminal" and open the application.</li>								<li>Enter in Terminal: <code>java -version</code></li>								<li>If the output does not contain <code>java version "[java version here]"</code> then Java is not installed on your computer; see the Mac OSX section below for instructions on how to install Java.</li>							</ul>
+							<strong>Linux</strong>
+							<ul>
+								<li>Open Terminal (Ctrl + Alt + T on Ubuntu)</li>								<li>Enter in Terminal: <code>java -version</code></li>								<li>If the output does not contain <code>java version "[java version here]"</code> then Java is not installed, you should refer to your distro's manual for instructions on installing Oracle Java.</li>							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+	<div class="row" style="margin-right: 5%;">
+		<div class="offset1">
+			<h1 class="page-header" style="font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-top: 20px;">Installing Java for Windows</h1>
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="row-fluid">
+						<div class="span12">
+							<div>
+								<h3>For Windows 7, Windows 8/8.1, Windows 10</h3>
+								<p>To install the proper version of Java for your computer, you first need to find wether you are using a 32-bit or 64-bit Windows operating system.</p>
+								<ul>
+									<li>Hold your Windows key (located at the bottom left of your keyboard to the right of the Control key) and press "R".</li>									<li>You should get a "Run" window open up, type in "cmd" and press "OK."</li>									<li>A "Command Prompt" window should open, type in the command: <code>wmic OS get OSArchitecture</code></li>									<li>Press enter, and afterwards the second line of the output will tell you if you are using 32-bit or 64-bit.</li>								</ul>
+								<h4>If you are using 64-bit</h4>
+								<ul>
+									Go to the <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Oracle Java Download</a> page and press the button next to "Accept License Agreement" under the "Java SE Runtime Environment" header. It should then give you a "Thank you" message, once it does look for "<strong>jre-8uABC-windows-x64.exe</strong>" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
+								</ul>
+								<h4>If you are using 32-bit</h4>
+								<ul>
+									Go to the <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Oracle Java Download</a> page and press the button next to "Accept License Agreement" under the "Java SE Runtime Environment" header. It should then give you a "Thank you" message, once it does look for "<strong>jre-8uABC-windows-i586.exe</strong>" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
+								</ul>
+								<p>
+									Once you have downloaded and installed Java, you should be all set. It is recommended to run a check to see that Java is properly installed, you can do that by going to Command Prompt again and using the command <code>java -version</code> — if you get an error, redo the steps or contact our <a href="/help/technical-support-resources">technical support resources</a>. Otherwise, Java should be successfully installed on your computer. 
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+	<div class="row" style="margin-right: 5%;">
+		<div class="offset1">
+			<h1 class="page-header" style="font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-top: 20px;">Installing Java for Mac</h1>
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="row-fluid">
+						<div class="span12">
+							<div>
+								<h3>For OS X 10.9 or above</h3>
+								<p>Go to the <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Oracle Java Download</a> page and press the button next to "Accept License Agreement" under the "Java SE Runtime Environment" header. It should then give you a "Thank you" message, once it does look for "<strong>jre-8uABC-macosx-x64.dmg</strong>" (where ABC is a two or three digit version number) under the "Download" table - download and install the file.</p>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><hr>
+<span style="display: none;">Page Info (Update This!)</span>
+<div class="container">    
+<div class="row-fluid">
+		<div class="span12" style="text-align: center;">
+			<div class="span2" style="width: 23%;">
+				<ul class="unstyled"><li><strong>Last updated</strong></li><li>Fri, 21 July 2017</li></ul>
+			</div>
+			<div class="span2" style="width: 23%;">
+				<ul class="unstyled"><li><strong>JIRA Issue</strong></li><li><a href="//bugs.mojang.com/"></a></li></ul>
+			</div>
+			<div class="span2" style="width: 23%;">
+				<ul class="unstyled"><li><strong>Page type</strong></li><li>Guide</li></ul>
+			</div>
+			<div class="span2" style="width: 23%;">
+				<ul class="unstyled"><li><strong>Related to</strong></li><li>Java Runtime Enviornment</li></ul>
+			</div>		
+		</div>
+	</div>
+	<hr>
+	<div class="row-fluid">
+		<div class="span12" style="text-align: center;">
+				<a href="/help/technical-support-resources" style="text-decoration: none;"><em class="icon-question-sign"></em> Support resources</a> –
+				<a href="/crashes/" style="text-decoration: none;"><em class="icon-th-list"></em> Crash index</a> –
+				<a href="https://bugs.mojang.com/" style="text-decoration: none;"><em class="icon-ok"></em> Bug tracker</a>
+		</div>
+	</div>
+</div>
+
+
+            <div id="page-footer">
+                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
+            </div>
+        </div>
+
+        
+        
+            <script src="/static/js/jquery.min.js"></script>
+            <script src="/static/js/bootstrap.min.js"></script>
+            <script src="/static/js/global.js"></script>
+        
+
+    </body>
+</html>

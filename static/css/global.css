@@ -1,0 +1,8 @@
+body {
+    padding: 20px 30px 40px 30px;
+}
+
+#page-content-wrapper {
+    margin: 0 auto;
+    max-width: 1080px;
+}
