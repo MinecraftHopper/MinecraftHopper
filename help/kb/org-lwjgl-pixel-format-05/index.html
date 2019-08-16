@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -66,8 +67,8 @@
 	at org.lwjgl.opengl.Display.createWindow(Display.java:306)
 	at org.lwjgl.opengl.Display.create(Display.java:848)
 	at org.lwjgl.opengl.Display.create(Display.java:757)
-	at org.lwjgl.opengl.Display.create(Display.java:739)</pre></fieldset><fieldset><legend>Solution</legend><p>If you are looking for help, please see <span class="plugin_link"><a href="/help/None/">this article</a></span>.</p><p>This error, can usually be resolved by updating your video card drivers.</p></fieldset><fieldset><legend>Cause</legend>
-<p>An OpenGL context is able to be started by LWJGL, but a native failure occurred when attempting to use hardware accelerated OpenGL via ones' graphics drivers.</p><p>It is not to be confused with  <code>No OpenGL context found in the current thread</code> errors, a separate issue where an attempt was made to reference OpenGL without it being properly initialized. This can occur for many reasons, however this is usually the result of an oversight within the game code. It is possible to debug these scenarios by ensuring proper a proper OpenGL implementation (by updating graphics drivers) and also referring to OpenGL debugging utilities such as <a href="http://www.realtech-vr.com/glview/">Realtech-VR</a> or GpuTest.</p>
+	at org.lwjgl.opengl.Display.create(Display.java:739)</pre></fieldset><fieldset><legend>Solution</legend><p>If you are looking for help, please see <span class="plugin_link"><a href="/help/pixel-format-not-accelerated/">this article</a></span>.</p><p>This error, can usually be resolved by updating your video card drivers.</p></fieldset><fieldset><legend>Cause</legend>
+<p>An OpenGL context is able to be started by LWJGL, but a native failure occurred when attempting to use hardware accelerated OpenGL via ones' graphics drivers.</p><p>It is not to be confused with  <code>No OpenGL context found in the current thread</code> errors, a separate issue where an attempt was made to reference OpenGL without it being properly initialized. This can occur for many reasons, however this is usually the result of an oversight within the game code. It is possible to debug these scenarios by ensuring proper a proper OpenGL implementation (by updating graphics drivers) and also referring to OpenGL debugging utilities such as <a href="http://www.realtech-vr.com/glview/">Realtech-VR</a> or GpuTest.</p>
 </fieldset>
 
 
