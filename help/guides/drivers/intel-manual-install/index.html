@@ -1,215 +1,292 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Installing Intel drivers with Device manager - Hopper</title>
-        
-        
-        
+<head>
+    <title>Installing Intel drivers with Device manager - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
 
-            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        
-            <link href="/static/css/global.css" rel="stylesheet" media="screen">
-        
+<body>
 
-    </head>
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
 
-    <body>
-        
-        <div id="page-content-wrapper">
-            <div id="page-header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
-                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-                    <li><a href="http://help.mojang.com/">Account Support</a></li>
-                </ul>
-                <h3 class="muted">Minecraft Crash Help</h3>
-            </div>
-            <hr>
-            
-	<div class="row-fluid">
-	<div class="span12">
-		<ul class="breadcrumb well">
-			<li><a href="/help">Help</a> <span class="divider">/</span></li>			<li><a href="/help/guides">Guides</a> <span class="divider">/</span></li>			<li><a href="/help/guides/drivers/">Drivers</a> <span class="divider">/</span></li>			<li class="active">Installing Intel drivers with Device manager</li>		</ul>
-	</div>
-</div><div id="masthead" class="container" style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;">
-	<h1>Installing Intel drivers with Device manager</h1>
-	<div class="offset1 container" style="width: 80%;">
-		<p>
-			It may be needed on occasion that you install Intel graphics drivers via Device manager. This page describes instructions that can be taken to do so, although it is recommended that you use Windows Update or the Intel driver update utility to find the latest drivers for your computer unless a conflict occurs requiring you to do so manually.
-		</p>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row">
-		<div class="offset1" style="width: 85%;">
-			<h1 class="page-header" style="padding-top: 20px;">Applications</h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<ul>
-						<li>On OEM devices, an OEM may sometimes use custom drivers that block the installation of generic Intel graphics drivers. Installing with Device manager avoids this issue, although it generally is recommended to use OEM drivers on these devices whenever possible.</li>						<li>On Windows 10, the drivers installed by Windows Update on behalf of Intel may not be shipped with proper OpenGL support. In this case, you should check with your OEM (if applicable) or the Intel driver utility and obtain the drivers for your system. If this fails, you may need to manually install the drivers with Device manager.</li>						<li>The Toshiba c660 comes shipped with AMD drivers that must be uninstalled and replaced with Intel chipset drivers.</li>					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row">
-		<div class="offset1" style="width: 85%;">
-			<h1 class="page-header" style="padding-top: 20px;">Prerequisites</h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<p><em><strong>NOTE:</strong> This article assumes that you already have a driver that is in ZIP format and are looking to install it with Device manager. If you have not found a device driver to install, refer to <a href="/help/pixel-format-not-accelerated">this page</a> and use the “manual” links to obtain a ZIP version of the appropriate driver. If you were directed to this page by someone else, ask them for an appropriate driver or use one of the <a href="/help/technical-support-resources">support resources</a> to request one.</em></p>
-					<p>Microsoft Windows drivers using the Windows Display Driver Model are generally forward-compatible and will usually work without the need for intervention from hardware vendors such as Intel. Although this may be the case, some Intel drivers are specifically instructed to refuse the installation of graphics drivers on specific operating systems.</p>
-					<p>Affected graphics chipsets that are affected by this issue include but are not limited to:</p>
-					<ul>
-						<li>Intel® B43 Express Chipset (NT6.2+)</li>						<li>Intel® G41 Express Chipset (NT6.2+)</li>						<li>Intel® G43 Express Chipset (NT6.2+)</li>						<li>Intel® G45 Express Chipset (NT6.2+)</li>						<li>Intel® Q43 Express Chipset (NT6.2+)</li>						<li>Intel® Q45 Express Chipset (NT6.2+)</li>						<li>Mobile Intel® 4 Series Express Chipset Family (NT6.2+)</li>					</ul>
-					<p>For the above, you will not be able to install any of those drivers on Windows operating systems newer than what the drivers specify. You should instead use Windows Update to obtain the latest drivers for your computer or if none are available, you should downgrade your computer to a driver-supported operating system.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row">
-		<div class="offset1" style="width: 85%;">
-			<h1 class="page-header" style="padding-top: 20px;"><a href="#install" name="install" style="text-decoration: none;">Installing</a></h1>
-			<div class="row-fluid">
-				<h3>Removing your current graphics drivers</h3>
-				<div class="span12">
-					<p>Although it is not required, it is recommended that you remove your current drivers before you manually install new ones. This is to avoid Windows’ versioning mechanics that dictate whether a driver can be installed or not based on which is the “newer” driver.</p>
-					<p>Right click the start button or use the keyboard shortcut Win + X to get a power menu. Select “Device manager” and look for the “Display Adapter” section. Expand the section and you should see an entry containing “Intel” in it, which should be your graphics chipset.</p>
-					
-					<img style="display: block; margin: 0 auto;" src="https://i.imgur.com/m1RaCWM.png">
-					<p>Close any other applications that may be depending on your graphics chipset. Then go back to Device manager and right click the new entry that appeared and choose “Uninstall,” this will uninstall the graphics driver currently in use. Ensure that the “Delete the driver software for this device” option is enabled.</p>
-					
-					<img style="display: block; margin: 0 auto;" src="https://i.imgur.com/JPThl3T.png">
-				</div>
-			</div>
-			<hr>
-			<div class="row-fluid">
-				<h3>Installing the new drivers</h3>
-				<div class="span12">
-					<p>Open the Intel driver ZIP that you should have obtained and extract this to a folder.</p>
-					<img style="display: block; margin: 0 auto;" src="https://i.imgur.com/z20LZRL.png">
-					<hr>
-					<p>Go back to Device manager and expand the “Intel” device that should be under the “Display Adapters” as before. Right click it and choose “Update Driver Software…” and then “Browse my computer for driver software.” You should get another menu, *do not* press “Browse” and instead press “Let me pick from a list of device drivers on my computer.” At the bottom right, select “Have Disk…” and then “Browse…” – go to the folder which you extracted the Intel driver .ZIP file to.</p>
-					<p>Open the location which you extracted the files to and browse to the “Graphics” folder. Select the file that says “Setup Information” next to its name. Then press “OK” and you should be taken to a prompt asking you to select which driver to install. Select the driver that matches the chipset model you are using. (If you’re not sure which one to use, use the first driver on the list which is usually generic.) Press “Next” and the driver should begin installing, if you get any warnings select “Yes”.</p>
-					<p>If the driver still does not install, your operating system may not be compatible with the driver and thus Windows will still refuse to load the driver. In this case you should run Windows Update to get whatever driver is currently available for your computer.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="container" style="text-align: center;">
-   <h3>For reference, the following video demonstrates the install process</h3>
-   <em>Note that certain parts of the video may differ from what it looks like on your PC, although the concept is the same.</em>
-   <hr>
-</div>
-
-
-
-<div class="plugin_video">
-	<object id="video-plugin-5060" width="1080" height="720" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" >
-		<param name="movie" value="/static/cms/swf/player.swf"/>
-		<param name="allowFullScreen" value="true" />
-		<param name="allowScriptAccess" value="always" />
-		<param name="allowFullScreen" value="true" />
-		<param name="quality" value="autohigh" />
-		<param name="wmode" value="opaque" />
-		<param name="bgcolor" value="#000000" />
-		<param name="flashvars" value="movie=https://www.youtube.com/watch?v=xfcsHjE3Vls&amp;autoplay=false&amp;loop=true&amp;autohide=false&amp;fullscreen=true&amp;color_text=0xFFFFFF&amp;color_seekbar=0x13ABEC&amp;color_loadingbar=0x828282&amp;color_seekbarbg=0x333333&amp;color_button_out=0x333333&amp;color_button_over=0x000000&amp;color_button_highlight=0xFFFFFF" />
-			<!--[if !IE]>-->
-			<object width="1080" height="720" data="/static/cms/swf/player.swf" type="application/x-shockwave-flash">
-			<param name="allowFullScreen" value="true" />
-			<param name="allowScriptAccess" value="always" />
-			<param name="allowFullScreen" value="true" />
-			<param name="quality" value="autohigh" />
-			<param name="wmode" value="opaque" />
-			<param name="bgcolor" value="#000000" />
-			<param name="flashvars" value="movie=https://www.youtube.com/watch?v=xfcsHjE3Vls&amp;autoplay=false&amp;loop=true&amp;autohide=false&amp;fullscreen=true&amp;color_text=0xFFFFFF&amp;color_seekbar=0x13ABEC&amp;color_loadingbar=0x828282&amp;color_seekbarbg=0x333333&amp;color_button_out=0x333333&amp;color_button_over=0x000000&amp;color_button_highlight=0xFFFFFF" />
-			<!--<![endif]-->
-		<!-- alternate content -->
-		Missing flash plugin. Please download the latest Adobe Flash Player: <br />
-		<a href="https://www.adobe.com/go/getflashplayer">
-			<img alt="Get Adobe Flash Player" src="/static/cms/images/plugins/get_flash_player.gif" />
-		</a>
-		<!-- /alternate content -->
-			<!--[if !IE]>-->
-			</object>
-			<!--<![endif]-->
-	</object>
-</div>
-<hr>
-<span style="display: none;">Page Info (Update This!)</span>
-<div class="container">    
-<div class="row-fluid">
-		<div class="span12" style="text-align: center;">
-			<div class="span2" style="width: 23%;">
-				<ul class="unstyled"><li><strong>Last updated</strong></li><li>Mon, 28 Jul 2015</li></ul>
-			</div>
-			<div class="span2" style="width: 23%;">
-				<ul class="unstyled"><li><strong>JIRA Issue</strong></li><li><a href="//bugs.mojang.com/"></a></li></ul>
-			</div>
-			<div class="span2" style="width: 23%;">
-				<ul class="unstyled"><li><strong>Page type</strong></li><li>Guide</li></ul>
-			</div>
-			<div class="span2" style="width: 23%;">
-				<ul class="unstyled"><li><strong>Related to</strong></li><li>Pixel Format Not Accelerated<br>Windows 10</li></ul>
-			</div>		
-		</div>
-	</div>
-	<hr>
-	<div class="row-fluid">
-		<div class="span12" style="text-align: center;">
-				<a href="/help/technical-support-resources" style="text-decoration: none;"><em class="icon-question-sign"></em> Support resources</a> –
-				<a href="/crashes/" style="text-decoration: none;"><em class="icon-th-list"></em> Crash index</a> –
-				<a href="https://bugs.mojang.com/" style="text-decoration: none;"><em class="icon-ok"></em> Bug tracker</a>
-		</div>
-	</div>
-</div>
-
-
-            <div id="page-footer">
-                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
+    <div class="row-fluid">
+        <div class="span12">
+            <ul class="breadcrumb well">
+                <li><a href="/help">Help</a> <span class="divider">/</span></li>
+                <li><a href="/help/guides">Guides</a> <span class="divider">/</span></li>
+                <li><a href="/help/guides/drivers/">Drivers</a> <span class="divider">/</span></li>
+                <li class="active">Installing Intel drivers with Device manager</li>
+            </ul>
+        </div>
+    </div>
+    <div id="masthead" class="container"
+         style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;">
+        <h1>Installing Intel drivers with Device manager</h1>
+        <div class="offset1 container" style="width: 80%;">
+            <p>
+                It may be needed on occasion that you install Intel graphics drivers via Device manager. This page
+                describes instructions that can be taken to do so, although it is recommended that you use Windows
+                Update or the Intel driver update utility to find the latest drivers for your computer unless a conflict
+                occurs requiring you to do so manually.
+            </p>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1" style="width: 85%;">
+                <h1 class="page-header" style="padding-top: 20px;">Applications</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <ul>
+                            <li>On OEM devices, an OEM may sometimes use custom drivers that block the installation of
+                                generic Intel graphics drivers. Installing with Device manager avoids this issue,
+                                although it generally is recommended to use OEM drivers on these devices whenever
+                                possible.
+                            </li>
+                            <li>On Windows 10, the drivers installed by Windows Update on behalf of Intel may not be
+                                shipped with proper OpenGL support. In this case, you should check with your OEM (if
+                                applicable) or the Intel driver utility and obtain the drivers for your system. If this
+                                fails, you may need to manually install the drivers with Device manager.
+                            </li>
+                            <li>The Toshiba c660 comes shipped with AMD drivers that must be uninstalled and replaced
+                                with Intel chipset drivers.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1" style="width: 85%;">
+                <h1 class="page-header" style="padding-top: 20px;">Prerequisites</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <p><em><strong>NOTE:</strong> This article assumes that you already have a driver that is in ZIP
+                            format and are looking to install it with Device manager. If you have not found a device
+                            driver to install, refer to <a href="/help/pixel-format-not-accelerated">this page</a> and
+                            use the “manual” links to obtain a ZIP version of the appropriate driver. If you were
+                            directed to this page by someone else, ask them for an appropriate driver or use one of the
+                            <a href="/help/technical-support-resources">support resources</a> to request one.</em></p>
+                        <p>Microsoft Windows drivers using the Windows Display Driver Model are generally
+                            forward-compatible and will usually work without the need for intervention from hardware
+                            vendors such as Intel. Although this may be the case, some Intel drivers are specifically
+                            instructed to refuse the installation of graphics drivers on specific operating systems.</p>
+                        <p>Affected graphics chipsets that are affected by this issue include but are not limited
+                            to:</p>
+                        <ul>
+                            <li>Intel® B43 Express Chipset (NT6.2+)</li>
+                            <li>Intel® G41 Express Chipset (NT6.2+)</li>
+                            <li>Intel® G43 Express Chipset (NT6.2+)</li>
+                            <li>Intel® G45 Express Chipset (NT6.2+)</li>
+                            <li>Intel® Q43 Express Chipset (NT6.2+)</li>
+                            <li>Intel® Q45 Express Chipset (NT6.2+)</li>
+                            <li>Mobile Intel® 4 Series Express Chipset Family (NT6.2+)</li>
+                        </ul>
+                        <p>For the above, you will not be able to install any of those drivers on Windows operating
+                            systems newer than what the drivers specify. You should instead use Windows Update to obtain
+                            the latest drivers for your computer or if none are available, you should downgrade your
+                            computer to a driver-supported operating system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1" style="width: 85%;">
+                <h1 class="page-header" style="padding-top: 20px;"><a href="#install" name="install"
+                                                                      style="text-decoration: none;">Installing</a></h1>
+                <div class="row-fluid">
+                    <h3>Removing your current graphics drivers</h3>
+                    <div class="span12">
+                        <p>Although it is not required, it is recommended that you remove your current drivers before
+                            you manually install new ones. This is to avoid Windows’ versioning mechanics that dictate
+                            whether a driver can be installed or not based on which is the “newer” driver.</p>
+                        <p>Right click the start button or use the keyboard shortcut Win + X to get a power menu. Select
+                            “Device manager” and look for the “Display Adapter” section. Expand the section and you
+                            should see an entry containing “Intel” in it, which should be your graphics chipset.</p>
 
-        
-        <script type="text/javascript" src="/static/cms/js/libs/swfobject.min.js"></script>
+                        <img style="display: block; margin: 0 auto;" src="https://i.imgur.com/m1RaCWM.png">
+                        <p>Close any other applications that may be depending on your graphics chipset. Then go back to
+                            Device manager and right click the new entry that appeared and choose “Uninstall,” this will
+                            uninstall the graphics driver currently in use. Ensure that the “Delete the driver software
+                            for this device” option is enabled.</p>
+
+                        <img style="display: block; margin: 0 auto;" src="https://i.imgur.com/JPThl3T.png">
+                    </div>
+                </div>
+                <hr>
+                <div class="row-fluid">
+                    <h3>Installing the new drivers</h3>
+                    <div class="span12">
+                        <p>Open the Intel driver ZIP that you should have obtained and extract this to a folder.</p>
+                        <img style="display: block; margin: 0 auto;" src="https://i.imgur.com/z20LZRL.png">
+                        <hr>
+                        <p>Go back to Device manager and expand the “Intel” device that should be under the “Display
+                            Adapters” as before. Right click it and choose “Update Driver Software…” and then “Browse my
+                            computer for driver software.” You should get another menu, *do not* press “Browse” and
+                            instead press “Let me pick from a list of device drivers on my computer.” At the bottom
+                            right, select “Have Disk…” and then “Browse…” – go to the folder which you extracted the
+                            Intel driver .ZIP file to.</p>
+                        <p>Open the location which you extracted the files to and browse to the “Graphics” folder.
+                            Select the file that says “Setup Information” next to its name. Then press “OK” and you
+                            should be taken to a prompt asking you to select which driver to install. Select the driver
+                            that matches the chipset model you are using. (If you’re not sure which one to use, use the
+                            first driver on the list which is usually generic.) Press “Next” and the driver should begin
+                            installing, if you get any warnings select “Yes”.</p>
+                        <p>If the driver still does not install, your operating system may not be compatible with the
+                            driver and thus Windows will still refuse to load the driver. In this case you should run
+                            Windows Update to get whatever driver is currently available for your computer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="text-align: center;">
+        <h3>For reference, the following video demonstrates the install process</h3>
+        <em>Note that certain parts of the video may differ from what it looks like on your PC, although the concept is
+            the same.</em>
+        <hr>
+    </div>
+
+
+    <div class="plugin_video">
+        <object id="video-plugin-5060" width="1080" height="720" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+            <param name="movie" value="/static/cms/swf/player.swf"/>
+            <param name="allowFullScreen" value="true"/>
+            <param name="allowScriptAccess" value="always"/>
+            <param name="allowFullScreen" value="true"/>
+            <param name="quality" value="autohigh"/>
+            <param name="wmode" value="opaque"/>
+            <param name="bgcolor" value="#000000"/>
+            <param name="flashvars"
+                   value="movie=https://www.youtube.com/watch?v=xfcsHjE3Vls&amp;autoplay=false&amp;loop=true&amp;autohide=false&amp;fullscreen=true&amp;color_text=0xFFFFFF&amp;color_seekbar=0x13ABEC&amp;color_loadingbar=0x828282&amp;color_seekbarbg=0x333333&amp;color_button_out=0x333333&amp;color_button_over=0x000000&amp;color_button_highlight=0xFFFFFF"/>
+            <!--[if !IE]>-->
+            <object width="1080" height="720" data="/static/cms/swf/player.swf" type="application/x-shockwave-flash">
+                <param name="allowFullScreen" value="true"/>
+                <param name="allowScriptAccess" value="always"/>
+                <param name="allowFullScreen" value="true"/>
+                <param name="quality" value="autohigh"/>
+                <param name="wmode" value="opaque"/>
+                <param name="bgcolor" value="#000000"/>
+                <param name="flashvars"
+                       value="movie=https://www.youtube.com/watch?v=xfcsHjE3Vls&amp;autoplay=false&amp;loop=true&amp;autohide=false&amp;fullscreen=true&amp;color_text=0xFFFFFF&amp;color_seekbar=0x13ABEC&amp;color_loadingbar=0x828282&amp;color_seekbarbg=0x333333&amp;color_button_out=0x333333&amp;color_button_over=0x000000&amp;color_button_highlight=0xFFFFFF"/>
+                <!--<![endif]-->
+                <!-- alternate content -->
+                Missing flash plugin. Please download the latest Adobe Flash Player: <br/>
+                <a href="https://www.adobe.com/go/getflashplayer">
+                    <img alt="Get Adobe Flash Player" src="/static/cms/images/plugins/get_flash_player.gif"/>
+                </a>
+                <!-- /alternate content -->
+                <!--[if !IE]>-->
+            </object>
+            <!--<![endif]-->
+        </object>
+    </div>
+    <hr>
+    <span style="display: none;">Page Info (Update This!)</span>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12" style="text-align: center;">
+                <div class="span2" style="width: 23%;">
+                    <ul class="unstyled">
+                        <li><strong>Last updated</strong></li>
+                        <li>Mon, 28 Jul 2015</li>
+                    </ul>
+                </div>
+                <div class="span2" style="width: 23%;">
+                    <ul class="unstyled">
+                        <li><strong>JIRA Issue</strong></li>
+                        <li><a href="//bugs.mojang.com/"></a></li>
+                    </ul>
+                </div>
+                <div class="span2" style="width: 23%;">
+                    <ul class="unstyled">
+                        <li><strong>Page type</strong></li>
+                        <li>Guide</li>
+                    </ul>
+                </div>
+                <div class="span2" style="width: 23%;">
+                    <ul class="unstyled">
+                        <li><strong>Related to</strong></li>
+                        <li>Pixel Format Not Accelerated<br>Windows 10</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row-fluid">
+            <div class="span12" style="text-align: center;">
+                <a href="/help/technical-support-resources" style="text-decoration: none;"><em
+                        class="icon-question-sign"></em> Support resources</a> –
+                <a href="/crashes/" style="text-decoration: none;"><em class="icon-th-list"></em> Crash index</a> –
+                <a href="https://bugs.mojang.com/" style="text-decoration: none;"><em class="icon-ok"></em> Bug tracker</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/static/cms/js/libs/swfobject.min.js"></script>
 
 <script type="text/javascript">
-//<![CDATA[
-(function () {
-	var flashvars = {
-		'movie': 					'https://www.youtube.com/watch?v=xfcsHjE3Vls',
-		
-		'autoplay': 				'false',
-		'loop': 					'true',
-		'autohide': 				'false',
-		'fullscreen': 				'true',
-		'color_text': 				'0xFFFFFF',
-		'color_seekbar': 			'0x13ABEC',
-		'color_loadingbar': 		'0x828282',
-		'color_seekbarbg': 			'0x333333',
-		'color_button_out': 		'0x333333',
-		'color_button_over': 		'0x000000',
-		'color_button_highlight': 	'0xFFFFFF'
-	};
-	var params = {
-		allowfullscreen: 	'true',
-		allowscriptaccess: 	'always',
-		bgcolor: 			'#000000',
-		wmode: 				'opaque'
-	};
-	var attributes = { align: 'middle' };
-	
-	// load
-	swfobject.embedSWF('/static/cms/swf/player.swf', 'video-plugin-5060', '1080', '720', '9', '/static/cms/swf/expressInstall.swf', flashvars, params, attributes);
-})();
-//]]>
+    //<![CDATA[
+    (function () {
+        var flashvars = {
+            'movie': 'https://www.youtube.com/watch?v=xfcsHjE3Vls',
+
+            'autoplay': 'false',
+            'loop': 'true',
+            'autohide': 'false',
+            'fullscreen': 'true',
+            'color_text': '0xFFFFFF',
+            'color_seekbar': '0x13ABEC',
+            'color_loadingbar': '0x828282',
+            'color_seekbarbg': '0x333333',
+            'color_button_out': '0x333333',
+            'color_button_over': '0x000000',
+            'color_button_highlight': '0xFFFFFF'
+        };
+        var params = {
+            allowfullscreen: 'true',
+            allowscriptaccess: 'always',
+            bgcolor: '#000000',
+            wmode: 'opaque'
+        };
+        var attributes = {align: 'middle'};
+
+        // load
+        swfobject.embedSWF('/static/cms/swf/player.swf', 'video-plugin-5060', '1080', '720', '9', '/static/cms/swf/expressInstall.swf', flashvars, params, attributes);
+    })();
+    //]]>
 </script>
 
 
-            <script src="/static/js/jquery.min.js"></script>
-            <script src="/static/js/bootstrap.min.js"></script>
-            <script src="/static/js/global.js"></script>
-        
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
 
-    </body>
+
+</body>
 </html>

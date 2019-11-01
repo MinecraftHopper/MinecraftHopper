@@ -1,106 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Out of bounds - Hopper</title>
-        
-        
-        
+<head>
+    <title>Out of bounds - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
 
-            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        
-            <link href="/static/css/global.css" rel="stylesheet" media="screen">
-        
+<body>
 
-    </head>
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
 
-    <body>
-        
-        <div id="page-content-wrapper">
-            <div id="page-header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
-                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-                    <li><a href="http://help.mojang.com/">Account Support</a></li>
-                </ul>
-                <h3 class="muted">Minecraft Crash Help</h3>
-            </div>
-            <hr>
-            
-	<div class="row-fluid">
-	<div class="span12">
-		<ul class="breadcrumb well clearfix">
-			<li><a href="/help">Help</a> <span class="divider">/</span></li>			<li class="active">Out of bounds</li>		</ul>
-	</div>
-</div><div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;" id="masthead" class="container">
-	<h1>Method out of bounds</h1>
-	<div style="width: 80%;" class="offset1 container">
-		<p>This error can be caused by the use of <a href="http://minecraft.gamepedia.com/Mods" style="color: aqua;">client modifications</a>, invalid game configurations, corrupt game saves, or a bug in the game.</p>
-	</div>
-</div><div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;" class="container home-container">
-	<div class="row">
-		<div class="offset1">
-			<h1 style="padding-top: 20px;" class="page-header">How to fix this</h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<div>
-						<p>If you are getting this error, the first thing you want to do is <a href="../reinstalling-minecraft">reinstall the game</a>.</p>
-						<p>After you have done that, and the problem persists; there are a couple of things you should check:</p>
-						<ol>
-							<li>You are not using a modded <em>launcher </em>to launch the game</li>							<li>You have not used external game editing tools (this includes MCEdit, or any type of NBT editing program)</li>							<li>You are not playing on a map that once was played with mods</li>							<li>You are not playing on a modded server</li>						</ol>
-						<p>If none of the above are true, please visit <a href="http://help.mojang.com/customer/portal/articles/1175661">Mojang's support center</a>.</p>
-						<p>Otherwise, please continue, to find possible solutions.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;" class="container home-container">
-	<div class="row">
-		<div class="offset1">
-			<h1 style="padding-top: 20px;" class="page-header">Possible solutions</h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<a name="1"></a>
-					<p><strong>1. You are using a modded client</strong></p>
-					<p>If you're using a modded client, unfortunately <strong>we cannot provide support for it</strong>. </p>
-					<p>If you have any issues with it, you should report them to the author, as we have no control over the development of it.</p>
-					<a name="2"></a>
-					<p><strong>2. You have used external game editing tools</strong></p>
-					<p>If you have used external map editing tools, there's a chance that one of them may have corrupted something in the game.</p>
-					<p>If the issue you're getting is only pertaining to one specific world, there's a good probability it's "corrupt".</p>
-					<p>Currently, we have no absolute "fix" for this, if you believe your world is corrupt, you may want to attempt to "undo" those changes with the editor.</p>
-					 
-					<a name="3"></a>
-					<p><strong>3. You are playing on a map that once used mods</strong></p>
-					<p>If you're playing on a map that once had mods, there's a chance that one of them may have left back map data that can only be 'deciphered' by that exclusive mod. </p>
-					 
-					<a name="4"></a>
-					<p><strong>4. You are playing on a modded server</strong></p>
-					<p>If you are playing on a modded server, you may want to refer to <a href="/help/error-communicating-server/">this page</a>.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="row-fluid">
-	<div style="text-align: center;" class="span12">
-		<hr>
-		<div class="clearfix">
-			<p>Mojira Link: <a href="https://bugs.mojang.com/browse/MC-5477">MC-5477 - Fireworks and given dye beyond id 15</a></p>
-		</div>
-	</div>
-</div>
-
-            <div id="page-footer">
-                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
+    <div class="row-fluid">
+        <div class="span12">
+            <ul class="breadcrumb well clearfix">
+                <li><a href="/help">Help</a> <span class="divider">/</span></li>
+                <li class="active">Out of bounds</li>
+            </ul>
+        </div>
+    </div>
+    <div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;"
+         id="masthead" class="container">
+        <h1>Method out of bounds</h1>
+        <div style="width: 80%;" class="offset1 container">
+            <p>This error can be caused by the use of <a href="http://minecraft.gamepedia.com/Mods"
+                                                         style="color: aqua;">client modifications</a>, invalid game
+                configurations, corrupt game saves, or a bug in the game.</p>
+        </div>
+    </div>
+    <div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;"
+         class="container home-container">
+        <div class="row">
+            <div class="offset1">
+                <h1 style="padding-top: 20px;" class="page-header">How to fix this</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div>
+                            <p>If you are getting this error, the first thing you want to do is <a
+                                    href="../reinstalling-minecraft">reinstall the game</a>.</p>
+                            <p>After you have done that, and the problem persists; there are a couple of things you
+                                should check:</p>
+                            <ol>
+                                <li>You are not using a modded <em>launcher </em>to launch the game</li>
+                                <li>You have not used external game editing tools (this includes MCEdit, or any type of
+                                    NBT editing program)
+                                </li>
+                                <li>You are not playing on a map that once was played with mods</li>
+                                <li>You are not playing on a modded server</li>
+                            </ol>
+                            <p>If none of the above are true, please visit <a
+                                    href="http://help.mojang.com/customer/portal/articles/1175661">Mojang's support
+                                center</a>.</p>
+                            <p>Otherwise, please continue, to find possible solutions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;"
+         class="container home-container">
+        <div class="row">
+            <div class="offset1">
+                <h1 style="padding-top: 20px;" class="page-header">Possible solutions</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <a name="1"></a>
+                        <p><strong>1. You are using a modded client</strong></p>
+                        <p>If you're using a modded client, unfortunately <strong>we cannot provide support for
+                            it</strong>. </p>
+                        <p>If you have any issues with it, you should report them to the author, as we have no control
+                            over the development of it.</p>
+                        <a name="2"></a>
+                        <p><strong>2. You have used external game editing tools</strong></p>
+                        <p>If you have used external map editing tools, there's a chance that one of them may have
+                            corrupted something in the game.</p>
+                        <p>If the issue you're getting is only pertaining to one specific world, there's a good
+                            probability it's "corrupt".</p>
+                        <p>Currently, we have no absolute "fix" for this, if you believe your world is corrupt, you may
+                            want to attempt to "undo" those changes with the editor.</p>
+                         
+                        <a name="3"></a>
+                        <p><strong>3. You are playing on a map that once used mods</strong></p>
+                        <p>If you're playing on a map that once had mods, there's a chance that one of them may have
+                            left back map data that can only be 'deciphered' by that exclusive mod. </p>
+                         
+                        <a name="4"></a>
+                        <p><strong>4. You are playing on a modded server</strong></p>
+                        <p>If you are playing on a modded server, you may want to refer to <a
+                                href="/help/error-communicating-server/">this page</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div style="text-align: center;" class="span12">
+            <hr>
+            <div class="clearfix">
+                <p>Mojira Link: <a href="https://bugs.mojang.com/browse/MC-5477">MC-5477 - Fireworks and given dye
+                    beyond id 15</a></p>
+            </div>
+        </div>
+    </div>
 
-        
-        
-            <script src="/static/js/jquery.min.js"></script>
-            <script src="/static/js/bootstrap.min.js"></script>
-            <script src="/static/js/global.js"></script>
-        
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
 
-    </body>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
 </html>

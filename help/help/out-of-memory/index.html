@@ -1,146 +1,222 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Out Of Memory - Hopper</title>
-        
-        
-        
+<head>
+    <title>Out Of Memory - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
 
-            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        
-            <link href="/static/css/global.css" rel="stylesheet" media="screen">
-        
+<body>
 
-    </head>
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
 
-    <body>
-        
-        <div id="page-content-wrapper">
-            <div id="page-header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
-                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-                    <li><a href="http://help.mojang.com/">Account Support</a></li>
-                </ul>
-                <h3 class="muted">Minecraft Crash Help</h3>
-            </div>
-            <hr>
-            
-	<div class="row-fluid">
-	<div class="span12">
-		<ul class="breadcrumb well clearfix">
-			<li><a href="/help">Help</a> <span class="divider">/</span></li>			<li class="active">Out of memory</li>		</ul>
-	</div>
-</div><div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;" id="masthead" class="container">
-	<h1>Out of memory</h1>
-	<div style="width: 80%;" class="offset1 container">
-		<p>This error occurs when the game does not have enough memory, or RAM, to continue.</p>
-                <p>RAM stands for "Random Access Memory", which is a vital part of your computer. Your computer will not function without it. It is installed on the computer's motherboard, storing data immediately needed for the computer to function. Minecraft requires at least <strong>384MB</strong> of RAM to function, however Minecraft will usually take up more than 1GB of memory to save information for blocks, players, mobs and many other things. When Minecraft cannot allocate (get) more RAM from the computer due to not enough RAM installed or too many other processes using up RAM (such as other games, web browsers and applications), it crashes with the <strong>Out of Memory</strong> error.</p>
-                <p>Firstly, you should close every other applications to see if the problem goes away (some web browsers such as Chrome can take up lots of memory if you open a lot of tabs). If not, follow the instructions below.</p>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-<div class="row">
-	<div class="offset1">
-		<h1 class="page-header" style="padding-top: 20px;">How much RAM do I have?</h1>
-		<div class="row-fluid">
-			<div class="span12">
-				<div class="row-fluid">
-					<div class="span12">
-						<p>In order to troubleshoot this error, you must first find out how much RAM you have available on your computer.</p>
-						<p>Depending on your operating system, these instructions will vary.</p>
-						<p><strong>If you are on Windows - </strong>Press your <em>Windows + R</em> keys, to bring up a run dialogue, in it, type in: "<strong>cmd</strong>", and hit enter. This will bring up a command prompt window. In the Command Prompt window, type in:  <code>systeminfo | find "Total Physical Memory".</code> Once you have done so, give it a minute to gather the info, and you should be presented with a number in megabytes, which you will need for later.</p>
-						<p><strong>If you are on Mac OSX -</strong> Apple has made a tutorial which explains how to check the amount of system memory available which can be found <a href="http://support.apple.com/kb/ht1342">here</a>.</p>
-						<p><strong>If you are on Linux - </strong>Open a terminal window, and type in: <em>free</em></p>
-						<p>Once you have found the amount of RAM on your PC, you can continue.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div></div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-<div class="row">
-	<div class="offset1">
-		<h1 class="page-header" style="padding-top: 20px;">Checking your Java installation</h1>
-		<div class="row-fluid">
-			<div class="span12">
-				<div class="row-fluid">
-					<div class="span12">
-						<p>Minecraft runs on a platform called Java. Java is by nature multi-platform and releases different versions for each platform and for each type of processor architecture, which may make it confusing exactly which version of it you should have installed, which is what this should hopefully explain.</p><p><strong>Note that if you are using the latest launcher from Mojang dubbed the "native launcher," you will automatically have the latest prefered Java installation on your computer. For Windows users, you can download the latest launcher at https://minecraft.net/download. For OS X users, you will have to wait until later this year (2015) to get the new launcher.</strong></p><p><strong><em>If you are using the native launcher, skip to the "Still not working" section.</em></strong></p>
-						<p>First, we want to find out our OS's processor architecture. </p>
-						<p><strong>If you are on Windows -</strong> Press your Windows + R keys, to bring up a run dialogue, in it, type in: "<strong>cmd</strong>", and hit enter. This will bring up a command prompt window. In the window, type in: <code>echo %processor_architecture%</code> then hit enter. If the output was <strong>amd64</strong>, you have a <strong>64-bit OS</strong>. If the output was <strong>x86</strong>, you have a <strong>32-bit OS</strong>.</p>
-						<p><strong>If you are on Mac OSX -</strong> You have a 64-bit OS. If you're running OS X 10.6.8 and below, stop here and use  to update Java instead. Otherwise, you can continue.</p>
-						<p><strong>If you are on Linux - </strong>Type this command in a terminal window:  <code>less /proc/cpuinfo</code>.</p>
-						<p>Now that we have that, look at the diagram below and download the proper Java version for your OS and processor architecture. If you are prompted that said version of Java is already installed, please uninstall your current version of Java before continuing. </p>
-						<br>
-						<table class="table table-bordered">
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>32 bit OS</th>
-									<th>64 bit OS</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Windows</td>
-									<td colspan="1"><a href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90223">jre-7u60-windows-i586.exe</a></td>
-									<td colspan="1"><a href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90225">jre-7u60-windows-x64.exe</a></td>
-								</tr>
-								<tr>
-									<td>Mac OSX</td>
-									<td colspan="1">N/A</td>
-									<td colspan="1"><a href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90217">jre-7u60-macosx-x64.dmg</a>*</td>
-								</tr>
-								<tr>
-									<td>Linux</td>
-									<td colspan="1"><a href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90213">jre-7u60-linux-i586.rpm</a></td>
-									<td colspan="1"><a href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90215">jre-7u60-linux-x64.rpm</a></td>
-								</tr>
-							</tbody>
-						</table>
-						<br>
-						<p><em>* OSX users should install the latest version of Java through Software Update. The download link provided is only valid for OSX 10.7.3 or newer.</em></p><p>Once you have installed the proper Java version, you should give the game a go!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div></div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-<div class="row">
-	<div class="offset1">
-		<h1 class="page-header" style="padding-top: 20px;">Still not working?</h1>
-		<div class="row-fluid">
-			<div class="span12">
-				<div class="row-fluid">
-					<div class="span12">
-						<p>Once you have checked the amount of memory available on your computer and have also checked to make sure you are using a proper Java installation, you may need to allocate more memory to Minecraft.</p><p>Before you allocate more memory to Minecraft, you should close any excess programs on your computer that you may not be using, for example Google Chrome browser tabs or other games.</p><p>Allocating more memory</p><p>Once you have done the above, and you continue to receive out of memory errors despite having enough memory, then you may need to manually give the game more memory<strong>*</strong>. To approach, you previously collected the amount of memory you have. Now, to allocate memory to the game, pick an amount of RAM that is more than 1024MB or 1G, but less than the total amount of RAM you have on your computer. For example, "2048MB" or "2G".<br>If you need to convert between MB and GB, remember that <strong>1GB = 1024MB</strong>.</p>
-                                                <p><em>* NOTE: On 32-bit Windows Java installations, you can only allocate up to <strong>1.5G</strong> of RAM! </em></p>
-                                                <p>To allocate more RAM, open the game launcher, and press the "Edit Profile" button at the bottom left. There should be a checkbox called "JVM arguments", check that and input: <code>-Xmx2G</code> to give 2GB to the game, or <code>-Xmx2560M</code> to give 2560MB. Once you have checked and inputted the data, hit "Save Profile".</p><p>Once you have done so, try the game again!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div></div><div class="row-fluid">
-	<div style="text-align: center;" class="span12">
-		<hr>
-		<div class="clearfix">
-			<p>Mojira Link: <a href="https://bugs.mojang.com/browse/MC-3256">MC-3256</a> - Memory leak when starting large TNT chain reactions</p>
-		</div>
-	</div>
-</div>
-
-            <div id="page-footer">
-                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
+    <div class="row-fluid">
+        <div class="span12">
+            <ul class="breadcrumb well clearfix">
+                <li><a href="/help">Help</a> <span class="divider">/</span></li>
+                <li class="active">Out of memory</li>
+            </ul>
+        </div>
+    </div>
+    <div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;"
+         id="masthead" class="container">
+        <h1>Out of memory</h1>
+        <div style="width: 80%;" class="offset1 container">
+            <p>This error occurs when the game does not have enough memory, or RAM, to continue.</p>
+            <p>RAM stands for "Random Access Memory", which is a vital part of your computer. Your computer will not
+                function without it. It is installed on the computer's motherboard, storing data immediately needed for
+                the computer to function. Minecraft requires at least <strong>384MB</strong> of RAM to function, however
+                Minecraft will usually take up more than 1GB of memory to save information for blocks, players, mobs and
+                many other things. When Minecraft cannot allocate (get) more RAM from the computer due to not enough RAM
+                installed or too many other processes using up RAM (such as other games, web browsers and applications),
+                it crashes with the <strong>Out of Memory</strong> error.</p>
+            <p>Firstly, you should close every other applications to see if the problem goes away (some web browsers
+                such as Chrome can take up lots of memory if you open a lot of tabs). If not, follow the instructions
+                below.</p>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;">How much RAM do I have?</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <p>In order to troubleshoot this error, you must first find out how much RAM you have
+                                    available on your computer.</p>
+                                <p>Depending on your operating system, these instructions will vary.</p>
+                                <p><strong>If you are on Windows - </strong>Press your <em>Windows + R</em> keys, to
+                                    bring up a run dialogue, in it, type in: "<strong>cmd</strong>", and hit enter. This
+                                    will bring up a command prompt window. In the Command Prompt window, type in: 
+                                    <code>systeminfo | find "Total Physical Memory".</code> Once you have done so, give
+                                    it a minute to gather the info, and you should be presented with a number in
+                                    megabytes, which you will need for later.</p>
+                                <p><strong>If you are on Mac OSX -</strong> Apple has made a tutorial which explains how
+                                    to check the amount of system memory available which can be found <a
+                                            href="http://support.apple.com/kb/ht1342">here</a>.</p>
+                                <p><strong>If you are on Linux - </strong>Open a terminal window, and type in:
+                                    <em>free</em></p>
+                                <p>Once you have found the amount of RAM on your PC, you can continue.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;">Checking your Java installation</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <p>Minecraft runs on a platform called Java. Java is by nature multi-platform and
+                                    releases different versions for each platform and for each type of processor
+                                    architecture, which may make it confusing exactly which version of it you should
+                                    have installed, which is what this should hopefully explain.</p>
+                                <p><strong>Note that if you are using the latest launcher from Mojang dubbed the "native
+                                    launcher," you will automatically have the latest prefered Java installation on your
+                                    computer. For Windows users, you can download the latest launcher at
+                                    https://minecraft.net/download. For OS X users, you will have to wait until later
+                                    this year (2015) to get the new launcher.</strong></p>
+                                <p><strong><em>If you are using the native launcher, skip to the "Still not working"
+                                    section.</em></strong></p>
+                                <p>First, we want to find out our OS's processor architecture. </p>
+                                <p><strong>If you are on Windows -</strong> Press your Windows + R keys, to bring up a
+                                    run dialogue, in it, type in: "<strong>cmd</strong>", and hit enter. This will bring
+                                    up a command prompt window. In the window, type in: <code>echo
+                                        %processor_architecture%</code> then hit enter. If the output was
+                                    <strong>amd64</strong>, you have a <strong>64-bit OS</strong>. If the output was
+                                    <strong>x86</strong>, you have a <strong>32-bit OS</strong>.</p>
+                                <p><strong>If you are on Mac OSX -</strong> You have a 64-bit OS. If you're running OS X
+                                    10.6.8 and below, stop here and use  to update Java instead. Otherwise, you can
+                                    continue.</p>
+                                <p><strong>If you are on Linux - </strong>Type this command in a terminal window: 
+                                    <code>less /proc/cpuinfo</code>.</p>
+                                <p>Now that we have that, look at the diagram below and download the proper Java version
+                                    for your OS and processor architecture. If you are prompted that said version of
+                                    Java is already installed, please uninstall your current version of Java before
+                                    continuing. </p>
+                                <br>
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>32 bit OS</th>
+                                        <th>64 bit OS</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Windows</td>
+                                        <td colspan="1"><a
+                                                href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90223">jre-7u60-windows-i586.exe</a>
+                                        </td>
+                                        <td colspan="1"><a
+                                                href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90225">jre-7u60-windows-x64.exe</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mac OSX</td>
+                                        <td colspan="1">N/A</td>
+                                        <td colspan="1"><a
+                                                href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90217">jre-7u60-macosx-x64.dmg</a>*
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linux</td>
+                                        <td colspan="1"><a
+                                                href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90213">jre-7u60-linux-i586.rpm</a>
+                                        </td>
+                                        <td colspan="1"><a
+                                                href="http://javadl.sun.com/webapps/download/AutoDL?BundleId=90215">jre-7u60-linux-x64.rpm</a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                                <p><em>* OSX users should install the latest version of Java through Software Update.
+                                    The download link provided is only valid for OSX 10.7.3 or newer.</em></p>
+                                <p>Once you have installed the proper Java version, you should give the game a go!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;">Still not working?</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <p>Once you have checked the amount of memory available on your computer and have also
+                                    checked to make sure you are using a proper Java installation, you may need to
+                                    allocate more memory to Minecraft.</p>
+                                <p>Before you allocate more memory to Minecraft, you should close any excess programs on
+                                    your computer that you may not be using, for example Google Chrome browser tabs or
+                                    other games.</p>
+                                <p>Allocating more memory</p>
+                                <p>Once you have done the above, and you continue to receive out of memory errors
+                                    despite having enough memory, then you may need to manually give the game more
+                                    memory<strong>*</strong>. To approach, you previously collected the amount of memory
+                                    you have. Now, to allocate memory to the game, pick an amount of RAM that is more
+                                    than 1024MB or 1G, but less than the total amount of RAM you have on your computer.
+                                    For example, "2048MB" or "2G".<br>If you need to convert between MB and GB, remember
+                                    that <strong>1GB = 1024MB</strong>.</p>
+                                <p><em>* NOTE: On 32-bit Windows Java installations, you can only allocate up to
+                                    <strong>1.5G</strong> of RAM! </em></p>
+                                <p>To allocate more RAM, open the game launcher, and press the "Edit Profile" button at
+                                    the bottom left. There should be a checkbox called "JVM arguments", check that and
+                                    input: <code>-Xmx2G</code> to give 2GB to the game, or <code>-Xmx2560M</code> to
+                                    give 2560MB. Once you have checked and inputted the data, hit "Save Profile".</p>
+                                <p>Once you have done so, try the game again!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div style="text-align: center;" class="span12">
+            <hr>
+            <div class="clearfix">
+                <p>Mojira Link: <a href="https://bugs.mojang.com/browse/MC-3256">MC-3256</a> - Memory leak when starting
+                    large TNT chain reactions</p>
+            </div>
+        </div>
+    </div>
 
-        
-        
-            <script src="/static/js/jquery.min.js"></script>
-            <script src="/static/js/bootstrap.min.js"></script>
-            <script src="/static/js/global.js"></script>
-        
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
 
-    </body>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
 </html>

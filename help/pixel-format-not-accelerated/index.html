@@ -1,194 +1,260 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Pixel Format Not Accelerated - Hopper</title>
-        
-        
-        
+<head>
+    <title>Pixel Format Not Accelerated - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
 
-            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        
-            <link href="/static/css/global.css" rel="stylesheet" media="screen">
-        
+<body>
 
-    </head>
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
 
-    <body>
-        
-        <div id="page-content-wrapper">
-            <div id="page-header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
-                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-                    <li><a href="http://help.mojang.com/">Account Support</a></li>
-                </ul>
-                <h3 class="muted">Minecraft Crash Help</h3>
-            </div>
-            <hr>
-            
-	<div class="row-fluid">
-	<div class="span12">
-		<ul class="breadcrumb well clearfix">
-			<li class="pull-right"><a href="support" style="color: red; text-decoration: none;">Don't understand this page?</a></li>			<li><a href="/help">Help</a> <span class="divider">/</span></li>			<li class="active">Pixel Format Not Accelerated</li>		</ul>
-	</div>
-</div><div class="row-fluid">
-	<div class="span12" style="background-color: pink; text-align: center; display: none;">
-		<div>
-         <h4>Recently installed Windows 10 and are getting this error? <a href="/help/references/windows-10/minecraft-compatibility#3">Click here for more information</a>.</h4>
-      </div>
-	</div>
-</div><div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;" id="masthead" class="container">
-	<h1>Pixel Format Not Accelerated</h1>
-	<div style="width: 80%;" class="offset1 container">
-		<p>
-			This error message is commonly caused by outdated video card drivers. To fix this, you generally need to update your video card drivers, please follow the directions for your Operating System below. If you are having trouble following the directions below, please <a href="support" style="color: aqua;">see this</a>.
-		</p>
-	</div>
-	<p class="text-center">Jump to: <a href="#win" style="color: aqua;">Windows</a> - <a href="#mac" style="color: aqua;">Mac OSX</a> - <a href="#linux" style="color: aqua;">Linux</a></p>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row">
-		<div class="offset1">
-			<h1 class="page-header" style="padding-top: 20px;">Causes</h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<div>
-						<ul>
-							<li><strong>Graphics drivers are outdated</strong>, they do not support required OpenGL support to run Minecraft.</li>							<li><strong>Invalid memory allocation</strong>, if you set any Java arguments in your Profile Settings, please remove them.</li><li><strong>On Windows 10, </strong>driver updates are automatically installed on your PC whereas previously they were optional. Sometimes the drivers obtained through Windows Update may not contain the proper OpenGL required for Minecraft. You should in this case update your PC's graphics driver as explained below.</li><li><strong>On first- and second- generation Intel HD graphics chipsets,</strong> a Java version below 8u60 is needed on Windows 10. The new Minecraft launcher available on <a href="https://minecraft.net/download">minecraft.net/download</a> as a <a href="https://launcher.mojang.com/download/MinecraftInstaller.msi" style="text-decoration: none; color: black;">.MSI</a> should automatically resolve issues on these chipsets.</li>						</ul>
-						<p>Please read on for further information on updating your graphics drivers.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row" style="margin-right: 50px;">
-		<div class="offset1">
-			<h1 class="page-header" style="padding-top: 20px;"><a href="#win" id="win" style="text-decoration: none;">Windows</a></h1>
-			<ul>
-				<li>					Hold your <abbr title="Between the Control and Alt keys, usually to the left of the space bar">Windows</abbr> key then hit R together, to bring up a run dialogue.
-				</li>				<li>					Type "<strong>dxdiag</strong>" in the Run window and press enter.	
-				</li>				<li>					When a DxDiag window opens, browse to the '<strong>Display</strong>' tab.
-				</li>				<li>					You should get an output similar to <a href="/media/cms_page_media/52/DxDiag_EXAMPLE.png">this</a>.
-				</li>				<li>					Look for the <strong>Name </strong>and <strong>Manufacturer </strong>name part.</li>			</ul>
-			<p>Once you have found this, <strong>look for your manufacturer</strong> in the table below and go to their "<strong>Auto-Detector</strong>" site and scan your computer for any out-of-date drivers.</p>
-			<p>If one is found, please install the update; if for any reason there are no available updates or the updates do not solve your issue, please see <span class="plugin_link"><a href="/help/pixel-format-not-accelerated/support/" target="_blank">this article</a></span> to get assistance.</p>
-                       <p><strong>If you recently installed Windows 10, you must take additional steps to ensure that your drivers are not overridden by Windows Update. Refer to <a href="/help/references/windows-10/minecraft-compatibility#3">this page</a> for more information. You must first uninstall the current driver you are using before you use an updated driver from below whether or not you are using the auto-updating tool or manual methods. In addition, if you are using an "Intel HD Graphics" or "Intel HD Graphics 3000" chipset, see the instructions at the top of this page.</strong></p>
-			<a id="win:table"></a>
-			<table class="table" style="width: 75%;">
-				<thead>
-					<tr>
-						<th></th>
-						<th>Auto-Detector</th>
-						<th>Manual</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr align="center">
-						<td><strong>AMD / ATI</strong></td>
-						<td><a href="http://support.amd.com/en-us/download/auto-detect-tool">Link</a></td>
-						<td><a href="http://support.amd.com/us/gpudownload/Pages/index.aspx">Link</a></td>
-					</tr>
-					<tr align="center">
-						<td><strong>NVIDIA</strong></td>
-						<td><a href="http://www.nvidia.com/Download/Scan.aspx?lang=en-us">Link</a></td>
-						<td><a href="http://www.nvidia.com/Download/index.aspx">Link</a></td>
-					</tr>
-					<tr align="center">
-						<td><strong>INTEL</strong></td>
-						<td><a href="http://www.intel.com/p/en_US/support/detect?iid=dc_iduu">Link</a></td>
-						<td><a href="https://downloadcenter.intel.com/default.aspx">Link</a></td>
-					</tr>
-					<tr align="center">
-						<td><strong>VIA / SiS</strong></td>
-						<td>Unsupported</td>
-						<td>Unsupported</td>
-					</tr>
-				</tbody>
-			</table>
-			<br>
-		</div>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row">
-		<div class="offset1">
-			<h1 class="page-header" style="padding-top: 20px;"><a href="#linux" id="linux" style="text-decoration: none;">Linux</a></h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<div>
-						<div class="alert alert-info" style="width: 85%;">
-							<strong>Warning!</strong><br>
-							Most Linux distributions provide a way to install drivers with its package manager. <br>
-							It is highly recommended you use the distro's packages for drivers; not doing so can cause problems later!.
-						</div>
-						<ol>
-							<li>Open your terminal.</li>							<li>Enter in <code>lspci -v | less</code></li>							<li>Look for the line that says <strong>VGA Compatible</strong> or <strong>Video Controller</strong>.</li>							<li>Look for the Manufacturer and model name.</li>							<li>Install the necessary driver from the website:</li>						</ol>
-						<div>
-							<table class="table" style="width: 75%;">
-								<thead>
-									<tr>
-										<th></th>
-										<th>Manual</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr align="center">
-										<td><strong>AMD / ATI</strong></td>
-										<td><a href="http://support.amd.com/us/gpudownload/Pages/index.aspx">Link</a></td>
-									</tr>
-									<tr align="center">
-										<td><strong>NVIDIA</strong></td>
-										<td><a href="http://www.nvidia.com/Download/index.aspx">Link</a></td>
-									</tr>
-									<tr align="center">
-										<td><strong>INTEL</strong></td>
-										<td><a href="https://downloadcenter.intel.com/default.aspx">Link</a></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="container home-container" style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
-	<div class="row">
-		<div class="offset1">
-			<h1 class="page-header" style="padding-top: 20px;"><a href="#mac" id="mac" style="text-decoration: none;">Mac OSX</a></h1>
-			<div class="row-fluid">
-				<div class="span12">
-					<div class="row-fluid">
-						<div class="span12">
-							<p>Most Apple computers come with built-in drivers and a graphics card that cannot be changed. For these reasons, there is no need to manually update your graphics drivers.</p>
-							<p>Instead, you should make sure that your computer is up-to-date using the built-in "Software Update" tool which you can reach with Spotlight.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div><div class="row-fluid">
-	<div style="text-align: center;" class="span12">
-		<hr>
-		<div class="clearfix">
-			<p>Mojira Link: <a href="https://bugs.mojang.com/browse/MC-297">MC-297 - org.lwjgl.LWJGLException: Pixel format not accelerated</a></p>
-			<img src="http://c.statcounter.com/9320124/0/a575995e/0/" alt="web analytics" style="border: none;">
-		</div>
-	</div>
-</div>
-
-            <div id="page-footer">
-                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
+    <div class="row-fluid">
+        <div class="span12">
+            <ul class="breadcrumb well clearfix">
+                <li class="pull-right"><a href="support" style="color: red; text-decoration: none;">Don't understand
+                    this page?</a></li>
+                <li><a href="/help">Help</a> <span class="divider">/</span></li>
+                <li class="active">Pixel Format Not Accelerated</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span12" style="background-color: pink; text-align: center; display: none;">
+            <div>
+                <h4>Recently installed Windows 10 and are getting this error? <a
+                        href="/help/references/windows-10/minecraft-compatibility#3">Click here for more information</a>.
+                </h4>
             </div>
         </div>
+    </div>
+    <div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;"
+         id="masthead" class="container">
+        <h1>Pixel Format Not Accelerated</h1>
+        <div style="width: 80%;" class="offset1 container">
+            <p>
+                This error message is commonly caused by outdated video card drivers. To fix this, you generally need to
+                update your video card drivers, please follow the directions for your Operating System below. If you are
+                having trouble following the directions below, please <a href="support" style="color: aqua;">see
+                this</a>.
+            </p>
+        </div>
+        <p class="text-center">Jump to: <a href="#win" style="color: aqua;">Windows</a> - <a href="#mac"
+                                                                                             style="color: aqua;">Mac
+            OSX</a> - <a href="#linux" style="color: aqua;">Linux</a></p>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;">Causes</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div>
+                            <ul>
+                                <li><strong>Graphics drivers are outdated</strong>, they do not support required OpenGL
+                                    support to run Minecraft.
+                                </li>
+                                <li><strong>Invalid memory allocation</strong>, if you set any Java arguments in your
+                                    Profile Settings, please remove them.
+                                </li>
+                                <li><strong>On Windows 10, </strong>driver updates are automatically installed on your
+                                    PC whereas previously they were optional. Sometimes the drivers obtained through
+                                    Windows Update may not contain the proper OpenGL required for Minecraft. You should
+                                    in this case update your PC's graphics driver as explained below.
+                                </li>
+                                <li><strong>On first- and second- generation Intel HD graphics chipsets,</strong> a Java
+                                    version below 8u60 is needed on Windows 10. The new Minecraft launcher available on
+                                    <a href="https://minecraft.net/download">minecraft.net/download</a> as a <a
+                                            href="https://launcher.mojang.com/download/MinecraftInstaller.msi"
+                                            style="text-decoration: none; color: black;">.MSI</a> should automatically
+                                    resolve issues on these chipsets.
+                                </li>
+                            </ul>
+                            <p>Please read on for further information on updating your graphics drivers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row" style="margin-right: 50px;">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;"><a href="#win" id="win"
+                                                                      style="text-decoration: none;">Windows</a></h1>
+                <ul>
+                    <li> Hold your <abbr title="Between the Control and Alt keys, usually to the left of the space bar">Windows</abbr>
+                        key then hit R together, to bring up a run dialogue.
+                    </li>
+                    <li> Type "<strong>dxdiag</strong>" in the Run window and press enter.
+                    </li>
+                    <li> When a DxDiag window opens, browse to the '<strong>Display</strong>' tab.
+                    </li>
+                    <li> You should get an output similar to <a
+                            href="/media/cms_page_media/52/DxDiag_EXAMPLE.png">this</a>.
+                    </li>
+                    <li> Look for the <strong>Name </strong>and <strong>Manufacturer </strong>name part.</li>
+                </ul>
+                <p>Once you have found this, <strong>look for your manufacturer</strong> in the table below and go to
+                    their "<strong>Auto-Detector</strong>" site and scan your computer for any out-of-date drivers.</p>
+                <p>If one is found, please install the update; if for any reason there are no available updates or the
+                    updates do not solve your issue, please see <span class="plugin_link"><a
+                            href="/help/pixel-format-not-accelerated/support/" target="_blank">this article</a></span>
+                    to get assistance.</p>
+                <p><strong>If you recently installed Windows 10, you must take additional steps to ensure that your
+                    drivers are not overridden by Windows Update. Refer to <a
+                            href="/help/references/windows-10/minecraft-compatibility#3">this page</a> for more
+                    information. You must first uninstall the current driver you are using before you use an updated
+                    driver from below whether or not you are using the auto-updating tool or manual methods. In
+                    addition, if you are using an "Intel HD Graphics" or "Intel HD Graphics 3000" chipset, see the
+                    instructions at the top of this page.</strong></p>
+                <a id="win:table"></a>
+                <table class="table" style="width: 75%;">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Auto-Detector</th>
+                        <th>Manual</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr align="center">
+                        <td><strong>AMD / ATI</strong></td>
+                        <td><a href="http://support.amd.com/en-us/download/auto-detect-tool">Link</a></td>
+                        <td><a href="http://support.amd.com/us/gpudownload/Pages/index.aspx">Link</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><strong>NVIDIA</strong></td>
+                        <td><a href="http://www.nvidia.com/Download/Scan.aspx?lang=en-us">Link</a></td>
+                        <td><a href="http://www.nvidia.com/Download/index.aspx">Link</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><strong>INTEL</strong></td>
+                        <td><a href="http://www.intel.com/p/en_US/support/detect?iid=dc_iduu">Link</a></td>
+                        <td><a href="https://downloadcenter.intel.com/default.aspx">Link</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><strong>VIA / SiS</strong></td>
+                        <td>Unsupported</td>
+                        <td>Unsupported</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;"><a href="#linux" id="linux"
+                                                                      style="text-decoration: none;">Linux</a></h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div>
+                            <div class="alert alert-info" style="width: 85%;">
+                                <strong>Warning!</strong><br>
+                                Most Linux distributions provide a way to install drivers with its package manager. <br>
+                                It is highly recommended you use the distro's packages for drivers; not doing so can
+                                cause problems later!.
+                            </div>
+                            <ol>
+                                <li>Open your terminal.</li>
+                                <li>Enter in <code>lspci -v | less</code></li>
+                                <li>Look for the line that says <strong>VGA Compatible</strong> or <strong>Video
+                                    Controller</strong>.
+                                </li>
+                                <li>Look for the Manufacturer and model name.</li>
+                                <li>Install the necessary driver from the website:</li>
+                            </ol>
+                            <div>
+                                <table class="table" style="width: 75%;">
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Manual</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr align="center">
+                                        <td><strong>AMD / ATI</strong></td>
+                                        <td><a href="http://support.amd.com/us/gpudownload/Pages/index.aspx">Link</a>
+                                        </td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td><strong>NVIDIA</strong></td>
+                                        <td><a href="http://www.nvidia.com/Download/index.aspx">Link</a></td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td><strong>INTEL</strong></td>
+                                        <td><a href="https://downloadcenter.intel.com/default.aspx">Link</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container home-container"
+         style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;">
+        <div class="row">
+            <div class="offset1">
+                <h1 class="page-header" style="padding-top: 20px;"><a href="#mac" id="mac"
+                                                                      style="text-decoration: none;">Mac OSX</a></h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <p>Most Apple computers come with built-in drivers and a graphics card that cannot be
+                                    changed. For these reasons, there is no need to manually update your graphics
+                                    drivers.</p>
+                                <p>Instead, you should make sure that your computer is up-to-date using the built-in
+                                    "Software Update" tool which you can reach with Spotlight.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div style="text-align: center;" class="span12">
+            <hr>
+            <div class="clearfix">
+                <p>Mojira Link: <a href="https://bugs.mojang.com/browse/MC-297">MC-297 - org.lwjgl.LWJGLException: Pixel
+                    format not accelerated</a></p>
+                <img src="http://c.statcounter.com/9320124/0/a575995e/0/" alt="web analytics" style="border: none;">
+            </div>
+        </div>
+    </div>
 
-        
-        
-            <script src="/static/js/jquery.min.js"></script>
-            <script src="/static/js/bootstrap.min.js"></script>
-            <script src="/static/js/global.js"></script>
-        
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
 
-    </body>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
 </html>

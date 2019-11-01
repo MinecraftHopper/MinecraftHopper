@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Internet Crash on AT&amp;T 2Wire - Knowledge Base - Hopper</title>
-        
-        
-        
+<head>
+    <title>Internet Crash on AT&amp;T 2Wire - Knowledge Base - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
 
-            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        
-            <link href="/static/css/global.css" rel="stylesheet" media="screen">
-        
+<body>
 
-    </head>
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
 
-    <body>
-        
-        <div id="page-content-wrapper">
-            <div id="page-header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
-                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-                    <li><a href="http://help.mojang.com/">Account Support</a></li>
-                </ul>
-                <h3 class="muted">Minecraft Crash Help</h3>
-            </div>
-            <hr>
-            
-	<ul class="breadcrumb"><li><a href="/help">Help</a> <span class="divider">/</span></li> <li><a href="/help/kb">Knowledge Base</a> <span class="divider">/</span></li>  <li class="active">KB: 02 - Internet Crash on AT&amp;T 2Wire </li></ul><table class="table table-bordered">
-    <tbody><tr>
-        <td><strong>Name of error</strong></td>
-        <td><abbr title="Internet Crash on AT&amp;T 2Wire Routers">Internet Crash on AT&amp;T 2Wire</abbr></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Solution</strong></td>
-        <td>True</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Mojira issue</strong></td>
-        <td>NONE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Applies to</strong></td>
-        <td>Multiplayer Connections</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Environment</strong></td>
-        <td>AT&amp;T 2Wire Devices</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Comments</strong></td>
-        <td>Attempting to use the multiplayer function will crash all of specified model(s).</td>
-        <td></td>
-    </tr>
-</tbody></table><fieldset><legend>Solution</legend><p>To solve this error, there are a number of things you need to do, one of which is to find your Router Gateway (the IP of your router).</p><p>By default, this is <a href="//192.168.0.1">192.168.0.1</a> or <a href="//192.168.1.254">192.168.1.254</a>.</p><p>Go to the IP in your browser, and login if you get a prompt to authenticate.</p><p>Next click on the "<strong>Home Network</strong>" icon at the top of the page, then click on "<strong>Wireless Settings</strong>" in the second line from the top of the screen. Then, towards the bottom of the new page, under "<strong>Additional Settings</strong>" - change the wireless mode to <strong>802.11b</strong> (originally 802.11b/g, which is the factory default setting).</p><p>Then click on the "<strong>Firewall</strong>" icon at the upper line of the home screen, then go to "<strong>Advanced Settings</strong>".  Then, on the "<strong>Edit Advanced Firewall Settings</strong>" screen, under "<strong>Attack Detection</strong>", <em>uncheck </em>"<strong>Packet Flood</strong>" (SYN/UDP/ICMP/Other).</p><p>Finally, save the changes, reboot your router the issue should be resolved.</p></fieldset><fieldset><legend>Cause</legend>
-<p>AT&amp;T 2-Wire Routers occasionally will incorrectly assume that there are packets that are flooding the router, therefore disconnect from the internet as a whole as security protocol.</p>
+    <ul class="breadcrumb">
+        <li><a href="/help">Help</a> <span class="divider">/</span></li>
+        <li><a href="/help/kb">Knowledge Base</a> <span class="divider">/</span></li>
+        <li class="active">KB: 02 - Internet Crash on AT&amp;T 2Wire</li>
+    </ul>
+    <table class="table table-bordered">
+        <tbody>
+        <tr>
+            <td><strong>Name of error</strong></td>
+            <td><abbr title="Internet Crash on AT&amp;T 2Wire Routers">Internet Crash on AT&amp;T 2Wire</abbr></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Solution</strong></td>
+            <td>True</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Mojira issue</strong></td>
+            <td>NONE</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Applies to</strong></td>
+            <td>Multiplayer Connections</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Environment</strong></td>
+            <td>AT&amp;T 2Wire Devices</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Comments</strong></td>
+            <td>Attempting to use the multiplayer function will crash all of specified model(s).</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <fieldset>
+        <legend>Solution</legend>
+        <p>To solve this error, there are a number of things you need to do, one of which is to find your Router Gateway
+            (the IP of your router).</p>
+        <p>By default, this is <a href="//192.168.0.1">192.168.0.1</a> or <a href="//192.168.1.254">192.168.1.254</a>.
+        </p>
+        <p>Go to the IP in your browser, and login if you get a prompt to authenticate.</p>
+        <p>Next click on the "<strong>Home Network</strong>" icon at the top of the page, then click on "<strong>Wireless
+            Settings</strong>" in the second line from the top of the screen. Then, towards the bottom of the new page,
+            under "<strong>Additional Settings</strong>" - change the wireless mode to <strong>802.11b</strong>
+            (originally 802.11b/g, which is the factory default setting).</p>
+        <p>Then click on the "<strong>Firewall</strong>" icon at the upper line of the home screen, then go to "<strong>Advanced
+            Settings</strong>". Then, on the "<strong>Edit Advanced Firewall Settings</strong>" screen, under "<strong>Attack
+            Detection</strong>", <em>uncheck </em>"<strong>Packet Flood</strong>" (SYN/UDP/ICMP/Other).</p>
+        <p>Finally, save the changes, reboot your router the issue should be resolved.</p></fieldset>
+    <fieldset>
+        <legend>Cause</legend>
+        <p>AT&amp;T 2-Wire Routers occasionally will incorrectly assume that there are packets that are flooding the
+            router, therefore disconnect from the internet as a whole as security protocol.</p>
 
-</fieldset>
+    </fieldset>
 
-            <div id="page-footer">
-                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
-            </div>
-        </div>
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
 
-        
-        
-            <script src="/static/js/jquery.min.js"></script>
-            <script src="/static/js/bootstrap.min.js"></script>
-            <script src="/static/js/global.js"></script>
-        
 
-    </body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
 </html>

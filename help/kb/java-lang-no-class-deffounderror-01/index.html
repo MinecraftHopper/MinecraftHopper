@@ -1,64 +1,69 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>java.lang.NoClassDefFoundError - Knowledge Base - Hopper</title>
-        
-        
-        
+<head>
+    <title>java.lang.NoClassDefFoundError - Knowledge Base - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
 
-            <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        
-            <link href="/static/css/global.css" rel="stylesheet" media="screen">
-        
+<body>
 
-    </head>
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
 
-    <body>
-        
-        <div id="page-content-wrapper">
-            <div id="page-header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="https://www.mojang.com">Mojang.com</a></li>
-                    <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-                    <li><a href="http://help.mojang.com/">Account Support</a></li>
-                </ul>
-                <h3 class="muted">Minecraft Crash Help</h3>
-            </div>
-            <hr>
-            
-	<ul class="breadcrumb"><li><a href="/help">Help</a> <span class="divider">/</span></li> <li><a href="/help/kb">Knowledge Base</a> <span class="divider">/</span></li>  <li class="active">KB: 01 - java.lang.NoClassDefFoundError</li><a href="support"></a></ul><table class="table table-bordered">
-    <tbody><tr>
-        <td><strong>Name of error</strong></td>
-        <td><abbr title="FATAL ERROR: java.lang.NoClassDefFoundError: Could not initialize class javax.crypto.SunJCE_b">java.lang.NoClassDefFoundError</abbr></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Solution</strong></td>
-        <td>True</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Mojira issue</strong></td>
-        <td>NONE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Applies to</strong></td>
-        <td>Minecraft Launcher</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Environment</strong></td>
-        <td><abbr title="Java 6-7">Mac OSX</abbr></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>Comments</strong></td>
-        <td></td>
-        <td></td>
-    </tr>
-</tbody></table><fieldset><legend>Error log</legend><pre>FATAL ERROR: java.lang.NoClassDefFoundError: Could not initialize class javax.crypto.SunJCE_b
+    <ul class="breadcrumb">
+        <li><a href="/help">Help</a> <span class="divider">/</span></li>
+        <li><a href="/help/kb">Knowledge Base</a> <span class="divider">/</span></li>
+        <li class="active">KB: 01 - java.lang.NoClassDefFoundError</li>
+        <!--<a href="support"></a>-->
+    </ul>
+    <table class="table table-bordered">
+        <tbody>
+        <tr>
+            <td><strong>Name of error</strong></td>
+            <td><abbr
+                    title="FATAL ERROR: java.lang.NoClassDefFoundError: Could not initialize class javax.crypto.SunJCE_b">java.lang.NoClassDefFoundError</abbr>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Solution</strong></td>
+            <td>True</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Mojira issue</strong></td>
+            <td>NONE</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Applies to</strong></td>
+            <td>Minecraft Launcher</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Environment</strong></td>
+            <td><abbr title="Java 6-7">Mac OSX</abbr></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Comments</strong></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <fieldset>
+        <legend>Error log</legend>
+        <pre>FATAL ERROR: java.lang.NoClassDefFoundError: Could not initialize class javax.crypto.SunJCE_b
 at javax.crypto.KeyGenerator.a(**..)
 at javax.crypto.KeyGenerator.(**..)
 at javax.crypto.KeyGenerator.getInstance(DashoA13*..)
@@ -84,27 +89,40 @@ at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.
 at java.lang.reflect.Method.invoke(Method.java:597)
 at apple.launcher.LaunchRunner.run(LaunchRunner.java:116)
 at apple.launcher.LaunchRunner.callMain(LaunchRunner.java:51)
-at apple.launcher.JavaApplicationLauncher.launch(JavaApplicationLauncher.java:52)</pre></fieldset><fieldset><legend>Solution</legend>
-<p><strong>On Mac OSX:</strong></p>
-<ul><li>Install the latest Mac OS X <span class="plugin_link"><a href="http://support.apple.com/kb/HT1338">Software Updates</a></span>.</li></ul>
-<p><strong>On Windows:</strong></p><ul><li></li><li><span class="plugin_link"><a href="/help/pixel-format-not-accelerated/">Update your graphics drivers</a></span></li></ul></fieldset>
-<fieldset><legend>Cause</legend>
+at apple.launcher.JavaApplicationLauncher.launch(JavaApplicationLauncher.java:52)</pre>
+    </fieldset>
+    <fieldset>
+        <legend>Solution</legend>
+        <p><strong>On Mac OSX:</strong></p>
+        <ul>
+            <li>Install the latest Mac OS X <span class="plugin_link"><a href="http://support.apple.com/kb/HT1338">Software Updates</a></span>.
+            </li>
+        </ul>
+        <p><strong>On Windows:</strong></p>
+        <ul>
+            <li></li>
+            <li><span class="plugin_link"><a href="/help/pixel-format-not-accelerated/">Update your graphics drivers</a></span>
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Cause</legend>
 
-<p>This is caused by malfunctioning or broken Java installations.</p>
+        <p>This is caused by malfunctioning or broken Java installations.</p>
 
-</fieldset>
+    </fieldset>
 
-            <div id="page-footer">
-                <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click here</a> to ask our volunteers!</small></p>
-            </div>
-        </div>
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
 
-        
-        
-            <script src="/static/js/jquery.min.js"></script>
-            <script src="/static/js/bootstrap.min.js"></script>
-            <script src="/static/js/global.js"></script>
-        
 
-    </body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
 </html>
