@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Running an SFC scan - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
+
+    <div class="row-fluid">
+        <div class="span12">
+            <ul class="breadcrumb well">
+                <li><a href="/help">Help</a> <span class="divider">/</span></li>
+                <li><a href="/help/guides/">Guides</a> <span class="divider">/</span></li>
+                <li class="active">Using System File Checker</li>
+            </ul>
+        </div>
+    </div>
+    <div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;"
+         id="masthead" class="container">
+        <h1>Using System File Checker</h1>
+        <div style="width: 80%;" class="offset1 container">
+            <p>
+                System File Checker, or 'SFC' for short, is a built-in Windows tools that checks for system files that
+                may be corrupt or missing.
+            </p>
+        </div>
+    </div>
+    <div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;"
+         class="container home-container">
+        <div class="row">
+            <div class="offset1">
+                <h1 style="padding-top: 20px;" class="page-header">Running a Command Prompt</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <p><strong>
+                                    If you are on Windows Vista or Windows 7</strong>:
+                                </p>
+                                <ul>
+                                    <li>Go to "Start" and search "cmd"</li>
+                                    <li>Right click on the first item and press "Run as an administrator".</li>
+                                    <li>You may receive a UAC prompt; confirm it.</li>
+                                </ul>
+                                <p><strong>
+                                    If you are on Windows 8 or above</strong>:
+                                </p>
+                                <ul>
+                                    <li>Go to "Start" and search "cmd"</li>
+                                    <li>At the first option, "cmd" right click it and in the bottom menu choose "Run as
+                                        an administrator"
+                                    </li>
+                                    <li>You <span style="background-color: rgb(255, 255, 255);">may </span>receive a UAC
+                                        prompt; confirm it.
+                                    </li>
+                                </ul>
+                                <p><strong>
+                                    If you are on Windows XP</strong>:
+                                </p>
+                                <ul>
+                                    <li>Log into an administrator user account, if you are not already in one.</li>
+                                    <li>Hold your Windows key and press 'R'.</li>
+                                    <li>In the run prompt, type in "cmd" and press OK.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;"
+         class="container home-container">
+        <div class="row">
+            <div class="offset1">
+                <h1 style="padding-top: 20px;" class="page-header">Running System File Checker</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <p>
+                                    Once you've opened an administrative Command Prompt window, run the command:
+                                </p><br>
+                                <pre>sfc /scannow</pre>
+                                <br>
+                                <p><span style="background-color: rgb(255, 255, 255);">Your window should be similar to this:</span>
+                                </p>
+                                <img src="http://i.imgur.com/ACdL2i1.png">
+                                <hr>
+                                <p>
+                                    Press Enter and let the command run, this will take a while. <span
+                                        style="background-color: rgb(255, 255, 255);">When the scan is complete, you are given results through the console.</span>
+                                </p>
+                                <p>
+                                    After this is complete, you will have to restart the computer for the changes to
+                                    take effect.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
+
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Changing the work directory - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
+
+    <div class="row-fluid">
+        <div class="span12">
+            <ul class="breadcrumb well">
+                <li><a href="/help">Help</a> <span class="divider">/</span></li>
+                <li><a href="/help/guides/">Guides</a> <span class="divider">/</span></li>
+                <li class="active">Changing the work directory</li>
+            </ul>
+        </div>
+    </div>
+    <div style="background-color: darkslategray; color: whitesmoke; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 20px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 30px; text-align: center; width: 100%;"
+         id="masthead" class="container">
+        <h1>Changing the work directory</h1>
+        <div style="width: 80%;" class="offset1 container">
+            <p>
+                In some cases, you may need to completely change the root folder that Minecraft uses — this is now
+                possible with the new launcher.
+            </p>
+        </div>
+    </div>
+    <div style="border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;"
+         class="container home-container">
+        <div class="row">
+            <div class="offset1">
+                <h1 style="padding-top: 20px;" class="page-header">Changing the directory</h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <h3>Windows</h3>
+                                <p>
+                                    <strong>Step 1</strong>
+                                </p>
+                                <p>
+                                    Right click on 'Minecraft.exe' or 'Minecraft.jar' (the launcher) and press "Create
+                                    Shortcut".
+                                </p>
+                                <p>
+                                    <strong>Step 2</strong>
+                                </p>
+                                <p>
+                                    Right click on the new shortcut that gets generated and press "Properties".
+                                </p>
+                                <p>
+                                    <strong>Step 3</strong>
+                                </p>
+                                <p>
+                                    At the end of the 'Target' bar, add the following:
+                                </p>
+                                <br>
+                                <pre>--workDir %ProgramData%\.minecraft</pre>
+                                <br>
+                                <p>
+                                    It should then look like this:
+                                </p>
+                                <img src="http://i.imgur.com/OOYkHVE.png">
+                                <hr>
+                                <p>
+                                    <strong>Step 4</strong>
+                                </p>
+                                <p>
+                                    Simply press 'OK' and then run the shortcut, and Minecraft should launch.
+                                </p>
+                                <p>
+                                    <strong>Things to keep in mind</strong>
+                                </p>
+                                <p>In any event that you would need to open '%AppData%', instead use '%ProgramData%'; as
+                                    you have set the game to use this folder instead.
+                                </p>
+                                <p>
+                                    If you should ever need to move the actual "Minecraft.exe" file (not shortcut), you
+                                    will have to follow these instructions over.
+                                </p>
+                                <h3>Mac OSX and Linux</h3>
+                                <p>
+                                    Please create a terminal script that launches "Minecraft.jar" with the --workDir
+                                    parameter, to a destination that does not contain special characters in it.
+                                </p>
+                                <p>
+                                    For example:
+                                </p>
+                                <br>
+                                <pre>open ~/unsafe/path/to/Minecraft.jar --workDir /safe/path</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
+
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
+</html>
