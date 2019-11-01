@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modifier Name Cannot Be Empty - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
+
+    <p style="text-align: right;"></p>
+    <ul class="breadcrumb">
+        <li><a href="/help">Help</a> <span class="divider">/</span></li>
+        <li class="active">java.lang.IllegalArgumentException: Modifier name cannot be empty</li>
+    </ul>
+    <div class="row-fluid">
+        <div class="span12">
+            <h1>Modifier Name Cannot Be Empty</h1>
+            <hr>
+            <pre>java.lang.IllegalArgumentException: Modifier name cannot be empty</pre>
+            This crash is caused by mousing over an item or holding it with an attribute that has no UUID.
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span12">
+            <br>
+            <h3>How to fix this</h3>
+            <hr>
+            <div class="alert alert-info">
+                <strong>Note:</strong> You will lose everything in your inventory; it is advisable items in a chest to
+                prevent them from being deleted!
+            </div>
+            <h5>If the item is in a container (such as a chest, dispenser, hopper, etc.):</h5>
+            <hr>
+            <ol>
+                <li>Make sure you are <strong>not</strong> currently selecting the first empty slot in the hotbar</li>
+                <li>Break the chest</li>
+                <li>Be sure not to select the item in the hotbar or mouse over it in the inventory (if you hold it in
+                    the hotbar accidentally, follow the second set of instructions)
+                </li>
+                <li>Type <code>/clear @p</code> into the chat</li>
+                <li>If it works, you are done. If the chat says you don't have permission to use that command, keep
+                    following these instructions
+                </li>
+                <li>Press <code>Esc</code> to bring up the pause menu</li>
+                <li>Click "Open to LAN"</li>
+                <li>Click the "Allow Cheats: OFF" button until it says "Allow Cheats: ON"</li>
+                <li>Click "Start LAN World"</li>
+                <li>Type <code>/clear @p</code> into the chat again</li>
+            </ol>
+            <br>
+            <h5>If the item is in your inventory</h5>
+            <hr>
+            <ol>
+                <li><strong>If your world is open, save and quit to the title screen</strong></li>
+                <li>You will need an NBT editor, such as <a
+                        href="http://www.minecraftforum.net/topic/840677-nbtexplorer-nbt-editor-for-windows-and-mac/">NBTExplorer</a>
+                </li>
+                <li>Open your <a href="/help/finding-minecraft-data-folder">minecraft</a> folder</li>
+                <li>Open the folder of the world the item is in</li>
+                <li>Open <code>level.dat</code> in the NBT editor</li>
+                <li>Go into the <code>Data</code> item, then <code>Player</code></li>
+                <li>Delete the <code>Inventory</code> item (usually by selecting it and clicking the delete button at
+                    the top)
+                </li>
+                <li>Save the file (<code>Ctrl+S</code> or <code>Cmd+S</code> on OS X)</li>
+                <li>Close the NBT editor and reenter your world</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span12">
+            <br>
+            <h4>How to avoid the crash</h4>
+            <hr>
+            <div class="alert alert-success">Instructions on correctly creating items with attributes. Requires
+                knowledge of MCEdit. It is possible to edit the world's NBT directly, but it is far easier to do and
+                much harder to mess up in MCEdit, so these are MCEdit instructions.
+            </div>
+            <ol>
+                <li>First, you will need <a href="http://www.mcedit.net/">MCEdit</a> and the <a
+                        href="http://sethbling.com/media/5308/addattribute.py">AddAttribute filter</a></li>
+                <li>Open your world in Minecraft and create a chest with the item (to which you want to add the
+                    attribute(s)) in it
+                </li>
+                <li>Save and quit the world</li>
+                <li>Open MCEdit</li>
+                <li>Click "Load World...", select the world you want to edit, and then click "Load"</li>
+                <li>Select the chest</li>
+                <li>Click on the "Filter" button in the hotbar and select the "Add Attribute Modifier" filter</li>
+                <li>Choose the attribute settings you want, and <strong>be sure to put some number (pick something
+                    between 1 and 1000) in the "Label" field</strong></li>
+                <li>Click "Filter" at the bottom of the dialog box and wait for MCEdit to finish running the filter</li>
+                <li>Save and Quit MCEdit</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
+
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
+</html>
