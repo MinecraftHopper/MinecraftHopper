@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LoadLibrary Error 126 - Hopper</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.mojang.com/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">Minecraft Crash Help</h3>
+    </div>
+    <hr>
+
+    <div class="hero-unit">
+        <h1>LoadLibrary: Error 126</h1>
+        <p><br>
+            This error, or any variants of it, are caused when using older AMD (formerly ATI) GPUs in which improperly
+            identify their libraries, or "files".
+        </p>
+    </div>
+    <fieldset>
+        <legend>
+            How to fix this
+        </legend>
+        <p>
+            First, you want to find if you have a 32bit / 64bit OS.
+        </p>
+        <p>
+            <strong>You can do this by -</strong>&nbsp;Pressing your Windows + R keys, to bring up a run dialogue, in
+            it, type
+            in: "<strong>cmd</strong>", and hit enter. This will bring up a command prompt window. In the window, type
+            in:
+            <code>echo %processor_architecture%</code> then hit enter.
+        </p>
+        <p>
+            If the output was <strong>amd64</strong>, you have a <strong>64-bit OS</strong>. If the output was
+            <strong>x86</strong>, you have a 32-bit OS.
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>
+            32bit OS</strong></legend>
+        <p>
+            Open a command prompt window as an Administrator, and type in the following command:
+        </p>
+        <p>
+            <code>CD %windir%\system32</code>
+        </p>
+        <p>
+            Then, run this command:
+        </p>
+        <p>
+            <code>COPY atioglxx.dll .dll</code>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>
+            64bit OS
+        </strong></legend>
+        <p>
+            Open a command prompt window as an Administrator.
+        </p>
+        <p>
+            In the command prompt window, type in:
+        </p>
+        <p>
+            <code>CD %windir%\system32</code>
+        </p>
+        <p>
+            Once you have done that, type in:
+        </p>
+        <p>
+            <code>COPY atio6axx.dll .dll</code>
+        </p>
+        <p>
+            Then try running the game, if the error persists, then you may have a mobile card, if so, type in:
+        </p>
+
+        <p>
+            <code>COPY .dll atiogl64.dll</code>
+        </p>
+    </fieldset>
+
+    <div id="page-footer">
+        <p class="text-right"><small>Need more help? <a href="http://webchat.esper.net/?channels=minecrafthelp">Click
+            here</a> to ask our volunteers!</small></p>
+    </div>
+</div>
+
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+
+
+</body>
+</html>
