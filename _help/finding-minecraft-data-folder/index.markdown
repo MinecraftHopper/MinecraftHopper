@@ -1,3 +1,10 @@
+---
+layout: article
+title:  "Finding the minecraft data folder"
+name: "code-134"
+desc: "How to find your minecraft folder"
+---
+
 ## Finding the Minecraft Data Folder
 You may need to find the Minecraft data folder for many reasons, the following is a guide to do so.
 

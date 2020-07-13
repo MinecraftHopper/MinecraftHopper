@@ -1,3 +1,10 @@
+---
+layout: article
+title:  "Failed to load Skull"
+name: "code-134"
+desc: "How to fix Error Code 134 in Minecraft"
+---
+
 ## Failed to load Player Skull
 This error is caused by a failure to load an invalid player skull in which contains an invalid player profile.
 
