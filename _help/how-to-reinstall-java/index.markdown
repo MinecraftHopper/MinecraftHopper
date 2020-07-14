@@ -1,4 +1,9 @@
-
+---
+layout: article
+title:  "How to Reinstall Java!"
+name: "how-to-reinstall-java"
+desc: "How to reinstall Java"
+---
 ### How to Reinstall Java
 
 Minecraft runs on a platform called Java. Java comes in many shapes, and forms, which may make it confusing exactly which version of it you should have installed, which is what this should hopefully explain.
