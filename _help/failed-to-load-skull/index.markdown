@@ -2,7 +2,7 @@
 layout: article
 title:  "Failed to load Skull"
 name: "code-134"
-desc: "How to fix Error Code 134 in Minecraft"
+desc: "How to fix the Failed to Load Skull error in Minecraft"
 ---
 
 ## Failed to load Player Skull

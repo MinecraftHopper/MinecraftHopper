@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Error Code 134"
-name: "code-134"
-desc: "How to fix Error Code 134 in Minecraft"
+title:  "Failed to Check Session Lock"
+name: "failed-check-session-lock"
+desc: "How to fix Failed to Check Session Lock in Minecraft"
 ---
 
 ## Failed to check Session Lock

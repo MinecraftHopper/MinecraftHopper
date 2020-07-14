@@ -2,7 +2,7 @@
 layout: article
 title:  "Finding the minecraft data folder"
 name: "code-134"
-desc: "How to find your minecraft folder"
+desc: "How to find your .minecraft folder"
 ---
 
 ## Finding the Minecraft Data Folder
