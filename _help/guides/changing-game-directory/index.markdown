@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Failed to load Skull"
-name: "code-134"
+title:  "Changing Game Directory"
+name: "changing-game-directory"
 desc: "How to change your game directory in Minecraft"
 ---
 # How to change your Game Directory in Minecraft
