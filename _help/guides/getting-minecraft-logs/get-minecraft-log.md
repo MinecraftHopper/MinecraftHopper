@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Getting Minecraft logs"
-last_updated: 2020-07-17 11:45:00 +0000
+last_updated: 2020-07-17 14:13:00 +0000
 ---
 
 The Minecraft launcher keeps logs of game events as they happen which can be useful for debugging errors or other issues that may occur within the game. Follow the directions below to obtain these log files from Minecraft.
