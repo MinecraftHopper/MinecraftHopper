@@ -1,3 +1,9 @@
+---
+layout: article
+title: "incompatible-class-change-error"
+name: "Incompatible Class Change Error"
+desc: "How to fix Internet Crash on AT&T 2Wire in Minecraft"
+---
 # Internet Crash on AT&T 2Wire
 AT&T 2-Wire Routers occasionally will incorrectly assume that there are packets that are flooding the router, therefore disconnect from the internet as a whole as security protocol.
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: ""
+title: "incompatible-class-change-error"
 name: "Incompatible Class Change Error"
 desc: "Incompatible Class Change Error in Minecraft"
 ---

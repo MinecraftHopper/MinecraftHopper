@@ -1,7 +1,8 @@
 ---
 layout: article
-title: "Getting Minecraft logs"
-last_updated: 2020-07-17 14:13:00 +0000
+title: "Getting Minecraft Logs"
+name: "getting-minecraft-Logs"
+desc: "How to get logs in Minecraft"
 ---
 
 The Minecraft launcher keeps logs of game events as they happen which can be useful for debugging errors or other issues that may occur within the game. Follow the directions below to obtain these log files from Minecraft.
@@ -24,13 +25,13 @@ This windows should appear - for now let it run in the background.
 ![](/static/images/help/guides/getting-minecraft-logs/log-step4.png)
 
 #### Step 5
-As soon as your issue has occurred, copy the entire log by pressing Ctrl + A (Windows / Linux) / Cmd + A (Mac). All text in the window should be highlighted. Afterwards press Ctrl + C (Windows / Linux) / Cmd + C (Mac) to copy the text into the clipboard. 
+As soon as your issue has occurred, copy the entire log by pressing Cmd-A (Windows / Linux) / Cmd-A (Mac). All text in the window should be highlighted. Afterwards press Ctrl-C (Windows / Linux) / Cmd-C (Mac) to copy the text into the clipboard. 
 ![](/static/images/help/guides/getting-minecraft-logs/log-step5.png)
 
 #### Step 6
 Open Ubuntu Pastebin: https://paste.ubuntu.com
 
-Paste the text you copied from the file into the text area in the center of the page at Ubuntu Paste by pressing Ctrl + V (Windows / Linux) / Cmd + V (Mac), or by right-clicking on the Content text field (highlighted in red), then select Paste. The "Poster" field will be your Minecraft Username. 
+Paste the text you copied from the file into the text area in the center of the page at Ubuntu Paste by pressing Cmd-V (Windows / Linux) / Cmd-V (Mac), or by right-clicking on the Content text field (highlighted in red), then select Paste. The "Poster" field will be your Minecraft Username. 
 ![](/static/images/help/guides/getting-minecraft-logs/log-step6.png)
 
 #### Step 7
