@@ -15,9 +15,11 @@ In the box, type in: "eventvwr" and press Enter or hit OK.
 #### How to use Event Viewer
 Once you have opened Event Viewer, you will get a branch menu at the right, that looks like this:
 
+![](static/images/help/using-event-viewer/using-event-viewer-1.png)
+
 From the list, expand **"Windows Logs"**, and select **"Application"**, you will get a list of events as such:
 
-
+![](static/images/help/using-event-viewer/using-event-viewer-2.png)
 
 As you can see, the list is full of hundreds of entries. 
 
