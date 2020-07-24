@@ -10,7 +10,7 @@ AT&T 2-Wire Routers occasionally will incorrectly assume that there are packets 
 #### Solution
 To solve this error, there are a number of things you need to do, one of which is to find your Router Gateway (the IP of your router).
 
-By default, this is [192.168.0.1](http://192.168.0.1) or [192.168.1.254.] (http://192.168.1.254)
+By default, this is [192.168.0.1](http://192.168.0.1) or [192.168.1.254.](http://192.168.1.254)
 
 Go to the IP in your browser, and login if you get a prompt to authenticate.
 
