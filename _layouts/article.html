@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="single-page {{ page.extraclasses }}">
+    {% unless page.hide_breadcrumbs == true %}
+        {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/', " " }}{% endcapture %}
+        {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
+        {% assign previous = "" %}
+    <nav aria-label="You are here:" role="navigation">
+        <ol class="breadcrumbs">
+        {% if num_parts == "-1" %}
+            <li><a href="/">Home</a></li>
+        {% else %}
+            <li><a href="/">Home</a></li>
+
+            {% for unused in site.breadcrumb_list limit:num_parts %}
+            {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
+            {% capture first_word_name %}{{ url_parts | truncatewords:1 | remove:"..." | replace: "-", " " }}{% endcapture %}
+            {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
+            <li><a href="{{ previous }}">{{ first_word_name }}</a></li>
+
+            {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
+            {% endfor %}
+            <li class="current"><span>{{ page.title }}</span></li>
+        {% endif %}
+        </ol>
+    </nav>
+    {% endunless %}
+    {{ content }}
+</div>
