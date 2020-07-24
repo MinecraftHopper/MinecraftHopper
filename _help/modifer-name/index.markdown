@@ -27,7 +27,7 @@ Type `/clear @p` into the chat again
 #### If the item is in your inventory
 
 1. If your world is open, save and quit to the title screen
-2. You will need an NBT editor, such as [NBTExplorer]((http://www.minecraftforum.net/topic/840677-nbtexplorer-nbt-editor-for-windows-and-mac/)
+2. You will need an NBT editor, such as [NBTExplorer](http://www.minecraftforum.net/topic/840677-nbtexplorer-nbt-editor-for-windows-and-mac/)
 3. Open your [minecraft](https://minecrafthopper.net/help/finding-minecraft-data-folder/) folder
 4. Open the folder of the world the item is in
 5. Open level.dat in the NBT editor
