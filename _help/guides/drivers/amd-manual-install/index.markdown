@@ -31,11 +31,11 @@ Although it is not required, it is recommended that you remove your current driv
 
 Right click the start button or use the keyboard shortcut Win + X to get a power menu. Select "Device manager" and look for the "Display Adapter" section. Expand the section and you should see an entry containing “AMD” in it, which should be your graphics card.
 
-![UjreFpu](static/images/help/guides/drivers/amd-manual-install/UjreFpu.png)
+![UjreFpu](/static/images/help/guides/drivers/amd-manual-install/UjreFpu.png)
 
 Close any other applications that may be depending on your graphics card. Then go back to Device manager and right click the new entry that appeared and choose "Uninstall," this will uninstall the graphics driver currently in use. Ensure that the "Delete the driver software for this device" option is enabled.
 
-![aWUnWW3](static/images/help/guides/drivers/amd-manual-install/aWUnWW3.png)
+![aWUnWW3](/static/images/help/guides/drivers/amd-manual-install/aWUnWW3.png)
 
 #### Installing the new drivers
 Run the AMD driver installer and you should get an option to extract the files to a destination. Choose anywhere you wish, but keep this location in mind. Once the files have been extracted, the installer will try to install the driver. If it works, you can stop reading here, if not you can continue.

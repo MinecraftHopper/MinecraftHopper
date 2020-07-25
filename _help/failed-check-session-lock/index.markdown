@@ -10,8 +10,8 @@ This error usually means that something went wrong with your world save. Typical
 
 ### How to fix this
 While these screenshots were taken on a Windows computer, the folders and files are the same.
-![Sessionlock 1](static/images/help/failed-check-session-lock/sessionlock-1_1.png)
+![Sessionlock 1](/static/images/help/failed-check-session-lock/sessionlock-1_1.png)
 
-![Sessionlock 2](static/images/help/failed-check-session-lock/sessionlock-2.png)
+![Sessionlock 2](/static/images/help/failed-check-session-lock/sessionlock-2.png)
 
-![Sessionlock 3](static/images/help/failed-check-session-lock/sessionlock-3.png)
+![Sessionlock 3](/static/images/help/failed-check-session-lock/sessionlock-3.png)
