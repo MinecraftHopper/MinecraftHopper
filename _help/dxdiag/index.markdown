@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Pixel Format Not Accelerated"
-name: "pixel-format-not-accelerated"
-desc: "How to fix Pixel Format Not Accelerated in Minecraft"
+title:  "How to get a DxDiag"
+name: "dxdiag"
+desc: "How to get a DxDiag report"
 ---
 # Obtaining a DxDiag
 DxDiag, short for DirectX Diagnostics, is a tool used for obtaining system information that is very useful for diagnosing and solving many different issues.
