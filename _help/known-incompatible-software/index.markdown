@@ -197,7 +197,7 @@ softwares:
     notes: |
       Crashes the game with exit code -805306369 or Out Of Memory Errors by limiting the amount of memory Minecraft is allowed to use.
 
-      Uninstall the software then delete `_JAVA_OPTIONS=-Xmx256mb` (or 512mb) [from your Enviroment Variables](https://minecraftirc.net/support-articles/windows/env-vars/).
+      Uninstall the software then delete `_JAVA_OPTIONS=-Xmx256mb` (or 512mb) [from your Enviroment Variables](help/env-vars/).
 
   - name: Symless Synergy
     versions: All Versions
