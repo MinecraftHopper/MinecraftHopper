@@ -223,7 +223,7 @@ softwares:
       Turns your computer into a [botnet](https://en.wikipedia.org/wiki/Botnet), allowing malicious users to use your internet connection for illegal activities; [see this website for more details](http://adios-hola.org/).
 
   - name: All free VPNs and some paid VPNs
-    versions: N/A
+    versions: All
     notes: |
       Causes login problems.
 
