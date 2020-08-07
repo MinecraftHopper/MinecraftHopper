@@ -6,7 +6,7 @@ last_updated: 2019-01-03 13:00:00 +0000
 
 Sometimes, 3rd party or malicious software will set an **Environment Variable** on your computer to make sure Java is given enough memory for it to run. Setting it this way limits the total amount of your systems RAM that Java is allowed to use. These settings are much lower than what Minecraft:Java Edition will need to run, and if present will most often cause a crash when trying to start the game.
 
-In most cases you will need to manually remove the setting **after finding and removing the program that caused it** [here](minecrafthopper.net/help/known-incompatible-software/). To remove the setting please follow the instructions below.
+In most cases you will need to manually remove the setting **after finding and removing the program that caused it** [here](/help/known-incompatible-software/). To remove the setting please follow the instructions below.
 
 ## Instructions for Windows 7/8/8.1/10
 
