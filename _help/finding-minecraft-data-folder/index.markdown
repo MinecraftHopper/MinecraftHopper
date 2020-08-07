@@ -10,7 +10,10 @@ You may need to find the Minecraft data folder for many reasons, the following i
 
 ### Windows
 To find the Minecraft data folder on Windows, hold down the Windows key (usually a picture of the Windows logo, and typically between the Control and Alt key, usually to the left of the space bar) and then press the R key without letting go. A box should pop up, titled Run. In that box, you need to type `%appdata%\.minecraft`, then click the OK button.
+
 ![Screenshot of Win-R Menu](/static/images/help/finding-minecraft-data-folder/Windows.png) 
+=======
+![Screenshot of Win-R Menu](/static/images/help/finding-minecraft-data-folder/macOS.png)
 
 ### macOS
 Triple click the line below to select it, then right click (hold control and click) and select Services > Show in Finder
