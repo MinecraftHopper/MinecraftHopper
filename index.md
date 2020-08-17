@@ -3,7 +3,7 @@ layout: default
 ---
 {% for page in site.help %}
 {% unless page.name == "index" %}
-[{{ page.name }}]({{ page.url }})
+[{{ page.title }}]({{ page.url | remove: 'index.html' }})
 {% unless page.desc == "" %}
 {{page.desc}}
 {% endunless %}
