@@ -24,7 +24,7 @@ github_username:  ""
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-midnight
 
 collections:
     help:
