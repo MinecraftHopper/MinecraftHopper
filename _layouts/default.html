@@ -6,19 +6,27 @@
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/global.css" rel="stylesheet" media="screen">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-    </section>
-
+<div id="page-content-wrapper">
+    <div id="page-header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="https://www.mojang.com">Mojang.com</a></li>
+            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+            <li><a href="http://help.minecraft.net/">Account Support</a></li>
+        </ul>
+        <h3 class="muted">{{ site.title | default: site.github.repository_name }}</h3>{{ site.description | default: site.github.project_tagline }}
+    </div>
+    <hr>
     <section class="main-content">
       {{ content }}
-
+      <hr>
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the community.</span>
+        <small><div style="text-align: center;"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the community.</div>
+        <div style="text-align: center;">Need more help? <a href="https://discord.gg/58Sxm23">Click
+            here</a> to ask our volunteers!</div></small>
       </footer>
     </section>
 
