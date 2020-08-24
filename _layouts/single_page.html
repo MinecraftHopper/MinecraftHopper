@@ -13,9 +13,15 @@ layout: default
                     <nav aria-label="You are here:" role="navigation">
                         <ol class="breadcrumbs">
                         {% if num_parts == "-1" %}
+<<<<<<< e6833d87b7eb97a5d125a809b78b65c5658a3cea
                              <a href="/">Home</a> <span class="divider">/</span>
                         {% else %}
                              <a href="/">Home</a> <span class="divider">/</span>
+=======
+                            <a href="/MinecraftHopper/help">Help</a> <span class="divider">/</span>
+                        {% else %}
+                            <a href="/MinecraftHopper/help">Help</a> <span class="divider">/</span>
+>>>>>>> Add Styling
 
                             {% for unused in site.breadcrumb_list limit:num_parts %}
                             {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
