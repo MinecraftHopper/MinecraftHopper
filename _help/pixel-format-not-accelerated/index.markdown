@@ -2,9 +2,9 @@
 layout: article
 title:  "Pixel Format Not Accelerated"
 name: "pixel-format-not-accelerated"
-desc: "How to fix the Failed to Load Skull error in Minecraft"
+desc: "How to fix Pixel Format Not Accelerated"
 ---
-# Pixel Format Not Acelcerated
+# Pixel Format Not Accelerated
 This error message is commonly caused by outdated video card drivers. To fix this, you generally need to update your video card drivers, please follow the directions for your Operating System below.
 
 #### Causes
@@ -49,4 +49,4 @@ It is highly recommended you use the distro's packages for drivers; not doing so
 #### macOS
 Most Apple computers come with built-in drivers and a graphics card that cannot be changed. For these reasons, there is no need to manually update your graphics drivers.
 
-Instead, you should make sure that your computer is up-to-date using the "Software Update" pane in System Preferences
+Instead, you should make sure that your computer is up-to-date using the "Software Update" pane in System Preferences.
