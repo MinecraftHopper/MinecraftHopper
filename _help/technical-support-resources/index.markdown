@@ -15,4 +15,4 @@ If you're having technical issues with Minecraft (crashes, connection issues etc
 ### Forums
 [Minecraft Forum](https://www.minecraftforum.net/forums/support)
 
-[PlanetMinecraft](http://www.planetminecraft.com/forums/minecraft-help-f82.html)
+[PlanetMinecraft](https://www.planetminecraft.com/forums/help/)
