@@ -13,6 +13,6 @@ If you're having technical issues with Minecraft (crashes, connection issues etc
 [Official Minecraft guild](discord.gg/minecraft)
 
 ### Forums
-[Minecraft Forum](http://www.minecraftforum.net/forum/151-unmodified-minecraft-client-support/)
+[Minecraft Forum](https://www.minecraftforum.net/forums/support)
 
 [PlanetMinecraft](http://www.planetminecraft.com/forums/minecraft-help-f82.html)
