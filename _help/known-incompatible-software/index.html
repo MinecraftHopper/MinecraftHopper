@@ -246,19 +246,23 @@ softwares:
 
 <p>The software listed below is known to be incompatible with Minecraft, and should be uninstalled from your system.</p>
 <table class="article-table">
-    <thead>
-        <tr>
-            <th width="20%" class="software-name">Name of Software</th>
-            <th width="15%" class="software-versions">Versions Affected</th>
-            <th>Notes</th>
-        </tr>
-    </thead>
+
     <tbody>
         {% for category in page.softwares %}
         <tr class="subheading">
             <th colspan="3" class="category"><h3 class="categoryname">{{ category.name }}</h3>{% if category.description %}{{ category.description | markdownify | replace: "<p>", "<span><br>" | replace: "</p>", "</span>"}}{% endif %}</th>
+
+            <tr>
+                <th width="20%" class="software-name">Name of Software</th>
+                <th width="15%" class="software-versions">Versions Affected</th>
+                <th class="software-notes">Notes</th>
+            </tr>
+        </thead>
+
         </tr>
+
             {% for software in category.items %}
+
         <tr>
             <td class="software-name" scope="row">{{ software.name | markdownify }}</td>
             <td class="software-versions">{{ software.versions | markdownify }}</td>
