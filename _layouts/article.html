@@ -13,9 +13,9 @@ layout: default
                     <nav aria-label="You are here:" role="navigation">
                         <ol class="breadcrumbs">
                         {% if num_parts == "-1" %}
-                            <a href="/">Home</a> <span class="divider">/</span>
+                             <a href="/">Home</a> <span class="divider">/</span>
                         {% else %}
-                            <a href="/">Home</a> <span class="divider">/</span>
+                             <a href="/">Home</a> <span class="divider">/</span>
 
                             {% for unused in site.breadcrumb_list limit:num_parts %}
                             {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
