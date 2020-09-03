@@ -47,27 +47,28 @@ You should get a "Run" window open up, type in "cmd" and press "OK."
 * A "Command Prompt" window should open, type in the command: `wmic OS get OSArchitecture`
 * Press enter, and afterwards the second line of the output will tell you if you are using 32-bit or 64-bit.
 
-### If you are using 64-bit
+#### If you are using 64-bit
 * Go to the [Oracle Java Download page](https://www.java.com/en/download/windows-64bit.jsp) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-windows-x64.exe" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
 
-### If you are using 32-bit
+#### If you are using 32-bit
 
 * Go to the [Oracle Java Download page](https://www.java.com/inc/BrowserRedirect1.jsp?locale=en) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "**jre-8uABC-windows-i586.exe**" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
 Once you have downloaded and installed Java, you should be all set. It is recommended to run a check to see that Java is properly installed, you can do that by going to Command Prompt again and using the command java -version — if you get an error, redo the steps or contact our technical support resources. Otherwise, Java should be successfully installed on your computer.
 
 ## Installing Java for MacOS
-###For OS X 10.9 or above
+#### For OS X 10.9 or above
 - Go to the [Oracle Java Download page](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-macosx-x64.dmg" (where ABC is a two or three digit version number) under the "Download" table - download and install the file.
 
 
 ## Installing Java for Linux
-### Ubuntu/Most Debian distros
+
+#### Ubuntu/Most Debian distros
 - Open up your terminal
 - Enter in Terminal: `sudo apt update;sudo apt install openjdk-8-jre`, Press enter then enter your password.
 - After installing run `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java 100;sudo update-alternatives --config java`
 - When it prompts you to, select jre 8 using your arrow keys
 
-### Arch/Manjaro/Arch related
+#### Arch/Manjaro/Arch related
 - Open up your terminal
 - Enter in Terminal: `sudo pacman -Syu jre8-openjdk java-runtime-common`, Press enter then enter your password.
 - After installing run `sudo archlinux-java set java-8-openjdk`
