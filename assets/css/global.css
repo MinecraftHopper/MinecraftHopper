@@ -43,5 +43,7 @@ body {
     padding-bottom: 0px;
   }
 
-
+  .muted:hover{
+    text-decoration:none;
+  }
 
