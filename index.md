@@ -15,7 +15,7 @@ name: "Help Pages"
 {% endfor %}
 <style type="text/css">
 	h4{
-		border-bottom: solid 1px grey;
+		border-bottom: solid 1px rgb(200,200,200);
 	}
 	a:hover{
 		text-decoration:none;
