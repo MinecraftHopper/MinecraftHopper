@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Title"
-name: "Name"
-desc: "Description"
+title:  "Exit Code: 255"
+name: "ec-255"
+desc: "Exit Code: 255"
 ---
 # Exit Code: 225
 If you are getting exit code 225, this may be due to an invalid configuration of the game's settings.
