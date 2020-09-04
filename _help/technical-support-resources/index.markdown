@@ -10,7 +10,7 @@ If you're having technical issues with Minecraft (crashes, connection issues etc
 ### Discord
 [Minecraft Community Support](https://discord.gg/58Sxm23)
 
-[Official Minecraft guild](discord.gg/minecraft)
+[Official Minecraft guild](https://discord.gg/minecraft)
 
 ### Forums
 [Minecraft Forum](https://www.minecraftforum.net/forums/support)
