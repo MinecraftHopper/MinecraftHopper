@@ -4,9 +4,8 @@ title:  "How to install Java"
 name: "installing-java"
 desc: "How to install Java"
 ---
-# How to install Java
-
-Minecraft runs on a platform called Java. Java comes in many shapes, and forms, which may make it confusing exactly which version of it you should have installed, which is what this should hopefully explain.
+# What is Java<small> - How to install Java</small>
+The Java Runtime Environment (JRE) is software that allows for programs written in the Java programming language, for example the desktop editions of Minecraft, to run on your computer. Java comes in many shapes, and forms, which may make it confusing exactly which version of it you should have installed, which is what this should hopefully explain.
 
 ## Verifying if Java is installed
 Starting from early 2015, the Minecraft launcher for Windows now ships with a built in version of Java that the launcher automatically keeps up-to-date.
@@ -34,7 +33,7 @@ Enter in Terminal: `java -version`
 
 
 
-# Installing Java
+# Installing Java<small> - How to install Java</small>
 
 
 ## Installing Java for Windows
