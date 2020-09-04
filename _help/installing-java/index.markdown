@@ -10,7 +10,7 @@ The Java Runtime Environment (JRE) is software that allows for programs written 
 ## Verifying if Java is installed
 Starting from early 2015, the Minecraft launcher for Windows now ships with a built in version of Java that the launcher automatically keeps up-to-date.
 
-If you are using the new Minecraft launcher for Windows, you do not have to install Java on your computer unless you need it for applications other than Minecraft. If you are on Windows and are not sure if you are using the new Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download Minecraft.msi from https://minecraft.net/download under "Minecraft for Windows".
+If you are using the new Minecraft launcher for Windows, you do not have to install Java on your computer unless you need it for applications other than Minecraft. If you are on Windows and are not sure if you are using the new Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download Minecraft.msi from [https://minecraft.net/download](https://minecraft.net/download) under "Minecraft for Windows".
 
 If the above does not apply to you, then you can check if Java is installed on your computer with the following instructions:
 
@@ -28,7 +28,7 @@ Enter in Terminal: `java -version`
 ### Linux
 - Open Terminal (Ctrl + Alt + T on Ubuntu)
 - Enter in Terminal: `java -version`
-- If the output does not contain java version "[java version here]" then Java is not installed; see the Linux section below for how to install Java.
+- If the output does not contain something like `openjdk version "1.8.0_ABC"` or if returns `java: command not found` then Java is not installed; see the Linux section below for how to install Java.
 - If the output does not contain Java version 1.8 then it's highly recommended you reinstall Java; see the Linux section below for how to reinstall Java.
 
 
