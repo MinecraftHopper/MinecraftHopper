@@ -25,7 +25,7 @@ Exit statuses are also OS-dependent integers unless set by Minecraft or a anothe
                 <a href="https://bugs.mojang.com/browse/MCL-90">MCL-90</a>
             </td>
             <td>
-                <a href="/MinecraftHopper/help/exit-code/code-139/">139</a>
+                <a href="/help/exit-code/code-139/">139</a>
             </td>
         </tr>
         <tr>
@@ -33,7 +33,7 @@ Exit statuses are also OS-dependent integers unless set by Minecraft or a anothe
                 <a href="https://bugs.mojang.com/browse/MCL-148">MCL-148</a>
             </td>
             <td>
-                <a href="/MinecraftHopper/help/exit-code/code-1073740777/">-1073740777</a>
+                <a href="/help/exit-code/code-1073740777/">-1073740777</a>
             </td>
         </tr>
         <tr>
@@ -41,21 +41,21 @@ Exit statuses are also OS-dependent integers unless set by Minecraft or a anothe
                 <a href="https://bugs.mojang.com/browse/MCL-148">MCL-148</a>
             </td>
             <td>
-                <a href="/MinecraftHopper/help/exit-code/code-1073741819/">-1073741819</a>
+                <a href="/help/exit-code/code-1073741819/">-1073741819</a>
             </td>
         </tr>
         <tr>
             <td>
                 <a href="https://bugs.mojang.com/browse/MCL-6550">MCL-6550</a>
             </td>
-            <td><a href="/MinecraftHopper/help/exit-code/code-805306369/">-805306369</a></td>
+            <td><a href="/help/exit-code/code-805306369/">-805306369</a></td>
         </tr>
         <tr>
             <td>
                 <a href="https://bugs.mojang.com/browse/MC-19437">MC-19437</a>
             </td>
             <td>
-                <a href="/MinecraftHopper/help/exit-code/code-134/">134</a>
+                <a href="/help/exit-code/code-134/">134</a>
             </td>
         </tr>
         <tr>
@@ -63,7 +63,7 @@ Exit statuses are also OS-dependent integers unless set by Minecraft or a anothe
                 <a href="https://bugs.mojang.com/browse/MC-22165">MC-22165</a>
             </td>
             <td>
-                <a href="/MinecraftHopper/help/exit-code/code-2147483645/">-2147483645</a>
+                <a href="/help/exit-code/code-2147483645/">-2147483645</a>
             </td>
         </tr>
         <tr>
@@ -71,7 +71,7 @@ Exit statuses are also OS-dependent integers unless set by Minecraft or a anothe
                 <a href="https://bugs.mojang.com/browse/MC-26428">MC-26428</a>
             </td>
             <td>
-                <a href="/MinecraftHopper/help/exit-code/code-225/">225</a>
+                <a href="/help/exit-code/code-225/">225</a>
             </td>
         </tr>
         <tr>
