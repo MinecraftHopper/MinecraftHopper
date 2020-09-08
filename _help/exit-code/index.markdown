@@ -9,7 +9,7 @@ desc: "Exit statuses"
 # What is a Exit Code? <small>- Exit statuses</small>
 Exit statuses (or "Exit Codes") are integers that are returned when an application exits. These exit statuses can be caused by either Minecraft, or the operating system in use. There is no differentiation that can be made as to which is responsible for the Exit code, but currently Minecraft does not use non-generic exit statuses.
 
-Exit statuses are also OS-dependent integers unless set by Minecraft or a another loaded library.
+Exit statuses are also OS-dependent integers unless set by Minecraft or another loaded library.
 
 # Some known Exit Codes <small>- Exit statuses</small>
 <table class="table table-bordered" style="margin-left: auto; margin-right: auto;">
