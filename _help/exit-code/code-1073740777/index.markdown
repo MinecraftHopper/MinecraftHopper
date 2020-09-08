@@ -10,26 +10,11 @@ If you are receiving this error, the issue is most-likley due to having software
 How to fix this
 Currently, the only way to fix this is by completely uninstalling the program.
 
-## Windows 7 / 8
+## Windows 7, 8, 8.1, 10
 
-- In Windows 7 click on the Start button to open your Start Menu. When the Start Menu opens click on the Control Panel menu option. In Windows 8, click on the Control Panel app in the Windows 8 Start Screen. Then scroll to the bottom and click on the More Settings option. 
+- In Windows 7/10 click on the Start button to open your Start Menu. When the Start Menu opens click on the Control Panel menu option. 
+- In Windows 8, click on the Control Panel app in the Windows 8 Start Screen. Then scroll to the bottom and click on the More Settings option. 
 - When the Control Panel window opens click on the Uninstall a program option under the Programs category. This option is shown by the arrow in the image below. If you are using the Classic View of the Control Panel, then you would double-click on the Programs and Features icon instead. 
 - Select the program you want to uninstall and then click the "uninstall" button.
 - Follow the instruction to uninstall D3DGear step by step. 
 - Restart your PC if required.
-
-## Windows Vista
-
-- Click on the Start button to open your Start Menu. 
-- When the Control Panel window opens click on the Uninstall a program option under the Programs category. If you are using the Classic View of the Control Panel, then you would double-click on the Programs and Features icon instead. 
-- Select the program you want to uninstall and then click the "uninstall" button. 
-- Follow the instruction to uninstall D3DGear step by step. 
-- Restart your PC if required.
-
-## Windows XP
-
-- Shut down D3DGear and its associated program. 
-- Click Start menu and then go to Control Panel.Run Add or Remove Programs. 
-- Highlight D3DGear in the program list which was installed on your computer.
-- Click on Remove button and follow the instruction to remove D3DGear step by step.
-- Restart your PC if required
