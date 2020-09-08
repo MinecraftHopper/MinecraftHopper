@@ -6,7 +6,7 @@ desc: "Exit Code: -1073740777"
 ---
 
 # Exit Code: -1073740777
-If you are receiving this error, the issue is most-likley due to having software known as "D3Dgear" running on your computer.
+If you are receiving this error, the issue is most-likley due to having software known as ["D3Dgear"](https://www.d3dgear.com/) running on your computer.
 How to fix this
 Currently, the only way to fix this is by completely uninstalling the program.
 
