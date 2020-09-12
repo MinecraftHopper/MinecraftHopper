@@ -1,7 +1,15 @@
+---
+layout: article
+title: Known Incompatible Software
+name: "known-incompatible-software"
+desc: "Software that is known to cause issues with Minecraft."
+last_updated: 2018-03-01 20:13:00 +0000
+
 
 softwares:
 - name: Antiviruses and Firewalls
-  description: "Note: We recommend [Microsoft Security Essentials](https://support.microsoft.com/en-gb/help/14210/security-essentials-download), [Malwarebytes](http://www.malwarebytes.org/) or [Common Sense™](http://disaster-resource.com/index.php?option=com_content&view=article&id=142) as your antivirus."
+  description: "Note: We recommend [Malwarebytes](http://www.malwarebytes.org/) as your antivirus."
+  
   items:
   - name: AVG Antivirus
     versions: All Versions
@@ -139,28 +147,34 @@ softwares:
       Uninstall instructions: [Windows](https://www.qustodio.com/en/help/article/1796577/) / [Mac](https://www.qustodio.com/en/help/article/1796576/)
 
 - name: Malware and Adware
-  description: "Note: Commonly installed Malware or Adware. [AdwCleaner](https://toolslib.net/downloads/finish/1/) will remove most unless otherwise noted."
+  description: "Note: Commonly installed Malware or Adware. [AdwCleaner](https://downloads.malwarebytes.com/file/adwcleaner) will remove most unless otherwise noted."
   items:
   - name: PremierOpinion
     versions: All Versions
     notes: |
-      Causes general and memory related crashes.
+      Causes general and memory related crashes. Commonly crashes the game with exit code -805306369.
 
-      Download [AdwCleaner](https://toolslib.net/downloads/finish/1/), run a **Scan**, then **Clean**. Restart when AdwCleaner has finished cleaning, then try running the game again.
+      Download [AdwCleaner](https://downloads.malwarebytes.com/file/adwcleaner), run a **Scan**, then **Quarantine**. Restart when AdwCleaner has finished cleaning, then try running the game again.
   
   - name: RelevantKnowledge
     versions: All Versions
     notes: |
       Causes crashes and game performance issues.
 
-      Download [AdwCleaner](https://toolslib.net/downloads/finish/1/) run a Scan, then Clean. Restart when AdwCleaner tells you to, then try running the game again.
-
+      Download [AdwCleaner](https://downloads.malwarebytes.com/file/adwcleaner), run a **Scan**, then **Quarantine**. Restart when AdwCleaner has finished cleaning, then try running the game again.
   - name: WebCompanion
     versions: All Versions
     notes: |
       Causes crashes and game performance issues.
 
-      Download [AdwCleaner](https://toolslib.net/downloads/finish/1/) run a Scan, then Clean. Restart when AdwCleaner tells you to, then try running the game again.
+      Download [AdwCleaner](https://downloads.malwarebytes.com/file/adwcleaner), run a **Scan**, then **Quarantine**. Restart when AdwCleaner has finished cleaning, then try running the game again.
+  - name: IDMan
+    versions: All Versions
+    notes: |
+      Not Detected by ADWCleaner
+      Presents like a VPN, Can cause download issues and other issues with the game
+
+      Download [Malwarebytes](http://www.malwarebytes.org/) run a **Scan**, then **Quarentine**. Restart when Malwarebytes tells you to, then try running the game again.
 
 - name: Game Enhancement Software
   items:
@@ -169,7 +183,7 @@ softwares:
     notes: |
       Crashes Minecraft.
 
-      The latest version of D3DGear have fixed this problem. To fix this problem, uninstall D3DGear and [install the latest version](http://www.d3dgear.com/D3DGearSetup.exe).
+      Later versions of D3DGear have fixed this problem. To fix this problem, uninstall D3DGear and [install the latest version](http://www.d3dgear.com/D3DGearSetup.exe).
 
   - name: Discord
     versions: All Versions
@@ -197,7 +211,7 @@ softwares:
     notes: |
       Crashes the game with exit code -805306369 or Out Of Memory Errors by limiting the amount of memory Minecraft is allowed to use.
 
-      Uninstall the software then delete `_JAVA_OPTIONS=-Xmx256mb` (or 512mb) [from your Enviroment Variables](help/env-vars/).
+      Uninstall the software then delete `_JAVA_OPTIONS=-Xmx256mb` (or 512mb) [from your Enviroment Variables](/env-vars/).
 
   - name: Symless Synergy
     versions: All Versions
@@ -223,8 +237,53 @@ softwares:
       Turns your computer into a [botnet](https://en.wikipedia.org/wiki/Botnet), allowing malicious users to use your internet connection for illegal activities; [see this website for more details](http://adios-hola.org/).
 
   - name: All free VPNs and some paid VPNs
-    versions: All
+    versions: N/A
     notes: |
       Causes login problems.
 
       Mojang has blocked most VPN users from logging into Minecraft as these free VPNs are often used by malicious users to hack into accounts.
+---
+
+<p>The software listed below is known to be incompatible with Minecraft, and should be uninstalled from your system.</p>
+<table class="article-table">
+
+    <tbody>
+        {% for category in page.softwares %}
+        <tr class="subheading">
+            <th colspan="3" class="category"><h3 class="categoryname">{{ category.name }}</h3>{% if category.description %}{{ category.description | markdownify | replace: "<p>", "<span><br>" | replace: "</p>", "</span>"}}{% endif %}</th>
+
+            <tr>
+                <th width="20%" class="software-name">Name of Software</th>
+                <th width="15%" class="software-versions">Versions Affected</th>
+                <th class="software-notes">Notes</th>
+            </tr>
+        </thead>
+
+        </tr>
+
+            {% for software in category.items %}
+
+        <tr>
+            <td class="software-name" scope="row">{{ software.name | markdownify }}</td>
+            <td class="software-versions">{{ software.versions | markdownify }}</td>
+            <td class="software-notes use-paragraph">{% if software.notes %}{{ software.notes | markdownify }}{% endif %}</td>
+        </tr>
+            {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+<style type="text/css">
+  .software-name, .software-versions, .software-notes{
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    text-align: center;
+  }
+
+  .category {
+    border: solid 2px;
+  }
+  .categoryname {
+    padding-bottom: 0px;
+  }
+</style>

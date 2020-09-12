@@ -28,9 +28,10 @@ Under `Game Directory` click  Browse
 
 ![Step 3.1](/static/images/help/guides/changing-game-directory/changing-game-directory-4.png)
 
+#### Step 4
+
 In the folder Window that opens, find the folder which we created earlier and click Open. Then click Save in the bottom-right. 
 
 ![Step 3.2](/static/images/help/guides/changing-game-directory/changing-game-directory-5.png)
 
 Done!
-
