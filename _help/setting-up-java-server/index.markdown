@@ -19,7 +19,7 @@ desc: "How to setup a Java edition Server"
 * Place the file into your workplace
 
 ### Windows
-<small>This is a placeholder</small> 
+<small>This part is unfinished</small> 
 * Open up notepad, And paste ``` @echo off
 java -Xmx2G -Xms1G -jar Change-Me.jar -nogui
 pause``` into it, Change "Change-Me" into the file name of your server(So for example paperclip or server), click save 
