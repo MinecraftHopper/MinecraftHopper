@@ -39,7 +39,7 @@ pause``` into it, Change "Change-Me" into the file name of your server(So for ex
 
 ## [Playing Locally](#localplay) {#localplay}
 
-**If you are playing with a person that is not on the same network as you, skip this and follow the [*Playing Online and portforwarding*](#portforwarding) section.**<br>
+**If you are playing with a person that is not on the same network as you(For example if they aren't in the same household as you), skip this and follow the [*Playing Online and portforwarding*](#portforwarding) section.**<br>
 In order for them to join you, you will need to find your IP(Think of it as a passcode or friend code but to access the server)<br>
 * Open up command prompt, and in the command prompt type "IPconfig". Press enter and look for something like:<br>
 `IPv4 Address.......: XXX.XXX.X.X` <br>
@@ -58,7 +58,7 @@ If you want to connect to the server on your own computer then do the above but 
 ## [Playing Online and portforwarding](#portforwarding) {#portforwarding}
 
 
-**If you are playing on the same network with your buddy, then please follow the [*Playing Locally*](#localplay) section instead.<br>
+**If you are playing with a person that is on the same network as you(For example if they're right next to you or are in another room of your home), then please follow the [*Playing Locally*](#localplay) section instead.<br>
 Most of the instructions here are for generic routers, They might not work for yours**<br>
 
 * You will need to get the IP address of you and your router, <br>
