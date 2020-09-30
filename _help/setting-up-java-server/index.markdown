@@ -50,7 +50,8 @@ Example Image:<br>
 
 ---
 
-This is the IP that the person will use to connect to the server. Start up the server and then tell them to click "Add a new server" or "Direct Connect"
+This is the IP that the person will use to connect to the server.
+Start up the server and then tell them to click "Add a new server" or "Direct Connect"
 * For "Add a new server" the name can be anything but the IP needs to be your IPv4 address, so tell them to put that there. Click finish and then double click the server and they have connected
 
 * For "Direct connect" tell them to put your IPv4 into the ip box and click connect<br>
@@ -75,11 +76,18 @@ Most of the instructions here are for generic routers, They might not work for y
 
 ---
 
+
+
+
 * The first one is your local IP address
 * The second one is your routers IP Address
 
+**If you have problems during this part, It's recommended you search how to portforward online or ask your ISP for help. Some ISP's hide the options or don't allow portforwarding**
+
 Open up your web browser and type the IP address for your router and you should get a login box.<br>
 * You can also try visiting these common router IP's, [192.168.0.1](https://192.168.0.1), [192.168.1.1](https://192.168.1.1), or [10.0.0.1](https://10.0.0.1)
+
+
 
 Look at the back of your router or search the router online and find the username and password. `Admin` is a popular default username/password
 
@@ -93,4 +101,7 @@ In the "Outbound Port" and "Inbound port" or "Start port" and "end port" put "25
 Add a service name if required, save and test your server, [you can get your public ip from Here](https://duckduckgo.com/?q=what+is+my+ip)<br>
 
 People will use that to join your server, you will join "localhost"
+
+
+
 <small>This guide is migrated from [https://superpowers04.github.io/serverhosting](https://superpowers04.github.io/serverhosting)</small>
