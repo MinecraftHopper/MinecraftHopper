@@ -6,7 +6,9 @@ desc: "How to setup a Java edition Server"
 ---
 
 # Setting up a Minecraft: Java Edition server
-<small>This guide is migrated from [https://superpowers04.github.io/serverhosting](https://superpowers04.github.io/serverhosting)</small>
+Minecraft: Java edition uses server's for online play.
+<br>**If you are playing with a person that is on the same network as you(For example if they're right next to you or are in another room of your home), You can usually just pause the game and click "Open to lan" and open up the Multiplayer screen to see the host's world.**
+
 ### Requirements:
 
 * Java(Oracle Java/OpenJDK 8 is required for 1.13 and below), [You can follow this to install the right version of Java](/help/installing-java/)
@@ -91,3 +93,4 @@ In the "Outbound Port" and "Inbound port" or "Start port" and "end port" put "25
 Add a service name if required, save and test your server, [you can get your public ip from Here](https://duckduckgo.com/?q=what+is+my+ip)<br>
 
 People will use that to join your server, you will join "localhost"
+<small>This guide is migrated from [https://superpowers04.github.io/serverhosting](https://superpowers04.github.io/serverhosting)</small>
