@@ -17,16 +17,21 @@ Minecraft: Java edition uses server's for online play.
 
 ## Setting up 
 * Make a new folder anywhere on your system(If you're using Windows then don't use the onedrive folder), Name it anything. This will be our workspace
-* Head over to [Minecraft's website(https://www.minecraft.net/en-us/download/server)](https://www.minecraft.net/en-us/download/server), Or if you're looking to add plugins use [Paper](https://papermc.io/) and download the latest version of the Minecraft server jar
+* Head over to [Minecraft's website(https://www.minecraft.net/en-us/download/server)](https://www.minecraft.net/en-us/download/server), if you're looking to add plugins use [Paper](https://papermc.io/), if you're using mods, Use [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) and download the latest version of the Minecraft server jar
+
 * Place the file into your workplace
+
+If you're using forge then you'll need to run the installer and select "Install server", click the 3 dots and find your workplace. Then you can install there
+
 
 ### Windows
 <small>This part is unfinished</small> 
+* Rename the file you previously downloaded to "server"(Or server.jar if you have file extensions on)
 * Open up notepad, And paste ``` @echo off
-java -Xmx2G -Xms1G -jar Change-Me.jar -nogui
-pause``` into it, Change "Change-Me" into the file name of your server(So for example paperclip or server), click save 
+java -Xmx2G -Xms1G -jar server.jar -nogui
+pause``` into it, click *Save As* 
 * Go to the folder that contains your server, change the filetype to all and name the file anything **There has to be a .bat at the end of the file name**, 
-* Run it, That'll start the server for the first time, You'll see a command prompt window, That's your server console, You can run commands(Like /op or /gamemode) in it and it will tell you what the server is thinking and/or doing
+* Run it, That'll start the server for the first time, You'll see a command prompt window briefly flash. After agreeing to the Eula, That'll be your server console. You can run commands(Like /op or /gamemode) in it and it will tell you what the server is thinking and/or doing
 
 ## Eula
 * Your server should've given you an error mentioning the Eula, Close the window.
@@ -102,6 +107,3 @@ Add a service name if required, save and test your server, [you can get your pub
 
 People will use that to join your server, you will join "localhost"
 
-
-
-<small>This guide is migrated from [https://superpowers04.github.io/serverhosting](https://superpowers04.github.io/serverhosting)</small>
