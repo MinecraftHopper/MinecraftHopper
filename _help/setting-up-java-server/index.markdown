@@ -87,7 +87,7 @@ Most of the instructions here are for generic routers, They might not work for y
 * The first one is your local IP address
 * The second one is your routers IP Address
 
-**If you have problems during this part, It's recommended you search how to portforward online or ask your ISP for help. Some ISP's hide the options or don't allow portforwarding**
+**If you have problems during this section, It's recommended you search how to portforward online or ask your ISP for help. Some ISP's hide the options or don't allow portforwarding**
 
 Open up your web browser and type the IP address for your router and you should get a login box.<br>
 * You can also try visiting these common router IP's, [192.168.0.1](https://192.168.0.1), [192.168.1.1](https://192.168.1.1), or [10.0.0.1](https://10.0.0.1)
