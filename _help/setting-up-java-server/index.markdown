@@ -25,7 +25,6 @@ If you're using forge then you'll need to run the installer and select "Install 
 
 
 ### Windows
-<small>This part is unfinished</small> 
 * Rename the file you previously downloaded to "server"(Or server.jar if you have file extensions on)
 * Open up notepad, And paste ``` @echo off
 java -Xmx2G -Xms1G -jar server.jar -nogui
