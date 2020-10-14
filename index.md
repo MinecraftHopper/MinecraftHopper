@@ -6,7 +6,7 @@ name: "Help Pages"
 
 
 {% for page in site.help %}
-{% unless page.name == "index" %}
+{% unless page.name == "index" or page.hidden %}
 #### [{{ page.title }}]({{ page.url | remove: 'index.html' }})
 {% unless page.desc == null or page.desc == "" %}
 * {{page.desc}}
