@@ -16,9 +16,8 @@ If the above does not apply to you, then you can check if Java is installed on y
 
 ### Windows
 - Hold your Windows key (located at the bottom left of your keyboard to the right of the Control key) and press "R".
-You should get a "Run" window open up, type in "cmd" and press "OK."
-- A "Command Prompt" window should open, type in the command: `java -version`<br>
-Hit enter and the output should contain `java version "(java version here)"` if Java is installed. If you instead got `'Can't recognise 'java' as an internal or external command, or batch script.` then Java is not installed properly; see the Windows section below for how to install Java.
+You should get a "Run" window open up, type in "cmd" and press "OK.", a "Command Prompt" window should open, type in the command: `java -version`<br>
+Hit Enter and the output should contain `java version "(java version here)"` if Java is installed. If you instead got `'Can't recognise 'java' as an internal or external command, or batch script.` then Java is not installed properly; see the Windows section below for how to install Java.
 
 ### Mac OSX
 - In spotlight, search "Terminal" and open the application.
