@@ -17,16 +17,18 @@ Double-click the downloaded JAR file and accept click "OK" when the prompt appea
 
 Once the installer launches, select the version you wish to install. By deafult, the installer will install the latest loader and Minecraft version, and create a seperate profile. Then click "Install"
 
-![](static/images/help/guides/mods/fabric/Windows-2.png)
+![](/static/images/help/guides/mods/fabric/Windows-2.png)
 
 The Fabric Loader is now installed. To continue with the tutorial, scroll down to "Installing mods"
 
 #### macOS
 Right-click the downloaded JAR file and click Open. Doing it in this way will avoid Gatekeeper flagging it as an an unsigned app and refusing to run it. When the prompt appears, click "Open"
 
-![](/static/images/help/guides/mods/fabric/Screenshot 2020-11-24 at 6.20.29 pm.png)
+![](/static/images/help/guides/mods/fabric/macOS-1.png)
 
 Once the installer launches, select the version you wish to install. By deafult, the installer will install the latest loader and Minecraft version, and create a seperate profile. Then click "Install"
+
+![](/static/images/help/guides/mods/fabric/macOS-2.png)
 
 ### Installing Mods
 In this tutorial we will be installing the Fabric API mod as most other mods require it to run, but it will apply to any mod you wish to download.
