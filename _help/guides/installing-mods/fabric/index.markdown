@@ -31,6 +31,6 @@ Once the installer launches, select the version you wish to install. By deafult,
 ![](/static/images/help/guides/mods/fabric/macOS-2.png)
 
 ### Installing Mods
-In this tutorial we will be installing the Fabric API mod as most other mods require it to run, but it will apply to any mod you wish to download.
+In this tutorial we will be installing the Fabric API mod as most other mods require it to run, but the process applies to any mod you wish to download.
 
 First, launch the Fabric loader once, to generate all the things Fabric needs to run. While it loads, you can download the Fabric API mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files) (Main File). Once downloaded, take the file and put it in `mods` folder, located in the [Minecraft Data Folder](/_help/guides/finding-minecraft-data-folder) (also known as the .minecraft folder). Finally, launch (or relaunch) the game.
