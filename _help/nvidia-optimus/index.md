@@ -1,7 +1,8 @@
 ---
 layout: article
 title: "Changing Nvidia Optimus Settings"
-last_updated: 2018-10-23 13:42:00 +0000
+name: "nvidia-optimus"
+desc: "For systems with switchable graphics"
 ---
 
 Some laptops feature switchable graphics in which the system can choose
