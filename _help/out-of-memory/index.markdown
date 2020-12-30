@@ -25,7 +25,7 @@ If you are on Linux - Open a terminal window, and type in: free
 Once you have found the amount of RAM on your PC, you can continue.
 
 ## Checking your Java Installation
-See [this article](/_help/installing-java/index.markdown)
+See [this article](/_help/installing-java/)
 
 **Note that if you are using the latest launcher from Mojang dubbed the "native launcher," you will automatically have the latest preferred Java installation on your computer. For Windows users, you can download the latest launcher at https://minecraft.net/download. For OS X users, you will have to wait until later this year (2015) to get the new launcher.
 
