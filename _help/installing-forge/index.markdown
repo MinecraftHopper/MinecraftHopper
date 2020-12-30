@@ -11,7 +11,7 @@ Forge is a modloader commonly used for loading and making mods for Minecraft
 
 
 ## Installing Forge in the MC launcher
-You'll need Java to install Forge. If you are using Linux then you'll need to make sure that you have Java 8. [See this article to learn how to install Java](/help/installing-java)
+You'll need Java to install Forge. If you are using Linux and using 1.12.2 or below then you'll need to make sure that you have Java 8. [See this article to learn how to install Java](/help/installing-java)
 
 * Go to the [Minecraft Forge website](https://files.minecraftforge.net/)
 * Choose a Minecraft version from the list on the left.
