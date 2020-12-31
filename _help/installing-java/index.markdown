@@ -17,12 +17,12 @@ If the above does not apply to you, then you can check if Java is installed on y
 ### Windows
 - Hold your Windows key (located at the bottom left of your keyboard to the right of the Control key) and press "R".
 You should get a "Run" window open up, type in "cmd" and press "OK.", a "Command Prompt" window should open, type in the command: `java -version`<br>
-Hit Enter and the output should contain `java version "(java version here)"` if Java is installed. If you instead got `Can't recognise 'java' as an internal or external command, or batch script.` then Java is not installed properly; see the Windows section below for how to install Java.
+Hit Enter and the output should contain `java version "(Java version here)"` if Java is installed. If you instead got `Can't recognise 'java' as an internal or external command, or batch script.` then Java is not installed properly; see the Windows section below for how to install Java.
 
 ### Mac OSX
 - In spotlight, search "Terminal" and open the application.
 Enter in Terminal: `java -version`
-- If the output does not contain java version "[java version here]" then Java is not installed on your computer; see the Mac OSX section below for instructions on how to install Java.
+- If the output does not contain java version "[Java version here]" then Java is not installed on your computer; see the Mac OSX section below for instructions on how to install Java.
 
 ### Linux
 - Open Terminal (Ctrl + Alt + T on Ubuntu)
@@ -51,7 +51,7 @@ You should get a "Run" window open up, type in "cmd" and press "OK."
 #### If you are using 32-bit
 
 * Go to the [Oracle Java Download page](https://www.java.com/inc/BrowserRedirect1.jsp?locale=en) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "**jre-8uABC-windows-i586.exe**" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
-Once you have downloaded and installed Java, you should be all set. It is recommended to run a check to see that Java is properly installed, you can do that by going to Command Prompt again and using the command java -version — if you get an error, redo the steps or contact our technical support resources. Otherwise, Java should be successfully installed on your computer.
+Once you have downloaded and installed Java, you should be all set. It is recommended to run a check to see that Java is properly installed, you can do that by going to Command Prompt again and using the command `java -version` — if you get an error, redo the steps or contact our [technical support resources](/help/technical-support-resources/). Otherwise, Java should be successfully installed on your computer.
 
 ## [Installing Java for MacOS](#install-macos) {#install-macos}
 #### For OS X 10.9 or above
