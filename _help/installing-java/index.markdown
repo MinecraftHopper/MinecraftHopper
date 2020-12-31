@@ -34,8 +34,12 @@ Enter in Terminal: `java -version`
 
 # Installing Java<small> - How to install Java</small>
 
-
 ## [Installing Java for Windows](#install-windows) {#install-windows}
+1. Open the [Oracle Java Download page](https://www.java.com/download/), it should automatically detect your operating system and its architecture (32- or 64-bit).
+2. Click the button to download Java.
+3. Execute the installer.
+
+If you think that the page incorrectly detected your operating system, follow the steps below.
 
 For Windows 7, Windows 8/8.1, Windows 10
 To install the proper version of Java for your computer, you first need to find wether you are using a 32-bit or 64-bit Windows operating system.
@@ -46,11 +50,15 @@ You should get a "Run" window open up, type in "cmd" and press "OK."
 * Press enter, and afterwards the second line of the output will tell you if you are using 32-bit or 64-bit.
 
 #### If you are using 64-bit
-* Go to the [Oracle Java Download page](https://www.java.com/en/download/windows-64bit.jsp) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-windows-x64.exe" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
+1. Open the [manual download page](https://www.java.com/download/manual.jsp)
+2. Click on the download link for Windows which contains "64-bit" in its name. The downloaded file should have the name "jre-8uABC-windows-x64.exe" (where ABC is a two or three digit version code).
+3. Execute the installer.
 
 #### If you are using 32-bit
+1. Open the [manual download page](https://www.java.com/download/manual.jsp)
+2. Click on the download link for Windows which does **not** contain "64-bit" in its name. The downloaded file should have the name "jre-8uABC-windows-i586.exe" (where ABC is a two or three digit version code).
+3. Execute the installer.
 
-* Go to the [Oracle Java Download page](https://www.java.com/inc/BrowserRedirect1.jsp?locale=en) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "**jre-8uABC-windows-i586.exe**" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
 Once you have downloaded and installed Java, you should be all set. It is recommended to run a check to see that Java is properly installed, you can do that by going to Command Prompt again and using the command `java -version` — if you get an error, redo the steps or contact our [technical support resources](/help/technical-support-resources/). Otherwise, Java should be successfully installed on your computer.
 
 ## [Installing Java for MacOS](#install-macos) {#install-macos}
