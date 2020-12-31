@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Modifier Name Cannot Be Empty"
-name: "modifer-name"
+name: "modifier-name"
 desc: "How to fix Modifier Name Cannot Be Empty in Minecraft"
 ---
 # Modifier Name Cannot Be Empty
