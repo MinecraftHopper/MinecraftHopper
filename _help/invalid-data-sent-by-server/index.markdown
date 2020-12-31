@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "invalid-data-sent-by-server"
-name: "Invalid Data Sent By Server"
+title: "Invalid Data Sent By Server"
+name: "invalid-data-sent-by-server"
 desc: "Invalid Data Sent By Server - Affecting 1.8"
 ---
 
