@@ -10,14 +10,14 @@ The Java Runtime Environment (JRE) is software that allows for programs written 
 ## Verifying if Java is installed
 Starting from early 2015, the Minecraft launcher for Windows now ships with a built in version of Java that the launcher automatically keeps up-to-date.
 
-If you are using the new Minecraft launcher for Windows, you do not have to install Java on your computer unless you need it for applications other than Minecraft. If you are on Windows and are not sure if you are using the new Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download Minecraft.msi from [https://minecraft.net/download](https://minecraft.net/download) under "Minecraft for Windows".
+If you are using the new Minecraft launcher for Windows, you do not have to install Java on your computer unless you need it for applications other than Minecraft. If you are on Windows and are not sure if you are using the new Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download `Minecraft.msi` from [https://minecraft.net/download](https://minecraft.net/download) under "Minecraft for Windows".
 
 If the above does not apply to you, then you can check if Java is installed on your computer with the following instructions:
 
 ### Windows
 - Hold your Windows key (located at the bottom left of your keyboard to the right of the Control key) and press "R".
 You should get a "Run" window open up, type in "cmd" and press "OK.", a "Command Prompt" window should open, type in the command: `java -version`<br>
-Hit Enter and the output should contain `java version "(java version here)"` if Java is installed. If you instead got `'Can't recognise 'java' as an internal or external command, or batch script.` then Java is not installed properly; see the Windows section below for how to install Java.
+Hit Enter and the output should contain `java version "(java version here)"` if Java is installed. If you instead got `Can't recognise 'java' as an internal or external command, or batch script.` then Java is not installed properly; see the Windows section below for how to install Java.
 
 ### Mac OSX
 - In spotlight, search "Terminal" and open the application.
@@ -55,7 +55,7 @@ Once you have downloaded and installed Java, you should be all set. It is recomm
 
 ## [Installing Java for MacOS](#install-macos) {#install-macos}
 #### For OS X 10.9 or above
-- Go to the [Oracle Java Download page](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-macosx-x64.dmg" (where ABC is a two or three digit version number) under the "Download" table - download and install the file.
+- Go to the [Oracle Java Download page](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-macosx-x64.dmg" (where ABC is a two or three digit version number) under the "Download" table - download and install the file.
 
 
 ## [Installing Java for Linux](#install-linux) {#install-linux}

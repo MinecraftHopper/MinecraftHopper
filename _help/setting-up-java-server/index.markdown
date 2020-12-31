@@ -11,13 +11,13 @@ Minecraft: Java edition uses server's for online play.
 
 ### Requirements:
 
-* Java(Oracle Java/OpenJDK 8 is required for 1.13 and below), [You can follow this to install the right version of Java](/help/installing-java/)
+* Java (Oracle Java/OpenJDK 8 is required for 1.13 and below), you can follow [this article](/help/installing-java/) to install the right version of Java.
 * Minecraft: Java Edition
 * Any Windows or Linux computer, This guide is not guarranteed to work on MacOS
 
 ## Setting up 
 * Make a new folder anywhere on your system(If you're using Windows then don't use the onedrive folder), Name it anything. This will be our workspace
-* Head over to [Minecraft's website(https://www.minecraft.net/en-us/download/server)](https://www.minecraft.net/en-us/download/server), if you're looking to add plugins use [Paper](https://papermc.io/), if you're using mods, Use [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) and download the latest version of the Minecraft server jar
+* Head over to [Minecraft's website](https://www.minecraft.net/download/server), if you're looking to add plugins use [Paper](https://papermc.io/), if you're using mods, Use [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) and download the latest version of the Minecraft server jar
 
 * Place the file into your workplace
 
@@ -25,10 +25,14 @@ If you're using forge then you'll need to run the installer and select "Install 
 
 
 ### Windows
-* Rename the file you previously downloaded to "server"(Or server.jar if you have file extensions on)
-* Open up notepad, And paste ``` @echo off
-java -Xmx2G -Xms1G -jar server.jar -nogui
-pause``` into it, click *Save As* 
+* Rename the file you previously downloaded to "server" (Or server.jar if you have file extensions on)
+* Open up notepad, and paste
+    ```
+    @echo off
+    java -Xmx2G -Xms1G -jar server.jar -nogui
+    pause
+    ```
+into it, click *Save As* 
 * Go to the folder that contains your server, change the filetype to all and name the file anything **There has to be a .bat at the end of the file name**, 
 * Run it, That'll start the server for the first time, You'll see a command prompt window briefly flash. After agreeing to the Eula, That'll be your server console. You can run commands(Like /op or /gamemode) in it and it will tell you what the server is thinking and/or doing
 
@@ -45,12 +49,12 @@ pause``` into it, click *Save As*
 
 ## [Playing Locally](#localplay) {#localplay}
 
-**If you are playing with a person that is not on the same network as you(For example if they aren't in the same household as you), skip this and follow the [*Playing Online and portforwarding*](#portforwarding) section.**<br>
+**If you are playing with a person that is not on the same network as you (For example if they aren't in the same household as you), skip this and follow the [*Playing Online and portforwarding*](#portforwarding) section.**<br>
 In order for them to join you, you will need to find your IP(Think of it as a passcode or friend code but to access the server)<br>
 * Open up command prompt, and in the command prompt type "IPconfig". Press enter and look for something like:<br>
 `IPv4 Address.......: XXX.XXX.X.X` <br>
 Example Image:<br>
-![Example](/static/images/help/setting-up-server/ipconfig.png)<br>
+![Screenshot ipconfig output](/static/images/help/setting-up-server/ipconfig.png)<br>
 
 ---
 
@@ -76,7 +80,7 @@ Most of the instructions here are for generic routers, They might not work for y
 	and<br>
 	`Default Gateway.....:XXX.XXX.XXX.XXX`<br>
 	Example Image:<br>
-![Example](/static/images/help/setting-up-server/ipconfig.png)
+![Screenshot ipconfig output](/static/images/help/setting-up-server/ipconfig.png)
 
 ---
 
@@ -102,7 +106,7 @@ In the "Outbound Port" and "Inbound port" or "Start port" and "end port" put "25
 **Make sure that "Protocol"/"Service Type" is either "TCP/UDP" or "BOTH".** 
 * If you do not have this option then do the step twice, One in TCP and one on UDP
 
-Add a service name if required, save and test your server, [you can get your public ip from Here](https://duckduckgo.com/?q=what+is+my+ip)<br>
+Add a service name if required, save and test your server, you can get your public IP from [here](https://duckduckgo.com/?q=what+is+my+ip).
 
 People will use that to join your server, you will join "localhost"
 

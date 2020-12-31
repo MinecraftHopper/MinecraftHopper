@@ -12,13 +12,13 @@ In some cases, you may need to completely change the root folder that Minecraft 
 
 Right click on 'Minecraft.exe' or 'Minecraft.jar' (the launcher) and press "Create Shortcut".
 
-![](/static/images/help/guides/changing-work-directory/changing-work-directory-1.png)
+![Screenshot step 1](/static/images/help/guides/changing-work-directory/changing-work-directory-1.png)
 
 **Step 2**
 
 Right click on the new shortcut that gets generated and press "Properties".
 
-![](/static/images/help/guides/changing-work-directory/changing-work-directory-2.png)
+![Screenshot step 2](/static/images/help/guides/changing-work-directory/changing-work-directory-2.png)
 
 **Step 3**
 
@@ -29,7 +29,7 @@ At the end of the 'Target' bar, add the following:
 
 It should then look like this:
 
-![](static/images/help/guides/changing-work-directory/changing-work-directory-3.png)
+![Screenshot step 3](/static/images/help/guides/changing-work-directory/changing-work-directory-3.png)
 
 **Step 4**
 

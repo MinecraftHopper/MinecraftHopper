@@ -13,9 +13,9 @@ This error is pretty self-explanatory — there is not enough "space" on your co
 Minecraft requires at least 200MB for the core game and other files; more may be needed if you have large worlds. To clear disk space, try uninstalling rarely used applications and removing unused files. Alternatively, you can move Minecraft off onto another hard disk.
 
 ## Clearing Disk Space
-If you are on Windows, please see this guide by Microsoft on using "Disk Cleanup", a tool for clearing up your hard disk: http://windows.microsoft.com/en-us/windows/delete-files-using-disk-cleanup
+If you are on Windows, please see [this guide by Microsoft](https://windows.microsoft.com/en-us/windows/delete-files-using-disk-cleanup) on using "Disk Cleanup", a tool for clearing up your hard disk.
 
-If you are on macOS, see this guide on freeing up storage space from Apple: https://support.apple.com/en-gb/HT206996 
+If you are on macOS, see [this guide](https://support.apple.com/HT206996) on freeing up storage space from Apple.
 
 ## Moving Minecraft to another Hard Disk
 If you wish to move Minecraft elsewhere instead, the following instructions will tell you how to do so.

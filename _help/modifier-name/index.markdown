@@ -22,13 +22,13 @@ This crash is caused by mousing over an item or holding it with an attribute tha
 7. Click "Open to LAN"
 8. Click the "Allow Cheats: OFF" button until it says "Allow Cheats: ON"
 9. Click "Start LAN World"
-Type `/clear @p` into the chat again
+10. Type `/clear @p` into the chat again
 
 #### If the item is in your inventory
 
 1. If your world is open, save and quit to the title screen
-2. You will need an NBT editor, such as [NBTExplorer](http://www.minecraftforum.net/topic/840677-nbtexplorer-nbt-editor-for-windows-and-mac/)
-3. Open your [minecraft](https://minecrafthopper.net/help/finding-minecraft-data-folder/) folder
+2. You will need an NBT editor, such as [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases)
+3. Open your [minecraft](/help/finding-minecraft-data-folder/) folder
 4. Open the folder of the world the item is in
 5. Open level.dat in the NBT editor
 6. Go into the Data item, then Player

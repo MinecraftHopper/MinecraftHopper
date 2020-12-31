@@ -18,19 +18,19 @@ Please read on for further information on updating your graphics drivers.
 * Hold your Windows key then hit R together, to bring up a run dialogue.
 * Type "dxdiag" in the Run window and press enter.
 * When a DxDiag window opens, browse to the 'Display' tab.
-* You should get an output similar to [this](https://minecrafthopper.net/static/images/help/pixel-format-not-accelerated/DxDiag.png).
+* You should get an output similar to [this](/help/pixel-format-not-accelerated/DxDiag.png).
 * Look for the Name and Manufacturer name part.
 Once you have found this, look for your manufacturer in the table below and go to their "Auto-Detector" site and scan your computer for any out-of-date drivers.
-If one is found, install it; if for any reason there are no available updates or the updates do not solve your issue, please [get a DxDiag report](https://minecrafthopper.net/help/dxdiag) and then [join our Discord](https://discord.gg/58Sxm23) and ask for help.
+If one is found, install it; if for any reason there are no available updates or the updates do not solve your issue, please [get a DxDiag report](/help/dxdiag/) and then [join our Discord](https://discord.gg/58Sxm23) and ask for help.
 
 | Driver  	| Auto-detector                                                   	| Manual                                                          	|
 |---------	|-----------------------------------------------------------------	|-----------------------------------------------------------------	|
-| AMD/ATI 	| [Link](http://support.amd.com/en-us/download/auto-detect-tool)  	| [Link](http://support.amd.com/us/gpudownload/Pages/index.aspx ) 	|
-| NVIDIA  	| [Link](http://www.nvidia.com/Download/Scan.aspx?lang=en-us)     	| [Link](http://www.nvidia.com/Download/index.aspx)               	|
-| Intel   	| [Link](http://www.intel.com/p/en_US/support/detect?iid=dc_iduu) 	| [Link](https://downloadcenter.intel.com/default.aspx)           	|
+| AMD/ATI 	| [Link](https://support.amd.com/en-us/download/auto-detect-tool)  	| [Link](https://support.amd.com/us/gpudownload/Pages/index.aspx) 	|
+| NVIDIA  	| [Link](https://www.nvidia.com/Download/Scan.aspx?lang=en-us)     	| [Link](https://www.nvidia.com/Download/index.aspx)               	|
+| Intel   	| [Link](https://www.intel.com/content/www/us/en/support/detect.html) 	| [Link](https://downloadcenter.intel.com/)           	|
 
 #### Linux
-Warning!
+Warning!  
 Most Linux distributions provide a way to install drivers with its package manager. 
 It is highly recommended you use the distro's packages for drivers; not doing so can cause problems later!
 
@@ -42,8 +42,8 @@ It is highly recommended you use the distro's packages for drivers; not doing so
 
 | Driver  	| Manual                                                         	|
 |---------	|----------------------------------------------------------------	|
-| AMD/ATI 	| [Link](http://support.amd.com/us/gpudownload/Pages/index.aspx) 	|
-| NVIDIA  	| [Link](http://www.nvidia.com/Download/index.aspx)              	|
+| AMD/ATI 	| [Link](https://support.amd.com/us/gpudownload/Pages/index.aspx) 	|
+| NVIDIA  	| [Link](https://www.nvidia.com/Download/index.aspx)              	|
 | Intel   	| [Link](https://downloadcenter.intel.com/default.aspx)          	|
 
 #### macOS
