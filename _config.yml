@@ -13,5 +13,3 @@ theme: jekyll-theme-cayman
 collections:
     help:
         output: true
-
-google_analytics: "G-Z7QD8E5NWQ"
