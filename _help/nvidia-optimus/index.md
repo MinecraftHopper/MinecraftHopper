@@ -19,8 +19,7 @@ how you can do that on **Nvidia Optimus** systems.
 
 1\. Click the *Show Hidden Icons* button (Looks like ^) on your taskbar, then right click the Nvidia icon and select
 *Nvidia Control Panel*.
-
-![](/static/images/help/nvidia/trayicon.png)
+![Screenshot tray icon](/static/images/help/nvidia/trayicon.png)
 
 If you do not have the Nvidia icon in your system tray, you can access the Nvidia Control Panel from the File Explorer by going to
 `C:\Program Files\NVIDIA Corporation\Control Panel Client`. From there launch `nvcplui.exe` by double-clicking on it.
@@ -29,14 +28,14 @@ If you do not have the Nvidia icon in your system tray, you can access the Nvidi
 
 2\. In the Nvidia Control Panel, click the "Manage 3D Settings" option from the menu at the left, then click on the "Program Settings" tab.
 
-![](/static/images/help/nvidia/nvcontrolpanel.png)
+![Screenshot Nvidia Control Panel](/static/images/help/nvidia/nvcontrolpanel.png)
 
 3\. Click on the "Add" button, and in the window that opens, click the "Browse" button.
 
 4\. By default Minecraft uses its bundled version of Java, which can be found at `C:\Program Files (x86)\Minecraft Launcher\runtime\jre-x64\bin`
 Enter that in the address bar at the top of the Browse window select `javaw.exe`, then hit "Open".
 
-![](/static/images/help/nvidia/browseadd.png)
+![Screenshot browse window](/static/images/help/nvidia/browseadd.png)
 
 **Note:** If you have set the game to use a different version of Java, or the bundled Java gets updated, you will need to adjust the folder you use for this step.
 
@@ -44,6 +43,6 @@ Enter that in the address bar at the top of the Browse window select `javaw.exe`
 
 6\. In the list below "Specify the settings for this program" scroll down until you see the option "OpenGL rendering GPU", click the drop down menu next to it, and select your Nvidia hardware.
 
-![](/static/images/help/nvidia/selectgpu.png)
+![Screenshot program settings](/static/images/help/nvidia/selectgpu.png)
 
 7\. Click on the Apply button, then close the Nvidia Control Panel and try to run the game again. you can press F3 ingame to confirm your Nvidia hardware is being used.

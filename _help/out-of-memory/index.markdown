@@ -25,11 +25,11 @@ If you are on Linux - Open a terminal window, and type in: free
 Once you have found the amount of RAM on your PC, you can continue.
 
 ## Checking your Java Installation
-See [this article](/help/installing-java/)
+See [this article](/help/installing-java/).
 
-**Note that if you are using the latest launcher from Mojang dubbed the "native launcher," you will automatically have the latest preferred Java installation on your computer. For Windows users, you can download the latest launcher at https://minecraft.net/download. For OS X users, you will have to wait until later this year (2015) to get the new launcher.
+*Note that if you are using the latest launcher from Mojang dubbed the "native launcher," you will automatically have the latest preferred Java installation on your computer. For Windows users, you can download the latest launcher at [https://minecraft.net/download](https://minecraft.net/download]).*
 
-If you are using the native launcher, skip to the "Still not working" section.** 
+If you are using the native launcher, skip to the "Still not working" section.
 
 ## Still not working?
 Once you have checked the amount of memory available on your computer and have also checked to make sure you are using a proper Java installation, you may need to allocate more memory to Minecraft.
@@ -41,7 +41,7 @@ Allocating more memory
 Once you have done the above, and you continue to receive out of memory errors despite having enough memory, then you may need to manually give the game more memory*. To approach, you previously collected the amount of memory you have. Now, to allocate memory to the game, pick an amount of RAM that is more than 1024MB or 1G, but less than the total amount of RAM you have on your computer. For example, "2048MB" or "2G".
 If you need to convert between MB and GB, remember that **1GB** = **1024MB**.
 
-* NOTE: On 32-bit Windows Java installations, you can only allocate up to 1.5G of RAM! 
+**Note:** On 32-bit Windows Java installations, you can only allocate up to 1.5G of RAM! 
 
 To allocate more RAM, open the game launcher, and press the "Edit Profile" button at the bottom left. There should be a checkbox called "JVM arguments", check that and input: -Xmx2G to give 2GB to the game, or -Xmx2560M to give 2560MB. Once you have checked and inputted the data, hit "Save Profile".
 

@@ -12,12 +12,11 @@ Common workarounds include reverting to the default resource pack, disabling Ani
 ### How to fix this
 
 #### Switch to the default resource pack
-Go to the [Minecraft folder](https://minecraftirc.net/hopper/finding-minecraft-data-folder/)
-Open `options.txt`
-Change the line that starts with `resourcepacks:` to `resourcepacks:[]`
-Save and close the file
-Run Minecraft normally
+1. Go to the [Minecraft folder](/hopper/finding-minecraft-data-folder/)
+2. Open `options.txt`
+3. Change the line that starts with `resourcepacks:` to `resourcepacks:[]`
+4. Save and close the file
+5. Run Minecraft normally
 
 #### Give Minecraft more memory
-Your computer may not have enough memory available for this option
-Follow this guide [no link]
+Your computer may not have enough memory available for this option, follow [this guide](/help/out-of-memory/).

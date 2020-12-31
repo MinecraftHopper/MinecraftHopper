@@ -17,19 +17,19 @@ In most cases you will need to manually remove the setting **after finding and r
 
 On **Windows 7 and Windows 10** you can search by clicking the Windows Icon on the taskbar and type in your query. On **Windows 8/8.1**, if you have not enabled the Windows Icon, you can move your cursor to the top right corner,  click "Search" then type in your query
 
-![](/static/images/help/env-vars/syssearch.png)
+![Screenshot Windows search](/static/images/help/env-vars/syssearch.png)
 
 In the window that opens up, find and select the option called **Advanced System Settings**. 
 
-![](/static/images/help/env-vars/advsettings.png)
+![Screenshot settings](/static/images/help/env-vars/advsettings.png)
 
 A new window will open; press the button labeled **Environment Variables**.
 
-![](/static/images/help/env-vars/envvars.png)
+![Screenshot advanced settings](/static/images/help/env-vars/envvars.png)
 
 In the Environment Variables window you should see two lists. You need to check both lists for the following listed under the Variable column: **_JAVA_OPTIONS**
 
-![](/static/images/help/env-vars/delvar.png)
+![Screenshot environment variables](/static/images/help/env-vars/delvar.png)
 
 If you find that setting in either list, click on it, then press the **Delete** button. Afterwards press the **OK** or **Apply** buttons until all the windows are closed.
 

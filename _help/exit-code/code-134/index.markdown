@@ -13,4 +13,4 @@ In order to fix this issue, you may need to reinstall Java.
 
 ## Reinstalling Java
 Minecraft, runs on a platform called Java. Java comes in many shapes, and forms, which may make it confusing exactly which version of it you should have installed, which is what this should hopefully explain.
-[You can find info on how to reinstall java here](/help/how-to-reinstall-java/)
+You can find info on how to reinstall Java [here](/help/how-to-reinstall-java/).
