@@ -11,7 +11,7 @@ Fabric is a mod loader for Minecraft. It updates much faster than Forge which ma
 Fabric mods require the Fabric loader to run. To download it, go to https://fabricmc.net/use and click "Download Installer (Universal/.JAR)". You can download the Windows exe installer if you would like, but we will be using the Universal installer in this tutorial as it works on all supported operating systems (Windows, Mac, Linux). Once the download is complete, follow the instructions below for your operating system (instructions for Linux not included as if you're using Linux you probably know what you're doing).
 
 #### Windows
-Double-click the downloaded JAR file and accept click "OK" when the prompt appears. If nothing happens, try installing and running []
+Double-click the downloaded JAR file and accept click "OK" when the prompt appears. If nothing happens, try installing and running [JarFix](https://johann.loefflmann.net/downloads/jarfix.exe)
 
 ![](/static/images/help/guides/mods/fabric/Windows-1.png) 
 
