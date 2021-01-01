@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "incompatible-class-change-error"
-name: "Incompatible Class Change Error"
+title: "Internet Crash on AT&T 2Wire"
+name: "internet-crash-att2wire-02"
 desc: "How to fix Internet Crash on AT&T 2Wire in Minecraft"
 ---
 # Internet Crash on AT&T 2Wire

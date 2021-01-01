@@ -2,7 +2,7 @@
 layout: article
 title: "Removing Memory Limit From Environment Variables (Windows)"
 name: "env-vars"
-description: "Removing Memory Limit From Environment Variables (Windows)"
+desc: "Removing Memory Limit From Environment Variables (Windows)"
 ---
 
 # Removing Memory Limit From Environment Variables (Windows)
