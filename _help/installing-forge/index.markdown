@@ -11,20 +11,18 @@ Forge is a modloader commonly used for loading and making mods for Minecraft
 
 
 ## Installing Forge in the MC launcher
-You'll need Java to install Forge. If you are using Linux and using 1.12.2 or below then you'll need to make sure that you have Java 8. [See this article to learn how to install Java](/help/installing-java)
+You'll need Java to install Forge. [See this article to learn how to install Java](/help/installing-java)
 
 * Go to the [Minecraft Forge website](https://files.minecraftforge.net/)
 * Choose a Minecraft version from the list on the left.
 * Click "Show All Versions"
 * Pick a Forge version from the list. Most of the time, just using the Forge version at the top of the list is sufficient.
-* In the list, click the circular i icon to the right of "Installer" to get a direct download to the file.
 ![forge-allversions](/static/images/help/installing-forge/forge-all-versions.png)
 
 ---
 
 <br><small>Some older versions of Minecraft have a Windows installer option for Forge, You can use that if you wish.</small>
 
-* If you get an advert, you probably clicked the wrong thing.
 * Run the installer .jar file. And you should get something like the below
 <small>(Note this picture was taken on Linux so the path will look different)</small>
 ![forge-installer](/static/images/help/installing-forge/forge-installer.png)
@@ -41,7 +39,7 @@ You'll need Java to install Forge. If you are using Linux and using 1.12.2 or be
 ## [Adding mods](#adding-mods) {#adding-mods}
 * [Head over to your .minecraft folder](/help/finding-minecraft-data-folder/)
 * Create a folder in your .minecraft folder named mods if there isn't one already.
-* Browse through the selection of mods from [Curse Forge](https://curseforge.com/minecraft/mc-mods). Download mod .jars that are compatible with your MC version.
+* Browse through the selection of mods from [CurseForge](https://curseforge.com/minecraft/mc-mods). Download mod .jars that are compatible with your MC version.
 <br>  Note: Some mods might require other mods to be present in order to run. Check the Dependencies section under the Relations tab of the mod project page.
 * Move the mod .jar files you downloaded into the mods folder you created earlier.
 
