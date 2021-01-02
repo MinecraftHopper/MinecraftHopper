@@ -9,4 +9,4 @@ Mods are pieces of code (usually in JAR files) which change the way the game wor
 
 [Installing Fabric](/_help/guides/installing-mods/fabric/) (ReplayMod, Carpet, Sodium etc.)
 
-Installing Forge (link is WIP) (Most modpacks and pre-1.14 mods)
+[Installing Forge](/_help/guides/installing-mods/forge/index.markdown) (Most modpacks and pre-1.14 mods)
