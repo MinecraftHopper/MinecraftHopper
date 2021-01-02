@@ -2,7 +2,7 @@
 layout: article
 title:  "Installing Forge"
 name: "installing-forge"
-desc: "Installing forge"
+desc: "How to install Forge mods in Minecraft"
 ---
 
 # How to install Forge and mods that require Forge <small>(Java Edition only)</small>
