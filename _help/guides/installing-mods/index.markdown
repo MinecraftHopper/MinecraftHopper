@@ -5,8 +5,6 @@ name: "installing-mods"
 desc: "How to install mods in Minecraft"
 ---
 # Installing mods
-Mods are pieces of code (usually in JAR files) which change the way the game works.
+Mods are pieces of code (usually in JAR files) which change the way the game works. Mods are not created or regulated by Mojang, so some of them may contain malicious code or explicit content. One of the best and safest places to get mods and modpacks is [CurseForge](https://curseforge.com/minecraft), but they do not fully review all the mods on the site, so you still need to be careful.
 
-[Installing Fabric](/_help/guides/installing-mods/fabric/) (ReplayMod, Carpet, Sodium etc.)
-
-[Installing Forge](/_help/guides/installing-mods/forge/index.markdown) (Most modpacks and pre-1.14 mods)
+Most mods require a **mod loader** to run. The two most common ones are [Fabric](https://fabricmc.net), for mods like the ReplayMod, the Carpet Mod or Sodium; or [Forge](https://minecraftforge.net) For mods and modpacks such as RLCraft, SkyFactory, JEI and JourneyMap. We have a guide on how to install Fabric mods [here](/_help/guides/installing-mods/fabric/), and a guide on how to install Forge mods [here](/_help/guides/installing-mods/forge/)
