@@ -36,4 +36,4 @@ One of the most common causes comes from the use of illegal account generators. 
 
 ## Further Help
 
-If you are still not able to log in, but can log in on other devices. You can join the [Minecraft Support Discord](https://discord.gg/58Sxm23) for further help and troubleshooting. As with any online community, be sure to read the rules upon joining and follow them.
+If you are still not able to log in, but can log in on other devices. You can join the [Minecraft Support Discord](https://discord.gg/58Sxm23) for further help and troubleshooting. As with any online community, be sure to read the rules upon joining, and follow them.
