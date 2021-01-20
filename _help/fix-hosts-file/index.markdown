@@ -46,3 +46,25 @@ You then will need to reset your hosts file to undo the changes made by the alt 
 5. Save the notepad file (make sure Notepad does not ask you where to save the file; if that happens, start over and make sure you type the whole command in #2 above).
 6. Try Minecraft again. If it works now, close Notepad.
 7. Be sure to change your Minecraft password to something strong. Also change your email's password if it is the same as your Minecraft password.
+
+## Mac
+
+1. Open the Terminal:
+  - In the Finder, go to Applications > Utilities > Terminal.
+  - Or, in the Finder, press Cmd-Space to bring up Spotlight search, then type “terminal” and press Enter.
+2. In the Terminal, type `sudo nano /private/etc/hosts` and press Enter.
+3. You will be prompted for your password. Type in your **Mac** password carefully. Nothing will show up as you type your password. Press Enter when you are done.
+4. The hosts file will appear in the terminal. Use the arrow keys to navigate the file.
+5. Go down to the bottom of the file. There should be 2 lines containing "mojang."
+6. Using the arrow keys and the Backspace key, delete those two lines entirely.
+7. Press Ctrl-O then Enter to save the file. Leave the window open then try Minecraft again. If Minecraft is still open, close and reopen it.
+8. If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.
+
+## Linux
+
+1. Open the Terminal:
+  - __Ubuntu__: Press Ctrl + Alt + T
+  - __Other Debian__: Open the start menu and type 'terminal' in the search bar, then click on Terminal
+  - __Arch__: 
+2. In the terminal, type `sudo nano /etc/hosts` and press Enter.
+3. Follow steps #3-8 under the Mac section above.
