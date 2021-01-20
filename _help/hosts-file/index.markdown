@@ -47,6 +47,20 @@ You then will need to reset your hosts file to undo the changes made by the alt 
 6. Try Minecraft again. If it works now, close Notepad.
 7. Be sure to change your Minecraft password to something strong. Also change your email's password if it is the same as your Minecraft password.
 
+### Alternate Method <small>(Including Windows 7 users)</small>
+
+If the above steps don't work, usually because of the UAC window not popping up in Step #3 above or Windows 7 not having Powershell, the hosts file can be restored manually.
+
+1. Press the **Windows Key** and **R** at the same time.
+2. In the Run box, type `%systemroot%\system32\drivers\etc` and press Enter.
+3. In the File Explorer window, if nothing shows up, click on "View" on the top, then check the bos for "Show Hidden Files."
+4. Hold down Ctrl while dragging the **hosts** file to your desktop.
+5. Double-click the hosts file on the desktop and open with Notepad.
+6. Look for 2 lines containing 'mojang' and delete those two lines completely. Save and close Notepad.
+7. Look at the icon for the hosts file on your desktop. It should look like a blank sheet of paper. If it looks like a sheet of paper with lines on it, start over and be sure to follow the instructions **exactly as written**.
+8. Drag the hosts file back into the 'etc' folder. Click **Yes** at the UAC prompt. Try Minecraft.
+9. If Minecraft now works, delete the hosts file from your desktop. Change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.
+
 ## Mac
 
 1. Open the Terminal:
