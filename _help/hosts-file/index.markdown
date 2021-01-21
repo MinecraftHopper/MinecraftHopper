@@ -27,7 +27,7 @@ First, you will need to delete the tool. If you don't know where it is, try look
 
 If you used TheAltening, you need to take extra steps to remove the tool completely:
 
-<table>
+<table style="margin-left:25">
   <tr>
     <td>1. Press the <strong>Windows Key</strong> and type <strong>cmd</strong>.</td>
     <td></td>
