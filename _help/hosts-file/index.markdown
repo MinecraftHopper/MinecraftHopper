@@ -13,9 +13,18 @@ When such programs are used, they make changes to a system file called 'hosts' t
 
 As a result, users who have used alt account tools in the past will find that they either are not able to log in to the launcher or the website, or are not able to join servers. They will often get error messages such as:
 
-* "The authentication servers are down for maintenance."
-* "Please switch to Mojang mode."
-* "Not authenticated with minecraft.net."
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li>"The authentication servers are down for maintenance."</li>
+        <li>"Please switch to Mojang mode."</li>
+        <li>"Not authenticated with minecraft.net."</li>
+      </ul>
+    </td>
+    <td><img src="https://cdn.discordapp.com/attachments/607129205981052929/801902607203172392/unknown.png" height=200></td>
+  </tr>
+</table>
 
 Not only do these settings prevent users from logging in or joining servers, they also function to steal the user's login information, resulting in account theft.
 
@@ -41,7 +50,7 @@ If you used TheAltening, you need to take extra steps to remove the tool complet
     <td><img src="/static/images/help/hosts-file/cmd-altening-notfound.png"></td>
   </tr>
   <tr>
-    <td>4. Press the <strong>Windows Key</strong> and <strong>R</strong> at the same time. Then type `%appdata%` and press enter.</td>
+    <td>4. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time. Then type `%appdata%` and press enter.</td>
     <td><img src="/static/images/help/hosts-file/run-appdata.png"></td>
   </tr>
   <tr>
