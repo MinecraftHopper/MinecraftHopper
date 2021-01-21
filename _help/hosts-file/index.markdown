@@ -41,7 +41,7 @@ You then will need to reset your hosts file to undo the changes made by the alt 
 
 1. Press the **Windows Key** and **R** at the same time.
 2. In the Run box, copy and paste the **entire** command: `powershell -command "Start-Process notepad $env:windir\system32\drivers\etc\hosts" -Verb runas`
-3. Click **Yes** in the UAC window that pops up. A Notepad window should open with text.
+3. A blue window will briefly appear, then a UAC window. Click **Yes** in the UAC window that pops up. A Notepad window should open with text.
 4. Look for 2 lines that contain the word "mojang" and delete those two lines completely.
 5. Save the notepad file (make sure Notepad does not ask you where to save the file; if that happens, start over and make sure you type the whole command in #2 above).
 6. Try Minecraft again. If it works now, close Notepad.
