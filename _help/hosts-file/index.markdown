@@ -33,130 +33,185 @@ Not only do these settings prevent users from logging in or joining servers, the
 First, you will need to delete the tool. If you don't know where it is, try looking in your Downloads folder or any Minecraft folder you have on your computer.
 
 ### If You Used TheAltening
-
-If you used TheAltening, you need to take extra steps to remove the tool completely:
-
-<table style="margin-left:25">
-  <tr>
-    <td>1. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and type <strong>cmd</strong>.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2. Right click <strong>Command Prompt</strong> and click <strong>Run as Adminstrator</strong>.</td>
-    <td><img src="/static/images/help/hosts-file/startmenu-cmd-admin-alt.png"></td>
-  </tr>
-  <tr>
-    <td>3. In the black window, type <code>taskkill /IM 'altening.launcher.exe" /F</code> and press enter. If it tells you that it could not find it, move on to the next step.</td>
-    <td><img src="/static/images/help/hosts-file/cmd-altening-notfound.png"></td>
-  </tr>
-  <tr>
-    <td>4. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time. Then type `%appdata%` and press enter.</td>
-    <td><img src="/static/images/help/hosts-file/run-appdata.png"></td>
-  </tr>
-  <tr>
-    <td>5. Find a folder called <strong>"Altening"</strong> and delete it.</td>
-    <td><img src="/static/images/help/hosts-file/appdata-altening.png"></td>
-  </tr>
-</table>
+<details>
+  <summary>Click to show instructions.</summary>
+  
+  If you used TheAltening, you need to take extra steps to remove the tool completely:
+  
+  <table style="margin-left:25">
+    <tr>
+      <td>1. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and type <strong>cmd</strong>.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. Right click <strong>Command Prompt</strong> and click <strong>Run as Adminstrator</strong>.</td>
+      <td><img src="/static/images/help/hosts-file/startmenu-cmd-admin-alt.png"></td>
+    </tr>
+    <tr>
+      <td>3. In the black window, type <code>taskkill /IM 'altening.launcher.exe" /F</code> and press enter. If it tells you that it could not find it, move on to the next step.</td>
+      <td><img src="/static/images/help/hosts-file/cmd-altening-notfound.png"></td>
+    </tr>
+    <tr>
+      <td>4. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time. Then type `%appdata%` and press enter.</td>
+      <td><img src="/static/images/help/hosts-file/run-appdata.png"></td>
+    </tr>
+    <tr>
+      <td>5. Find a folder called <strong>"Altening"</strong> and delete it.</td>
+      <td><img src="/static/images/help/hosts-file/appdata-altening.png"></td>
+    </tr>
+  </table>
+</details>
 
 ## Step 2: Reset Your Hosts File
 
 You then will need to reset your hosts file to undo the changes made by the alt account tools to be able to log in to Minecraft again. Follow the instructions according to your operating system.
 
 ## Windows
-
-<table>
-  <tr>
-    <td>1. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2. In the Run box, copy and paste the <strong>entire</strong> command: <code>powershell -command "Start-Process notepad $env:windir\system32\drivers\etc\hosts" -Verb runas</code></td>
-    <td><img src="/static/images/help/hosts-file/run-powershell.png"></td>
-  </tr>
-  <tr>
-    <td>3. A blue window will briefly appear, then a UAC window. Click <strong>Yes</strong> in the UAC window that pops up. A Notepad window should open with text.</td>
-    <td><img src="/static/images/help/hosts-file/win-hosts-initial.png"></td>
-  </tr>
-  <tr>
-    <td>4. Look for 2 lines that contain the word "mojang" and delete those two lines completely.</td>
-    <td><img src="/static/images/help/hosts-file/win-hosts-edited.png"></td>
-  </tr>
-  <tr>
-    <td>5. Save the notepad file (make sure Notepad does not ask you where to save the file; if that happens, start over and make sure you type the whole command in #2 above).</td>
-    <td><img src="/static/images/help/hosts-file/win-hosts-saved.png"></td>
-  </tr>
-  <tr>
-    <td>6. Try Minecraft again. If it works now, close Notepad.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>7. Be sure to change your Minecraft password to something strong. Also change your email's password if it is the same as your Minecraft password.</td>
-    <td></td>
-  </tr>
-</table>
-
-### Alternate Method <small>(Including Windows 7 users)</small>
-
-If the above steps don't work, usually because of the UAC window not popping up in Step #3 above or Windows 7 not having Powershell, the hosts file can be restored manually.
-
-<table>
-  <tr>
-    <td>1. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2. In the Run box, type <code>%systemroot%\system32\drivers\etc</code> and press Enter.</td>
-    <td><img src="/static/images/help/hosts-file/run-etc.png"></td>
-  </tr>
-  <tr>
-    <td>3. In the File Explorer window, if nothing shows up, click on <strong>View</strong> on the top, then check the bos for <strong>Show Hidden Files</strong>.</td>
-    <td><img src="/static/images/help/hosts-file/etc.png"><br><img src="/static/images/help/hosts-file/show-hidden-files.png"></td>
-  </tr>
-  <tr>
-    <td>4. Hold down <strong>Ctrl</strong> while dragging the <strong>hosts</strong> file to your desktop.</td>
-    <td><img src="/static/images/help/hosts-file/copy-hosts-desktop.jpg"></td>
-  </tr>
-  <tr>
-    <td>5. Double-click the hosts file on the desktop and open with Notepad.</td>
-    <td><img src="/static/images/help/hosts-file/openwith-notepad.png"></td>
-  </tr>
-  <tr>
-    <td>6. Look for 2 lines containing 'mojang' and delete those two lines completely. Save and close Notepad.</td>
-    <td><img src="/static/images/help/hosts-file/win-hosts-initial.png"></td>
-  </tr>
-  <tr>
-    <td>7. Look at the icon for the hosts file on your desktop. It should look like a blank sheet of paper. If it looks like a sheet of paper with lines on it, start over and be sure to follow the instructions <strong>exactly as written</strong>.</td>
-    <td><img src="/static/images/help/hosts-file/hosts-after-saving.jpg"></td>
-  </tr>
-  <tr>
-    <td>8. Drag the hosts file back into the 'etc' folder. Click <strong>Replace the file...</strong> then <strong>Continue</strong> in the windows that pop up.</td>
-    <td><img src="/static/images/help/hosts-file/move-back-etc.jpg"><br><img src="/static/images/help/hosts-file/move-back-etc-replace.png"><br><img src="/static/images/help/hosts-file/move-back-etc-uac.png"></td>
-  </tr>
-  <tr>
-    <td>9. Try Minecraft. If Minecraft now works, delete the hosts file from your desktop. Change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.</td>
-    <td></td>
-  </tr>
-</table>
+<details>
+  <summary>Click for instructions</summary>
+  
+  <table>
+    <tr>
+      <td>1. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. In the Run box, copy and paste the <strong>entire</strong> command: <code>powershell -command "Start-Process notepad $env:windir\system32\drivers\etc\hosts" -Verb runas</code></td>
+      <td><img src="/static/images/help/hosts-file/run-powershell.png"></td>
+    </tr>
+    <tr>
+      <td>3. A blue window will briefly appear, then a UAC window. Click <strong>Yes</strong> in the UAC window that pops up. A Notepad window should open with text.</td>
+      <td><img src="/static/images/help/hosts-file/win-hosts-initial.png"></td>
+    </tr>
+    <tr>
+      <td>4. Look for 2 lines that contain the word "mojang" and delete those two lines completely.</td>
+      <td><img src="/static/images/help/hosts-file/win-hosts-edited.png"></td>
+    </tr>
+    <tr>
+      <td>5. Save the notepad file (make sure Notepad does not ask you where to save the file; if that happens, start over and make sure you type the whole command in #2 above).</td>
+      <td><img src="/static/images/help/hosts-file/win-hosts-saved.png"></td>
+    </tr>
+    <tr>
+      <td>6. Try Minecraft again. If it works now, close Notepad.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7. Be sure to change your Minecraft password to something strong. Also change your email's password if it is the same as your Minecraft password.</td>
+      <td></td>
+    </tr>
+  </table>
+  
+  ### Alternate Method <small>(Including Windows 7 users)</small>
+  
+  If the above steps don't work, usually because of the UAC window not popping up in Step #3 above or Windows 7 not having Powershell, the hosts file can be restored manually.
+  
+  <table>
+    <tr>
+      <td>1. Press <img src="/static/images/help/hosts-file/windows-key.png" height=25> and <strong>R</strong> at the same time.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. In the Run box, type <code>%systemroot%\system32\drivers\etc</code> and press Enter.</td>
+      <td><img src="/static/images/help/hosts-file/run-etc.png"></td>
+    </tr>
+    <tr>
+      <td>3. In the File Explorer window, if nothing shows up, click on <strong>View</strong> on the top, then check the bos for <strong>Show Hidden Files</strong>.</td>
+      <td><img src="/static/images/help/hosts-file/etc.png"><br><img src="/static/images/help/hosts-file/show-hidden-files.png"></td>
+    </tr>
+    <tr>
+      <td>4. Hold down <strong>Ctrl</strong> while dragging the <strong>hosts</strong> file to your desktop.</td>
+      <td><img src="/static/images/help/hosts-file/copy-hosts-desktop.jpg"></td>
+    </tr>
+    <tr>
+      <td>5. Double-click the hosts file on the desktop and open with Notepad.</td>
+      <td><img src="/static/images/help/hosts-file/openwith-notepad.png"></td>
+    </tr>
+    <tr>
+      <td>6. Look for 2 lines containing 'mojang' and delete those two lines completely. Save and close Notepad.</td>
+      <td><img src="/static/images/help/hosts-file/win-hosts-initial.png"></td>
+    </tr>
+    <tr>
+      <td>7. Look at the icon for the hosts file on your desktop. It should look like a blank sheet of paper. If it looks like a sheet of paper with lines on it, start over and be sure to follow the instructions <strong>exactly as written</strong>.</td>
+      <td><img src="/static/images/help/hosts-file/hosts-after-saving.jpg"></td>
+    </tr>
+    <tr>
+      <td>8. Drag the hosts file back into the 'etc' folder. Click <strong>Replace the file...</strong> then <strong>Continue</strong> in the windows that pop up.</td>
+      <td><img src="/static/images/help/hosts-file/move-back-etc.jpg"><br><img src="/static/images/help/hosts-file/move-back-etc-replace.png"><br><img src="/static/images/help/hosts-file/move-back-etc-uac.png"></td>
+    </tr>
+    <tr>
+      <td>9. Try Minecraft. If Minecraft now works, delete the hosts file from your desktop. Change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.</td>
+      <td></td>
+    </tr>
+  </table>
+</details>
 
 ## Mac
-
-1. Open the Terminal:
-    - In the Finder, go to Applications > Utilities > Terminal.
-    - Or, in the Finder, press Cmd-Space to bring up Spotlight search, then type “terminal” and press Enter.
-2. In the Terminal, type `sudo nano /private/etc/hosts` and press Enter.
-3. You will be prompted for your password. Type in your **Mac** password carefully. Nothing will show up as you type your password. Press Enter when you are done.
-4. The hosts file will appear in the terminal. Use the arrow keys to navigate the file.
-5. Go down to the bottom of the file. There should be 2 lines containing "mojang."
-6. Using the arrow keys and the Backspace key, delete those two lines entirely.
-7. Press Ctrl-O then Enter to save the file. Leave the window open then try Minecraft again. If Minecraft is still open, close and reopen it.
-8. If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.
+<details>
+  <summary>Click for instructions</summary>
+  
+  <table>
+    <tr>
+      <td>1. Open the Terminal:<br>
+        <ul>
+          <li>In the Finder, go to Applications > Utilities > Terminal.</li>
+          <li>Or, in the Finder, press Cmd-Space to bring up Spotlight search, then type “terminal” and press Enter.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. In the Terminal, type `sudo nano /private/etc/hosts` and press Enter.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3. You will be prompted for your password. Type in your **Mac** password carefully. Nothing will show up as you type your password. Press Enter when you are done.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4. The hosts file will appear in the terminal. Use the arrow keys to navigate the file.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5. Go down to the bottom of the file. There should be 2 lines containing "mojang."</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6. Using the arrow keys and the Backspace key, delete those two lines entirely.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7. Press Ctrl-O then Enter to save the file. Leave the window open then try Minecraft again. If Minecraft is still open, close and reopen it.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8. If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.</td>
+      <td></td>
+    </tr>
+  </table>
+</details>
 
 ## Linux
-
-1. Open the Terminal:
-    - __Ubuntu__: Press Ctrl + Alt + T
-    - __Other Debian__: Open the start menu and type 'terminal' in the search bar, then click on Terminal
-    - __Arch__: 
-2. In the terminal, type `sudo nano /etc/hosts` and press Enter.
-3. Follow steps #3-8 under the Mac section above.
+<details>
+  <summary>Click for instructions</summary>
+  
+  <table>
+    <tr>
+      <td>1. Open the Terminal:<br>
+        <ul>
+          <li><underline>Ubuntu</underline>: Press Ctrl + Alt + T</li>
+          <li><underline>Other Debian</underline>: Open the start menu and type 'terminal' in the search bar, then click on Terminal</li>
+          <li><underline>Arch</underline: </li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. In the terminal, type `sudo nano /etc/hosts` and press Enter.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3. Follow steps #3-8 under the Mac section above.</td>
+      <td></td>
+    </tr>
+  </table>
+</details>
