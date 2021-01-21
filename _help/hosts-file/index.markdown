@@ -27,11 +27,28 @@ First, you will need to delete the tool. If you don't know where it is, try look
 
 If you used TheAltening, you need to take extra steps to remove the tool completely:
 
-1. Press the **Windows Key** and type **cmd**.
-2. Right click **Command Prompt** and click **Run as Adminstrator**.
-3. In the black window, type `taskkill /IM 'altening.launcher.exe" /F` and press enter. If it tells you that it could not find it, move on to the next step.
-4. Press the **Windows Key** and **R** at the same time. Then type `%appdata%` and press enter.
-5. Find a folder called **"Altening"** and delete it.
+<table>
+  <tr>
+    <td>1. Press the <strong>Windows Key</strong> and type <strong>cmd</strong>.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2. Right click <strong>Command Prompt</strong> and click <strong>Run as Adminstrator</strong>.</td>
+    <td><img src="/static/images/help/hosts-file/startmenu-cmd-admin-alt.png"></td>
+  </tr>
+  <tr>
+    <td>3. In the black window, type <code>taskkill /IM 'altening.launcher.exe" /F</code> and press enter. If it tells you that it could not find it, move on to the next step.</td>
+    <td><img src="/static/images/help/hosts-file/cmd-altening-notfound.png"></td>
+  </tr>
+  <tr>
+    <td>4. Press the <strong>Windows Key</strong> and <strong>R</strong> at the same time. Then type `%appdata%` and press enter.</td>
+    <td><img src="/static/images/help/hosts-file/run-appdata.png"></td>
+  </tr>
+  <tr>
+    <td>5. Find a folder called <strong>"Altening"</strong> and delete it.</td>
+    <td><img src="/static/images/help/hosts-file/appdata-altening.png"></td>
+  </tr>
+</table>
 
 ## Step 2: Reset Your Hosts File
 
