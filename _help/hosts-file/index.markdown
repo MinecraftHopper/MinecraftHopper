@@ -89,7 +89,7 @@ You then will need to reset your hosts file to undo the changes made by the alt 
     </tr>
     <tr>
       <td>5. Save the notepad file (make sure Notepad does not ask you where to save the file; if that happens, start over and make sure you type the whole command in #2 above).</td>
-      <td><img src="/static/images/help/hosts-file/win-hosts-saved.png"></td>
+      <td><img src="/static/images/help/hosts-file/win-hosts-save.png"></td>
     </tr>
     <tr>
       <td>6. Try Minecraft again. If it works now, close Notepad.</td>
