@@ -157,19 +157,19 @@ You then will need to reset your hosts file to undo the changes made by the alt 
           <li>Or, in the Finder, press Cmd-Space to bring up Spotlight search, then type “terminal” and press Enter.</li>
         </ul>
       </td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/mac-spotlight-terminal.png"></td>
     </tr>
     <tr>
       <td>2. In the Terminal, type `sudo nano /private/etc/hosts` and press Enter.</td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/mac-terminal-nano.png"></td>
     </tr>
     <tr>
       <td>3. You will be prompted for your password. Type in your **Mac** password carefully. Nothing will show up as you type your password. Press Enter when you are done.</td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/mac-terminal-nano-password.png"></td>
     </tr>
     <tr>
       <td>4. The hosts file will appear in the terminal. Use the arrow keys to navigate the file.</td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/mac-terminal-hosts-open.png"></td>
     </tr>
     <tr>
       <td>5. Go down to the bottom of the file. There should be 2 lines containing "mojang."</td>
@@ -177,11 +177,11 @@ You then will need to reset your hosts file to undo the changes made by the alt 
     </tr>
     <tr>
       <td>6. Using the arrow keys and the Backspace key, delete those two lines entirely.</td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/mac-terminal-hosts-edited.png"></td>
     </tr>
     <tr>
       <td>7. Press Ctrl-O then Enter to save the file. Leave the window open then try Minecraft again. If Minecraft is still open, close and reopen it.</td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/mac-terminal-hosts-save.png"></td>
     </tr>
     <tr>
       <td>8. If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.</td>
@@ -203,14 +203,34 @@ You then will need to reset your hosts file to undo the changes made by the alt 
           <li><underline>Arch</underline: </li>
         </ul>
       </td>
-      <td></td>
+      <td><img src="/static/images/help/hosts-file/linux-deb-terminal.png"></td>
     </tr>
     <tr>
       <td>2. In the terminal, type `sudo nano /etc/hosts` and press Enter.</td>
+      <td><img src="/static/images/help/hosts-file/linux-terminal-nano.png"></td>
+    </tr>
+    <tr>
+      <td>3. You will be prompted for your password. Type in your **Linux user** password carefully. Nothing will show up as you type your password. Press Enter when you are done.</td>
+      <td><img src="/static/images/help/hosts-file/linux-terminal-nano-password.jpg"></td>
+    </tr>
+    <tr>
+      <td>4. The hosts file will appear in the terminal. Use the arrow keys to navigate the file.</td>
+      <td><img src="/static/images/help/hosts-file/linux-nano-open.jpg"></td>
+    </tr>
+    <tr>
+      <td>5. Go down to the bottom of the file. There should be 2 lines containing "mojang."</td>
       <td></td>
     </tr>
     <tr>
-      <td>3. Follow steps #3-8 under the Mac section above.</td>
+      <td>6. Using the arrow keys and the Backspace key, delete those two lines entirely.</td>
+      <td><img src="/static/images/help/hosts-file/linux-nano-edited.jpg"></td>
+    </tr>
+    <tr>
+      <td>7. Press Ctrl-O then Enter to save the file. Leave the window open then try Minecraft again. If Minecraft is still open, close and reopen it.</td>
+      <td><img src="/static/images/help/hosts-file/linux-nano-save.jpg"></td>
+    </tr>
+    <tr>
+      <td>8. If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password.</td>
       <td></td>
     </tr>
   </table>
