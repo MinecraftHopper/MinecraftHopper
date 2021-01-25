@@ -29,7 +29,7 @@ At the end of the 'Target' bar, add the following:
 
 It should then look like this:
 
-![](static/images/help/guides/changing-work-directory/changing-work-directory-3.png)
+![](/static/images/help/guides/changing-work-directory/changing-work-directory-3.png)
 
 **Step 4**
 
