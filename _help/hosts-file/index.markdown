@@ -22,7 +22,7 @@ As a result, users who have used alt account tools in the past will find that th
         <li>"Not authenticated with minecraft.net."</li>
       </ul>
     </td>
-    <td><img src="https://cdn.discordapp.com/attachments/607129205981052929/801902607203172392/unknown.png" height=200></td>
+    <td><img src="/static/images/help/hosts-file/authentication-maintenance-error.png" height=200></td>
   </tr>
 </table>
 
