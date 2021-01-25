@@ -64,7 +64,7 @@ First, you will need to delete the tool. If you don't know where it is, try look
 
 ## Step 2: Reset Your Hosts File
 
-You then will need to reset your hosts file to undo the changes made by the alt account tools to be able to log in to Minecraft again. Follow the instructions according to your operating system.
+You then will need to edit your hosts file to undo the changes made by the alt account tools to be able to log in to Minecraft again. Follow the instructions according to your operating system.
 
 ## Windows
 <details>
