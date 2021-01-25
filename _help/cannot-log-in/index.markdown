@@ -32,8 +32,8 @@ Your account or IP has probably been locked due to too many failed attempts to l
 
 The issue is with your computer. There is either something running on your computer that is blocking Minecraft logins or some setting that's preventing Minecraft from reaching authentication servers. See the [list of known incompatible software](/_help/known-incompatible-software/).
 
-One of the most common causes comes from the use of illegal account generators. These programs change settings on the computer that prevents Minecraft from logging in normally, even after the account generator program is removed. To undo the changes done by these account generators, see [this article](/_help/fix-hosts-file).
+One of the most common causes comes from the use of illegal account generators. These programs change settings on the computer that prevents Minecraft from logging in normally, even after the account generator program is removed. To undo the changes done by these account generators, see [this article](/_help/hosts-file).
 
 ## Further Help
 
-If you are still not able to log in, but can log in on other devices. You can join the [Minecraft Support Discord](https://discord.gg/58Sxm23) for further help and troubleshooting. As with any online community, be sure to read the rules upon joining, and follow them.
+If you are still not able to log in, but can log in on other devices, see the [technical support resources page](/_help/technical-support-resources/) for further help and troubleshooting. As with any online community, be sure to read the rules upon joining, and follow them.
