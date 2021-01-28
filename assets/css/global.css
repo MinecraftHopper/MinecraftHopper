@@ -2,13 +2,15 @@
 body {
     padding: 20px 30px 40px 30px;
     color: #606c71;
-
-}
+    font-size:16px;
+    line-height:22px;
+  }
 
 #page-content-wrapper {
     margin: 0 auto;
     max-width: 1080px;
 }
+
 .masthead, #masthead, .help-page-header, h1{
 	background-color: darkslategray; 
 	color: whitesmoke; 
@@ -16,34 +18,83 @@ body {
 	font-size: 2em;
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	 line-height: 20px; 
-	 margin-bottom: 30px; 
+	 margin: 50px 0px; 
 	 padding-top: 30px; 
 	 padding-bottom: 30px; 
 	 text-align: center; 
 	 width: 100%;
 }
+
 .home-container {
 	border-left-color: #ccc; border-left-style: solid; border-left-width: 1px; border-right-color: #ccc; border-right-style: solid; border-right-width: 1px; border-bottom-color: #ccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #ccc; border-top-style: solid; border-top-width: 1px; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-bottom: 18px; margin-top: 18px; padding-bottom: 16px; padding-left: 0; padding-right: 0; width: 100%;
 }
+
 .page-header {
 	font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-top: 20px;
 }
 
-  .software-name, .software-versions, .software-notes{
-    border-left: solid 2px;
-    border-right: solid 2px;
-    border-bottom: solid 2px;
-    text-align: center;
-  }
+.software-name, .software-versions, .software-notes{
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+  text-align: center;
+}
 
-  .category {
-    border: solid 2px;
-  }
-  .categoryname {
-    padding-bottom: 0px;
-  }
+.category {
+  border: solid 2px;
+}
 
-  .muted:hover{
-    text-decoration:none;
-  }
+.categoryname {
+  padding-bottom: 0px;
+}
 
+.muted:hover{
+  text-decoration:none;
+}
+
+h2 {
+  margin: 50px 0px 40px 0px;
+}
+
+h3 {
+  margin: 40px 0px 30px 0px;
+}
+
+h4 {
+  margin: 30px 0px 20px 0px;
+}
+
+details {
+  margin: 0px 0px 35px 55px;
+}
+
+summary {
+  margin-left:-20px;
+}
+
+img {
+  margin:30px;
+  width:85%;
+  display:block;
+}
+
+.inline {
+  display:inline;
+  margin:0px;
+  width:auto;
+}
+
+/*
+p {
+  margin-left: 20px;
+}
+
+ul ol {
+  margin-left: 40px;
+}
+*/
+
+code {
+  font-size:16px;
+  line-height:22px;
+}
