@@ -4,10 +4,3 @@ _site
 .idea/
 
 Jekyll.sh
-/nbproject/private/
-/nbproject/project.xml
-/nbproject/project.properties
-/MinecraftHopper.sublime-workspace
-/MinecraftHopper.sublime-project
-/Gemfile
-/Gemfile.lock
