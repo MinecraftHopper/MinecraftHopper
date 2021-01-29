@@ -2,9 +2,9 @@
 body {
     padding: 20px 30px 40px 30px;
     color: #606c71;
-    font-size:16px;
-    line-height:22px;
-  }
+    font-size:1em;
+    line-height:1.5em;
+}
 
 #page-content-wrapper {
     margin: 0 auto;
@@ -12,16 +12,15 @@ body {
 }
 
 .masthead, #masthead, .help-page-header, h1{
-	background-color: darkslategray; 
-	color: whitesmoke; 
-	display: block; 
+	background-color: darkslategray;
+	color: whitesmoke;
+	display: block;
 	font-size: 2em;
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-	 line-height: 20px; 
-	 margin: 50px 0px; 
-	 padding-top: 30px; 
-	 padding-bottom: 30px; 
-	 text-align: center; 
+	 line-height: 2em;
+	 margin: 2em 0em;
+	 padding: 1em;
+	 text-align: center;
 	 width: 100%;
 }
 
@@ -53,15 +52,21 @@ body {
 }
 
 h2 {
-  margin: 50px 0px 40px 0px;
+  margin: 2em 0em;
+  color: #303A50;
+  font-size: 2em;
 }
 
 h3 {
-  margin: 40px 0px 30px 0px;
+  margin: 1.62em 0em;
+  color: #303A50;
+  font-size: 1.62em;
 }
 
 h4 {
-  margin: 30px 0px 20px 0px;
+  margin: 1.5em 0em;
+  color: #303A50;
+  font-size: 1em;
 }
 
 details {
@@ -70,10 +75,11 @@ details {
 
 summary {
   margin-left:-20px;
+  margin-bottom: 2em;
 }
 
 img {
-  margin:30px auto;
+  margin:1.5em auto;
   max-width:85%;
   display:block;
 }
@@ -84,17 +90,17 @@ img {
   width:auto;
 }
 
-/*
 p {
-  margin-left: 20px;
+  margin: 1.5em 0em;
 }
 
+/*
 ul ol {
   margin-left: 40px;
 }
 */
 
 code {
-  font-size:16px;
-  line-height:22px;
+  font-size:1em;
+  line-height:1.5em;
 }
