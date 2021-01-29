@@ -147,8 +147,6 @@ Click **Paste!**. On the next page, copy the URL from the address bar and give i
 <br><br>
 
 {{ "
- 
-
 A crash report is generated when some form of error is thrown within minecraft or java, and Minecraft is not able to recovery or exit safely. When Minecraft crashes, an error message like the one below is usually shown.
 ![](/static/images/help/guides/getting-minecraft-logs/minecraft-crash.png)
 
