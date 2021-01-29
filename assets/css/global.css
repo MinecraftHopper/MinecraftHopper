@@ -73,8 +73,8 @@ summary {
 }
 
 img {
-  margin:30px;
-  width:85%;
+  margin:30px auto;
+  max-width:85%;
   display:block;
 }
 
