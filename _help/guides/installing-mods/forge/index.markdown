@@ -2,7 +2,7 @@
 layout: article
 title:  "Installing Forge"
 name: "installing-forge"
-desc: "Installing forge"
+desc: "How to install Forge mods in Minecraft"
 ---
 
 # How to install Forge and mods that require Forge <small>(Java Edition only)</small>
@@ -23,7 +23,7 @@ You'll need Java to install Forge. [See this article to learn how to install Jav
 
 <br><small>Some older versions of Minecraft have a Windows installer option for Forge, You can use that if you wish.</small>
 
-* Run the installer .jar file. And you should get something like the below
+* Run the installer .jar file (on macOS you need to right-click and click Open in order to bypass Gatekeeper protection)  you should get something like the below
 <small>(Note this picture was taken on Linux so the path will look different)</small>
 ![forge-installer](/static/images/help/installing-forge/forge-installer.png)
 
