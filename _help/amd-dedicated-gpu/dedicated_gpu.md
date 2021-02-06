@@ -1,3 +1,10 @@
+---
+layout: article
+title:  "How to Set Your Dedicated AMD GPU"
+name: "amd-dedicated-gpu"
+desc: "How to set the default GPU (AMD)"
+---
+
 # How to Switch Between Graphics Card and iGPU with AMD
 
 #### Question:
@@ -29,5 +36,3 @@ Some computers have a processor that also contains its own GPU, commonly known a
 ![](/static/images/help/amd-dedicated-gpu/rsx_restart.png)
 
 After that, you should be good to go! Open the Minecraft Launcher, start Minecraft, and you should get much better performance!
-
-**TIP:** For even *better* performance, make sure to consider mods such as [Sodium](http://www.curseforge.com/minecraft/mc-mods/sodium) and [Optifine](http://optifine.net/home)!
