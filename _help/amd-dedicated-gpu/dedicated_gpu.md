@@ -8,10 +8,12 @@ desc: "How to set the default GPU (AMD)"
 # How to Switch Between Graphics Card and iGPU with AMD
 
 #### Question:
-I have a good graphics card, but when I play Minecraft I get a low amount of FPS such as 20, when I should be getting a high amount like 100. Is this a problem with my graphics card or some sort of bug?
+I have a good AMD GPU, but when I play Minecraft I get lower-than-expected FPS
 
 #### Answer:
 Some computers have a processor that also contains its own GPU, commonly known as the **iGPU** (Integrated Graphics Processing Unit). While it functions like most GPUs, it isn't as strong as most graphics cards. Getting low FPS despite having a good graphics card could be due to the computer using the iGPU instead of your graphics card. If you have an AMD graphics card, follow the below steps to set your dedicated GPU.
+
+**NOTE:** Keep in mind that you can't always compare Minecraft with other games, which may be running faster due to better optimisation in those games' engines; as well as the fact that you may be running Minecraft with all the video settings at their maximum values.
 
 ### Steps:
 
