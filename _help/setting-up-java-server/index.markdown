@@ -147,7 +147,7 @@ If you want to connect to the server on your own computer then do the above but 
 
 ## Playing Online and Port Forwarding {: #portforwarding}
 
-<details open>
+<details>
 	<summary>Click to expand</summary>
 <br>
 
@@ -156,8 +156,8 @@ If you want to connect to the server on your own computer then do the above but 
 If you would like router specific instructions, you can use [portforward.com](https://portforward.com/router.htm), which has instructions for specific routers. Follow along with the guide, and you can use this site to know exactly where each button is
 There will be ads telling you to download such and such, **do not click on them**.
 When ads pop up, either ignore them or press the close button in the top right if they are full screen ads.
-
 <br>
+
 ### Instructions
 
 * You will need to get the IP address of the computer that you're hosting on as well as your router's <br>
