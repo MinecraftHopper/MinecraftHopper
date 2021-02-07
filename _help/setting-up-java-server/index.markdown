@@ -57,6 +57,15 @@ pause``` into it, click *Save As*
 	* If a message saying "Permission denied" shows up, open terminal and run `chmod +x`, then type a space, then drag your start.command file into the terminal window, then press *enter* and try running it again
 </details>
 
+## Eula {#eula}
+* Your server should've given you a message mentioning the EULA. Close that window.
+* Go to your workplace folder, and you should see a few new files. One of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
+![Eula](/static/images/help/setting-up-server/eula.png)
+
+---
+
+First, you need to read [the EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, then change `eula=false` to `eula=true`. Now, your server is all setup for playing locally. Check out the [information on playing with others](#multiplayer)
+
 
 ## The Server's Console {#console}
 
@@ -108,15 +117,6 @@ You can also use this to access a server over SSH.
 
 </details>
 
-
-## Eula {#eula}
-* Your server should've given you a message mentioning the EULA. Close that window.
-* Go to your workplace folder, and you should see a few new files. One of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
-![Eula](/static/images/help/setting-up-server/eula.png)
-
----
-
-First, you need to read [the EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, then change `eula=false` to `eula=true`. Now, your server is all setup for playing locally. Check out the [information on playing with others](#multiplayer)
 
 # Playing Multiplayer {#multiplayer}
 If you are playing with a person that *is* on the same network as you, for example if they're right next to you or are in another room of your home, then please follow the [*Playing Locally*](#localplay) section. 
