@@ -9,13 +9,13 @@ desc: "How to setup a Java edition Server"
 Minecraft: Java edition uses servers for online play.
 <br>**If you want to temporarily play multiplayer with someone on the same network as you, you can press "Open to lan" from the minecraft pause screen, and your world should show up for anyone on the same network**
 
-### Hosting Requirements: {#requirements}
+### Hosting Requirements: {: #requirements}
 
 * You will need Java installed. For 1.13 and below, you will need to use Oracle Java/OpenJDK 8. You can follow this to [install the right version of Java](/help/installing-java/)
 * Minecraft: Java Edition (to join the server)
 * A computer to host it on. This guide has instructions specific to both Windows and MacOS, but a Linux machine should work as well. It is recommended to host a server on a desktop computer, but you can use a laptop as well.
 
-## Setting up {#setup}
+## Setting up {: #setup}
 * Make a new folder anywhere on your system, if you're using Windows, then don't use the onedrive folder. You can name the folder anything. This will be our server folder, or workspace
 * Head over to [Minecraft's website](https://www.minecraft.net/en-us/download/server) and download the latest version of the server jar.
 	* If you're looking to add plugins download [Paper](https://papermc.io/) as well. 
@@ -28,7 +28,7 @@ If you're using forge or fabric, then you'll need to run the installer and selec
 Now follow the OS specific instructions to setup the server. If you're using a linux server, the [MacOS instructions](#macos) will fit you better
 
 
-### Windows {#windows}
+### Windows {: #windows}
 <details>
 	<summary>Click to expand</summary>
 
@@ -40,7 +40,7 @@ pause``` into it, click *Save As*
 * Run it, you will see a command prompt window briefly flash. Now, you'll need to [agree to the EULA](#eula) to continue. If you agreed to it, you can now access the [console](#console)
 </details>
 
-### MacOS {#macos}
+### MacOS {: #macos}
 <details>
 	<summary>Click to expand</summary>
 
@@ -53,11 +53,11 @@ pause``` into it, click *Save As*
 	exec java -Xms1G -Xmx2G -jar server.jar
 	```
 * Press <strong>cmd-s</strong>, then navigate to your workspace folder. Title the file `start.command`. Make sure it does not save as `start.command.txt`.
-* Now go to your workspace folder, then double click on the `start.command` file to run it. You'll see a terminal window open. After [agreeing to the EULA](#eula), you can use [your server's console]{#console}. 
+* Now go to your workspace folder, then double click on the `start.command` file to run it. You'll see a terminal window open. After [agreeing to the EULA](#eula), you can use [your server's console](#console). 
 	* If a message saying "Permission denied" shows up, open terminal and run `chmod +x`, then type a space, then drag your start.command file into the terminal window, then press *enter* and try running it again
 </details>
 
-## Eula {#eula}
+## Eula {: #eula}
 * Your server should've given you a message mentioning the EULA. Close that window.
 * Go to your workplace folder, and you should see a few new files. One of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
 ![Eula](/static/images/help/setting-up-server/eula.png)
@@ -67,7 +67,7 @@ pause``` into it, click *Save As*
 First, you need to read [the EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, then change `eula=false` to `eula=true`. Now, your server is all setup for playing locally. Check out the [information on playing with others](#multiplayer)
 
 
-## The Server's Console {#console}
+## The Server's Console {: #console}
 
 #### Commands
 <details>
@@ -85,7 +85,7 @@ The best way to stop a server is to run `save-all`, then `stop` once the save ha
 
 </details>
 
-#### Information
+#### Information {: #console-info}
 <details>
 	<summary>Click to expand</summary>
 
@@ -94,11 +94,11 @@ The console will also display information about how the server is running, if it
 
 
 
-#### The GUI
+#### The GUI {: #gui}
 <details>
 	<summary>Click to expand</summary>
 
-You may have noticed earlier that the start command contains `-nogui`, this prevents the server's visual interface from displaying. If you would like to view your server's GUI, at the expense of some performance, you can remove the `-nogui` part of the command.
+You may have noticed earlier that the start command contains `-nogui`, this prevents the server's visual interface from displaying. If you would like to view your server's GUI, at the expense of some performance, you can remove the `-nogui` part of the command. The gui displays information about the RAM used in the top left, below that is a list of online players, and on the right is the console. You can type commands into the box at the bottom, and you can see the [console information section](#console-info)
 
 </details>
 
@@ -118,12 +118,12 @@ You can also use this to access a server over SSH.
 </details>
 
 
-# Playing Multiplayer {#multiplayer}
+# Playing Multiplayer {: #multiplayer}
 If you are playing with a person that *is* on the same network as you, for example if they're right next to you or are in another room of your home, then please follow the [*Playing Locally*](#localplay) section. 
 
 If you're trying to play with someone that *is not* on the same network as you, for example, if they aren't in the same household as you, please follow the [*Playing Online*](#portforwarding) section
 
-## Playing Locally {#localplay}
+## Playing Locally {: #localplay}
 <details>
 	<summary>Click to expand</summary>
 
@@ -145,7 +145,7 @@ Start up the server and then tell them to click "Add a new server" or "Direct Co
 If you want to connect to the server on your own computer then do the above but instead use "localhost" as the IP
 </details>
 
-## Playing Online and Port Forwarding {#portforwarding}
+## Playing Online and Port Forwarding {: #portforwarding}
 
 <details open>
 	<summary>Click to expand</summary>
