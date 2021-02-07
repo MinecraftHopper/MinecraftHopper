@@ -149,8 +149,16 @@ If you want to connect to the server on your own computer then do the above but 
 
 <details open>
 	<summary>Click to expand</summary>
+<br>
 
 **Most of the instructions here are for generic routers, They might not work for yours**<br>
+
+If you would like router specific instructions, you can use [portforward.com](https://portforward.com/router.htm), which has instructions for specific routers. Follow along with the guide, and you can use this site to know exactly where each button is
+There will be ads telling you to download such and such, **do not click on them**.
+When ads pop up, either ignore them or press the close button in the top right if they are full screen ads.
+
+<br>
+### Instructions
 
 * You will need to get the IP address of the computer that you're hosting on as well as your router's <br>
 
@@ -197,7 +205,7 @@ Add a service name if required, save, and test your server by connecting with `l
 As the final step to allow people outside your network to join, you will need to give them your public IP address, which you can find [here](https://duckduckgo.com/?q=what+is+my+ip). They can put the IP (which will look like `XXX.XXX.XXX.XXX`), into the server address box or the direct connection box.
 
 ###### Addresses to connect with:
-* To connect from the host device, use `localhost`
+* If you are hosting and playing on the same device, use `localhost`
 * To connect from inside the network, for instance, if you're in the same house, use the [local IP address](#localplay)
 * To connect from outside the network, for instance, with your friend who is not at your house, use your [public IP address](https://duckduckgo.com/?q=what+is+my+ip)
 
