@@ -16,7 +16,7 @@ The Minecraft launcher keeps logs of game events as they happen which can be use
 * [JVM Crash Report](/help/getting-minecraft-jvm-crash-report/)
 
 A crash report is generated when some form of error is thrown within minecraft or java, and Minecraft is not able to recover or exit safely. When Minecraft crashes, an error message like the one below is usually shown.
-![](/static/images/help/guides/getting-minecraft-logs/minecraft-crash.png)
+![Minecraft Crash Example](/static/images/help/guides/getting-minecraft-crash-report/minecraft-crash.png)
 
 Most of the time, Minecraft crashes when mods are installed but cannot be loaded properly, but Minecraft crashes can also be caused by other factors.
 
@@ -25,27 +25,27 @@ Most of the time, Minecraft crashes when mods are installed but cannot be loaded
 #### Step 1
 
 Open the crash-reports folder inside the [.minecraft folder](/help/finding-minecraft-data-folder/).
-![](/static/images/help/guides/getting-minecraft-logs/minecraft-folder-crash-reports.png)
+![](/static/images/help/guides/getting-minecraft-crash-report/minecraft-folder-crash-reports.png)
 
 #### Step 2
 
 Find the latest crash report using the year, month, and day using the indicators in the image below.
-![](/static/images/help/guides/getting-minecraft-logs/crash-reports-folder.png)
+![](/static/images/help/guides/getting-minecraft-crash-report/crash-reports-folder.png)
 
 #### Step 3
 
 Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**Ctrl-C** or **Cmd-C**).
-![](/static/images/help/guides/getting-minecraft-logs/crash-report-selectall.png)
+![](/static/images/help/guides/getting-minecraft-crash-report/crash-report-selectall.png)
 
 #### Step 4
 
 Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
-![](/static/images/help/guides/getting-minecraft-logs/ubuntu-crash-report.png)
+![](/static/images/help/guides/getting-minecraft-crash-report/ubuntu-crash-report.png)
 
 #### Step 5
 
 Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![](/static/images/help/guides/getting-minecraft-logs/ubuntu-crash-report-url.png)
+![](/static/images/help/guides/getting-minecraft-crash-report/ubuntu-crash-report-url.png)
 
 ## Troubleshooting
 
