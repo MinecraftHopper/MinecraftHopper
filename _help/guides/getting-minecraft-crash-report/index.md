@@ -25,27 +25,27 @@ Most of the time, Minecraft crashes when mods are installed but cannot be loaded
 #### Step 1
 
 Open the crash-reports folder inside the [.minecraft folder](/help/finding-minecraft-data-folder/).
-![](/static/images/help/guides/getting-minecraft-crash-report/minecraft-folder-crash-reports.png)
+![Minecraft data folder highlighting crash-reports folder](/static/images/help/guides/getting-minecraft-crash-report/minecraft-folder-crash-reports.png)
 
 #### Step 2
 
 Find the latest crash report using the year, month, and day using the indicators in the image below.
-![](/static/images/help/guides/getting-minecraft-crash-report/crash-reports-folder.png)
+![Minecraft crash-reports folder](/static/images/help/guides/getting-minecraft-crash-report/crash-reports-folder.png)
 
 #### Step 3
 
 Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**Ctrl-C** or **Cmd-C**).
-![](/static/images/help/guides/getting-minecraft-crash-report/crash-report-selectall.png)
+![Opened crash report in Notepad with all text selected](/static/images/help/guides/getting-minecraft-crash-report/crash-report-selectall.png)
 
 #### Step 4
 
 Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
-![](/static/images/help/guides/getting-minecraft-crash-report/ubuntu-crash-report.png)
+![Ubuntu Pastebin site filled out](/static/images/help/guides/getting-minecraft-crash-report/ubuntu-crash-report.png)
 
 #### Step 5
 
 Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![](/static/images/help/guides/getting-minecraft-crash-report/ubuntu-crash-report-url.png)
+![Ubuntu Pastebin site with pasted data and URL](/static/images/help/guides/getting-minecraft-crash-report/ubuntu-crash-report-url.png)
 
 ## Troubleshooting
 

@@ -22,32 +22,32 @@ The latest log begins logging after Minecraft successfuly launches the title scr
 #### Step 1
 
 Start Minecraft and run it to the point where the crash/error occurs. Then close Minecraft and keep it closed.
-![](/static/images/help/guides/getting-minecraft-latest-log/minecraft-failure.png)
+![Minecraft in-game error example](/static/images/help/guides/getting-minecraft-latest-log/minecraft-failure.png)
 
 #### Step 2
 
 Open the logs folder inside the [.minecraft folder](/help/finding-minecraft-data-folder/).
-![](/static/images/help/guides/getting-minecraft-latest-log/minecraft-folder-logs.png)
+![Minecraft logs folder](/static/images/help/guides/getting-minecraft-latest-log/minecraft-folder-logs.png)
 
 #### Step 3
 
 In the Logs folder, scroll down and open a file called *latest* or *latest.log*. Double click the file to open it in Notepad.
-![](/static/images/help/guides/getting-minecraft-latest-log/logs-folder-latest-log.png)
+![Minecraft logs folder highlighting latest.log](/static/images/help/guides/getting-minecraft-latest-log/logs-folder-latest-log.png)
 
 #### Step 4
 
 Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**Ctrl-C** or **Cmd-C**).
-![](/static/images/help/guides/getting-minecraft-latest-log/latest-log-selectall.png)
+![Latest Log file with all text selected](/static/images/help/guides/getting-minecraft-latest-log/latest-log-selectall.png)
 
 #### Step 5
 
 Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
-![](/static/images/help/guides/getting-minecraft-latest-log/ubuntu-latest-log.png)
+![Ubuntu Pastebin site with contents pasted](/static/images/help/guides/getting-minecraft-latest-log/ubuntu-latest-log.png)
 
 #### Step 6
 
 Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![](/static/images/help/guides/getting-minecraft-latest-log/ubuntu-latest-log-url.png)
+![Ubuntu Pastebin site with data pasted showing URL](/static/images/help/guides/getting-minecraft-latest-log/ubuntu-latest-log-url.png)
 
 ## Troubleshooting
 
