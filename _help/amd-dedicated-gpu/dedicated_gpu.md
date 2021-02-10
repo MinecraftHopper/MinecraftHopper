@@ -5,7 +5,7 @@ name: "amd-dedicated-gpu"
 desc: "How to set the default GPU (AMD)"
 ---
 
-# How to Switch Between Graphics Card and iGPU with AMD
+# How to Switch Between Graphics Card and iGPU (AMD)
 
 #### Question:
 I have a good AMD GPU, but when I play Minecraft I get lower-than-expected FPS, how can I fix this?
