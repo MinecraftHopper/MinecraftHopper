@@ -110,7 +110,7 @@ Scroll back to the top of the page and click **Xbox One/Windows 10 Online Safety
 * _Play multiplayer games_: **You can join multiplayer games**
 * Bedrock only: _Add friends on Xbox Live_: **You can add friends**
 
-![](/static/images/help/guides/xbox-privacy/xbox-privacy-online.png)
+![Xbox privacy settings, online safety tab](/static/images/help/guides/xbox-privacy/xbox-privacy-online.png)
 
 #### Step 5
 
