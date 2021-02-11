@@ -9,10 +9,10 @@ desc: "How to get Java crash reports in Minecraft"
 
 The Minecraft launcher keeps logs of game events as they happen which can be useful for debugging errors or other issues that may occur within the game. There are five types of logs that can be obtained:
 
-* [Game Output](/help/getting-minecraft-game-output-log/)
-* [Launcher Log](/help/getting-minecraft-launcher-log/)
-* [Latest Log](/help/getting-minecraft-latest-log/)
-* [Crash Report](/help/getting-minecraft-crash-report/)
+* [Game Output](/help/guides/getting-minecraft-game-output-log/)
+* [Launcher Log](/help/guides/getting-minecraft-launcher-log/)
+* [Latest Log](/help/guides/getting-minecraft-latest-log/)
+* [Crash Report](/help/guides/getting-minecraft-crash-report/)
 * JVM Crash Report (this guide)
 
 Sometimes that java runtime will throw an error that will cause Minecraft to exit unexpectedly. When that happens, a JVM crash report will be generated in the Minecraft data folder, and is often helpful to pinpoint what caused the Java error and how to fix it.

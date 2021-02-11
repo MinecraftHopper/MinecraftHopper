@@ -9,11 +9,11 @@ desc: "How to get launcher logs in Minecraft"
 
 The Minecraft launcher keeps logs of game events as they happen which can be useful for debugging errors or other issues that may occur within the game. There are five types of logs that can be obtained:
 
-* [Game Output](/help/getting-minecraft-game-output-log/)
+* [Game Output](/help/guides/getting-minecraft-game-output-log/)
 * Launcher Log (this guide)
-* [Latest Log](/help/getting-minecraft-latest-log/)
-* [Crash Report](/help/getting-minecraft-crash-report/)
-* [JVM Crash Report](/help/getting-minecraft-jvm-crash-report/)
+* [Latest Log](/help/guides/getting-minecraft-latest-log/)
+* [Crash Report](/help/guides/getting-minecraft-crash-report/)
+* [JVM Crash Report](/help/guides/getting-minecraft-jvm-crash-report/)
 
 The launcher log contains history from when the launder is started up until the game is closed. It is by far the most comprehensive log that Minecraft produces. Most often this log will be requested during most troubleshooting processes.
 
