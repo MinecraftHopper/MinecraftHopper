@@ -226,6 +226,9 @@ In the 'Outbound Port' and 'Inbound port' or 'Start port' and 'end port' put '25
 
 Add a service name if required, save, and test your server by connecting with `localhost` (if you're hosting on the computer you're testing it on) 
 
+* Sign in and then find something like "Port Forwarding", "Firewall", or "Virtual servers" 
+* Click "Add", Then put the IP address you got from earlier in "IPv4 Address" or "IP address"
+In the "Outbound Port" and "Inbound port" or "Start port" and "end port" put "25565"
 
 As the final step to allow people outside your network to join, you will need to give them your public IP address, which you can find [here](https://duckduckgo.com/?q=what+is+my+ip). They can put the IP (which will look like `XXX.XXX.XXX.XXX`), into the server address box or the direct connection box.
 
@@ -239,3 +242,4 @@ As the final step to allow people outside your network to join, you will need to
 </details>
 
 
+</details>
