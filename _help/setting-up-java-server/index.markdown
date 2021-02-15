@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  'How to setup a Java edition Server'
+title:  'How to Setup a Java Edition Server'
 name: 'setting-up-java-server'
-desc: 'How to setup a Java edition Server'
+desc: 'How to Setup a Java Edition Server'
 ---
 
 # Setting up a Minecraft: Java Edition server
@@ -149,6 +149,7 @@ If you're trying to play with someone that *is not* on the same network as you, 
 	<summary>Click to expand</summary>
 
 {{ "
+
 In order for them to join you, you will need to find your IP. You can think of your IP as a join code or friend code used to access the server)<br>
 * Open up command prompt, and in the command prompt type 'IPconfig'. Press enter and look for something like:<br>
 `IPv4 Address.......: XXX.XXX.X.X` <br>
@@ -161,9 +162,10 @@ This is the IP that the person will use to connect to the server.
 Start up the server and then tell them to click 'Add a new server' or 'Direct Connect'
 * For 'Add a new server' the name can be anything but the IP needs to be your IPv4 address, so tell them to put that there. Click finish and then double click the server and they have connected
 
-* For 'Direct connect' tell them to put your IPv4 into the ip box and click connect<br>
+* For 'Direct connect' tell them to put your IPv4 into the ip box and click connect
 
 If you want to connect to the server on your own computer then do the above but instead use 'localhost' as the IP
+
 " | markdownify }}
 </details>
 
@@ -217,18 +219,14 @@ Open up your web browser and type the IP address for your router and you should 
 Look at the back of your router or search for the router online and find the username and password. `Admin` is a popular default username/password
 
 
-Sign in and then find something like 'Port Forwarding', 'Firewall', or 'Virtual servers' 
-Click 'Add', then put the IP address you got from earlier in 'IPv4 Address' or 'IP address'
-In the 'Outbound Port' and 'Inbound port' or 'Start port' and 'end port' put '25565'
-
 * **Make sure that the 'Protocol' or 'Service Type' is either 'TCP/UDP' or 'BOTH'.**
 	* If you do not have this option then do the step twice, one in TCP and one on UDP
 
 Add a service name if required, save, and test your server by connecting with `localhost` (if you're hosting on the computer you're testing it on) 
 
-* Sign in and then find something like "Port Forwarding", "Firewall", or "Virtual servers" 
-* Click "Add", Then put the IP address you got from earlier in "IPv4 Address" or "IP address"
-In the "Outbound Port" and "Inbound port" or "Start port" and "end port" put "25565"
+* Sign in and then find something like 'Port Forwarding', 'Firewall', or 'Virtual servers'
+* Click 'Add', then put the IP address you got from earlier in 'IPv4 Address' or 'IP address'
+In the 'Outbound Port' and 'Inbound port' or 'Start port' and 'end port' put '25565'
 
 As the final step to allow people outside your network to join, you will need to give them your public IP address, which you can find [here](https://duckduckgo.com/?q=what+is+my+ip). They can put the IP (which will look like `XXX.XXX.XXX.XXX`), into the server address box or the direct connection box.
 
@@ -238,8 +236,5 @@ As the final step to allow people outside your network to join, you will need to
 * To connect from outside the network, for instance, with your friend who is not at your house, use your [public IP address](https://duckduckgo.com/?q=what+is+my+ip)
 
 " | markdownify }}
-
-</details>
-
 
 </details>
