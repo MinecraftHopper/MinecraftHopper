@@ -19,7 +19,8 @@ Ask them to contact Mojang at https://help.minecraft.net/hc/requests/new. If you
 ## Game freezes on loading screen
 Caused by malware called PremiereOpinion, run [Malwarebytes Adwcleaner](https://www.malwarebytes.com/adwcleaner/) (Absol Factoid: `av/adwcleaner`)
 
-
+## Launcher Freezes on a Grey Screen
+Delete `msa_account_credentials` in the .minecraft directory
 
 ## Multiplayer and Realms buttons greyed out on 1.16.4+ or "Failed to log in:null" on older versions
 This is caused if the user uses a Microsoft account to log in and is not considered an adult by the MS Account system. A parent or guardian will need to add the user to a [Microsoft Family](http://account.microsoft.com/family/addmember) and enable "You can join multiplayer games" under their profile in [Xbox Settings](https://account.xbox.com/settings). They will need to restart Minecraft for the changes to take effect (Absol Factoid: `account/microsoft/multiplayer`)
