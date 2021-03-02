@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Failed to load Skull"
-name: "failed-to-load-skull"
+title:  "Failed to load player skull"
+name: "failed-to-load-player-skull"
 desc: "How to fix the Failed to Load Skull error in Minecraft"
 ---
 
