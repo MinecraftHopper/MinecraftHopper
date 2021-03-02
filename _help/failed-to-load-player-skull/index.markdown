@@ -20,4 +20,4 @@ If you are a server administrator, please ensure that you are not running any mo
 
 Alongside, you should contact the developers of your server modifications if you are using any.
 
-If your question was not answered here, or for further support please see our [technical support resources](https://minecrafthopper.net/help/technical-support-resources/).
+If your question was not answered here, or for further support please see our [technical support resources](/help/technical-support-resources/).
