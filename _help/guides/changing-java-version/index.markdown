@@ -27,11 +27,11 @@ Then click on **Latest Release**, then click on **More Options** in the window t
 
 #### Step 3
 
-Under **Java Executable** click **Browse** and navigate to:
+Under **Java Executable**, copy the relevant text below and paste it into the field:
 
-* __Windows__: C:\Program Files\Java\[version]\bin\javaw
-* __MacOS__: /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java
-* __Linux__: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+* __Windows__: `C:\Program Files\Java\jre1.8.0_281\bin\javaw`
+* __MacOS__: `/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java`
+* __Linux__: **click browse** then navigate to `/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java` (note: your exact path may differ slightly)
 
 Then click **OK**, then **Save**.
 
