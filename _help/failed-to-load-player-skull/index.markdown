@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Failed to load Skull"
-name: "failed-to-load-skull"
+title:  "Failed to load player skull"
+name: "failed-to-load-player-skull"
 desc: "How to fix the Failed to Load Skull error in Minecraft"
 ---
 
@@ -20,4 +20,4 @@ If you are a server administrator, please ensure that you are not running any mo
 
 Alongside, you should contact the developers of your server modifications if you are using any.
 
-If your question was not answered here, or for further support please see our [technical support resources](https://minecrafthopper.net/help/technical-support-resources/).
+If your question was not answered here, or for further support please see our [technical support resources](/help/technical-support-resources/).
