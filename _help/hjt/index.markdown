@@ -1,17 +1,17 @@
 ---
 layout: article
-title: "Getting an HJT Log"
+title: "Getting a HijackThis Log"
 name: "hjt-log"
-desc: "Getting an HJT log for further troubleshooting"
+desc: "Getting a HijackThis log for further troubleshooting"
 ---
 
-# Getting an HJT Log for Further Troubleshooting
+# Getting a HijackThis Log for Further Troubleshooting
 
-HijackThis (HJT) is a utility that is used to collect diagnostic reports of your computer to help narrow down the cause of any issues you may be having. It helps us to cut down on a lot of guesswork by allowing us to see exactly what programs are installed on your computer and what kind of settings are set on your computer. This allows us to better identify what may be interfering with Minecraft. **No personal information is saved in these logs.**
+HijackThis is a utility that is used to collect diagnostic reports of your computer to help narrow down the cause of any issues you may be having. It helps us to cut down on a lot of guesswork by allowing us to see exactly what programs are installed on your computer and what kind of settings are set on your computer. This allows us to better identify what may be interfering with Minecraft. **No personal information is saved in these logs.**
 
 For more information, see the [Wikipedia article](https://en.wikipedia.org/wiki/HijackThis) about this tool. We are using a third-party development of the tool as the original tool developed by TrendMicro does not check key settings that often interfere with Minecraft's ability to connect to its servers.
 
-Follow the instructions below to generate an HJT log.
+Follow the instructions below to generate a HijackThis log.
 
 ### Windows
 <details>
