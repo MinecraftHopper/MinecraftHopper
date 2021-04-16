@@ -26,7 +26,7 @@ This is caused if the user uses a Microsoft account to log in and is not conside
 
 
 ## Can only play demo
-Make sure they are logging in with the **Microsoft Login** button if they bought after December 1st, 2020, and **Mojang** if they bought before. If they are logging in with Microsoft and bought after, ask for a screenshot of the launcher and https://minecraft.net/en-us/profile (contains no personal information if logging in with Microsoft) and compare the listed Xbox gamertags to make sure they match and make sure a Minecraft username is shown on the webpage as they have not bought the game otherwise. If they have not bought the game, establish if an email from Mojang containing a Transaction ID was received. If it was not, see https://help.minecraft.net/hc/en-us/articles/360042693692-Minecraft-Java-Edition-I-Was-Charged-but-Did-Not-Receive-the-Game- (Absol Factoid: `account/payment/pending`)
+Make sure they are logging in with the **Microsoft Login** button if they bought after December 1st, 2020, and **Mojang Login** if they bought before. If they are logging in with Microsoft and bought after, ask for a screenshot of the launcher and https://minecraft.net/en-us/profile (contains no personal information if logging in with Microsoft) and compare the listed Xbox gamertags to make sure they match and make sure a Minecraft username is shown on the webpage as they have not bought the game otherwise. If they have not bought the game, establish if an email from Mojang containing a Transaction ID was received. If it was not, see https://help.minecraft.net/hc/en-us/articles/360042693692-Minecraft-Java-Edition-I-Was-Charged-but-Did-Not-Receive-the-Game- (Absol Factoid: `account/payment/pending`)
 
 If all else fails, contact Mojang Support at https://help.minecraft.net/hc/requests/new  (Absol Factoid: `!?f account/send-email`)
 
@@ -38,6 +38,16 @@ It is unwise to give any estimates on wait time for Mojang Support emails as the
 
 ## Account Migration issues
 If it is unclear, establish whether the user is trying to migrate from a Legacy account to a Mojang account or a Mojang account to a Microsoft account. If they are trying to migrate a Legacy account, inform them that Legacy -> Mojang migration is currently unavailable but they can still log into the launcher. If they are trying to migrate to a Microsoft account, explain that account migration has not yet started, and link them to the account migration FAQ page at https://help.minecraft.net/hc/en-us/articles/360050865492 (Absol Factoid: `account/microsoft`)
+
+## Trouble buying Minecraft
+Establish what country the user is trying to purchase from. If they are in the [US](https://www.amazon.com/Minecraft-PC-Mac-Code/dp/B010KYDNDG), [UK](https://www.amazon.co.uk/Minecraft-PC-Mac-Code/dp/B010KYDNDG/), [France](https://www.amazon.fr/Minecraft-PC-Mac-Code/dp/B010KYDNDG/) or [Germany](https://www.amazon.de/Minecraft-PC-Mac-Code/dp/B010KYDNDG/) they can buy a gift code off Amazon (Absol factoid: `account/buy/amazon`). Otherwise, the most reliable way is to use PayPal or PayPal Guest, which does not require an account. You can access PayPal Guest by selecting the PayPal option at checkout, clicking the PayPal button and selecting Guest Checkout.
+
+If PayPal is not available in the user's country, they must try with different cards and devices. Note that you can't buy Minecraft with prepaid cards, and credit cards seem to be preferred over debit. 
+
+If the user's card was charged but they have not received the game, check whether they received an email from Mojang containing a Transaction ID. If they did not, see [I Was Charged but Did Not Receive the Game](https://help.minecraft.net/hc/en-us/articles/360042693692-Minecraft-Java-Edition-I-Was-Charged-but-Did-Not-Receive-the-Game-) (Absol Factoid: `account/payment/pending`). If they did, see "Can Only Play Demo" above.
+
+If all else fails, it can't hurt to contact Mojang Support if they haven't already.
+
 
 ## If you have no ideas
 Run HiJackThis and Adwcleaner to check for incompatible software. For networking issues, have them try on a mobile hotspot and change their DNS (https://1.1.1.1/dns/). Google and https://bugs.mojang.com are also good places to search for issues.
