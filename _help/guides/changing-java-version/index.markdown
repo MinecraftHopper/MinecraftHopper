@@ -13,7 +13,7 @@ The Java version of Minecraft comes with a Java runtime bundled with the install
 
 First, you will need to make sure that a standalone Java runtime is installed on your computer.
 
-[Follow the instructions here to make sure you have standalone Java installed, or to install it.](help/installing-java/)
+[Follow the instructions here to make sure you have standalone Java installed, or to install it.](/help/installing-java/)
 
 ### Part B: Set Minecraft to use Standalone Java Runtime
 
