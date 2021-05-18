@@ -33,7 +33,7 @@ Enter in Terminal: `java -version`
 
 
 # Installing Java<small> - How to install Java</small>
-
+Note: As of snapshot 21w19a, Java 16 is required to run the game. The launcher should download it automatically, but if you need it to run a server or the launcher doesn't download it automatically, you can download it from [here](https://adoptopenjdk.net/), with installation instructions [here](https://adoptopenjdk.net/installation.html). Be sure to choose OpenJDK 16 from the list.
 
 ## [Installing Java for Windows](#install-windows) {#install-windows}
 
