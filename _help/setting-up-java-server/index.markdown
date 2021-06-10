@@ -34,9 +34,12 @@ Now follow the OS specific instructions to setup the server. If you're using a l
 
 {{ "
 * Rename the file you previously downloaded to 'server' (or server.jar if you have file extensions on)
-* Open up notepad and paste ``` @echo off
-java -Xmx2G -Xms1G -jar server.jar -nogui
-pause``` into it, click *Save As* 
+* Open up notepad and paste 
+	```
+	java -Xmx2G -Xms1G -jar server.jar -nogui
+	pause
+	``` 
+into it, click *Save As* 
 * Go to the folder that contains your server, change the filetype to 'all' and name the file start.bat **There must to be a .bat at the end of the file name**, 
 * Run it, you will see a command prompt window briefly flash. Now, you'll need to [agree to the EULA](#eula) to continue. If you agreed to it, you can now access the [console](#console)
 " | markdownify }}
