@@ -47,7 +47,7 @@ Only adults will be able to change privacy settings. Regardless of how your Micr
 
 #### Is my Microsoft account considered underage?
 
-Try going to [](https://account.xbox.com/settings) in your browser. If, after logging in to your Xbox account you see the page in the screenshot below, your account is considered underage and your parents/guardian need to give you permission to play multiplayer. Continue with the instructions on this page.
+Try going to (https://account.xbox.com/settings) in your browser. If, after logging in to your Xbox account you see the page in the screenshot below, your account is considered underage and your parents/guardian need to give you permission to play multiplayer. Continue with the instructions on this page.
 ![Xbox privacy redirecting to support page](/static/images/help/guides/xbox-privacy/xbox-privacy-notallowed.png)
 
 **NOTE:** If you see the privacy page, then directly change your privacy settings according to [these instructions](#change-xbox-privacy-settings).
@@ -56,7 +56,7 @@ Try going to [](https://account.xbox.com/settings) in your browser. If, after lo
 
 #### Step 1
 
-With the adult account, go to [](https://account.microsoft.com/family) and log in if needed.
+With the adult account, go to (https://account.microsoft.com/family) and log in if needed.
 ![Microsoft family page](/static/images/help/guides/xbox-privacy/microsoft-family.jpg)
 
 #### Step 2
@@ -82,7 +82,7 @@ The account is now part of the Microsoft family.
 
 #### Step 1
 
-Go to [](https://account.xbox.com/settings) and log in **with an adult account**. You should see the following screen.
+Go to (https://account.xbox.com/settings) and log in **with an adult account**. You should see the following screen.
 ![](/static/images/help/guides/xbox-privacy/xbox-privacy.png)
 
 If you see the following screen, you must follow [these instructions](#underage). **These instructions are not optional. You must follow these instructions before you can continue with this section.**
