@@ -15,7 +15,7 @@ To fix this, you will need to change your DNS.
 
 {{ "
 #### Step 1
-On your keyboard, press Windows key
+On your keyboard, press Windows key.
 Search `Command Prompt`, right click the result and press `Run as administrator`
 ![](/static/images/help/dns/win-search-cmd.png)
 
