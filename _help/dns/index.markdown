@@ -43,7 +43,7 @@ Right click on the Wi-Fi network you are connected to, and click Properties.
 After, select `Internet Protocol Version 4` and click Properties.
 Then, in the bottom, select `Use the following DNS server adresses:`.
 In the `Preferred DNS server`, type `1.1.1.1`.
-In the `Alternate DNS server`, type `1.1.1.1`.
+In the `Alternate DNS server`, type `1.0.0.1`.
 ![](/static/images/help/dns/win-panel-dns.png)
 
 #### Step 5
