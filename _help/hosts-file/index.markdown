@@ -18,6 +18,7 @@ As a result, users who have used alt account tools in the past will find that th
     <td width="50%">
       <ul>
         <li>"The authentication servers are down for maintenance."</li>
+        <li>"The authentication servers are currently not reachable."</li>
         <li>"Please switch to Mojang mode."</li>
         <li>"Not authenticated with minecraft.net."</li>
       </ul>
