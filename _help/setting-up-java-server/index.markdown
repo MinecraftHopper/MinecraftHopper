@@ -6,6 +6,7 @@ desc: 'How to Setup a Java Edition Server'
 ---
 
 # Setting up a Minecraft: Java Edition server
+
 Minecraft: Java edition uses servers for online play.
 <br>**If you want to temporarily play multiplayer with someone on the same network as you, you can press 'Open to lan' from the minecraft pause screen, and your world should show up for anyone on the same network**
 
