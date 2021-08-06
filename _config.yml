@@ -13,6 +13,6 @@ theme: jekyll-theme-cayman
 collections:
     help:
         output: true
-
+        permalink: /help/:path/
 plugins:
   - jekyll-redirect-from
