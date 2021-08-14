@@ -47,7 +47,7 @@ Only adults will be able to change privacy settings. Regardless of how your Micr
 
 #### Is my Microsoft account considered underage?
 
-Try going to https://account.xbox.com/settings in your browser. If, after logging in to your Xbox account you see the page in the screenshot below, your account is considered underage and your parents/guardian need to give you permission to play multiplayer. Continue with the instructions on this page.
+Try going to [https://account.xbox.com/settings](https://account.xbox.com/settings) in your browser. If, after logging in to your Xbox account you see the page in the screenshot below, your account is considered underage and your parents/guardian need to give you permission to play multiplayer. Continue with the instructions on this page.
 ![Xbox privacy redirecting to support page](/static/images/help/guides/xbox-privacy/xbox-privacy-notallowed.png)
 
 **NOTE:** If you see the privacy page, then directly change your privacy settings according to [these instructions](#change-xbox-privacy-settings).
