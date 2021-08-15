@@ -56,7 +56,7 @@ Try going to [https://account.xbox.com/settings](https://account.xbox.com/settin
 
 #### Step 1
 
-With the adult account, go to https://account.microsoft.com/family and log in if needed.
+With the adult account, go to [https://account.xbox.com/settings](https://account.xbox.com/settings) and log in if needed.
 ![Microsoft family page](/static/images/help/guides/xbox-privacy/microsoft-family.jpg)
 
 #### Step 2
@@ -82,7 +82,7 @@ The account is now part of the Microsoft family.
 
 #### Step 1
 
-Go to https://account.xbox.com/settings and log in **with an adult account**. You should see the following screen.
+Go to [https://account.xbox.com/settings](https://account.xbox.com/settings) and log in **with an adult account**. You should see the following screen.
 ![](/static/images/help/guides/xbox-privacy/xbox-privacy.png)
 
 If you see the following screen, you must follow [these instructions](#underage). **These instructions are not optional. You must follow these instructions before you can continue with this section.**
