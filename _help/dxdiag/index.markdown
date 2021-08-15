@@ -33,6 +33,6 @@ First, paste the text that you copied from the file into the text area in the ce
 
 #### Step 5
 
-Press the "Paste!" option and it will redirect you to a URL with all the text you pasted. Copy the URL out of your address bar and visit one of the [technical support resources](https://minecrafthopper.net/help/technical-support-resources/). Give them a brief description of your issue along with the link to your DxDiag report.
+Press the "Paste!" option and it will redirect you to a URL with all the text you pasted. Copy the URL out of your address bar and give it to the person helping you. If no-one is helping you, you can visit one of the [technical support resources](https://minecrafthopper.net/help/technical-support-resources/). Give a brief description of your issue along with the link you just copied.
 
-From there on, they will give you further instructions.
+From there on, you will be given further instructions.
