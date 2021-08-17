@@ -4,3 +4,5 @@ _site
 .idea/
 .DS_Store
 Jekyll.sh
+Gemfile.lock
+vendor/
