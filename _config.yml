@@ -8,7 +8,7 @@ twitter_username: ""
 github_username:  ""
 
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: just-the-docs
 
 collections:
     help:
