@@ -8,25 +8,25 @@ desc: 'How to Setup a Java Edition Server'
 # Setting up a Minecraft: Java Edition server
 
 Minecraft: Java edition uses servers for online play.
-<br>**If you want to temporarily play multiplayer with someone on the same network as you, you can press 'Open to lan' from the minecraft pause screen, and your world should show up for anyone on the same network**
+<br>**If you want to temporarily play multiplayer with someone on the same network as you, you can press 'Open to LAN' from the minecraft pause menu (`Escape` key to open), and your world should show up for anyone on the same network**
 
 ### Hosting Requirements: {#requirements}
 
-* You will need Java installed. For 1.13 and below, you will need to use Oracle Java/OpenJDK 8. You can follow this to [install the right version of Java](/help/installing-java/)
+* You will need Java installed. For 1.11.2 and below, you should use Java 8 (a Java Runtime Environment or a Java Develpment Kit). For 1.12 - 1.16.5, you should use Java 11. For 1.17 and above, you *must* use at least Java 16. You can follow this to [install the right version of Java](/help/installing-java/)
 * Minecraft: Java Edition (to join the server)
 * A computer to host it on. This guide has instructions specific to both Windows and MacOS, but a Linux machine should work as well. It is recommended to host a server on a desktop computer, but you can use a laptop as well.
 
 ## Setting up {#setup}
-* Make a new folder anywhere on your system, if you're using Windows, then don't use the onedrive folder. You can name the folder anything. This will be our server folder, or workspace
+* Make a new folder anywhere on your system. If you're using Windows, make sure your folder isn't in OneDrive. You can name the new folder anything you want, this will be our server folder or workspace.
 * Head over to [Minecraft's website](https://www.minecraft.net/en-us/download/server) and download the latest version of the server jar.
-	* If you're looking to add plugins download [Paper](https://papermc.io/) as well. 
-	* If you're using mods, also download the [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) or [Fabric](https://fabricmc.net/use/?page=server) jar
+	* If you're looking to add plugins download [Paper](https://papermc.io/) instead 
+	* If you're using mods, download the [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) or [Fabric](https://fabricmc.net/use/?page=server) installer
 
-* Place the file into your workplace
+* Place the jar file into the folder you created, its icon should be a coffee cup or 
 
-If you're using forge or fabric, then you'll need to run the installer and select 'Install server', click the 3 dots and find your workplace. Then you can install there
+If you're using forge or fabric, then you'll need to run the installer and select 'Install server', click the 3 dots and find your workplace.
 
-Now follow the OS specific instructions to setup the server. If you're using a linux server, the [MacOS instructions](#macos) will fit you better
+Now follow the OS specific instructions to setup the server. If you're using a linux server, follow the [MacOS instructions](#macos).
 
 
 ### Windows {#windows}
@@ -34,15 +34,23 @@ Now follow the OS specific instructions to setup the server. If you're using a l
 	<summary>Click to expand</summary>
 
 {{ "
-* Rename the file you previously downloaded to 'server' (or server.jar if you have file extensions on)
-* Open up notepad and paste 
+* Copy the *entire* name of the jar file you downloaded then go to [startmc](https://startmc.sh/) and paste your jar name in the `Server filename` field, be sure to add `.jar` to the end of pasted text in the field if it wasn't already there.
+* Click the drop down box called `Script type` and choose `Basic (Windows)`.
+* Click the `RAM amount` text box and input how much RAM you want your server to have access to with a 'G' at the end. For example, '3G'.
+* Click the disk emoji next to 'Generate' and the text field below that should have text similar to this, copy the that text.
 	```
-	java -Xmx2G -Xms1G -jar server.jar -nogui
-	pause
+	set JAVA=java
+	set JAR=server.jar
+	set RAM=3G
+	set FLAGS=-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Daikars.new.flags=true -Dusing.aikars.flags=https://mcflags.emc.gs
+
+	echo Starting server...
+	%JAVA% -Xmx%RAM% -Xms%RAM% %FLAGS% -jar %JAR% --nogui
 	``` 
-into it, click *Save As* 
-* Go to the folder that contains your server, change the filetype to 'all' and name the file start.bat **There must to be a .bat at the end of the file name**, 
-* Run it, you will see a command prompt window briefly flash. Now, you'll need to [agree to the EULA](#eula) to continue. If you agreed to it, you can now access the [console](#console)
+* Open Notepad and paste the text you copied from startmc, add `pause` to a new line below the text you just pasted and (optionally) remove the `echo "Starting server..."` line.
+* Click `File` in the top left of Notepad and click `Save As...`.
+* Go to the folder that contains your server, change the filetype to 'all' and name the file `start.bat` **There must to be a .bat at the end of the file name**, 
+* Run it, you will see a command prompt window show up and tell you that you have to agree to the EULA to start the server. Once you've agreed to the [EULA](#eula), your server should start and you should have be able to type commands in the [console](#console).
 " | markdownify }}
 
 </details>
@@ -52,29 +60,37 @@ into it, click *Save As*
 	<summary>Click to expand</summary>
 
 {{ "
-
-* Rename the file you previously downloaded from the Minecraft website to `server`, or `server.jar` if file extensions are shown
-* Open TextEdit, create a new document, and if you see markdown tools at the top of the text document, press <strong>shift-cmd-t</strong> to hide them
-* Copy and paste the following into the text document: 
+* Open TextEdit and create a new document. If you see markdown tools at the top of the text document, press <strong>shift-cmd-t</strong> to hide them.
+* Copy the *entire* name of the jar file you downloaded then go to [startmc](https://startmc.sh/) and paste your jar name in the `Server filename` field, be sure to add `.jar` to the end of pasted text in the field if it wasn't already there.
+* Click the drop down box called `Script type` and choose `Basic`.
+* Click the `RAM amount` text box and input how much RAM you want your server to have access to with a 'G' at the end. For example, '3G'.
+* Click the disk emoji next to 'Generate' and the text field below that should have text similar to this, copy the that text. 
 	```sh
 	#!/bin/bash
-	cd '$(dirname '$0')' 
-	exec java -Xms1G -Xmx2G -jar server.jar
+
+	JAVA="java"
+	JAR="server.jar"
+	RAM="3G"
+	FLAGS="-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Daikars.new.flags=true -Dusing.aikars.flags=https://mcflags.emc.gs"
+
+	echo "Starting server..."
+	${JAVA} -Xmx${RAM} -Xms${RAM} ${FLAGS} -jar ${JAR} --nogui
 	```
-* Press <strong>cmd-s</strong>, then navigate to your workspace folder. Title the file `start.command`. Make sure it does not save as `start.command.txt`.
-* Now go to your workspace folder, then double click on the `start.command` file to run it. You'll see a terminal window open. After [agreeing to the EULA](#eula), you can use [your server's console](#console). 
-	* If a message saying 'Permission denied' shows up, open terminal and run `chmod +x`, then type a space, then drag your start.command file into the terminal window, then press *enter* and try running it again
+* Optionally, remove the `echo "Starting server..."` line.
+* Now, press <strong>cmd-s</strong> and navigate to your server folder and name the file `start.command` (or `start.sh` if you're on Linux). Make sure it does not save as `start.command.txt`.
+* Now go to your workspace folder and double click the `start.command` (or `start.sh`) file to run it. You should see a terminal open. Once you've agreed to the [EULA](#eula), your server should start and you should have be able to type commands in the [console](#console).
+	* Should a message saying `Permission denied` appear, open a new terminal and run `chmod +x ` (space required), then drag your `start.command` (or `start.sh`) file into the terminal window, press 'enter' and try running the start file again
 " | markdownify }}
 </details>
 
 ## Eula {#eula}
-* Your server should've given you a message mentioning the EULA. Close that window.
-* Go to your workplace folder, and you should see a few new files. One of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
+* Your server should given you a message about accepting the EULA the first time it starts. Close the window that is telling you this.
+* Go to your server folder and you should see a few new files, one of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
 ![Eula](/static/images/help/setting-up-server/eula.png)
 
 ---
 
-First, you need to read [the EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, then change `eula=false` to `eula=true`. Now, your server is all setup for playing locally. Check out the [information on playing with others](#multiplayer)
+First, you need to read [the EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, change `eula=false` to `eula=true`. Now, your server is all setup for playing locally. Check out the [information on playing with others](#multiplayer) for allowing players outside of your network to join.
 
 
 ## The Server's Console {#console}
@@ -85,7 +101,7 @@ First, you need to read [the EULA](https://account.mojang.com/documents/minecraf
 
 {{ "
 
-You can run commands like `/op` or `/gamemode` in it and it will tell you what the server is thinking and/or doing. When executing commands, make sure you do not include the `/` in front of the command, or it will not work. You may want to run `op YOURUSERNAME` so you can run commands outside of the console.
+You can run commands like `/op` or `/gamemode` in it and it will tell you what the server is thinking and/or doing. When executing commands, make sure you do not include the `/` in front of the command, it will not work. You may want to run `op <yourusername>` so you can run commands in-game.
 
 You can communicate with in game players from the console using `say`, and you can private message them with `msg`, but they won't be able to reply
 
@@ -95,7 +111,7 @@ You can communicate with in game players from the console using `say`, and you c
 	<summary>Click to expand</summary>
 
 {{ "
-The best way to stop a server is to run `save-all`, then `stop` once the save has finished. This method will minimize the chance of something going wrong at shutdown. If for some reason, you cannot use commands, for instance, if the server is running too slow to register them, you can force stop the server by either using <strong>ctrl+c</strong> or closing the terminal window.
+While using the vanilla server software, the best way to stop a server is to run `save-all` then `stop` once the world is saved to ensure the world is saved correctly. If for some reason you cannot use commands, for instance if the server is running too slow to register them, you can force stop the server by either using <strong>ctrl+c</strong> or closing the terminal window.
 " | markdownify }}
 </details>
 
@@ -130,11 +146,11 @@ You may have noticed earlier that the start command contains `-nogui`, this prev
 
 {{ "
 
-If you plan on leaving your server online for long periods of time, you may find it annoying to have your console open constantly. There is a utility called 'screen' that can help with this. 
+If you plan on leaving your server online for long periods of time, you may find it annoying to constantly have a console open. There is a utility called 'screen' that can help with this. 
 * To check if you have screen installed, you can run `screen -v` in your terminal, if it outputs a version number, that means it's installed. 
 	* If screen is not installed, install it with your package manager
 * To start your server with screen, type `screen -S Minecraft_Server`, then a space, then drag your file into the terminal. 
-* To detach the server and have it run in the background, press **cmd-a**, then release, then press **d**. Your terminal should say `[detached]`.
+* To detach the server and have it run in the background, press **cmd-a**, then release and press **d**. Your terminal should say `[detached]`.
 * To access the server's console later, run `screen -r Minecraft_Server`.
 
 You can also use this to access a server over SSH.
@@ -154,15 +170,16 @@ If you're trying to play with someone that *is not* on the same network as you, 
 
 {{ "
 
-In order for them to join you, you will need to find your IP. You can think of your IP as a join code or friend code used to access the server)<br>
-* Open up command prompt, and in the command prompt type 'IPconfig'. Press enter and look for something like:<br>
+**Windows Only**
+In order for them to join you, you will need to find your local IP. You can think of your IP as a join code or friend code used to access the server<br>
+* Open command prompt and in the command prompt type 'ipconfig'. Press 'enter' and look for something like:<br>
 `IPv4 Address.......: XXX.XXX.X.X` <br>
 Example Image:<br>
 ![Example](/static/images/help/setting-up-server/ipconfig.png)<br>
 
 ---
 
-This is the IP that the person will use to connect to the server.
+This is the IP that people will use to connect to the server locally.
 Start up the server and then tell them to click 'Add a new server' or 'Direct Connect'
 * For 'Add a new server' the name can be anything but the IP needs to be your IPv4 address, so tell them to put that there. Click finish and then double click the server and they have connected
 
@@ -184,7 +201,7 @@ If you want to connect to the server on your own computer then do the above but 
 **Most of the instructions here are for generic routers. They might not work for yours**<br>
 
 If you would like router specific instructions, you can use [portforward.com](https://portforward.com/router.htm), which has instructions for specific routers. Follow along with the guide, and you can use this site to know exactly where each button is
-There will be ads telling you to download such and such, **do not click on them**.
+There will be ads telling you to download files and programs, **do not click on them**.
 When ads pop up, either ignore them or press the close button in the top right if they are full screen ads.
 <br>
 
@@ -192,7 +209,7 @@ When ads pop up, either ignore them or press the close button in the top right i
 
 * You will need to get the IP address of the computer that you're hosting on as well as your router's <br>
 
-* Open up command prompt, and in the command prompt type 'IPconfig', press enter and look for:<br>
+* Open command prompt and type 'ipconfig' then press 'enter' and look for:<br>
 
 	`IPv4 Address.......: XXX.XXX.X.X`<br>
 	and<br>
@@ -210,6 +227,7 @@ When ads pop up, either ignore them or press the close button in the top right i
 * The second one is your router's IP Address
 
 **If you have problems during this section, it's recommended you search how to portforward online or ask your ISP for help. Some ISPs hide the options or don't allow portforwarding**
+Should your ISP not allow port forwarding, use a program like [ngrok](https://ngrok.com/) or [playit.gg](https://playit.gg/guides/minecraft/)
 
 Open up your web browser and type the IP address for your router and you should get a login box.
 
@@ -220,7 +238,7 @@ Open up your web browser and type the IP address for your router and you should 
 
 
 
-Look at the back of your router or search for the router online and find the username and password. `Admin` is a popular default username/password
+Look at the back of your router or search for the router online and find the username and password. `admin` is a popular default username and password.
 
 
 * **Make sure that the 'Protocol' or 'Service Type' is either 'TCP/UDP' or 'BOTH'.**
@@ -228,7 +246,7 @@ Look at the back of your router or search for the router online and find the use
 
 Add a service name if required, save, and test your server by connecting with `localhost` (if you're hosting on the computer you're testing it on) 
 
-* Sign in and then find something like 'Port Forwarding', 'Firewall', or 'Virtual servers'
+* Sign in and find 'Port Forwarding', 'Firewall', or 'Virtual servers'
 * Click 'Add', then put the IP address you got from earlier in 'IPv4 Address' or 'IP address'
 In the 'Outbound Port' and 'Inbound port' or 'Start port' and 'end port' put '25565'
 
@@ -236,7 +254,7 @@ As the final step to allow people outside your network to join, you will need to
 
 ###### Addresses to connect with:
 * If you are hosting and playing on the same device, use `localhost`
-* To connect from inside the network, for instance, if you're in the same house, use the [local IP address](#localplay)
+* To connect while on the network, for instance if you're in the same house, use the [local IP address](#localplay)
 * To connect from outside the network, for instance, with your friend who is not at your house, use your [public IP address](https://duckduckgo.com/?q=what+is+my+ip)
 
 " | markdownify }}
