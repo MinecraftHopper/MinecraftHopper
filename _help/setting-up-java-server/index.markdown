@@ -12,7 +12,7 @@ Minecraft: Java edition uses servers for online play.
 
 ### Hosting Requirements: {#requirements}
 
-* You will need Java installed. For 1.11.2 and below, you should use Java 8 (a Java Runtime Environment or a Java Develpment Kit). For 1.12 - 1.16.5, you should use Java 11. For 1.17 and above, you *must* use at least Java 16. You can follow this to [install the right version of Java](/help/installing-java/)
+* You will need Java installed. For 1.11.2 and below, you should use Java 8 (a Java Runtime Environment or a Java Development Kit). For 1.12 - 1.16.5, you should use Java 11. For 1.17 or above, you must use at least Java 16. You can follow [this guide](/help/installing-java/) for installing the correct version of Java
 * Minecraft: Java Edition (to join the server)
 * A computer to host it on. This guide has instructions specific to both Windows and MacOS, but a Linux machine should work as well. It is recommended to host a server on a desktop computer, but you can use a laptop as well.
 
@@ -20,11 +20,11 @@ Minecraft: Java edition uses servers for online play.
 * Make a new folder anywhere on your system. If you're using Windows, make sure your folder isn't in OneDrive. You can name the new folder anything you want, this will be our server folder or workspace.
 * Head over to [Minecraft's website](https://www.minecraft.net/en-us/download/server) and download the latest version of the server jar.
 	* If you're looking to add plugins download [Paper](https://papermc.io/) instead 
-	* If you're using mods, download the [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) or [Fabric](https://fabricmc.net/use/?page=server) installer
+	* If you're using mods, download the [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) or [Fabric](https://fabricmc.net/use/?page=server) installer instead
 
-* Place the jar file into the folder you created, its icon should be a coffee cup or 
+* Place the jar file into the folder you created, its icon should be a coffee cup or a character that looks similar to an arrow
 
-If you're using forge or fabric, then you'll need to run the installer and select 'Install server', click the 3 dots and find your workplace.
+If you're using Fabric or Forge, you'll need to run the installer for that mod loader and select 'Install server' then click the three dots then choose your server folder.
 
 Now follow the OS specific instructions to setup the server. If you're using a linux server, follow the [MacOS instructions](#macos).
 
@@ -84,7 +84,7 @@ Now follow the OS specific instructions to setup the server. If you're using a l
 </details>
 
 ## Eula {#eula}
-* Your server should given you a message about accepting the EULA the first time it starts. Close the window that is telling you this.
+* When your server starts for the first time, it should give you a you a message about accepting the EULA. Close the window that is telling you this.
 * Go to your server folder and you should see a few new files, one of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
 ![Eula](/static/images/help/setting-up-server/eula.png)
 
@@ -227,7 +227,7 @@ When ads pop up, either ignore them or press the close button in the top right i
 * The second one is your router's IP Address
 
 **If you have problems during this section, it's recommended you search how to portforward online or ask your ISP for help. Some ISPs hide the options or don't allow portforwarding**
-Should your ISP not allow port forwarding, use a program like [ngrok](https://ngrok.com/) or [playit.gg](https://playit.gg/guides/minecraft/)
+Should your ISP not allow port forwarding, you can use a program like [ngrok](https://ngrok.com/) or [playit.gg](https://playit.gg/guides/minecraft/)
 
 Open up your web browser and type the IP address for your router and you should get a login box.
 
