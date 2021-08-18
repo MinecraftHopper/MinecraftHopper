@@ -18,7 +18,8 @@ Minecraft: Java edition uses servers for online play.
 
 ## Setting up {#setup}
 * Make a new folder anywhere on your system. If you're using Windows, make sure your folder isn't in OneDrive. You can name the new folder anything you want, this will be our server folder or workspace.
-* Head over to [Minecraft's website](https://www.minecraft.net/en-us/download/server) and download the latest version of the server jar.
+* Head over to the [Minecraft website](https://www.minecraft.net/en-us/download/server) and download the latest version of the server jar.
+	* If you want your server to be on an older version, click to the version you want in the `Installations` tab in the launcher and click `SERVER` next to `VERSION`, it should open a new tab in your browser and start downloading the jar (this will replace the jar from the [Minecraft website](https://www.minecraft.net/en-us/download/server))
 	* If you're looking to add plugins download [Paper](https://papermc.io/) instead 
 	* If you're using mods, download the [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/) or [Fabric](https://fabricmc.net/use/?page=server) installer instead
 
