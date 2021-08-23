@@ -42,12 +42,12 @@ Double-click to open the file identified in Step 2 in Notepad. Select the entire
 
 #### Step 4
 
-Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
+Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Content'** field. Put your Discord username into the **'Poster'** field.
 ![Ubuntu Pastebin site with data pasted](/static/images/help/guides/getting-minecraft-jvm-crash-report/ubuntu-hs_err.png)
 
 #### Step 5
 
-Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
+Click **Submit**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
 ![Ubuntu Pastebin site with data pasted and showing URL](/static/images/help/guides/getting-minecraft-jvm-crash-report/ubuntu-hs_err-url.png)
 
 ## Troubleshooting
