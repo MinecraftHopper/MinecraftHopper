@@ -54,13 +54,12 @@ In the _'Content'_ box, paste the text you copied from the Game Output window by
 
 #### Step 7
 
-Press the **Paste!** button at the bottom of the page and it will redirect you to the next page. Look for the URL (ex. https://paste.ubuntu.com/p/AbcDefg1h3) in the address bar.
-![Ubuntu pastebin site with data pasted and URL showing](/static/images/help/guides/getting-minecraft-game-output-log/game-log-step7.png)
+Press the **Paste!** button at the bottom of the page and it will redirect you to the next page.
 
 #### Step 8
 
 Copy the URL as seen in the image below and give it to whoever requested it. Then wait for further instructions.
-![Ubuntu Pastebin URL location](/static/images/help/guides/getting-minecraft-game-output-log/game-log-step8.png)
+![Ubuntu Pastebin URL location](/static/images/help/guides/getting-minecraft-game-output-log/game-log-step7.png)
 
 
 ## Troubleshooting
