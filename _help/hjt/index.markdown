@@ -44,7 +44,7 @@ Go to (https://paste.ubuntu.com) in your web browser. Paste (**Ctrl-V**) the tex
 
 #### Step 6
 
-Click **Paste!**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
+Click **Submit**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
 ![](/static/images/help/hjt/win-ubuntu-url.png)
 " | markdownify }}
 </details>
