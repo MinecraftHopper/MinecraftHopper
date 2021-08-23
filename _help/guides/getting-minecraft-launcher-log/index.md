@@ -41,7 +41,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 5
 
-Open (https://paste.ubuntu.com) in your web browser and paste (**Ctrl-V** or **Cmd-V**) the contents into the _'Contents'_ field. Put your Discord username into the _'Poster'_ field. Then click **Paste!**
+Open (https://paste.ubuntu.com) in your web browser and paste (**Ctrl-V** or **Cmd-V**) the contents into the _'Content'_ field. Put your Discord username into the _'Poster'_ field. Then click **Submit**
 ![Ubuntu Pastebin site with contents pasted](/static/images/help/guides/getting-minecraft-launcher-log/ubuntu-launcher_log.png)
 
 #### Step 6
