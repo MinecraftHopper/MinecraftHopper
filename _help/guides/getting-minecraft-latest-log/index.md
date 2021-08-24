@@ -46,7 +46,7 @@ Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents
 
 #### Step 6
 
-Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
+Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
 ![Ubuntu Pastebin site with data pasted showing URL](/static/images/help/guides/getting-minecraft-latest-log/pastegg-latest-log-url.png)
 
 ## Troubleshooting

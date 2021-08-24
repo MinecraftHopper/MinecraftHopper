@@ -44,7 +44,7 @@ Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents
 
 #### Step 5
 
-Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
+Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
 ![Ubuntu Pastebin site with pasted data and URL](/static/images/help/guides/getting-minecraft-crash-report/pastegg-crash-report-url.png)
 
 ## Troubleshooting
