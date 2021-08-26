@@ -41,7 +41,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 5
 
-Open (https://paste.ubuntu.com) in your web browser and paste (**Ctrl-V** or **Cmd-V**) the contents into the _'Contents'_ field. Put your Discord username into the _'Poster'_ field. Then click **Submit Anonymously**
+Open (https://paste.gg) in your web browser and paste (**Ctrl-V** or **Cmd-V**) the contents into the _'Contents'_ field. Put your Discord username into the _'Poster'_ field. Then click **Submit Anonymously**
 ![Paste.gg site with contents pasted](/static/images/help/guides/getting-minecraft-launcher-log/pastegg-launcher_log.png)
 
 #### Step 6
@@ -55,6 +55,6 @@ On the next page, copy the URL from the address bar and give it to whoever reque
 
 Try again. Be sure to keep the launcher open as you're getting the log after you close the game or the game crashes. If it continues to give you only four lines, inform whoever requested the log from you for further troubleshooting.
 
-#### Bad Gateway (500) Error on (https://paste.ubuntu.com/)
+#### Bad Gateway (500) Error on (https://paste.gg/)
 
 Split the contents being copied/pasted into two parts, then try again. Give both links to the requestor in order.

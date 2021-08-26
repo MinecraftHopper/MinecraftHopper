@@ -39,7 +39,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 4
 
-Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
 ![Paste.gg site filled out](/static/images/help/guides/getting-minecraft-crash-report/pastegg-crash-report.png)
 
 #### Step 5
@@ -49,6 +49,6 @@ Click **Submit Anonymously**. On the next page, copy the URL from the address ba
 
 ## Troubleshooting
 
-#### Bad Gateway (500) Error on (https://paste.ubuntu.com/)
+#### Bad Gateway (500) Error on (https://paste.gg/)
 
 Split the contents being copied/pasted into two parts, then try again. Give both links to the requestor in order.

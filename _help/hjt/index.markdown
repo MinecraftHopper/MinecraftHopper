@@ -39,7 +39,7 @@ When the scan completes, a Notepad window will open. Select all the text (**Ctrl
 
 #### Step 5
 
-Go to (https://paste.ubuntu.com) in your web browser. Paste (**Ctrl-V**) the text you copied into the _'Content'_ field, and put your Discord username into the _'Poster'_ field.
+Go to (https://paste.gg) in your web browser. Paste (**Ctrl-V**) the text you copied into the _'Content'_ field, and put your Discord username into the _'Poster'_ field.
 ![](/static/images/help/hjt/win-pastegg-pasted.png)
 
 #### Step 6

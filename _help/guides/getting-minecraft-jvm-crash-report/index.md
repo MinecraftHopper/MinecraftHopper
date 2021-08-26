@@ -42,7 +42,7 @@ Double-click to open the file identified in Step 2 in Notepad. Select the entire
 
 #### Step 4
 
-Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
 ![Paste.gg site with data pasted](/static/images/help/guides/getting-minecraft-jvm-crash-report/pastegg-hs_err.png)
 
 #### Step 5
@@ -52,6 +52,6 @@ Click **Submit Anonymously**. On the next page, copy the URL from the address ba
 
 ## Troubleshooting
 
-#### Bad Gateway (500) Error on (https://paste.ubuntu.com/)
+#### Bad Gateway (500) Error on (https://paste.gg/)
 
 Split the contents being copied/pasted into two parts, then try again. Give both links to the requestor in order.
