@@ -41,12 +41,12 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 5
 
-Open (https://paste.gg) in your web browser and paste (**Ctrl-V** or **Cmd-V**) the contents into the _'Contents'_ field. Put your Discord username into the _'Poster'_ field. Then click **Submit Anonymously**
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "Crash Report") in the **'Description'** field.
 ![Paste.gg site with contents pasted](/static/images/help/guides/getting-minecraft-launcher-log/pastegg-launcher_log.png)
 
 #### Step 6
 
-On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
+Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
 ![Paste.gg site with data pasted showing URL](/static/images/help/guides/getting-minecraft-launcher-log/pastegg-launcher_log-url.png)
 
 ## Troubleshooting

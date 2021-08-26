@@ -42,7 +42,7 @@ Double-click to open the file identified in Step 2 in Notepad. Select the entire
 
 #### Step 4
 
-Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "JVM Crash Report") in the **'Description'** field.
 ![Paste.gg site with data pasted](/static/images/help/guides/getting-minecraft-jvm-crash-report/pastegg-hs_err.png)
 
 #### Step 5

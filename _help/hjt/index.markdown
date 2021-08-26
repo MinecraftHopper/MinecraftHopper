@@ -39,7 +39,7 @@ When the scan completes, a Notepad window will open. Select all the text (**Ctrl
 
 #### Step 5
 
-Go to (https://paste.gg) in your web browser. Paste (**Ctrl-V**) the text you copied into the _'Content'_ field, and put your Discord username into the _'Poster'_ field.
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "Crash Report") in the **'Description'** field.
 ![](/static/images/help/hjt/win-pastegg-pasted.png)
 
 #### Step 6

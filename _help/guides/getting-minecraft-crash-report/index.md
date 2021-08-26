@@ -39,7 +39,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 4
 
-Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "Crash Report") in the **'Description'** field.
 ![Paste.gg site filled out](/static/images/help/guides/getting-minecraft-crash-report/pastegg-crash-report.png)
 
 #### Step 5

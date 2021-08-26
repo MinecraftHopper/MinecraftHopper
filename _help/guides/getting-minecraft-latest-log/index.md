@@ -41,7 +41,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 5
 
-Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
+Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "Latest Log") in the **'Description'** field.
 ![Paste.gg site with contents pasted](/static/images/help/guides/getting-minecraft-latest-log/pastegg-latest-log.png)
 
 #### Step 6
