@@ -25,7 +25,7 @@ Find the file you just saved and open it, as shown here:
 ![](/static/images/help/dxdiag/DxDiag-2.png)
 
 #### Step 4
-Please copy ALL of the text (right click on any empty space, press "select all", right click again, press "copy") in this file and paste it onto a text sharing website, such as [Paste.gg](https://paste.gg).
+Please copy ALL of the text (right click on any empty space, press "select all", right click again, press "copy") in this file and paste it onto a text sharing website, such as [Paste.gg][https://paste.gg](https://paste.gg).
 
 First, paste the text that you copied from the file into the largest text field in Paste.gg. Put your Discord username into the "Paste name" field and a description (e.g "DxDiag") in the "Description" field.
 

@@ -39,7 +39,7 @@ When the scan completes, a Notepad window will open. Select all the text (**Ctrl
 
 #### Step 5
 
-Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "HiJackThis report") in the **'Description'** field.
+Open [https://paste.gg](https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "HiJackThis report") in the **'Description'** field.
 ![](/static/images/help/hjt/win-pastegg-pasted.png)
 
 #### Step 6

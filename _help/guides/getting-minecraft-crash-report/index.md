@@ -39,7 +39,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 
 #### Step 4
 
-Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "Crash Report") in the **'Description'** field.
+Open [https://paste.gg](https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "Crash Report") in the **'Description'** field.
 ![Paste.gg site filled out](/static/images/help/guides/getting-minecraft-crash-report/pastegg-crash-report.png)
 
 #### Step 5
@@ -49,6 +49,6 @@ Click **Submit Anonymously**. On the next page, copy the URL from the address ba
 
 ## Troubleshooting
 
-#### Bad Gateway (500) Error on (https://paste.gg/)
+#### Bad Gateway (500) Error on [https://paste.gg/](https://paste.gg/)
 
 Split the contents being copied/pasted into two parts, then try again. Give both links to the requestor in order.
