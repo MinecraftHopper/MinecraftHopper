@@ -52,13 +52,8 @@ Open (https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into th
 
 #### Step 7
 
-Press the **Submit Anonymously** button at the bottom of the page and it will redirect you to the next page. Look for the URL (ex. https://paste.gg/p/AbcDefg1h3) in the address bar.
+Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
 ![Paste.gg site with data pasted and URL showing](/static/images/help/guides/getting-minecraft-game-output-log/game-log-step7.png)
-
-#### Step 8
-
-Copy the URL as seen in the image below and give it to whoever requested it. Then wait for further instructions.
-![Paste.gg URL location](/static/images/help/guides/getting-minecraft-game-output-log/game-log-step8.png)
 
 
 ## Troubleshooting
