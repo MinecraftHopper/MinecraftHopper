@@ -22,7 +22,7 @@ Account sharing, where you give your account details to a friend or family membe
 - If your friends/family don't take the same security precautions as you and they get hacked, your account might get stolen.
 
 # Secondhand Accounts
-    Accounts bought from websites other than minecraft.net and Amazon are also risky, because buying them (or any account from a website other than minecraft.net, Amazon or a physical store) is a violation of Mojang's EULA and TOS, meaning that Mojang will not help you recover your account if lose it, even with the Transaction ID.  In addition, the account may have been stolen from someone else, who may claim it back and take it away from you; or the person or website who sold you the account claim it back with Mojang's help, since it still belongs to them in Mojang's eyes.
+Accounts bought from websites other than minecraft.net and Amazon are also risky, because buying them (or any account from a website other than minecraft.net, Amazon or a physical store) is a violation of Mojang's EULA and TOS, meaning that Mojang will not help you recover your account if lose it, even with the Transaction ID.  In addition, the account may have been stolen from someone else, who may claim it back and take it away from you; or the person or website who sold you the account claim it back with Mojang's help, since it still belongs to them in Mojang's eyes.
 
 ## Using a Microsoft account
 In October 2020, Mojang announced that they would be using Microsoft accounts for Java Edition going forward. This is a good thing, because Microsoft accounts are far more secure than Mojang accounts, offer 2-Factor Authentication, and are easier to recover due to Microsoft's larger support system.
@@ -34,7 +34,7 @@ Having a good password is arguably the most important step in having a secure ac
 
 Any strong password you choose should meet all these requirements:
 
-- It should be long (at least 10-12 characters), and have letters and numbers in it (symbols and punctuation aren't so important)
+- It should be long (at least 10-12 characters), and have letters, numbers and maybe some symbols and punctuation in it.
 - It should be one that you don't use on other websites. If another website you use gets hacked and your password there is stolen, all the other accounts you have with that password are at risk too.
 - It shouldn't contain any information such as your favourite food, your pet's name, or the town where you grew up. Anyone trying to hack you could potentially look up this information on your social media accounts and guess the password easily.
 
