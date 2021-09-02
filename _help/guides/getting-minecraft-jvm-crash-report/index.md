@@ -42,16 +42,16 @@ Double-click to open the file identified in Step 2 in Notepad. Select the entire
 
 #### Step 4
 
-Open (https://paste.ubuntu.com) and paste (**Ctrl-V** or **Cmd-V**) the contents into the **'Contents'** field. Put your Discord username into the **'Poster'** field.
-![Ubuntu Pastebin site with data pasted](/static/images/help/guides/getting-minecraft-jvm-crash-report/ubuntu-hs_err.png)
+Open [https://paste.gg](https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. "JVM Crash Report") in the **'Description'** field.
+![Paste.gg site with data pasted](/static/images/help/guides/getting-minecraft-jvm-crash-report/pastegg-hs_err.png)
 
 #### Step 5
 
-Click **Paste!**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![Ubuntu Pastebin site with data pasted and showing URL](/static/images/help/guides/getting-minecraft-jvm-crash-report/ubuntu-hs_err-url.png)
+Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
+![Paste.gg site with data pasted and showing URL](/static/images/help/guides/getting-minecraft-jvm-crash-report/pastegg-hs_err-url.png)
 
 ## Troubleshooting
 
-#### Bad Gateway (500) Error on (https://paste.ubuntu.com/)
+#### Bad Gateway (500) Error on [https://paste.gg/](https://paste.gg/)
 
 Split the contents being copied/pasted into two parts, then try again. Give both links to the requestor in order.
