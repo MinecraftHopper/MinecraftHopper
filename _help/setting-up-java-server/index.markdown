@@ -12,7 +12,7 @@ Minecraft: Java edition uses servers for online play.
 
 ### Hosting Requirements: {#requirements}
 
-* You will need Java installed. For 1.13 and below, you will need to use Oracle Java/OpenJDK 8. You can follow this to [install the right version of Java](/help/installing-java/)
+* You will need Java installed. For 1.13 and below, you will need to use Oracle Java/OpenJDK 8. For 1.17 and up, you will need to use Oracle Java/OpenJDK 16 and up. You can follow this to [install the right version of Java](/help/installing-java/)
 * Minecraft: Java Edition (to join the server)
 * A computer to host it on. This guide has instructions specific to both Windows and MacOS, but a Linux machine should work as well. It is recommended to host a server on a desktop computer, but you can use a laptop as well.
 
