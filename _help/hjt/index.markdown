@@ -39,13 +39,13 @@ When the scan completes, a Notepad window will open. Select all the text (**Ctrl
 
 #### Step 5
 
-Go to (https://paste.ubuntu.com) in your web browser. Paste (**Ctrl-V**) the text you copied into the _'Content'_ field, and put your Discord username into the _'Poster'_ field.
-![](/static/images/help/hjt/win-ubuntu-pasted.png)
+Open [https://paste.gg](https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. 'HiJackThis report') in the **'Description'** field.
+![](/static/images/help/hjt/win-pastegg-pasted.png)
 
 #### Step 6
 
-Click **Paste!**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
-![](/static/images/help/hjt/win-ubuntu-url.png)
+Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
+![](/static/images/help/hjt/win-pastegg-url.png)
 " | markdownify }}
 </details>
 
