@@ -8,9 +8,9 @@ desc: "How to install Java"
 
 The Java Runtime Environment (JRE) is software that allows for programs written in the Java programming language to run on your computer. "Minecraft Java Edition" is named as such because it is written in Java. Java comes in many shapes and forms, which may make it confusing exactly which version of it you should have installed, which is what this should hopefully explain.
 
-The reason we don't use the **Oracle Java** downloads is because, as of 2019, they have commercial usage restrictions that mean some users (particularly, those making money off of Minecraft) would have to pay to use them.
+We cannot use **Oracle Java** for modern versions of Java, since they have commercial usage restrictions which mean some users (particularly, those making money off of Minecraft) would have to pay to use it.
 
-Thankfully, **Microsoft OpenJDK** is an identical product without any restrictions, and is what Minecraft uses by default. These tutorials will cover how to install it, as well as an alternative for older Java versions.
+Fortunately, we can use **OpenJDK**, which is identical to Oracle Java but does not have the same restrictions. For this tutorial we will be using a version of OpenJDK built by [Adoptium](https://adoptium.net)```
 
 **Quick links:** 
 - [Installing Java on Windows](#install-windows)
@@ -20,9 +20,9 @@ Thankfully, **Microsoft OpenJDK** is an identical product without any restrictio
 
 ## Do I need Java? Which version do I need?
 
-The Minecraft launchers for Windows, macOS, and Linux ship with a builtin Java that the launcher automatically keeps up to date. This includes the Windows 7 and Windows 8.1 version of the launcher.
+The Minecraft launcher includes the version(s) of Java required to run the game, and automatically keeps them up to date. This includes the Windows 7 and Windows 8.1 version of the launcher.
 
-If you are using the official launcher, normally you do not have to install Java on your computer unless you need it for applications other than Minecraft. If you are not are not sure if you are using the new Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
+If you are using the official launcher, you normally do not have to manually install Java unless you need it for applications other than Minecraft. If you are not are not sure if you are using the correct Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
 
 **TL;DR: Most people running vanilla Minecraft with the default launcher will not need this tutorial!**
 
