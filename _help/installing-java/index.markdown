@@ -215,7 +215,7 @@ Your path may have a different version number.
 
 <details><summary>Click for instructions</summary> {{ "
 
-Visit the website for [Adoptium Temurin OpenJDK](https://www.microsoft.com/openjdk).
+Visit the website for [Adoptium Temurin OpenJDK](https://adoptium.net/).
 
 Select the desired version and hit the download button. Make sure that the architecture matches your computer. If it doesn't, click **Other platforms** and navigate to the correct download.
 
