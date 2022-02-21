@@ -12,6 +12,12 @@ The reason we don't use the **Oracle Java** downloads is because, as of 2019, th
 
 Thankfully, **Microsoft OpenJDK** is an identical product without any restrictions, and is what Minecraft uses by default. These tutorials will cover how to install it, as well as an alternative for older Java versions.
 
+**Quick links:** 
+- [Installing Java on Windows](#install-windows)
+- [Installing Java on macOS](#install-macos)
+- [Installing Java on Linux](#install-linux)
+- [Check if Java is installed](#verifying)
+
 ## Do I need Java? Which version do I need?
 
 The Minecraft launchers for Windows, macOS, and Linux ship with a builtin Java that the launcher automatically keeps up to date. This includes the Windows 7 and Windows 8.1 version of the launcher.
@@ -32,82 +38,6 @@ The below compatibility chart was last updated 2022-02-20.
 | **Classic** to **1.11** (inclusive) | **Java 8** | 7 [(do not use!)](https://endoflife.date/java) |
 
 **Scroll down for complete instructions on how to install Java on Windows, macOS, Linux.**
-
-### Possible symptoms of incorrect Java version
-
-Below are some of the error messages related to incorrect Java versions.
-
-```
-Error: A JNI error has occurred, please check your installation and try again
-```
-```
-Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
-
-Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
-
-Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
-
-Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 52.0
-```
-```
-Your Java Runtime is incompatible. Please edit your installation to use the bundled Java Runtime.
-Name: Java version mismatch
-```
-```
-(When attempting to launch with MultiMC)
-Minecraft 1.18 Pre Release 2 and above require the use of Java 17
-```
-```
-(When attempting to launch with MultiMC)
-Minecraft 21w19a and above require the use of Java 16
-```
-```
-(When attempting to launch PaperMC or Purpur)
-Minecraft 1.18 requires running the server with Java 17 or above. Download Java 17 (or above) from https://adoptium.net/
-```
-
-If you see any of the above messages, you need to update to Java 17.
-
-*Note: MultiMC, PaperMC, and Purpur are not officially supported by Minecraft*
-
-```
-(When attempting to launch Forge)
-java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
-```
-
-If you see the above message, you need to *downgrade* to Java 8, because old Forge does not support Java 11+.
-
-*Note: Forge is not officially supported by Minecraft*
-
-```
-Exception in thread "main" java.lang.NoClassDefFoundError: javafx/application/Application
-```
-
-```
-Please install JavaFX for your Java version (17.0.1) to use MCA Selector
-```
-
-If you see one of the above messages, you need a distribution of Java that includes OpenJFX to run what you are trying to run.
-
-*Note: These third-party tools are not officially supported by Minecraft*
-
-## Collecting information - Verifying if Java is installed
-
-**Optional:** You can check which version of Java may be already installed on your computer by following these instructions. Otherwise, skip ahead to the next section.
-
-First, open up a terminal (Win11, macOS, Linux) or Command Prompt (Win10, Win8.1, Win7)
-
-![Screenshot of start menu with Windows Terminal and Command Prompt highlighted](/static/images/help/installing-java/verifying/verifying-1.jpg)
-
-Next, type in `java -version` and press enter.
-
-![Screenshot of Windows Terminal with above command run](/static/images/help/installing-java/verifying/verifying-2.jpg)
-
-Java 8 will show up as either `Java version "1.8. [...]` or `openjdk version "1.8. [...]`.
-
-Java 17 will show up as either `Java version "11. [...]` or `openjdk version "11. [...]`.
-
-Java 17 will show up as either `Java version "17. [...]` or `openjdk version "17. [...]`.
 
 ## Collecting information - 32 bit, 64 bit, or ARM?
 
@@ -454,3 +384,79 @@ Run the sanity check to ensure you did everything correctly.
 ![Java sanity check in MultiMC](/static/images/help/installing-java/multimc/java-in-multimc-4.jpg)
 
 " | markdownify }} </details>
+
+## Verifying if Java is installed {#verifying}
+
+Optional: You can check which version of Java may be already installed on your computer by following these instructions.
+
+First, open up a terminal (Win11, macOS, Linux) or Command Prompt (Win10, Win8.1, Win7)
+
+![Screenshot of start menu with Windows Terminal and Command Prompt highlighted](/static/images/help/installing-java/verifying/verifying-1.jpg)
+
+Next, type in `java -version` and press enter.
+
+![Screenshot of Windows Terminal with above command run](/static/images/help/installing-java/verifying/verifying-2.jpg)
+
+Java 8 will show up as either `Java version "1.8. [...]` or `openjdk version "1.8. [...]`.
+
+Java 17 will show up as either `Java version "11. [...]` or `openjdk version "11. [...]`.
+
+Java 17 will show up as either `Java version "17. [...]` or `openjdk version "17. [...]`.
+
+### Appendix: Possible symptoms of incorrect Java version
+
+Below are some of the error messages related to incorrect Java versions.
+
+```
+Error: A JNI error has occurred, please check your installation and try again
+```
+```
+Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+
+Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+
+Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+
+Exception in thread "main" java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+```
+```
+Your Java Runtime is incompatible. Please edit your installation to use the bundled Java Runtime.
+Name: Java version mismatch
+```
+```
+(When attempting to launch with MultiMC)
+Minecraft 1.18 Pre Release 2 and above require the use of Java 17
+```
+```
+(When attempting to launch with MultiMC)
+Minecraft 21w19a and above require the use of Java 16
+```
+```
+(When attempting to launch PaperMC or Purpur)
+Minecraft 1.18 requires running the server with Java 17 or above. Download Java 17 (or above) from https://adoptium.net/
+```
+
+If you see any of the above messages, you need to update to Java 17.
+
+*Note: MultiMC, PaperMC, and Purpur are not officially supported by Minecraft*
+
+```
+(When attempting to launch Forge)
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+```
+
+If you see the above message, you need to *downgrade* to Java 8, because old Forge does not support Java 11+.
+
+*Note: Forge is not officially supported by Minecraft*
+
+```
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/application/Application
+```
+
+```
+Please install JavaFX for your Java version (17.0.1) to use MCA Selector
+```
+
+If you see one of the above messages, you need a distribution of Java that includes OpenJFX to run what you are trying to run.
+
+*Note: These third-party tools are not officially supported by Minecraft*
