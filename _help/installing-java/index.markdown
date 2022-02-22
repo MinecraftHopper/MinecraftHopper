@@ -10,21 +10,20 @@ The Java Runtime Environment (JRE) is software that allows for programs written 
 
 We cannot use **Oracle Java** for modern versions of Java, since they have commercial usage restrictions which mean some users (particularly, those making money off of Minecraft) would have to pay to use it.
 
-Fortunately, we can use **OpenJDK**, which is identical to Oracle Java but does not have the same restrictions. For this tutorial we will be using a version of OpenJDK built by [Adoptium](https://adoptium.net)```
+Fortunately, we can use **OpenJDK**, which is identical to Oracle Java but does not have the same restrictions. For this tutorial we will be using a version of OpenJDK built by [Adoptium](https://adoptium.net).
 
-**Quick links:** 
-- [Installing Java on Windows](#install-windows)
-- [Installing Java on macOS](#install-macos)
-- [Installing Java on Linux](#install-linux)
-- [Check if Java is installed](#verifying)
+Quick links:
+
+- [Downloading and installing Java](#downloading-java)
+- [Changing Java runtime settings in third-party launchers (MultiMC)](#multimc)
+- [Check what Java version you already have installed](#verifying)
+- [Symptoms of incorrect Java version](#symptoms)
 
 ## Do I need Java? Which version do I need?
 
 The Minecraft launcher includes the version(s) of Java required to run the game, and automatically keeps them up to date. This includes the Windows 7 and Windows 8.1 version of the launcher.
 
 If you are using the official launcher, you normally do not have to manually install Java unless you need it for applications other than Minecraft. If you are not are not sure if you are using the correct Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
-
-**TL;DR: Most people running vanilla Minecraft with the default launcher will not need this tutorial!**
 
 The below compatibility chart was last updated 2022-02-20.
 
@@ -35,227 +34,118 @@ The below compatibility chart was last updated 2022-02-20.
 | **1.17** | **Java 17** | 16 [(do not use!)](https://endoflife.date/java) |
 | Some Spigot plugins before 1.17 | | 11 |
 | **1.12** to **1.16** (inclusive) | **Java 8** | 8 |
-| **Classic** to **1.11** (inclusive) | **Java 8** | 7 [(do not use!)](https://endoflife.date/java) |
+| **Classic** to **1.11** (inclusive) | **Java 8** | 6 [(do not use!)](https://endoflife.date/java) |
 
-**Scroll down for complete instructions on how to install Java on Windows, macOS, Linux.**
+### Downloading Java {#downloading-java}
 
-## Collecting information - 32 bit, 64 bit, or ARM?
+Visit the website for [Adoptium Temurin OpenJDK](https://adoptium.net)
 
-You may need to get a 32 bit x86 or possibly even ARM version of Java, depending on your computer.
+Choose the appropriate version, and click **Latest release** to start the download. Note that Temurin versions are the same as Java versions, so "Temurin 17" means "Temurin Java 17". See the above chart to determine which version you need.
 
-On Windows, open a terminal or command prompt and run `wmic OS get OSArchitecture`.
+You may need to scroll down and click **Other platforms** if the website is unable to detect your operating system and CPU due to privacy browser extensions.
 
-![Screenshot of Windows Terminal with the above command run](/static/images/help/installing-java/verifying/verifying-architecture-windows.jpg)
+![Screenshot of Adoptium OpenJDK website](/static/images/help/installing-java/adoptium-website.jpg)
 
-On macOS, under the Apple menu, select `About This Mac`. If "Chip" contains "Intel", you are on x64. If it contains "Apple", you are on ARM.
+Continue following the instructions for your platform below.
 
-![Screenshot of "About This Mac" with "Chip" highlighted](/static/images/help/installing-java/verifying/verifying-architecture-macos.png)
-
-On Linux, your package manager will choose the appropriate version automatically. But if you are going with a third party Java distribution on Linux (such as Microsoft, Adoptium, or Azul) you can check manually by running `uname -m` in a terminal.
-
-### I am on Windows and I need latest Java (Version 17) {#install-windows}
-
-**Warning:** These instructions are 64-bit only! You may need one of the below tutorials instead.
+#### Optional: I need a distribution of Java that includes OpenJFX / JavaFX, or I need another special JVM
 
 <details><summary>Click for instructions</summary> {{ "
 
-Visit the website for [Microsoft OpenJDK](https://www.microsoft.com/openjdk). This is the exact same version of Java that is bundled with the vanilla launcher.
+OpenJFX may be needed to run some of the external tools in the Minecraft community, such as MCASelector. However, JFX is no longer included with Java by default.
 
-![Screenshot of Microsoft OpenJDK website with download button highlighted](/static/images/help/installing-java/microsoft-windows/openjdk-installer-1.jpg)
+You can use [Azul Zulu](https://www.azul.com/downloads/?package=jdk#download-openjdk) to obtain a version of Java that includes OpenJFX. You must select **Java Package: JDK FX** on the downloads page.
 
-Scroll down, and download the x64 `.msi` file for Windows:
+*Note: These third-party tools requiring OpenJFX are not officially supported by Minecraft*
 
-![Screenshot of Microsoft OpenJDK download page with 64-bit .msi highlighted](/static/images/help/installing-java/microsoft-windows/openjdk-installer-2.jpg)
+For other special uses, other distributions of Java are available:
 
-Run the installer.
-
-![Screenshot of OpenJDK installer in downloads folder](/static/images/help/installing-java/microsoft-windows/openjdk-installer-3.jpg)
-
-Click **Next**
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-windows/openjdk-installer-4.jpg)
-
-Click **Next**
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-windows/openjdk-installer-5.jpg)
-
-Make sure that both **Add to PATH** and **Set JAVA_HOME variable** are set to **Will be installed on local hard drive**.
-
-This step is especially important if you intend to run a server or code mods for the game!
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-windows/openjdk-installer-6.jpg)
-
-Click **Next**
-
-![Screenshot of OpenJDK installer with JAVA_HOME variable setting selected](/static/images/help/installing-java/microsoft-windows/openjdk-installer-7.jpg)
-
-Click **Yes**
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-windows/openjdk-installer-8.jpg)
-
-Wait for installation to finish...
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-windows/openjdk-installer-9.jpg)
-
-Click **Finish** to exit the installer.
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-windows/openjdk-installer-10.jpg)
-
-Once you have installed the proper Java version, you should configure this in your launcher and give the game a go!
-
-Depending on your launcher you may need to manually navigate to the path of Microsoft OpenJDK. In the latest version of Java 17, this path looks like:
-
-```
-C:\Program Files\Microsoft\jdk-17.0.2.8-hotspot\bin\javaw.exe
-```
-
-Your path will likely have a different version number.
+- [Microsoft OpenJDK](https://www.microsoft.com/openjdk) - This is byte-for-byte identical to the one that Minecraft ships with.
+- [OpenJDK Source Code](https://openjdk.java.net/) - If you wanted to compile your own Java runtime equivalent to Adoptium Temurin or Microsoft OpenJDK.
+- [GraalVM](https://www.graalvm.org/) - Multiple programming language runtime, sometimes used for highly specialized Minecraft server code.
+- [IBM Semeru with OpenJ9](https://developer.ibm.com/languages/java/semeru-runtimes/) - Alternative Java runtime that may take up less RAM. Running this with Minecraft has questionable stability, but some have reported success in reducing the memory footprint of large modpacks.
 
 " | markdownify }} </details>
 
-### I am on Windows and I need OLD Java, or 32 bit Java (Version 8, 11, or 17)
+### Windows installation instructions {#install-windows}
 
 <details><summary>Click for instructions</summary> {{ "
 
-Visit the website for [Adoptium Temurin OpenJDK](https://adoptium.net).
-
-Click the version needed, and click `Latest release`
-
-You may need to scroll down and click `Other platforms` if the website is unable to detect that you are using 32-bit x86 Windows.
-
-![Screenshot of Adoptium OpenJDK website with download button highlighted](/static/images/help/installing-java/adoptium-windows/openjdk-installer-1.jpg)
-
 Run the installer.
 
-![Screenshot of OpenJDK installer in downloads folder](/static/images/help/installing-java/adoptium-windows/openjdk-installer-2.jpg)
+![Screenshot of OpenJDK installer in downloads folder](/static/images/help/installing-java/adoptium-windows/openjdk-installer-1.jpg)
 
 Click **Next**
 
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-3.jpg)
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-2.jpg)
 
 Make sure that both **Add to PATH** and **Set JAVA_HOME variable** are set to **Will be installed on local hard drive**.
 
 This step is especially important if you intend to run a server or code mods for the game!
 
-![Screenshot of OpenJDK installer with JAVA_HOME variable setting selected](/static/images/help/installing-java/adoptium-windows/openjdk-installer-4.jpg)
+![Screenshot of OpenJDK installer with JAVA_HOME variable setting selected](/static/images/help/installing-java/adoptium-windows/openjdk-installer-3.jpg)
 
-Click **Next**
+The screen should look like this before continuing. Click **Next**
+
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-4.jpg)
+
+Click **Install**
 
 ![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-5.jpg)
 
 Click **Yes**
 
-![Screenshot of OpenJDK installer with Windows UAC prompt](/static/images/help/installing-java/adoptium-windows/openjdk-installer-6.jpg)
+![Screenshot of OpenJDK installer with UAC prompt](/static/images/help/installing-java/adoptium-windows/openjdk-installer-6.jpg)
 
-Wait for the installer to finish...
+Wait for it to install...
 
 ![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-7.jpg)
 
-Once you have installed the proper Java version, you should configure this in your launcher and give the game a go!
+Click **Finish** to exit the installer.
 
-Depending on your launcher you may need to manually navigate to the path of Adoptium Temurin OpenJDK. In the latest version of Java 8, this path looks like:
-
-```
-C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin\javaw.exe
-```
-
-Your path will likely have a different version number.
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-8.jpg)
 
 " | markdownify }} </details>
 
-### I am on macOS and I need latest Java (Version 17) {#install-macos}
+### macOS installation instructions {#install-macos}
 
 <details><summary>Click for instructions</summary> {{ "
 
-Visit the website for [Microsoft OpenJDK](https://www.microsoft.com/openjdk). This is the exact same version of Java that is bundled with the vanilla launcher.
-
-![Screenshot of Microsoft OpenJDK website with download button highlighted](/static/images/help/installing-java/microsoft-mac/openjdk-installer-1.jpg)
-
-Scroll down, and download a `.pkg` version for macOS. If you have an **Intel** Mac you should use the **x64** version. If you have an ARM Mac, you should get the **AArch64 / M1** version.
-
-![Screenshot of Microsoft OpenJDK download page with Mac versions highlighted](/static/images/help/installing-java/microsoft-mac/openjdk-installer-2.jpg)
-
 Run the installer.
 
-![Screenshot of OpenJDK installer in downloads tray](/static/images/help/installing-java/microsoft-mac/openjdk-installer-3.jpg)
+![Screenshot of OpenJDK installer in downloads tray](/static/images/help/installing-java/adoptium-mac/openjdk-installer-1.jpg)
 
 Click **Continue**
 
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-mac/openjdk-installer-4.jpg)
-
-Click **Continue**
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-mac/openjdk-installer-5.jpg)
-
-Enter your Mac password and click **Install Software**
-
-![Screenshot of OpenJDK installer with Mac password prompt](/static/images/help/installing-java/microsoft-mac/openjdk-installer-6.jpg)
-
-Wait for installation to finish...
-
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/microsoft-mac/openjdk-installer-7.jpg)
-
-Click **Close** to exit the installer.
-
-![Screenshot of OpenJDK installer with close button highlighted](/static/images/help/installing-java/microsoft-mac/openjdk-installer-8.jpg)
-
-Once you have installed the proper Java version, you should configure this in your launcher and give the game a go!
-
-Depending on your launcher you may need to manually navigate to the path of Microsoft OpenJDK. In the latest version of Java 17, this path looks like:
-
-```
-/Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home/bin/java
-```
-
-Your path may have a different version number.
-
-" | markdownify }} </details>
-
-### I am on macOS and I need OLD Java (Version 8 or 11)
-
-<details><summary>Click for instructions</summary> {{ "
-
-Visit the website for [Adoptium Temurin OpenJDK](https://adoptium.net/).
-
-Select the desired version and hit the download button. Make sure that the architecture matches your computer. If it doesn't, click **Other platforms** and navigate to the correct download.
-
-![Screenshot of Adoptium OpenJDK website with download button highlighted](/static/images/help/installing-java/adoptium-mac/openjdk-installer-1.jpg)
-
-Run the installer.
-
-![Screenshot of OpenJDK installer in downloads tray](/static/images/help/installing-java/adoptium-mac/openjdk-installer-2.jpg)
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-2.jpg)
 
 Click **Continue**
 
 ![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-3.jpg)
 
-Click **Install**
+Click **Continue**
 
 ![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-4.jpg)
 
+Click **Install**
+
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-5.jpg)
+
 Enter your Mac password and click **Install Software**
 
-![Screenshot of OpenJDK installer with Mac password prompt](/static/images/help/installing-java/adoptium-mac/openjdk-installer-5.jpg)
+![Screenshot of OpenJDK installer with Mac password prompt](/static/images/help/installing-java/adoptium-mac/openjdk-installer-6.jpg)
 
-Wait for installation to finish...
+Wait for it to finish installing...
+
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-7.jpg)
 
 Click **Close** to exit the installer.
 
-![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-6.jpg)
-
-Once you have installed the proper Java version, you should configure this in your launcher and give the game a go!
-
-Depending on your launcher you may need to manually navigate to the path of Adoptium Temurin OpenJDK. In the latest version of Java 8, this path looks like:
-
-```
-/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java
-```
-
-Your path may have a different version number.
+![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-8.jpg)
 
 " | markdownify }} </details>
 
-### I am on a Linux distribution (all versions) {#install-linux}
+### Linux installation instructions {#install-linux}
 
 <details><summary>Click for instructions</summary> {{ "
 
@@ -303,7 +193,7 @@ sudo yum install java-11-openjdk
 sudo yum install java-1.8.0-openjdk
 ```
 
-If your distro does not support Java, the Microsoft OpenJDK downloads can be used on all distros.
+If your distro does not support Java, the Microsoft OpenJDK or Adoptium downloads can be used on all distros.
 
 ![Terminal with install command typed in](/static/images/help/installing-java/linux/install-java-2.jpg)
 
@@ -345,17 +235,34 @@ sudo archlinux-java set java-17-openjdk
 
 " | markdownify }} </details>
 
-### I need a distribution of Java that includes OpenJFX / JavaFX
 
-<details><summary>Click for instructions</summary> {{ "
+## Next steps
 
-OpenJFX may be needed to run some of the external tools in the Minecraft community, such as MCASelector. However, JFX is no longer included with Java by default.
+Once you have installed the proper Java version, you should configure this in your launcher and give the game a go! Depending on your launcher you may need to manually navigate to the path of Adoptium OpenJDK.
 
-You can use [Azul Zulu](https://www.azul.com/downloads/?package=jdk#download-openjdk) to obtain a version of Java that includes OpenJFX. You must select **Java Package: JDK FX** on the downloads page.
+Here are some examples of what this path may look like on **Windows**:
 
-*Note: These third-party tools are not officially supported by Minecraft*
+```
+C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin\javaw.exe
+C:\Program Files\Eclipse Adoptium\jdk-11.0.14.1.1-hotspot\bin\javaw.exe
+C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin\javaw.exe
+```
 
-" | markdownify }} </details>
+Here are some examples of what this path may look like on **macOS**:
+
+```
+/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java
+/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java
+```
+
+Here are some examples of what this path may look like on **Archlinux**:
+
+```
+/usr/lib/jvm/java-17-openjdk/bin/java
+/usr/lib/jvm/java-11-openjdk/bin/java
+/usr/lib/jvm/java-8-openjdk/bin/java
+```
 
 ### EXAMPLE - Changing Java runtime settings in third-party launchers (MultiMC) {#multimc}
 
@@ -375,7 +282,9 @@ Click **Settings**, go under the **Java** tab, check **✅ Java Installation**, 
 
 ![Java settings in MultiMC](/static/images/help/installing-java/multimc/java-in-multimc-2.jpg)
 
-Locate `javaw.exe`. If you installed Microsoft OpenJDK for Windows, this will be at a path that looks like `C:\Program Files\Microsoft\jdk-17.0.2.8-hotspot\bin\javaw.exe`, but may not be exactly this.
+You may be able to auto-detect Java installations by clicking **Auto-detect...**.
+
+Otherwise, locate `javaw.exe`:
 
 ![Browsing for Java executable](/static/images/help/installing-java/multimc/java-in-multimc-3.jpg)
 
@@ -387,7 +296,7 @@ Run the sanity check to ensure you did everything correctly.
 
 ## Verifying if Java is installed {#verifying}
 
-Optional: You can check which version of Java may be already installed on your computer by following these instructions.
+You can check which version of Java may be already installed on your computer by following these instructions.
 
 First, open up a terminal (Win11, macOS, Linux) or Command Prompt (Win10, Win8.1, Win7)
 
@@ -403,7 +312,7 @@ Java 17 will show up as either `Java version "11. [...]` or `openjdk version "11
 
 Java 17 will show up as either `Java version "17. [...]` or `openjdk version "17. [...]`.
 
-### Appendix: Possible symptoms of incorrect Java version
+## Appendix: Possible symptoms of incorrect Java version {#symptoms}
 
 Below are some of the error messages related to incorrect Java versions.
 
