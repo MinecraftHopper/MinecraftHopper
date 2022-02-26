@@ -14,17 +14,18 @@ Fortunately, we can use **OpenJDK**, which is identical to Oracle Java but does 
 
 Quick links:
 
+- [Do I need Java? Which version do I need?](#which-java)
 - [Downloading and installing Java](#downloading-java)
-- [Check what Java version you already have installed](#verifying)
+- [Check if you have Java already](#verifying)
 - [Symptoms of incorrect Java version](#symptoms)
 
-## Do I need Java? Which version do I need?
+## Do I need Java? Which version do I need? {#which-java}
 
 The Minecraft launcher includes the version(s) of Java required to run the game, and automatically keeps them up to date. This includes the Windows 7 and Windows 8.1 version of the launcher.
 
-If you are using the official launcher, you normally do not have to manually install Java unless you need it for applications other than Minecraft. If you are not are not sure if you are using the correct Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
+If you are using the official launcher, you normally do not have to manually install Java, but you may want to if you are trying to run a server, trying to fix an issue, or using it for Java applications other than Minecraft. If you are not are not sure if you are using the correct Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
 
-**Note:** Java versions 6 and 16 no longer receive security updates, and are therefore more risky to use. Java 8 will lose support in 2025. You should use Java 11 or 17 if you can, as they will receive security updates for years to come.
+**Note:** Java versions 6 and 16 no longer receive security updates, and are therefore more risky to use. You should use Java 8, 11 or 17 if you can, as they will receive security updates for years to come.
 
 The below compatibility chart was last updated 2022-02-22.
 
@@ -32,18 +33,38 @@ The below compatibility chart was last updated 2022-02-22.
 |:-:|-|-|
 | Future versions not listed | Latest you can find | (unknown) |
 | **1.18** | **Java 17** | 17 |
-| **1.17** | **Java 17** | 16 (use java 17 instead) |
+| **1.17** | **Java 17** | 16 (use Java 17 if you can) |
 | Some custom server software before 1.17 |  | 11 |
 | **1.12** to **1.16** (inclusive) | **Java 8** | 8 |
-| **Classic** to **1.11** (inclusive) | **Java 8** | 6 (use java 8 instead) |
+| **Classic** to **1.11** (inclusive) | **Java 8** | 6 (use Java 8 if you can) |
+
+## Verifying if Java is installed {#verifying}
+
+You can check if a version of Java is already installed on your computer by following these instructions.
+
+First, open up a terminal (Win11, macOS, Linux) or Command Prompt (Win10, Win8.1, Win7)
+
+![Screenshot of start menu with Windows Terminal and Command Prompt highlighted](/static/images/help/installing-java/verifying/verifying-1.jpg)
+
+Next, type in `java -version` and press enter.
+
+![Screenshot of Windows Terminal with above command run](/static/images/help/installing-java/verifying/verifying-2.jpg)
+
+Java 8 will show up as either `Java version "1.8. [...]` or `openjdk version "1.8. [...]`.
+
+Java 11 will show up as either `Java version "11. [...]` or `openjdk version "11. [...]`.
+
+Java 17 will show up as either `Java version "17. [...]` or `openjdk version "17. [...]`.
 
 ### Downloading Java (OpenJDK) {#downloading-java}
 
-Visit the website for [Adoptium Temurin OpenJDK](https://adoptium.net)
+There are many places where you can get OpenJDK, in this tutorial we will be getting them from Adoptium.
 
-Click **Temurin 8 (LTS)** if you need Java 8, or **Temurin 17 (LTS)** if you need Java 17. Click **Latest release** to start the download.
+**Note:** If you are using Linux, most package managers include OpenJDK, so you do not need an installer for them. If this is the case, you can skip to [installation instructions](#install-linux)
 
-You may need to scroll down and click **Other platforms** if the website is unable to detect your operating system and CPU due to privacy browser extensions.
+Visit the website for [Adoptium Temurin OpenJDK](https://adoptium.net).
+
+Select the version you want from the list and click "Latest release" to start the download. If the version you want is not listed, or if your operating system is incorrectly detected, you may have to click "Other platforms" and select from the list there. Make sure to download the MSI installer for Windows or the PKG installer for macOS.
 
 ![Screenshot of Adoptium OpenJDK website](/static/images/help/installing-java/adoptium-website.jpg)
 
@@ -63,7 +84,7 @@ Click **Next**
 
 Make sure that both **Add to PATH** and **Set JAVA_HOME variable** are set to **Will be installed on local hard drive**.
 
-This step is especially important if you intend to run a server or code mods for the game!
+This step is especially important if you want to run a server or develop mods!
 
 ![Screenshot of OpenJDK installer with JAVA_HOME variable setting selected](/static/images/help/installing-java/adoptium-windows/openjdk-installer-3.jpg)
 
@@ -146,7 +167,7 @@ sudo apt install openjdk-11-jdk
 sudo apt install openjdk-8-jdk
 ```
 
-There are also PPAs available for Adoptium.
+There are also PPAs available for Adoptium and other Java distributions.
 
 ##### Fedora
 
@@ -165,6 +186,8 @@ sudo pacman -S jdk-openjdk
 sudo pacman -S jdk11-openjdk
 sudo pacman -S jdk8-openjdk
 ```
+
+There are also AUR packages available for Adoptium and other Java distributions.
 
 ##### RHEL/CentOS/RockyLinux/Amazon Linux
 
@@ -219,54 +242,9 @@ sudo archlinux-java set java-17-openjdk
 
 ## Next steps
 
-**Additional info:** [Changing Java Versions](/help/guides/changing-java-version/)
+**Additional info:** [Changing the default Java version used by the launcher](/help/guides/changing-java-version/)
 
-Once you have installed the proper Java version, you should configure this in your launcher and give the game a go! Depending on what you are trying to do, you may need to manually navigate to the path of Adoptium OpenJDK.
-
-Here are some examples of what this path may look like on **Windows**:
-
-```
-C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin\javaw.exe
-C:\Program Files\Eclipse Adoptium\jdk-11.0.14.1.1-hotspot\bin\javaw.exe
-C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin\javaw.exe
-```
-
-Here are some examples of what this path may look like on **macOS**:
-
-```
-/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java
-/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java
-/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java
-```
-
-Here are some examples of what this path may look like on **Linux**:
-
-```
-/usr/lib/jvm/java-17-openjdk/bin/java
-/usr/lib/jvm/java-11-openjdk/bin/java
-/usr/lib/jvm/java-8-openjdk/bin/java
-/usr/lib/jvm/java-17-openjdk-amd64/jre/bin/java
-/usr/lib/jvm/java-11-openjdk-amd64/jre/bin/java
-/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
-```
-
-## Verifying if Java is installed {#verifying}
-
-You can check if a version of Java is already installed on your computer by following these instructions.
-
-First, open up a terminal (Win11, macOS, Linux) or Command Prompt (Win10, Win8.1, Win7)
-
-![Screenshot of start menu with Windows Terminal and Command Prompt highlighted](/static/images/help/installing-java/verifying/verifying-1.jpg)
-
-Next, type in `java -version` and press enter.
-
-![Screenshot of Windows Terminal with above command run](/static/images/help/installing-java/verifying/verifying-2.jpg)
-
-Java 8 will show up as either `Java version "1.8. [...]` or `openjdk version "1.8. [...]`.
-
-Java 17 will show up as either `Java version "11. [...]` or `openjdk version "11. [...]`.
-
-Java 17 will show up as either `Java version "17. [...]` or `openjdk version "17. [...]`.
+**Additional info:** [Verifying if Java is installed properly](#verifying)
 
 ## Appendix: Possible symptoms of incorrect Java version {#symptoms}
 
