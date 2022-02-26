@@ -2,7 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .idea/
-.DS_Store
+
 Jekyll.sh
 Gemfile.lock
 vendor/
