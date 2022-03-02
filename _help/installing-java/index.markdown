@@ -15,9 +15,9 @@ Fortunately, we can use **OpenJDK**, which is identical to Oracle Java but does 
 Quick links:
 
 - [Do I need Java? Which version do I need?](#which-java)
-- [Downloading and installing Java](#downloading-java)
 - [Check if you have Java already](#verifying)
-- [Symptoms of incorrect Java version](#symptoms)
+- [Downloading and installing Java](#downloading-java)
+- [Appendix: Symptoms of incorrect Java version](#symptoms)
 
 ## Do I need Java? Which version do I need? {#which-java}
 
