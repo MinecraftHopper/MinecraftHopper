@@ -242,9 +242,9 @@ sudo archlinux-java set java-17-openjdk
 
 ## Next steps
 
-**Additional info:** [Changing the default Java version used by the launcher](/help/guides/changing-java-version/)
-
 **Additional info:** [Verifying if Java is installed properly](#verifying)
+
+**Additional info:** [Changing the default Java version used by the launcher](/help/guides/changing-java-version/)
 
 ## Appendix: Possible symptoms of incorrect Java version {#symptoms}
 
