@@ -72,7 +72,7 @@ Continue following the instructions for your platform below.
 
 ### Windows installation instructions {#install-windows}
 
-<details><summary>Click for instructions</summary> {{ "
+<details data-platform="windows" data-urlhash="install-windows"><summary>Click for instructions</summary> {{ "
 
 Run the installer.
 
@@ -112,7 +112,7 @@ Click **Finish** to exit the installer.
 
 ### macOS installation instructions {#install-macos}
 
-<details><summary>Click for instructions</summary> {{ "
+<details data-platform="macos" data-urlhash="install-macos"><summary>Click for instructions</summary> {{ "
 
 Run the installer.
 
@@ -150,7 +150,7 @@ Click **Close** to exit the installer.
 
 ### Linux installation instructions {#install-linux}
 
-<details><summary>Click for instructions</summary> {{ "
+<details data-platform="linux" data-urlhash="install-linux"><summary>Click for instructions</summary> {{ "
 
 Open a terminal
 
