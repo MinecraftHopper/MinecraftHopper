@@ -7,7 +7,7 @@ desc: "Change the version of Java that Minecraft uses"
 
 # Changing Java Versions
 
-Minecraft: Java Edition is written in a programming language called Java, which requires a program called the Java Runtime Environment (JRE) to run. The Minecraft launcher automatically installs and manages the JREs used by the game, but sometimes it is necessary to use a custom JRE to fix various issues.
+Minecraft: Java Edition is written in a programming language called Java, which requires a program called the Java Runtime Environment (JRE) to run. The Minecraft launcher automatically installs and manages the JREs required to run the game. However, sometimes it is necessary to use a different JRE to run a modified version of the game, or fix issues that you may be experiencing.
 
 ## Part A: Install Java
 
