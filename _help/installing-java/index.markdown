@@ -198,7 +198,7 @@ sudo yum install java-11-openjdk
 sudo yum install java-1.8.0-openjdk
 ```
 
-If your package manager does not include Java/OpenJDK, the Adoptium downloads can be used on all distros.
+If your package manager does not include Java/OpenJDK, the Adoptium downloads can be untared into /usr/lib/jvm used on all distros.
 
 ![Terminal with install command typed in](/static/images/help/installing-java/linux/install-java-2.jpg)
 
