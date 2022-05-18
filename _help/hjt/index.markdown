@@ -14,7 +14,7 @@ For more information, see the [Wikipedia article](https://en.wikipedia.org/wiki/
 Follow the instructions below to generate a HijackThis log.
 
 ### Windows
-<details>
+<details data-platform="windows">
     <summary>Click for instructions</summary>
 
 {{ "
@@ -50,7 +50,7 @@ Click **Submit Anonymously**. On the next page, copy the URL from the address ba
 </details>
 
 ### Mac/Linux
-<details>
+<details data-platform="macos linux">
 	<summary>Click for instructions</summary>
 
 {{"

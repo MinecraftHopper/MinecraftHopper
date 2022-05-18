@@ -70,7 +70,7 @@ Find a folder called **'Altening'** and delete it.
 You then will need to edit your hosts file to undo the changes made by the alt account tools to be able to log in to Minecraft again. Follow the instructions according to your operating system.
 
 ### Windows
-<details>
+<details data-platform="windows">
   <summary>Click for instructions</summary>
 
 {{ "
@@ -164,7 +164,7 @@ Try Minecraft. If Minecraft now works, delete the hosts file from your desktop. 
 </details>
 
 ### Mac
-<details>
+<details data-platform="mac">
   <summary>Click for instructions</summary>
 
 {{ "
@@ -211,7 +211,7 @@ If Minecraft works, close the Terminal window and change your Minecraft password
 </details>
 
 ### Linux
-<details>
+<details data-platform="linux">
   <summary>Click for instructions</summary>
 
 {{ "

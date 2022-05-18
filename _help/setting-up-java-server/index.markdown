@@ -30,7 +30,7 @@ Now follow the OS specific instructions to setup the server. If you're using a l
 
 
 ### Windows {#windows}
-<details>
+<details data-platform="windows" data-urlhash="windows">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -48,7 +48,7 @@ into it, click *Save As*
 </details>
 
 ### MacOS {#macos}
-<details>
+<details data-platform="mac" data-urlhash="macos">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -80,7 +80,7 @@ First, you need to read [the EULA](https://account.mojang.com/documents/minecraf
 ## The Server's Console {#console}
 
 #### Commands
-<details>
+<details data-urlhash="console">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -91,7 +91,7 @@ You can communicate with in game players from the console using `say`, and you c
 
 ##### Stopping the server
 " | markdownify }}
-<details>
+<details data-urlhash="console">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -103,7 +103,7 @@ The best way to stop a server is to run `save-all`, then `stop` once the save ha
 </details>
 
 #### Information {#console-info}
-<details>
+<details data-urlhash="console console-info">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -115,7 +115,7 @@ The console will also display information about how the server is running, if it
 
 
 #### The GUI {#gui}
-<details>
+<details data-urlhash="console gui">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -125,7 +125,7 @@ You may have noticed earlier that the start command contains `-nogui`, this prev
 </details>
 
 #### Running in the background or remotely <small>(MacOS and Linux)</small>
-<details>
+<details data-urlhash="console">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -149,7 +149,7 @@ If you are playing with a person that *is* on the same network as you, for examp
 If you're trying to play with someone that *is not* on the same network as you, for example, if they aren't in the same household as you, please follow the [*Playing Online*](#portforwarding) section
 
 ### Playing Locally {#localplay}
-<details>
+<details data-urlhash="localplay multiplayer">
 	<summary>Click to expand</summary>
 
 {{ "
@@ -175,7 +175,7 @@ If you want to connect to the server on your own computer then do the above but 
 
 ### Playing Online and Port Forwarding {#portforwarding}
 
-<details>
+<details data-urlhash="portforwarding multiplayer">
   <summary>Click to expand</summary>
 
 {{ "
