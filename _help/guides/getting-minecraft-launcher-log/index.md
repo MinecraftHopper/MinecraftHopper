@@ -21,7 +21,7 @@ The launcher log contains history from when the launder is started up until the 
 
 #### Step 1
 
-Start Minecraft and run it to the point where the crash/error occurs. Then close Minecraft and keep it closed.
+Start the launcher and use it to the point where the error occurs. Then close Minecraft and keep it closed.
 ![Minecraft premature exit example](/static/images/help/guides/getting-minecraft-launcher-log/mojang-loading.png)
 
 #### Step 2
