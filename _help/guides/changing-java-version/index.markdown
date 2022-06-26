@@ -7,38 +7,76 @@ desc: "Change the version of Java that Minecraft uses"
 
 # Changing Java Versions
 
-The Java version of Minecraft comes with a Java runtime bundled with the installation, which is downloaded when Minecraft is run for the first time. Sometimes, however, updating to a newer version of the Java runtime is needed to resolve conflicts with graphics drivers or other issues.
+Minecraft: Java Edition is written in a programming language called Java, which requires a program called the Java Runtime Environment (JRE) to run. The Minecraft launcher automatically installs and manages the JREs required to run the game. However, sometimes it is necessary to use a different JRE to run a modified version of the game, or fix issues that you may be experiencing.
 
-### Part A: Install Java
+## Part A: Install Java
 
-First, you will need to make sure that a standalone Java runtime is installed on your computer.
+First, you will need to install the correct version of Java for the version of the game you want to play.
 
-[Follow the instructions here to make sure you have standalone Java installed, or to install it.](/help/installing-java/)
+[Follow the instructions here to install the version of Java you need](/help/installing-java/).
 
-### Part B: Set Minecraft to use Standalone Java Runtime
+## Part B: Set Minecraft to use a Custom Java Runtime
 
-#### Step 1
+### Step 1
 
-In the Launcher, click on **Installations** on the top.
+Open the launcher and click "Installations".
 
-#### Step 2
+!["Screenshot of Minecraft Launcher with \"Installations\" Highlighted"](/static/images/help/guides/changing-java-version/changing-java-version-1.png)
 
-Then click on **Latest Release**, then click on **More Options** in the window that opens.
+### Step 2
 
-#### Step 3
+Find the profile you want to change, click the three dots (...) and click "Edit".
 
-Under **Java Executable**, copy the relevant text below and paste it into the field:
+!["Screenshot of the Minecraft Launcher Installations screen](/static/images/help/guides/changing-java-version/changing-java-version-2.png)
 
-* __Windows__: `C:\Program Files\Java\jre1.8.0_281\bin\javaw.exe`
-* __MacOS__: `/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java`
-* __Linux__: **click browse** then navigate to `/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java` (note: your exact path may differ slightly)
+### Step 3
 
-Then click **OK**, then **Save**.
+Click "More Options" at the bottom of the page.
 
-#### Step 4
+![](/static/images/help/guides/changing-java-version/changing-java-version-3.png)
 
-Go Back to the **Play** tab and try to start the "Latest Release" profile.
+### Step 4
 
-#### Notes
+Click "Browse" next to the "Java Executable" field.
+
+![](/static/images/help/guides/changing-java-version/changing-java-version-4.png)
+
+### Step 5
+
+#### Windows
+
+In the File Explorer window that appears, click navigate to one of the following places:
+
+- If you installed Temurin OpenJDK from Adoptium, navigate to `C:\Program Files\Eclipse Adoptium`.
+- If you installed Oracle Java, navigate to `C:\Program Files\Java`.
+
+If you installed something different, you'll need to look up its installation and navigate there.
+
+![](/static/images/help/guides/changing-java-version/changing-java-version-windows-1.png)
+
+Double-click the folder of the Java version you want, and then navigate to hotspot -> bin and find a file named `javaw.exe` and click on it. Then, click "Open".
+
+![](/static/images/help/guides/changing-java-version/changing-java-version-windows-2.png)
+
+#### macOS
+
+Press Shft-Cmd-G to open the Go menu, then type (or paste) `/Library/Java/JavaVirtualMachines/` and press enter.
+
+![](/static/images/help/guides/changing-java-version/changing-java-version-macos-1.png)
+
+Double-click the folder that matches the version of Java you want (most likely `temurin-17.jdk`), then go to Contents -> Home -> bin and find a file named `java` and click on it. Then, click "Open".
+
+![](/static/images/help/guides/changing-java-version/changing-java-version-macos-2.png)
+
+#### Linux
+
+In most Linux distributions, you'll need to navigate to `/usr/lib/jvm/`, double-click the folder of the Java version you wish to use, then navigate to `bin` and click on `java`. Then click "Open".
+
+### Step 6
+Click "Save", and then try to run the installation you just modified. If it works, you're done!
+
+![](/static/images/help/guides/changing-java-version/changing-java-version-5.png)
+
+## Notes
 
 If this works, keep in mind you will need to update the version number in the Java Executable setting whenever you update Java. You will also need to apply this setting to any launcher profile you make.
