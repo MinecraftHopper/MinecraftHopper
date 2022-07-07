@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 body {
-    padding: 20px 30px 40px 30px;
     color: #606c71;
     font-size:1em;
     line-height:1.5em;
@@ -18,8 +17,8 @@ body {
 	font-size: 2em;
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	 line-height: 2em;
-	 margin: 2em 0em;
-	 padding: 1em;
+	 margin: 1em 0em;
+	 padding: 1em 0em;
 	 text-align: center;
 	 width: 100%;
 }
@@ -122,3 +121,7 @@ code {
     padding: .5em;
     border: 1px solid lightgrey;
 }
+a {
+  text-decoration: none;
+}
+
