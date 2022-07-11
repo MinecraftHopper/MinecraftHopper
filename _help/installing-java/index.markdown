@@ -3,6 +3,9 @@ layout: article
 title:  "How to install Java"
 name: "installing-java"
 desc: "How to install Java"
+keywords:
+- jdk
+- jre
 ---
 # What is Java<small> - How to install Java</small>
 

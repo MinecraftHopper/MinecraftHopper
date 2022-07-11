@@ -3,6 +3,9 @@ layout: article
 title: "Changing Java Version"
 name: "changing-java-version"
 desc: "Change the version of Java that Minecraft uses"
+keywords:
+- jre
+- jdk
 ---
 
 # Changing Java Versions

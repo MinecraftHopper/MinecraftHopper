@@ -9,7 +9,7 @@ name: "Help Pages"
 <div id="cards">
 	{% for page in site.help %}
 	{% unless page.name == "index" or page.hidden %}
-	<div class="card mt-2 mb-2" data-tags="{{ page.tags | join: ' ' }}">
+	<div class="card mt-2 mb-2" data-keywords="{{ page.keywords | join: ' ' }}">
 		<div class="card-body">
 			<h5 class="card-title"><a href="{{ page.url | remove: 'index.html' }}">{{ page.title }}</a></h5>
 			
@@ -38,7 +38,7 @@ name: "Help Pages"
 	queryElement.addEventListener('input', function(event) {
 		event.preventDefault()
 		for (let i = 0; i < pages.length; i++) {
-			if (pages[i].innerText.toLowerCase().includes(queryElement.value.toLowerCase()) || pages[i].getAttribute('data-tags').toLowerCase().includes(queryElement.value.toLowerCase())) {
+			if (pages[i].innerText.toLowerCase().includes(queryElement.value.toLowerCase()) || pages[i].getAttribute('data-keywords').toLowerCase().includes(queryElement.value.toLowerCase())) {
 				pages[i].classList.remove('d-none')
 			} else {
 				pages[i].classList.add('d-none')
