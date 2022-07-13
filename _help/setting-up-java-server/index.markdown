@@ -26,14 +26,10 @@ Minecraft: Java edition uses servers for online play.
 
 If you're using forge or fabric, then you'll need to run the installer and select 'Install server', click the 3 dots and find your workplace. Then you can install there
 
-Now follow the OS specific instructions to setup the server. If you're using a linux server, the [MacOS instructions](#macos) will fit you better
+Now follow the OS specific instructions to setup the server.
 
 
-### Windows {#windows}
-<details data-platform="windows" data-urlhash="windows">
-	<summary>Click to expand</summary>
-
-{{ "
+{% capture accordion_body_windows %}
 * Rename the file you previously downloaded to 'server' (or server.jar if you have file extensions on)
 * Open up notepad and paste 
 	```
@@ -43,15 +39,10 @@ Now follow the OS specific instructions to setup the server. If you're using a l
 into it, click *Save As* 
 * Go to the folder that contains your server, change the filetype to 'all' and name the file start.bat **There must to be a .bat at the end of the file name**, 
 * Run it, you will see a command prompt window briefly flash. Now, you'll need to [agree to the EULA](#eula) to continue. If you agreed to it, you can now access the [console](#console)
-" | markdownify }}
 
-</details>
+{% endcapture %}
 
-### MacOS {#macos}
-<details data-platform="mac" data-urlhash="macos">
-	<summary>Click to expand</summary>
-
-{{ "
+{% capture accordion_body_macos %}
 
 * Rename the file you previously downloaded from the Minecraft website to `server`, or `server.jar` if file extensions are shown
 * Open TextEdit, create a new document, and if you see markdown tools at the top of the text document, press <strong>shift-cmd-t</strong> to hide them
@@ -64,72 +55,44 @@ into it, click *Save As*
 * Press <strong>cmd-s</strong>, then navigate to your workspace folder. Title the file `start.command`. Make sure it does not save as `start.command.txt`.
 * Now go to your workspace folder, then double click on the `start.command` file to run it. You'll see a terminal window open. After [agreeing to the EULA](#eula), you can use [your server's console](#console). 
 	* If a message saying 'Permission denied' shows up, open terminal and run `chmod +x`, then type a space, then drag your start.command file into the terminal window, then press *enter* and try running it again
-" | markdownify }}
-</details>
+{% endcapture %}
+
+<div class="accordion" id="serverCmdInstructions">
+    {% include accordion_item.html id="windows" title="Windows" parent_id="serverCmdInstructions" data-platform="windows"     content=accordion_body_windows %}
+    {% include accordion_item.html id="macos"   title="macOS (and Linux)"   parent_id="serverCmdInstructions" data-platform="macos linux" content=accordion_body_macos %}
+</div>
 
 ## Eula {#eula}
 * Your server should've given you a message mentioning the EULA. Close that window.
 * Go to your workplace folder, and you should see a few new files. One of them should be named `eula` or `eula.txt`. Double click it and you should get the below or something similar.
 ![Eula](/static/images/help/setting-up-server/eula.png)
 
----
+<hr>
 
 First, you need to read [the EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, then change `eula=false` to `eula=true`. Now, your server is all setup for playing locally. Check out the [information on playing with others](#multiplayer)
 
 
 ## The Server's Console {#console}
 
-#### Commands
-<details data-urlhash="console">
-	<summary>Click to expand</summary>
-
-{{ "
-
+{% capture accordion_body_console_commands %}
 You can run commands like `/op` or `/gamemode` in it and it will tell you what the server is thinking and/or doing. When executing commands, make sure you do not include the `/` in front of the command, or it will not work. You may want to run `op YOURUSERNAME` so you can run commands outside of the console.
 
 You can communicate with in game players from the console using `say`, and you can private message them with `msg`, but they won't be able to reply
+{% endcapture %}
 
-##### Stopping the server
-" | markdownify }}
-<details data-urlhash="console">
-	<summary>Click to expand</summary>
-
-{{ "
+{% capture accordion_body_console_stop %}
 The best way to stop a server is to run `save-all`, then `stop` once the save has finished. This method will minimize the chance of something going wrong at shutdown. If for some reason, you cannot use commands, for instance, if the server is running too slow to register them, you can force stop the server by either using <strong>ctrl+c</strong> or closing the terminal window.
-" | markdownify }}
-</details>
+{% endcapture %}
 
-
-</details>
-
-#### Information {#console-info}
-<details data-urlhash="console console-info">
-	<summary>Click to expand</summary>
-
-{{ "
-
+{% capture accordion_body_console_information %}
 The console will also display information about how the server is running, if it is running too slow, it will show 'Can't keep up!', and it also shows commands that are executed by ops and the game chat
-" | markdownify }}
-</details>
+{% endcapture %}
 
-
-
-#### The GUI {#gui}
-<details data-urlhash="console gui">
-	<summary>Click to expand</summary>
-
-{{ "
-
+{% capture accordion_body_console_gui %}
 You may have noticed earlier that the start command contains `-nogui`, this prevents the server's visual interface from displaying. If you would like to view your server's GUI, at the expense of some performance, you can remove the `-nogui` part of the command. The gui displays information about the RAM used in the top left, below that is a list of online players, and on the right is the console. You can type commands into the box at the bottom, and you can see the [console information section](#console-info)
-" | markdownify }}
-</details>
+{% endcapture %}
 
-#### Running in the background or remotely <small>(MacOS and Linux)</small>
-<details data-urlhash="console">
-	<summary>Click to expand</summary>
-
-{{ "
-
+{% capture accordion_body_console_background %}
 If you plan on leaving your server online for long periods of time, you may find it annoying to have your console open constantly. There is a utility called 'screen' that can help with this. 
 * To check if you have screen installed, you can run `screen -v` in your terminal, if it outputs a version number, that means it's installed. 
 	* If screen is not installed, install it with your package manager
@@ -138,9 +101,15 @@ If you plan on leaving your server online for long periods of time, you may find
 * To access the server's console later, run `screen -r Minecraft_Server`.
 
 You can also use this to access a server over SSH.
+{% endcapture %}
 
-" | markdownify }}
-</details>
+<div class="accordion">
+    {% include accordion_item.html id="console-commands" title="Commands"             content=accordion_body_console_commands %}
+    {% include accordion_item.html id="console-stop"     title="Stopping the Server"  content=accordion_body_console_stop %}
+	{% include accordion_item.html id="console-info"     title="Information"          content=accordion_body_console_information %}
+	{% include accordion_item.html id="console-gui"      title="The GUI"              content=accordion_body_console_gui %}
+	{% include accordion_item.html id="console-background" title="Running in the Background   <small>   (macOS and Linux)</small>" content=accordion_body_console_background %}
+</div>
 
 
 ## Playing Multiplayer {#multiplayer}
@@ -148,19 +117,14 @@ If you are playing with a person that *is* on the same network as you, for examp
 
 If you're trying to play with someone that *is not* on the same network as you, for example, if they aren't in the same household as you, please follow the [*Playing Online*](#portforwarding) section
 
-### Playing Locally {#localplay}
-<details data-urlhash="localplay multiplayer">
-	<summary>Click to expand</summary>
-
-{{ "
-
+{% capture accordion_body_multiplayer_localplay %}
 In order for them to join you, you will need to find your IP. You can think of your IP as a join code or friend code used to access the server)<br>
 * Open up command prompt, and in the command prompt type 'IPconfig'. Press enter and look for something like:<br>
 `IPv4 Address.......: XXX.XXX.X.X` <br>
 Example Image:<br>
 ![Example](/static/images/help/setting-up-server/ipconfig.png)<br>
 
----
+<hr>
 
 This is the IP that the person will use to connect to the server.
 Start up the server and then tell them to click 'Add a new server' or 'Direct Connect'
@@ -170,16 +134,9 @@ Start up the server and then tell them to click 'Add a new server' or 'Direct Co
 
 If you want to connect to the server on your own computer then do the above but instead use 'localhost' as the IP
 
-" | markdownify }}
-</details>
+{% endcapture %}
 
-### Playing Online and Port Forwarding {#portforwarding}
-
-<details data-urlhash="portforwarding multiplayer">
-  <summary>Click to expand</summary>
-
-{{ "
-<br>
+{% capture accordion_body_multiplayer_portforwarding %}
 
 **Most of the instructions here are for generic routers. They might not work for yours**<br>
 
@@ -201,10 +158,7 @@ When ads pop up, either ignore them or press the close button in the top right i
 ![Example](/static/images/help/setting-up-server/ipconfig.png)
 
 
----
-
-
-
+<hr>
 
 * The first one is your local IP address
 * The second one is your router's IP Address
@@ -239,6 +193,9 @@ As the final step to allow people outside your network to join, you will need to
 * To connect from inside the network, for instance, if you're in the same house, use the [local IP address](#localplay)
 * To connect from outside the network, for instance, with your friend who is not at your house, use your [public IP address](https://duckduckgo.com/?q=what+is+my+ip)
 
-" | markdownify }}
+{% endcapture %}
 
-</details>
+<div class="accordion" id="multiplayer">
+    {% include accordion_item.html id="localplay"      title="Playing Locally"                   parent_id="multiplayer" content=accordion_body_multiplayer_localplay %}
+    {% include accordion_item.html id="portforwarding" title="Playing Online and Portforwarding" parent_id="multiplayer" content=accordion_body_multiplayer_portforwarding %}
+</div>

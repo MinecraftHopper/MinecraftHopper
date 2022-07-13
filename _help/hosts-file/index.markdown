@@ -34,10 +34,9 @@ Not only do these settings prevent users from logging in or joining servers, the
 First, you will need to delete the tool. If you don't know where it is, try looking in your Downloads folder or any Minecraft folder you have on your computer.
 
 ### If You Used TheAltening
-<details>
-  <summary>Click to show instructions.</summary>
 
-{{ "
+
+{% capture accordion_body_altening %}
 If you used TheAltening, you need to take extra steps to remove the tool completely:
   
 #### Step 1
@@ -62,31 +61,27 @@ Press <a href='/static/images/help/hosts-file/windows-key.png'><img src='/static
 
 Find a folder called **'Altening'** and delete it.
 ![](/static/images/help/hosts-file/appdata-altening.png)
-" | markdownify }}
-</details>
+{% endcapture %}
+<div class="accordion">
+  {% include accordion_item.html id="altening" title="TheAltening Instructions" content=accordion_body_altening%}
+</div>
 
 ## Part B: Reset Your Hosts File
 
 You then will need to edit your hosts file to undo the changes made by the alt account tools to be able to log in to Minecraft again. Follow the instructions according to your operating system.
 
-### Windows
-<details data-platform="windows">
-  <summary>Click for instructions</summary>
-
-{{ "
+{% capture accordion_body_windows %}
 #### Step 1
 
 Press <a href='/static/images/help/hosts-file/windows-key.png'><img src='/static/images/help/hosts-file/windows-key-25.png' class='inline'></a> and **R** at the same time.
 
 #### Step 2
 
-" | markdownify }}
 
 <p>In the Run box, copy and paste the <strong>entire</strong> command:
 <code>powershell -command "Start-Process notepad $env:windir\system32\drivers\etc\hosts" -Verb runas</code>
 <img src="/static/images/help/hosts-file/run-powershell.png"></p>
 
-{{ "
 #### Step 3
 
 A blue window will briefly appear, then a UAC window. Click **Yes** in the UAC window that pops up. A Notepad window should open with text.
@@ -160,14 +155,10 @@ Drag the hosts file back into the 'etc' folder. Click **Replace the file...** th
 #### Step 9
 
 Try Minecraft. If Minecraft now works, delete the hosts file from your desktop. Change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password. Use a password strength meter (google 'password strength meter') to check your password strength.
-" | markdownify }}
-</details>
+{% endcapture %}
 
-### Mac
-<details data-platform="mac">
-  <summary>Click for instructions</summary>
 
-{{ "
+{% capture accordion_body_macos %}
 #### Step 1
 Open the Terminal:
 
@@ -207,14 +198,10 @@ Press **Ctrl-O** (not Cmd-O) then *Enter* to save the file. Leave the terminal w
 #### Step 8
 
 If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password. Use a password strength meter (google 'password strength meter') to check your password strength.
-" | markdownify }}
-</details>
+{% endcapture %}
 
-### Linux
-<details data-platform="linux">
-  <summary>Click for instructions</summary>
 
-{{ "
+{% capture accordion_body_linux %}
 #### Step 1
 
 Open the Terminal:
@@ -255,5 +242,11 @@ Press **Ctrl-O** then **Enter** to save the file. Leave the window open then try
 #### Step 8
 
 If Minecraft works, close the Terminal window and change your Minecraft password right away. Also change your email's password if it is the same as your Minecraft password. Use a password strength meter (google 'password strength meter') to check your password strength.
-" | markdownify }}
-</details>
+{% endcapture %}
+
+<div class="accordion" id="hostsFileReset">
+  {% include accordion_item.html id="windows" title="Windows" parent_id="hostsFileReset" data-platform="windows" content=accordion_body_windows %}
+  {% include accordion_item.html id="macos"   title="macOS"   parent_id="hostsFileReset" data-platform="macos" content=accordion_body_macos %}
+  {% include accordion_item.html id="linux"   title="Linux"   parent_id="hostsFileReset" data-platform="linux" content=accordion_body_linux %}
+</div>
+

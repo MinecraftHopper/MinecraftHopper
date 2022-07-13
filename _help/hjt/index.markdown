@@ -13,11 +13,7 @@ For more information, see the [Wikipedia article](https://en.wikipedia.org/wiki/
 
 Follow the instructions below to generate a HijackThis log.
 
-### Windows
-<details data-platform="windows">
-    <summary>Click for instructions</summary>
-
-{{ "
+{% capture accordion_body_windows %}
 #### Step 1
 [Download the program](https://github.com/dragokas/hijackthis/raw/devel/binary/HiJackThis.exe).
 ![](/static/images/help/hjt/win-download-url.png)
@@ -46,14 +42,9 @@ Open [https://paste.gg](https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) th
 
 Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
 ![](/static/images/help/hjt/win-pastegg-url.png)
-" | markdownify }}
-</details>
+{% endcapture %}
 
-### Mac/Linux
-<details data-platform="macos linux">
-	<summary>Click for instructions</summary>
-
-{{"
+{% capture accordion_body_unix %}
 #### Step 1
 Open the terminal.
 
@@ -75,5 +66,9 @@ Click and drag your mouse across the URL text to select it, then press <strong>C
 
 #### Step 5
 Give the URL to whoever requested it and wait for further instructions.
-" | markdownify}}
-</details>
+{% endcapture %}
+
+<div class="accordion" id="hjtInstructions">
+    {% include accordion_item.html id="windows" title="Windows"         parent_id="hjtInstructions" data-platform="windows" content=accordion_body_windows %}
+    {% include accordion_item.html id="unix"    title="macOS and Linux" parent_id="hjtInstructions" data-platform="macos linux" content=accordion_body_unix %}
+</div>

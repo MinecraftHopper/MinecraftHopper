@@ -1,0 +1,15 @@
+{% assign id = include.id %}
+{% capture heading_id %}heading{{id}}{% endcapture %}
+{% capture collapse_id %}collapse{{id}}{% endcapture %}
+<div class="accordion-item" id="{{id}}" data-platform="{{include.data-platform}}" data-urlhash="{{id}}">
+  <h2 class="accordion-header mt-0" id="{{heading_id}}">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="true" aria-controls="{{collapse_id}}">
+      {{include.title | default: id }}
+    </button>
+  </h2>
+  <div id="{{collapse_id}}" class="accordion-collapse collapse" aria-labelledby="{{heading_id}}"{% if include.parent_id %} data-bs-parent="#{{include.parent_id}}"{% endif %}>
+    <div class="accordion-body">
+      {{ include.content | markdownify | strip_newlines }}
+    </div>
+  </div>
+</div>
