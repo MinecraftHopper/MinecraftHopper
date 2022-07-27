@@ -3,6 +3,8 @@ layout: article
 title: "Getting Minecraft Java Crash Reports"
 name: "getting-minecraft-jvm-crash-reports"
 desc: "How to get Java crash reports in Minecraft"
+keywords:
+- jvm
 ---
 
 # Getting Minecraft JVM Crash Reports <small>(Java Only)</small>

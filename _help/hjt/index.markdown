@@ -3,6 +3,8 @@ layout: article
 title: "Getting a HijackThis Log"
 name: "hjt-log"
 desc: "Getting a HijackThis log for further troubleshooting"
+keywords: 
+- hjt
 ---
 
 # Getting a HijackThis Log for Further Troubleshooting
