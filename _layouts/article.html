@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
-<div class="single-page {{ page.extraclasses }}">
+<div class="{{ page.extraclasses }}">
     {% unless page.hide_breadcrumbs == true %}
         {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/', " " }}{% endcapture %}
         {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
         {% assign previous = "" %}
         <div class="row-fluid">
             <div class="span12">
-                <ul class="breadcrumb well clearfix">
+                <ul class="pt-2 pb-2 breadcrumb clearfix text-bg-light">
                     <nav aria-label="You are here:" role="navigation">
                         <ol class="breadcrumbs">
                         {% if num_parts == "-1" %}
@@ -34,8 +33,8 @@ layout: default
         </div>
     {% endunless %}
     <div class="row">
-    <div style="width: 85%;" class="offset1">
-    {{ content }}
-    </div>
+        <div class="col-12">
+            {{ content }}
+        </div>
     </div>
 </div>

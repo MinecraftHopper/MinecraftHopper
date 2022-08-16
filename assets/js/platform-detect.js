@@ -33,8 +33,9 @@
  */
 (function() {
     var platformDetailsElements = document.querySelectorAll("details[data-platform]");
+    var accordionElements = document.getElementsByClassName("accordion-item")
 
-    if (platformDetailsElements.length != 0) {
+    if (platformDetailsElements.length + accordionElements.length != 0) {
         var platformDetections = [
             // we match mobile and console platforms first to avoid detecting some of them as desktop Linux
             // most platforms can be detected by `navigator.platform`, some are only indicated in the raw ua string
@@ -67,9 +68,15 @@
             }
         }
 
-        for (var elem of platformDetailsElements) {
+        for (var elem of accordionElements) {
             if (elem.dataset["platform"].split(" ").indexOf(platform) !== -1) {
                 elem.setAttribute("open", true)
+            }
+        }
+        for (var elem of accordionElements) {
+            if (elem.dataset["platform"].split(" ").indexOf(platform) !== -1) {
+                elem.getElementsByClassName('accordion-button')[0].classList.remove('collapsed')
+                elem.getElementsByClassName('accordion-collapse')[0].classList.add('show')
             }
         }
     }
@@ -80,6 +87,12 @@
         for (var elem of urlHashDetailsElements) {
             if (elem.dataset["urlhash"].split(" ").indexOf(window.location.hash.slice(1)) !== -1) {
                 elem.setAttribute("open", true)
+            }
+        }
+        for (var elem of accordionElements) {
+            if (elem.dataset["urlhash"].split(" ").indexOf(window.location.hash.slice(1)) !== -1) {
+                elem.getElementsByClassName('accordion-button')[0].classList.remove('collapsed')
+                elem.getElementsByClassName('accordion-collapse')[0].classList.add('show')
             }
         }
     }

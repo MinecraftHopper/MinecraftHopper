@@ -20,43 +20,57 @@
 
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/global.css">
+  <script src="/assets/js/bootstrap.min.js"></script>
   
 </head>
 <body>
-
-<div id="page-content-wrapper">
-    <div id="page-header">
-        <ul class="nav nav-pills pull-right">
-            <li><a href="https://account.mojang.com">Mojang account page</a></li>
-            <li><a href="https://minecraft.net">Minecraft home page</a></li>
-            <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
-            <li><a href="http://help.minecraft.net/">Account Support</a></li>
-        </ul>
-        <h3 class="muted"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h3>{{ site.description | default: site.github.project_tagline }}
+  <div class="container">
+      <div class="navbar navbar-expand-lg pt-md-5 pt-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">{{ site.title | default: site.github.repository_name }}</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto me-3">
+              <li class="nav-item"><a class="nav-link" href="https://account.mojang.com">Mojang Account Page</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://minecraft.net">Minecraft Homepage</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Tracker</a></li>
+              <li class="nav-item"><a class="nav-link" href="http://help.minecraft.net/">Account Support</a></li>
+            </ul>
+          </div>
+      </div>
     </div>
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
     <hr>
     <section class="main-content">
-  
-      {{ content }}
-      <hr>
-      <footer class="site-footer">
-        <small><div style="text-align: center;"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the community.</div>
-        <div style="text-align: center;">Need more help? <a href="https://discord.gg/58Sxm23">Click
-            here</a> to ask our volunteers!</div></small>
-      </footer>
-    </section>
-
-    <script src="/assets/js/platform-detect.js"></script>
-
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
       
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-  </body>
-</html>
+      {{ content }}
+    </section>
+    </div>
+      
+    
+      <footer class="text-bg-light text-center mt-3">
+        <div class="container p-4">
+          <small>
+            <div><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the community.</div>
+          <div>Need more help? <a href="https://discord.gg/58Sxm23">Click here</a> to ask our volunteers!</div></small>
+          </div>
+          </footer>
+        </section>
+        
+        <script src="/assets/js/platform-detect.js"></script>
+        
+        {% if site.google_analytics and jekyll.environment == 'production' %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          
+          gtag('config', '{{ site.google_analytics }}');
+        </script>
+        {% endif %}
+      </body>
+      </html>
+      

@@ -3,6 +3,9 @@ layout: article
 title:  "How to install Java"
 name: "installing-java"
 desc: "How to install Java"
+keywords:
+- jdk
+- jre
 ---
 # What is Java<small> - How to install Java</small>
 
@@ -70,9 +73,7 @@ Select the version you want from the list and click "Latest release" to start th
 
 Continue following the instructions for your platform below.
 
-### Windows installation instructions {#install-windows}
-
-<details data-platform="windows" data-urlhash="install-windows"><summary>Click for instructions</summary> {{ "
+{% capture accordion_body_windows %}
 
 Run the installer.
 
@@ -108,11 +109,9 @@ Click **Finish** to exit the installer.
 
 ![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-windows/openjdk-installer-8.jpg)
 
-" | markdownify }} </details>
+{% endcapture %}
 
-### macOS installation instructions {#install-macos}
-
-<details data-platform="macos" data-urlhash="install-macos"><summary>Click for instructions</summary> {{ "
+{% capture accordion_body_macos %}
 
 Run the installer.
 
@@ -146,11 +145,9 @@ Click **Close** to exit the installer.
 
 ![Screenshot of OpenJDK installer](/static/images/help/installing-java/adoptium-mac/openjdk-installer-8.jpg)
 
-" | markdownify }} </details>
+{% endcapture %}
 
-### Linux installation instructions {#install-linux}
-
-<details data-platform="linux" data-urlhash="install-linux"><summary>Click for instructions</summary> {{ "
+{% capture accordion_body_linux %}
 
 Open a terminal
 
@@ -238,7 +235,13 @@ sudo archlinux-java set java-17-openjdk
 
 ![Terminal with Java alternatives command executed](/static/images/help/installing-java/linux/install-java-4.jpg)
 
-" | markdownify }} </details>
+{% endcapture %}
+
+<div class="accordion" id="javaInstallation">
+    {% include accordion_item.html id="windows" title="Windows" parent_id="hjtInstructions" data-platform="windows" content=accordion_body_windows %}
+    {% include accordion_item.html id="macos"   title="macOS"   parent_id="hjtInstructions" data-platform="macos"   content=accordion_body_macos %}
+    {% include accordion_item.html id="linux"   title="Linux"   parent_id="hjtInstructions" data-platform="linux"   content=accordion_body_linux %}
+</div>
 
 ## Next steps
 
