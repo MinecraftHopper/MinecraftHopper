@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Title"
+title:  "How to read some mod crash reports (Java)"
 name: "Name"
-desc: "Description"
+desc: "How to read some crash reports when mods are involved"
 ---
 
 # How to read some mod crash reports (Java)
