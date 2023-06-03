@@ -17,7 +17,7 @@ Follow the instructions below to generate a HijackThis log.
 
 {% capture accordion_body_windows %}
 #### Step 1
-[Download the program](https://github.com/dragokas/hijackthis/raw/devel/binary/HiJackThis.exe).
+[Download the program](https://github.com/dragokas/hijackthis/raw/262d963c5a6a19b042392ed0754e7c4eb0efea4a/binary/HiJackThis.exe).
 ![](/static/images/help/hjt/win-download-url.png)
 
 #### Step 2
