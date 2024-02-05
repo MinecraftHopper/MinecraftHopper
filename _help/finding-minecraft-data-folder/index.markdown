@@ -16,7 +16,7 @@ To find the Minecraft data folder on Windows, hold down the Windows key (usually
 ### macOS
 Triple click the line below to select it, then right click (hold control and click) and select Services > Show in Finder
 
-~/Library/Application Support/minecraft
+`~/Library/Application Support/minecraft`
 
 If you are unable to complete these steps, then try this:
 
@@ -27,4 +27,4 @@ If you are unable to complete these steps, then try this:
 ![Screenshot of Finder Go menu](/static/images/help/finding-minecraft-data-folder/macOS.png)
 
 ### Linux
-On Linux, the Minecraft data folder is located in `/home/user/.minecraft`. 
+On Linux, the Minecraft data folder is located in `~/.minecraft`. 
