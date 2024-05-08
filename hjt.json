@@ -1,0 +1,858 @@
+[
+    {
+        "name": "Webroot",
+        "match_criteria": ".*WRTray.*",
+        "description": "Try av/webroot, otherwise uninstall. Can lock the Hosts file.",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Ask Toolbar",
+        "match_criteria": ".*AskBar.*",
+        "description": "Browser Toolbar, potentially unwanted.",
+        "category": "Bloat",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Mcafee Firewall",
+        "match_criteria": ".*mfemms.exe.*",
+        "description": "Causes login and multiplayer issues. Remove with av/mcafee/uninstall",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Advanced SystemCare",
+        "match_criteria": ".*ASCTray.exe.*",
+        "description": "Generally bad antivirus solution. Suggest removal.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "BoostSpeed",
+        "match_criteria": ".*BoostSpeed.exe.*",
+        "description": "\"Optimization\" software, Fix: Uninstall",
+        "category": "PUP",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Agnitum/Outpost Firewall",
+        "match_criteria": ".*acs.exe.*",
+        "description": "Firewall. If login/multiplayer/download issues, uninstall.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "RPCAcceleratePro",
+        "match_criteria": ".*RPCAcceleratePro.exe.*",
+        "description": "\"Preformance\" booster, Fix:av/malwarebytes",
+        "category": "PUP",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "ConsumerInput",
+        "match_criteria": ".*ciff-3.2.0-12297.xpi.*",
+        "description": "Similar to PremierOpinion or RelevantKnowledge, Fix: av/adwcleaner",
+        "category": "PUP",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "FileOpenerWindows",
+        "match_criteria": ".*FileOpenerWindows.*",
+        "description": "Trojan file, Fix: av/malwarebytes",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "CovenantEyes",
+        "match_criteria": ".*CovenantEyes.*",
+        "description": "Can cause login/multiplayer/download issues.\nFirst try to update, otherwise remove with win/covenant-eyes",
+        "category": "Parental Control",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "AVG",
+        "match_criteria": ".*AVG.*",
+        "description": "Catchall for AVG, Fix: av/avg or uninstall",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Piracy Tools",
+        "match_criteria": ".*(authserver.mojang.com|sessionserver.mojang.com).*",
+        "description": "Use: fix/hosts",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Warsaw",
+        "match_criteria": ".*Diebold\\\\Warsaw.*",
+        "description": "Browser Hijacker, Remove",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "McAfee Enterprise",
+        "match_criteria": ".*McAfee\\\\VirusScan Enterprise.*",
+        "description": "Enterprise version of McAfee. If installed, this PC likely belongs to an employer/school/other, would need to speak to their IT.",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Norton",
+        "match_criteria": ".*Norton.*",
+        "description": "Catchall. Potentially an issue. If present, try a malware/adware scan before considering removal.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "ByteFence",
+        "match_criteria": ".*ByteFence.*",
+        "description": "Causes download errors, Fix: av/bytefence",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Akamai NetSession",
+        "match_criteria": ".*netsession_win.exe.*",
+        "description": "Can cause network related issues. Suggest uninstall.",
+        "category": "Malware",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "COMODO",
+        "match_criteria": ".*COMODO.*",
+        "description": "Can cause login/multiplayer/download issues, Fix: av/comodo)",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Intel Security",
+        "match_criteria": ".*Intel Security.*",
+        "description": "Rebranded McAfee, Fix: av/mcafee/uninstall",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "PremierOpinion",
+        "match_criteria": ".*PremierOpinion.*",
+        "description": "Can prevent game from launching(Exit Code 0), Fix: av/adwcleaner",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "AnonineVPN",
+        "match_criteria": ".*AnonineVPN.*",
+        "description": "VPN's can cause login/multiplayer/download issues. Consider removal.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Spybot S\u0026D",
+        "match_criteria": ".*SDFSSvc.exe.*",
+        "description": "Bad AV, Fix: Uninstall",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Bitdefender",
+        "match_criteria": ".*Bitdefender.*",
+        "description": "Bad AV solution. Fix: av/bitdefender",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "ESIF",
+        "match_criteria": ".*esif_assist.exe.*",
+        "description": "Not currently found by malware removal tools. Advanced removal steps required.",
+        "category": "Malware",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Hamachi",
+        "match_criteria": ".*Hamachi.*",
+        "description": "Poorly configured VPN/Tunnel, can cause multiple issues with Minecraft. Fix: Uninstall",
+        "category": "VPN",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Avast Secureline",
+        "match_criteria": ".*SecureLine\\\\VpnSvc.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "CyberGhost",
+        "match_criteria": ".*CyberGhost.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Kaspersky",
+        "match_criteria": ".*Kaspersky.*",
+        "description": "Can cause login/multiplayer/download issues. Fix: av/kaspersky or Uninstall.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "PCKeeper",
+        "match_criteria": ".*PCKeeper.*",
+        "description": "Bad antivirus solution. Fix: Uninstall",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Evolve",
+        "match_criteria": ".*Evolve.*",
+        "description": "Problematic overlay feature. Also discontinued. Fix: win/evolve or Uninstall.",
+        "category": "Overlay",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Hola VPN",
+        "match_criteria": ".*hola_svc.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Avira",
+        "match_criteria": ".*Avira.exe.*",
+        "description": "Can false flag Minecraft as malware. Fix: av/avira or Uninstall",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Avira VPN",
+        "match_criteria": ".*Avira.VpnService.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Avast",
+        "match_criteria": ".*AvastSvc.*",
+        "description": "Can block some services Minecraft needs. Fix: Uninstall",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Sophos",
+        "match_criteria": ".*Sophos.*",
+        "description": "Can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Bigfoot Networks Killer Service",
+        "match_criteria": ".*BFNService.exe.*",
+        "description": "Networking Driver, has caused login/downloading issues before. Consider replacing with standard drivers for the hardware (Advanced).",
+        "category": "PUP",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Tunngle",
+        "match_criteria": ".*TnglCtrl.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Fix: Highly recommend uninstalling. Similar to Hamachi",
+        "category": "VPN",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Hide.me",
+        "match_criteria": ".*hidemesvc.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "OpenVPN",
+        "match_criteria": ".*ovpnagent.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "AdVPN",
+        "match_criteria": ".*AdVpnService.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "VPN Unlimited Service",
+        "match_criteria": ".*VPNUnlimitedService.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "GlassWire.exe",
+        "match_criteria": ".*GlassWire.exe.*",
+        "description": "Can cause login/multiplayer/download issues (Firewall/Network Monitor). Consider uninstalling.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "ZemenaAniMalware",
+        "match_criteria": ".*ZAM.exe.*",
+        "description": "Old versions can cause launcher related issues. Fix: Update, or Uninstall",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "F-Secure",
+        "match_criteria": ".*F-Secure.*",
+        "description": "Can cause login/multiplayer/downloading issues. Try to whitelist/exclude Minecraft, otherwise Uninstall.",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Overwolf",
+        "match_criteria": ".*Overwolf.*",
+        "description": "Overlay feature on older versions can cause OpenGL issues. Fix: Update to latest version, otherwise Uninstall.",
+        "category": "Overlay",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "NordVPN",
+        "match_criteria": ".*nordvpn-service.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Discord",
+        "match_criteria": ".*Discord.exe.*",
+        "description": "From time to time, the overlay will cause graphics related issues. Fix: Update Discord, or turn off overlay.",
+        "category": "Overlay",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "DiscordPTB",
+        "match_criteria": ".*DiscordPTB.exe.*",
+        "description": "From time to time, the overlay will cause graphics related issues. Fix: Update Discord, or turn off overlay. Consider using the release version.",
+        "category": "Overlay",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Trusteer",
+        "match_criteria": ".*Trusteer.*",
+        "description": "Can cause issues with the game. Consider uninstalling.",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Razer Synapse",
+        "match_criteria": ".*RzSynapse.exe.*",
+        "description": "Older versions can introduce problematic Environment Variables (Version 3 seems to exclude this). Fix: info/vars",
+        "category": "PUP",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Windscribe",
+        "match_criteria": ".*WindscribeService.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Fix: info/windscribe)",
+        "category": "VPN",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "NOD32",
+        "match_criteria": ".*NOD32.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Fix: av/eset or Uninstall.",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Internet Download Manager",
+        "match_criteria": ".*IDMan.exe.*",
+        "description": "Like a VPN, can cause login/multiplayer/download issues. Fix: Uninstall",
+        "category": "PUP",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "WebCompanion",
+        "match_criteria": ".*WebCompanion.exe.*",
+        "description": "Fix: av/adwcleaner",
+        "category": "Malware",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "KMSpico",
+        "match_criteria": ".*KMSpico.*",
+        "description": "Windows Hacktivator, can cause installation issues with MS Store apps. Fix: Purchase a Windows License",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Duet Display",
+        "match_criteria": ".*Duet Display.*",
+        "description": "Software to use mobile devices as a display. Will cause issues with OpenGL. Fix: Completely turn off, or Uninstall.",
+        "category": "Conflict",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "NetCut Defender",
+        "match_criteria": ".*AIPS.exe.*",
+        "description": "Paid software to prevent a specific type of attack. Can cause side effects that interfere with Minecraft. Fix: Uninstall",
+        "category": "PUP",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "IPTS",
+        "match_criteria": ".*ipts.exe.*",
+        "description": "Uninstall? (More info required)",
+        "category": "Malware",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "RelevantKnowledge",
+        "match_criteria": ".*rlvknlg.exe.*",
+        "description": "Will cause failures to launch Minecraft (Exit Code 0). Fix: av/adwcleaner",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "HotSpot Shield",
+        "match_criteria": ".*hsscp.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Blue Coat K9 Web Protection",
+        "match_criteria": ".*k9filter.exe.*",
+        "description": "Can cause login/multiplayer/download issues. Is also discontinued. Fix: Uninstall",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "OkayFreedom",
+        "match_criteria": ".*OkayFreedom.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Reason Core Security",
+        "match_criteria": ".*rsService.exe.*",
+        "description": "Fake AV included as bundleware. Fix: Uninstall",
+        "category": "Malware",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Plays.tv",
+        "match_criteria": ".*Plays.exe.*",
+        "description": "Overlay can cause display driver related issues. This is now Medal Fix: Disable Overlay",
+        "category": "Overlay",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "TunnelBear",
+        "match_criteria": ".*TunnelBear.*",
+        "description": "VPNs can cause issues with login/multiplayer/downloading. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "IOBit",
+        "match_criteria": ".*IObit.*",
+        "description": "Catchall for IOBit products. These applications should be uninstalled.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Brave Browser",
+        "match_criteria": ".*Brave.*",
+        "description": "May block connections to minecraft.net. Fix: Use alternate browser when needed.",
+        "category": "PUP",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "RestoroProtection",
+        "match_criteria": ".*RestoroProtection.*",
+        "description": "Fake AV. Fix: Uninstall",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Player.me",
+        "match_criteria": ".*PlayerGC32.exe.*",
+        "description": "Updated version of \"Evolve\", overlay can cause display driver related issues. Fix: Disable Overlay",
+        "category": "Overlay",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Speedify",
+        "match_criteria": ".*Speedify.exe.*",
+        "description": "VPNs can cause issues with login/multiplayer/downloading. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "WebDiscoverBrowser",
+        "match_criteria": ".*WebDiscoverBrowser.*",
+        "description": "Not currently known to cause issues, but will be flagged as Malware Fix: av/adwcleaner",
+        "category": "PUP",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Shiginima Launcher",
+        "match_criteria": ".*Shiginima.*",
+        "description": "Pirated launcher. Fix: Uninstall",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "HideMy.name VPN",
+        "match_criteria": ".*HideMy.name VPN.*",
+        "description": "VPNs can cause issues with login/multiplayer/downloading. Should uninstall.",
+        "category": "VPN",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "ZaxarLoader",
+        "match_criteria": ".*ZaxarLoader.exe.*",
+        "description": "Fix: av/adwcleaner",
+        "category": "Malware",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "SurfEasyVPN",
+        "match_criteria": ".*SurfEasyVPN.exe.*",
+        "description": "VPNs can cause issues with login/multiplayer/downloading. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Proxy Settings",
+        "match_criteria": ".*Settings,ProxyServer.*",
+        "description": "Possible proxy Detected!",
+        "category": "Proxy",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "OpinionSquare",
+        "match_criteria": ".*opnsqr.exe.*",
+        "description": "Can cause crashes at launch. Fix: av/adwcleaner",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "ESET",
+        "match_criteria": ".*ekrn.exe.*",
+        "description": "Can cause issues with login/multiplayer/downloading. Consider uninstalling. Fix: av/eset",
+        "category": "AV",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "ZenMate",
+        "match_criteria": ".*ZenMate.bat.*",
+        "description": "VPNs can cause issues with login/multiplayer/downloading. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Zone Alarm",
+        "match_criteria": ".*Zonealarm.*",
+        "description": "Can cause login/multiplayer/download issues. Fix: av/zonealarm",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "BullGuard",
+        "match_criteria": ".*BullGuard.*",
+        "description": "Can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "VyprVPN",
+        "match_criteria": ".*VyprVPN.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Private Internet Access",
+        "match_criteria": ".*pia-service.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "ProtonVPN",
+        "match_criteria": ".*ProtonVPN.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Cisco AnyConnect",
+        "match_criteria": ".*vpnagent.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Radmin VPN",
+        "match_criteria": ".*RvRvpnGui.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "VPN",
+        "match_criteria": ".*vpn.*",
+        "description": "Catchall for any mention of VPN. Please manually check log.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Medal",
+        "match_criteria": ".*Medal.exe.*",
+        "description": "New version of Player.me, can cause graphics or launch related issues Fix: Uninstall",
+        "category": "PUP",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Ad Guardian Plus",
+        "match_criteria": ".*adguardianplusprotection.exe.*",
+        "description": "Can cause login/multiplayer/download issues. Fix: Uninstall",
+        "category": "PUP",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Segurazo",
+        "match_criteria": ".*Segurazo.*",
+        "description": "Fake antivirus, Fix: info/segurazo",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Altening",
+        "match_criteria": ".*altening.launcher.exe.*",
+        "description": "Piracy tool. Fix: fix/hosts or info/altening",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Trust.Zone",
+        "match_criteria": ".*Trust.Zone.*",
+        "description": "VPNs can block login/multiplayer/downloads. Fix: Uninstall",
+        "category": "VPN",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Qustodio",
+        "match_criteria": ".*Qustodio.*",
+        "description": "Can block connections required for login/multiplayer/downloads. Fix: win/qustodio or just uninstall.",
+        "category": "Parental Control",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "Tlauncher",
+        "match_criteria": ".*tlauncher.jar.*",
+        "description": "Cracked launcher, Fix: Uninstall, from several locations in %APPDATA%",
+        "category": "Malware",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Quick Heal Antivirus",
+        "match_criteria": ".*Quick Heal Antivirus.*",
+        "description": "Bad antivirus, Suggest uninstall.",
+        "category": "AV",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Proton VPN",
+        "match_criteria": ".*ProtonVPNService.exe.*",
+        "description": "VPNs can cause login/multiplayer/download issues.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Riva Tuner",
+        "match_criteria": ".*RTSS.exe.*",
+        "description": "Software based overclocking. Can cause unstable overclocks that lead to issues with your graphics drivers.",
+        "category": "PUP",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "SAntivirus",
+        "match_criteria": ".*SAntivirus.*",
+        "description": "May cause login/multiplayer/download issues, Fix: av/malwarebytes",
+        "category": "PUP",
+        "severity": 2,
+        "severity_description": "Medium"
+    },
+    {
+        "name": "Old HJT",
+        "match_criteria": ".*v2.0.5.*",
+        "description": "This report may have been made with the old version of HJT",
+        "category": "REDO",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Surfshark",
+        "match_criteria": ".*Surfshark.exe.*",
+        "description": "VPNs can cause issues with login/multiplayer/downloading. Consider uninstalling.",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "KACE Agent",
+        "match_criteria": ".*KACE Agent.*",
+        "description": "Endpoint software, may prevent installations, or web access. If school/work PC, have them speak to their IT department.",
+        "category": "Endpoint",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "LanSchool",
+        "match_criteria": ".*LskHelper.exe.*",
+        "description": "Monitoring/Control software which can cause issues. If school owned PC, have them speak to their IT department.",
+        "category": "Parental Control",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "Parsec",
+        "match_criteria": ".*\\\\pservice.exe.*",
+        "description": "Application for Streaming/Overlay/VPN. Can cause display related issues. Fix: Uninstall",
+        "category": "App",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "Mobicip",
+        "match_criteria": ".*IOCP.exe.*",
+        "description": "Can block connections required for login/multiplayer/downloads. Adjust whitelist, or uninstall.",
+        "category": "Parental Control",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "K7TSecurity",
+        "match_criteria": ".*K7TSecurity.*",
+        "description": "Can cause login/multiplayer/download issues. Suggest uninstall.",
+        "category": "AV",
+        "severity": 1,
+        "severity_description": "Low"
+    },
+    {
+        "name": "AtlasVPN",
+        "match_criteria": ".*AtlasVPN.Worker.exe.*",
+        "description": "VPN",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
+    },
+    {
+        "name": "McAfee Security Scan",
+        "match_criteria": ".*McCHSvc.exe.*",
+        "description": "Causes login and multiplayer issues. Remove with av/mcafee/uninstall",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
+    }
+]
