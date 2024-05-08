@@ -1,0 +1,1974 @@
+[
+    {
+        "name": "42",
+        "content": "Have you tried turning it off and on again? The universal fix that never fails. Except when it does."
+    },
+    {
+        "name": "account/2ndhand/scam",
+        "content": "If you bought a second-hand Mojang Account online, it is quite likely a scam. It is against the Minecraft EULA for accounts to be resold; buying accounts online means that **you risk your account being terminated**.\n\n**DO NOT** purchase Minecraft from any sites other than minecraft.net, mojang.com, Amazon or Walmart. Mojang is **NOT** responsible for payments not made directly to Mojang."
+    },
+    {
+        "name": "account/activation",
+        "content": "If you have paid for a gift code or for your own account but have not been activated yet, see: https://help.minecraft.net/hc/en-us/articles/4409758085005"
+    },
+    {
+        "name": "account/alpha-benefits",
+        "content": "As an incentive for supporting Minecraft during its early days, customers who bought the Java edition of Minecraft during its alpha build were offered free updates for life. There are no plans for Mojang to start charging for updates, but if they did, it is expected that the benefit will hold up.\n\nMinecraft for consoles/phones and Minecraft: Windows 10 Edition are not included in this benefit."
+    },
+    {
+        "name": "account/ban",
+        "content": "If your account has been banned from logging into Bedrock Edition, please see this article: \u003chttps://help.minecraft.net/hc/en-us/articles/4408964729869\u003e.\n\nIf you have been banned and would like more information, please [contact Mojang](https://help.minecraft.net/hc/en-us/requests/new). **Be sure to include the words \"banned account\" in your submission.**"
+    },
+    {
+        "name": "account/billing",
+        "content": "If you have further questions about accounts and billing, please see this article: \u003chttps://help.minecraft.net/hc/en-us/articles/4409170846477-Payment-Troubleshooting-FAQ\u003e."
+    },
+    {
+        "name": "account/bug/demo",
+        "content": "If you are only able to play the Demo after having purchased the game, please see this article: \u003chttps://help.minecraft.net/hc/en-us/articles/4408948974989\u003e."
+    },
+    {
+        "name": "account/buy",
+        "content": "Minecraft is **NOT free**, you must buy it if you want to play. https://minecraft.net/store"
+    },
+    {
+        "name": "account/buy/amazon",
+        "content": "If you are having trouble buying Minecraft and you live in the US, the UK, France or Germany, you can buy a redeemable code from Amazon. For links, please run `!?f account/buy/amazon` followed by your region code, for example `account/buy/amazon/uk` for the UK."
+    },
+    {
+        "name": "account/buy/amazon/de",
+        "content": "If you are having trouble buying Minecraft and you live in Germany, you can buy a redeemable code on Amazon: https://www.amazon.de/Minecraft-PC-Mac-Code/dp/B010KYDNDG/"
+    },
+    {
+        "name": "account/buy/amazon/fr",
+        "content": "If you are having trouble buying Minecraft and you live in France, you can buy a redeemable code on Amazon: https://www.amazon.fr/Minecraft-PC-Mac-Code/dp/B010KYDNDG/"
+    },
+    {
+        "name": "account/buy/amazon/uk",
+        "content": "If you are having trouble buying Minecraft and you live in the UK, you can buy a redeemable code on Amazon: https://www.amazon.co.uk/Minecraft-PC-Mac-Code/dp/B010KYDNDG/"
+    },
+    {
+        "name": "account/buy/amazon/us",
+        "content": "If you are having trouble buying Minecraft and you live in the US, you can buy a redeemable code on Amazon: https://www.amazon.com/Minecraft-PC-Mac-Code/dp/B010KYDNDG"
+    },
+    {
+        "name": "account/challenge/reset",
+        "content": "To reset your security questions, go here: https://account.mojang.com/me/changeSecretQuestions"
+    },
+    {
+        "name": "account/code-missing",
+        "content": "The period where Minecraft: Java Edition users who have purchased the game before October 2018 receive a free code for the Windows 10 Edition **has ended on April 20th, 2020**. If you have not claimed the code, you will no longer be able to do so.\n\nMinecraft for Windows 10 can be purchased from the Microsoft Store: https://www.microsoft.com/store/productId/9NBLGGH2JHXJ"
+    },
+    {
+        "name": "account/coppa",
+        "content": "Due to Mojang now being a part of Microsoft, an USA company, it is now required to comply with the Children's Online Privacy Protection Act (COPPA), which limits Mojang from providing service to US children under 13. See this article for more details: \u003chttps://help.minecraft.net/hc/en-us/articles/360034753912-Mojang-account-users-under-13\u003e."
+    },
+    {
+        "name": "account/delete",
+        "content": "You can delete your account via the URL below. **WARNING:** Deleting your account is final and **CAN NOT BE REVERSED!** Use at your own risk. https://account.mojang.com/me/settings (see Delete your account section)"
+    },
+    {
+        "name": "account/delete/recovery",
+        "content": "If you have deleted your account or believe it has been deleted, Mojang Customer Support can recover it. To do so, you need to contact customer support using the web form found at \u003chttps://help.minecraft.net/hc/en-us/requests/new\u003e.  \n  \n**Don't forget to include your transaction ID!**"
+    },
+    {
+        "name": "account/email-missing",
+        "content": "If you are not getting emails from Mojang, please read this article for common reasons for that: \u003chttps://help.minecraft.net/hc/en-us/articles/360034636412-Cannot-Get-Mojang-System-Emails\u003e. Please be aware that emails can take up to two hours to arrive. Some ISP email providers like AOL, Comcast, Gmx and General-purpose email providers like Hotmail have known issues with dropping Mojang emails. If you use one of those, use another provider like Gmail ;If none of this helps, you may need to contact Mojang. If you do, make sure you receive a confirmation email after sending an account support request."
+    },
+    {
+        "name": "account/email-missing/once",
+        "content": "If you are getting verification emails that says you need to verify your email again, you may have accidentally clicked \"Resend Verification Email\" more than once. Don't do that as clicking on that link will make all previous verification emails sent invalid."
+    },
+    {
+        "name": "account/forgot-email",
+        "content": "If you forgot the email address you used to register, try all your emails at https://www.minecraft.net/en-us/password/forgot . The one that receives a confirmation email from Mojang will be the one you should use to log in."
+    },
+    {
+        "name": "account/forgot-login",
+        "content": "If you forgot your login credentials please read: \u003chttps://help.minecraft.net/hc/articles/360029681732-Having-trouble-accessing-your-account-\u003e. Note: If you have to contact Mojang, do not forget to include your transaction ID!"
+    },
+    {
+        "name": "account/gdpr",
+        "content": "Due to GDPR, parental consent is now required in order to use and play on Realms. In order to provide consent, please visit \u003chttps://minecraft.net/update-account\u003e. You can read more about the process here: https://www.reddit.com/r/Minecraft/comments/8nbcpe/gdpr_and_minecraft_what_you_need_to_know/"
+    },
+    {
+        "name": "account/hacked",
+        "content": "If you believe that your account was hacked or stolen, then please follow these instructions: \u003chttps://help.minecraft.net/hc/en-us/articles/4409227755661-Minecraft-Java-Edition-Account-Security-FAQ\u003e. \n \nNote: If you have to contact Mojang, do not forget to include your transaction ID!"
+    },
+    {
+        "name": "account/microsoft",
+        "content": "Migration to Microsoft accounts has begun **for a limited number of players**.\nIf you can migrate your launcher \u0026 profile page on minecraft.net will have a prompt saying so.  \n\nPlease also be aware of phishing scams. If you get anything saying you can migrate, please check your minecraft.net profile to confirm that your account is ready for migration.  \n\nPlease read the Migration FAQ if you have questions about migration: \u003chttps://help.minecraft.net/hc/en-us/articles/360050865492\u003e.\n"
+    },
+    {
+        "name": "account/migrate",
+        "content": "If you need help migrating your account, please see this article: \u003chttps://help.minecraft.net/hc/en-us/articles/4403181904525\u003e.  \n\n**Note: Only a select few are being migrated at this time.** If you do not have a migration notification in your launcher or on minecraft.net, you cannot migrate yet"
+    },
+    {
+        "name": "account/migrate/child",
+        "content": "If you need help migrating your account and you are not considered an adult in your country, or you are migrating you child's account, please see this article:\n\u003chttps://help.minecraft.net/hc/en-us/articles/4403192913933\u003e.  \n\n**Note: Only a select few are being migrated at this time.** If you do not have a migration notification in your launcher or on minecraft.net, you cannot migrate yet"
+    },
+    {
+        "name": "account/migrate/failed",
+        "content": "If you are unable to migrate your legacy Minecraft account to a Mojang.com account, please see the following: https://help.minecraft.net/hc/en-us/articles/4403178607373-Microsoft-Account-Migration-Issues-and-FAQ"
+    },
+    {
+        "name": "account/migrate/unpaid",
+        "content": "As of Febuary 10th, 2015, unpaid minecraft.net accounts are no longer upgrade-able. If you owned one of those accounts, you must purchase a new name."
+    },
+    {
+        "name": "account/ms",
+        "content": "Migration to Microsoft accounts has begun **for a limited number of players**.\nIf you can migrate your launcher \u0026 profile page on minecraft.net will have a prompt saying so.  \n\nPlease also be aware of phishing scams. If you get anything saying you can migrate, please check your minecraft.net profile to confirm that your account is ready for migration.  \n\nPlease read the Migration FAQ if you have questions about migration: https://help.minecraft.net/hc/en-us/articles/360050865492\n"
+    },
+    {
+        "name": "account/ms/privacy",
+        "content": "If you are using your Microsoft account to log in to the java launcher, or if you are playing on Bedrock, you need to adjust your Xbox privacy settings to allow you to play multiplayer.\r\nPlease see this article for instructions and more information: https://minecrafthopper.net/help/guides/xbox-privacy/"
+    },
+    {
+        "name": "account/ms/reset-password",
+        "content": "To reset the password to your Microsoft account, go to \u003chttps://account.live.com/ResetPassword.aspx\u003e."
+    },
+    {
+        "name": "account/paid",
+        "content": "There is a very simple way to see whether Mojang believes your account is paid for or not. Log in at https://minecraft.net and then navigate to https://www.minecraft.net/en-us/store/minecraft-java-edition . If it says \"Download\", you own Minecraft, if it says \"Buy Minecraft\" you do not."
+    },
+    {
+        "name": "account/payment/gift-codes",
+        "content": "Gift Codes can currently be purchased in select countries on Amazon, please check your local Amazon website. In the US, a code can also be purchased online from Walmart. To purchase a gift code elsewhere, buy a physical Minecraft gift card at a store near you: https://minecraft.net/prepaid"
+    },
+    {
+        "name": "account/payment/pending",
+        "content": "During a pending purchase, your bank will place a __temporary hold__ on the money while it is being processed. In the event of a transaction failure, the bank may continue to hold this money for a few days or weeks, before it is returned. Try contacting your bank or financial institution for additional advice on how to speed this up. Please also see this article: \u003chttps://help.minecraft.net/hc/en-us/articles/4409234093581-Minecraft-Java-Edition-Account-FAQ#h_01FFK290BJEHVS95WA3HH0T73Y\u003e."
+    },
+    {
+        "name": "account/payment/prepaid",
+        "content": "You cannot use prepaid (or \"gift\") debit cards with Visa / MasterCard / AmEX logos to purchase Minecraft directly, because fraud prevention klobbers international transactions. To use a prepaid card, use PayPal's Use Prepaid Gift Cards option during checkout (no account required), or purchase a physical Minecraft gift card at these locations: https://minecraft.net/prepaid"
+    },
+    {
+        "name": "account/payment/scam",
+        "content": "If you bought a gift code from anywhere but minecraft.net, Amazon or Walmart, it is quite likely **a scam**. Mojang **does not** give out discounts for purchasing gift codes so there is absolutely no profit to be made. Additionally, it is against the Minecraft EULA for accounts to be resold; buying accounts online means that **you risk your account being terminated**. \n\n**DO NOT** purchase Minecraft from any sites other than minecraft.net, mojang.com or Amazon. Mojang is **NOT** responsible for payments not made directly to Mojang."
+    },
+    {
+        "name": "account/redeem",
+        "content": "To redeem a gift code, go to minecraft.net/redeem and enter the code. Enjoy!"
+    },
+    {
+        "name": "account/refund",
+        "content": "Mojang's Refund Policy: \u003chttps://help.minecraft.net/hc/en-us/articles/360030463592-Mojang-refunds-policy\u003e."
+    },
+    {
+        "name": "account/resend-email",
+        "content": "Click here to have Mojang resend the verification email: https://account.mojang.com/me/resendVerifyEmail"
+    },
+    {
+        "name": "account/reset-email",
+        "content": "You can reset your Mojang account email by going here: https://account.mojang.com/changeemail/request"
+    },
+    {
+        "name": "account/reset-password",
+        "content": "If you need to reset your password, head to \u003chttps://www.minecraft.net/en-us/password/forgot\u003e. You will receive an email with password reset instructions inside. If you use minecraft.net accounts (you use your username to log in), the account now must be migrated first."
+    },
+    {
+        "name": "account/reset-password-missing",
+        "content": "If you are unable to receive reset password emails please read this article: \u003chttps://help.minecraft.net/hc/en-us/articles/360034636412-Not-Receiving-Mojang-Studios-System-Emails\u003e.\n\nIf you are still unable to receive reset emails after reading the article, please contact support at \u003chttps://help.minecraft.net/hc/en-us/requests/new\u003e."
+    },
+    {
+        "name": "account/revoked",
+        "content": "If your account has been refunded or revoked, and you bought it through Mojang/Minecraft.net, please contact your bank, credit card company, or payment processor, to see what may have triggered the refund. \n\nIf you are unable to figure it out, contact support at \u003chttps://help.minecraft.net/hc/en-us/requests/new\u003e."
+    },
+    {
+        "name": "account/send-email",
+        "content": "Send an email to Mojang Studios with your Transaction ID and/or gift code, current email, Minecraft account email, and any other relevant information, through this form: \u003chttps://aka.ms/Minecraft-Support\u003e\n\nIf you don't have access to the email your account is registered with, put an Email address __that you have access to__ in the 'Your Email Address' field. If you remember it, give them the account email that you lost access to in the 'Java Account Email' field."
+    },
+    {
+        "name": "account/send-email/wait-time",
+        "content": "Please note that Mojang is currently experiencing very heavy contact volume right now - they are working very hard behind the scenes to get to account support requests. In the meantime, please be patient while waiting for a response if you have already sent an account support request, and note that sending multiple tickets increases your wait time.\n\nMore information can be found here: https://help.minecraft.net/hc/en-us/articles/360042503912-We-re-experiencing-very-heavy-contact-volume-right-now"
+    },
+    {
+        "name": "account/support/microsoft",
+        "content": "To contact Xbox support, visit: https://support.xbox.com/contact-us"
+    },
+    {
+        "name": "account/trans-id",
+        "content": "How to find your Transaction ID: https://help.minecraft.net/hc/en-us/articles/360029977371-What-is-a-transaction-ID- "
+    },
+    {
+        "name": "account/trans-id/adyen",
+        "content": "An Adyen transaction ID consists of 16 numbers. This system is in use since December 16th, 2015 and is used to support alternative payment methods such as Alipay or bank transfer.\n\nContact Mojang Support directly stating that your payment was processed with Adyen; they will provide further information."
+    },
+    {
+        "name": "account/trans-id/braintree",
+        "content": "Braintree transaction ID is a code consisting of 5 - 6 random numbers and/or characters. They are issued to all Minecraft purchases (except gift codes, which are handled by Skrill instead).\n\nIf you need to contact Minecraft support for assistance but have lost your Braintree transaction ID, you can instead provide the name of the cardholder, the date of purchase, expiration date, card type, and the last four digits of the card used for the purchase."
+    },
+    {
+        "name": "account/trans-id/dibs",
+        "content": "DIBS was Mojang's original payment provider, used from 2009 to mid-2011.\n\nContact Mojang directly stating that you paid via the DIBS system; they will provide further instructions."
+    },
+    {
+        "name": "account/trans-id/giftcode",
+        "content": "A gift code transaction ID is the gift code that was redeemed on the account. This cannot be recovered by Mojang."
+    },
+    {
+        "name": "account/trans-id/lost",
+        "content": "If you have lost your transaction ID, you will need to follow the steps for the payment provider you used.\n\nPaypal: **!?f account/trans-id/paypal[/b] | Skrill (Credit/Debit mid-2011 through November 2013): **!?f account/trans-id/skrill** | Braintree (Credit/Debit since December 2013): **!?f account/trans-id/braintree** | Gift code: **!?f account/trans-id/giftcode**"
+    },
+    {
+        "name": "account/trans-id/paypal",
+        "content": "A Paypal transaction ID is a 17 character alphanumeric code. Example: 1AB23456C7890123D\n\nIf you need to recover your transaction ID, log into your PayPal account and search for \"Mojang\" under your Transaction History."
+    },
+    {
+        "name": "account/trans-id/skrill",
+        "content": "A Skrill transaction ID consists of 10 (9 if before Fall 2013) numbers (Example: 9876543210). This system was used for purchases for all purchases from mid-2011 through December 2013, and was used for gift code purchases from mid-2011 to early-2019.\n\nContact Mojang support indicating that the payment was handled by Skrill, along with any details you have about the purchase, and they will provide further instructions."
+    },
+    {
+        "name": "android/client",
+        "content": "The Android version of the Bedrock Edition can be found here:  https://play.google.com/store/apps/details?id=com.mojang.minecraftpe\u0026hl=en"
+    },
+    {
+        "name": "as",
+        "content": "This server is run entirely by volunteers from the community, and therefore we cannot provide account support (including not receiving password reset emails, hacked accounts, changing your email etc.). The **only** way to get account support is by filling out the form at https://aka.ms/Minecraft-Support and waiting patiently for a response. Remember that sending multiple tickets increases your wait time."
+    },
+    {
+        "name": "ask",
+        "content": "Please do not say \"I need help\" or ask for permission - just ask your question or state what you need help with, and be as specific as possible.\n\nIf you are unsure if the question is appropriate, just ask it and you will be informed if it is not."
+    },
+    {
+        "name": "ask/!",
+        "content": "Just please ask your question."
+    },
+    {
+        "name": "ask/accounts",
+        "content": "Account or payment issues cannot be resolved by the helpers in this channel, you may contact Mojang directly to resolve this issue by following the instructions at: https://is.gd/mc_acct"
+    },
+    {
+        "name": "ask/accounts/!",
+        "content": "Our volunteers cannot troubleshoot account issues. If you are having an issue with your account, try looking at the general account troubleshooting page: https://is.gd/mc_acct \n\nIf you're still having trouble, we cannot help you further here, please contact mojang."
+    },
+    {
+        "name": "ask/howto",
+        "content": "Please read http://www.catb.org/~esr/faqs/smart-questions.html#before - An excellent article on how best to ask a question of techinical support personnel or other experts."
+    },
+    {
+        "name": "av/adwcleaner",
+        "content": "Malwarebytes ADWCleaner is a utility to clean a PC that is infected with malware. Download it here: https://downloads.malwarebytes.com/file/adwcleaner \n\nRun it, click Scan Now, once it completes the scan click \"Next\" and allow it to fix any issues it finds. If it finds none, allow it to run the basic repair. Restart the computer when it asks you to and come back here for further instructions."
+    },
+    {
+        "name": "av/avg",
+        "content": "AVG's antivirus program is known to interfere with Minecraft's self-update process. You will have to disable AVG for Minecraft to update itself properly. To do so see the instructions here: \u003chttps://support.avg.com/SupportArticleView?l=en\u0026urlName=Disable-AVG-Antivirus\u003e\n\nAlternatively, use a different AV program, such as Malwarebytes.  \nSee **!?f av/malwarebytes** for more information."
+    },
+    {
+        "name": "av/avg/uninstall",
+        "content": "To uninstall AVG AntiVirus and related products completely, use the uninstaller from here: https://www.avg.com/en-gb/avg-remover"
+    },
+    {
+        "name": "av/avira",
+        "content": "To stop Avira from reporting Minecraft as a false-positive, please do the following:\n\nOpen Avira, open the Extras menu, click Configuration, and set the switch to 'Expert'. Open the 'Internet Protection' sub-menu, open 'Web Protection', and then 'Scan'. Click 'Exceptions', and at 'URLs Skipped by Web Protection', enter 'https://s3.amazonaws.com/*', click Add, then finally click Apply."
+    },
+    {
+        "name": "av/bitdefender",
+        "content": "If you are using BitDefender and having problems logging into the game, downloading game files or joining LAN worlds, you will need to uninstall BitDefender by following the instructions here, https://www.bitdefender.com/consumer/support/answer/2791/"
+    },
+    {
+        "name": "av/bytefence",
+        "content": "ByteFence is known to cause issues with Minecraft's installing and updating process. You will need to uninstall ByteFence. Steps can be found in the mod notice here: https://bugs.mojang.com/browse/MCL-5546"
+    },
+    {
+        "name": "av/combofix",
+        "content": "ComboFix is an utility to clean a PC which is infested with malware.\n\nDownload it here: https://download.bleepingcomputer.com/sUBs/ComboFix.exe"
+    },
+    {
+        "name": "av/comodo",
+        "content": "To completely uninstall Comodo Internet Security, use the instructions found here: https://help.comodo.com/topic-72-1-766-12685-.html"
+    },
+    {
+        "name": "av/eset",
+        "content": "ESET Security has a feature that interferes with Minecraft's ability to connect to Mojang's servers. To fix it, follow these instructions, and set the mode to Interactive: https://support.eset.com/kb3190/ Then, open the launcher and try to log into Minecraft. ESET will open a window asking what to do, press EXCLUDE."
+    },
+    {
+        "name": "av/kaspersky",
+        "content": "If you are using Kaspersky Internet Security and cannot connect to Mojang's servers, turn off Encrypted Connections Scan by following this guide: https://support.kaspersky.com/KESWin/11.1.1/en-US/175124.htm"
+    },
+    {
+        "name": "av/mackeeper",
+        "content": "MacKeeper is an illegitimate piece of software masquerading as a \"cleanup tool\" which uses scare tactics to coerce customers into paying them. It also interferes with Minecraft.\n\nTo uninstall MacKeeper, use Malwarebytes Anti-malware.  \nSee **!?f av/malwarebytes** for more information."
+    },
+    {
+        "name": "av/mackeeper/advanced",
+        "content": "Advanced uninstallation instructions for MacKeeper: https://www.macworld.com/article/2861435/software-utilities/how-to-uninstall-mackeeper-from-your-mac.html"
+    },
+    {
+        "name": "av/malwarebytes",
+        "content": "Malwarebytes is an anti-malware program that removes malware and potentially unwanted programs from your PC.\n\nWindows Download: https://downloads.malwarebytes.com/file/mb-windows  \nMac Download: https://www.malwarebytes.com/mac-download/  \n\nAfter downloading and installing it, run a scan immediately and quarantine all items except for pre-installed software (you can remove those too if you want)."
+    },
+    {
+        "name": "av/mcafee",
+        "content": "McAfee / Intel Security is a terrible virus protection solution, known to cause all sorts of connection problems, and was even abandoned by its creator John McAfee.  \n\nWe recommend Malwarebytes as your antivirus instead.  \nSee **!?f av/malwarebytes** for more information."
+    },
+    {
+        "name": "av/mcafee/uninstall",
+        "content": "To completely uninstall McAfee products, download and run the MCPR Tool found under [u]Method 2[/u] here: https://service.mcafee.com/FAQDocument.aspx?id=TS101331"
+    },
+    {
+        "name": "av/norton",
+        "content": "Norton's Antivirus program and firewall are known to interfere with Minecraft's login and server-joining process. Currently, the only way to fix it is to uninstall it.  \n\nWe recommend Malwarebytes as your antivirus instead.  \nSee **!?f av/malwarebytes** for more information."
+    },
+    {
+        "name": "av/norton/uninstall",
+        "content": "To completely uninstall Norton Internet Security, use this tool: https://liveupdate.symantecliveupdate.com/upgrade/RnR/NRnR.exe"
+    },
+    {
+        "name": "av/webroot",
+        "content": "If you're having issues logging in or joining a LAN world while using Webroot SecureAnywhere AntiVirus, open Webroot and disable the built in Firewall.\n\nAlternatively, use a different AV program, such as Malwarebytes.  \nSee **!?f av/malwarebytes** for more information."
+    },
+    {
+        "name": "av/zonealarm",
+        "content": "Don't use ZoneAlarm. It's a bloated, resource-heavy software that does more harm than good, and in fact is known to cause problems with Minecraft specifically, such as connecting to servers and falling endlessly through the void, or even crashing servers entirely.\n\nTo uninstall ZoneAlarm, use this uninstaller: https://www.bleepingcomputer.com/download/zonealarm-uninstall-tool/dl/58/"
+    },
+    {
+        "name": "bedrock/beta",
+        "content": "To join or leave the Bedrock edition beta, follow the instructions on this help page: https://help.minecraft.net/hc/en-us/articles/360040841471-How-to-Join-and-leave-a-Minecraft-Beta"
+    },
+    {
+        "name": "bedrock/beta/stuck",
+        "content": "If you are stuck in the Bedrock Beta on Windows 10, please follow these instructions:\n\nFirst, Open the **Xbox Insider Hub**, go to **Insider Content**, then **Minecraft**, and make sure that you are unenrolled from the Beta (there should only be a \"Join\" button).\n\nNext, open your **Start Menu**, find \"**Minecraft**\", right-click it, then click \"**Uninstall**\". Wait a few minutes, then open the Microsoft Store, and install the game again."
+    },
+    {
+        "name": "bedrock/code",
+        "content": "The period where Minecraft: Java Edition users who have purchased the game before October 2018 receive a free code for the Windows 10 Edition **has ended on April 20th, 2020**. If you have not claimed the code, you will no longer be able to do so.\n\nMinecraft for Windows 10 can be purchased from the Microsoft Store: https://www.microsoft.com/store/productId/9NBLGGH2JHXJ"
+    },
+    {
+        "name": "bedrock/privacy",
+        "content": "If you cannot play or do anything online, and the game is telling you that you have to change your account settings, please visit the following website: https://account.xbox.com/en-us/Settings?activetab=main:privacytab\n\nOn this page, make sure everything in the \"Privacy\" as well as the \"Xbox One/Windows 10 Online Safety\" tab is [b]not[/b] set to \"Block\" for the account that experiences the issues (there may be multiple accounts at the top). If you are not permitted to change the settings, please ask the person who is set as the parent of the account for assistance.\n\nFor the changes to take effect, you will need to log out of your account, then log back in."
+    },
+    {
+        "name": "bedrock/support",
+        "content": "This channel only handles technical support for Minecraft: Java Edition, if you need help with Minecraft (Bedrock Platform) please see the resources available here https://help.minecraft.net/hc/en-us/articles/360034754072-Minecraft-support-resources . Alternatively you can try the Bedrock support forums here: https://www.minecraftforum.net/forums/support/minecraft-bedrock-support"
+    },
+    {
+        "name": "bot",
+        "content": "I am a bot. Whoever is listed as issuing the command at the bottom of this message is the actual person helping you. Talk to the person who issued the command, not me!"
+    },
+    {
+        "name": "bot/absol/ops",
+        "content": "!remove \u003cusername\u003e Kicks a user if the sender has voice in the channel\n\n!terminate \u003cusername\u003e Bans a user if the sender has voice in the channel"
+    },
+    {
+        "name": "bot/help",
+        "content": "To use this service, there are several commands. ?? will answer a FAQ in-channel.  ??\u003c will privately send you the answer to a FAQ.  ??\u003e will answer a FAQ in channel with attention to the person you specify.  ??\u003e\u003e will do the same, only privately. For a list of FAQs I can answer (or more accurately, a link to one), check the keyword 'index' with '??\u003c index'\n\nPlease note that these instructions do not apply to Discord."
+    },
+    {
+        "name": "bot/help/ops",
+        "content": "Additional commands for authorized personnel: ??+ to add a FAQ\n\n??~ to rewrite a FAQ; ??- to remove a FAQ; .sitedown to give a specific message to anyone joining the channel; .siteup to reverse a .sitedown; !!!! to purge the bot's internal message queue (for emergency use only)\n\nFor queue system help, see ?? bot/help/queue\n\nPlease note that these instructions do not apply to Discord."
+    },
+    {
+        "name": "bot/help/queue",
+        "content": "Authorized personnel can put the channel into moderated one-at-a-time queue mode. Available commands are: (@ indicates Bot admin only, others are authorized personnel only) @.on, @.off, .next, .helped nick, .list, .skip nick, .put nick"
+    },
+    {
+        "name": "bot/panel",
+        "content": "The Absol control panel may be located at https://cp.minecraftirc.net"
+    },
+    {
+        "name": "bot/vox",
+        "content": "I just type quickly.\n\nIf you're looking for the AIs, see ?? bot/xales and ?? bot/wug"
+    },
+    {
+        "name": "bot/wug",
+        "content": "Wug does not just type quickly. He is an artifically-intelligent computer program.\n\nSee ?? bot/xales for a counterpart of Wug."
+    },
+    {
+        "name": "bot/wug/image",
+        "content": "This is a wug. https://i.imgur.com/4dt56.png"
+    },
+    {
+        "name": "bot/xales",
+        "content": "xales does not just type quickly. He is an artifically-unintelligent computer program. See ?? bot/wug for a counterpart of xales."
+    },
+    {
+        "name": "bug-report",
+        "content": "To report an ingame bug, please go to Mojang's JIRA System (also called Mojira), available here: https://bugs.mojang.com/browse/MC \n\nBefore reporting a bug, please verify that 1. Your \"bug\" is not caused by your system, or a mod, and 2. the bug has not been reported before or fixed."
+    },
+    {
+        "name": "bug/launcher",
+        "content": "If you are having issues with the new launcher for Windows 10/11, or it is telling you it is not available on your Windows Store account. Please download and install the launcher marked for Windows 7/8 from this page https://minecraft.net/download . The new launcher has just released and is not working correctly for some. Use the linked older version until these issues can be resolved."
+    },
+    {
+        "name": "bug/stuckshift",
+        "content": "Sometimes, Minecraft's controls will seem glitchy, and clicking items in your inventory, chests, etc will have unexpected results. This is a bug.  To fix it, tap both shift keys, and the problem should go away."
+    },
+    {
+        "name": "bugs/report",
+        "content": "You can submit bug reports here: \u003chttps://bugs.mojang.com/\u003e however please read this guide: \u003chttps://help.minecraft.net/hc/en-us/sections/360010654531\u003e before doing so."
+    },
+    {
+        "name": "cape/migrator",
+        "content": "Players who have bought the game prior to December 2020 and have migrated their Mojang account to a Microsoft account get the __Migrator cape__.  \n\nAfter migrating, you can activate the cape by logging in to \u003chttps://www.minecraft.net/msaprofile/mygames/editskin\u003e, scrolling down, and selecting it. You can also activate the cape when choosing your skin in the Minecraft Launcher.\n\nIf you do not see the Migrator cape in your skin selection after migrating, please contact Minecraft support at \u003chttps://aka.ms/Minecraft-Support\u003e."
+    },
+    {
+        "name": "cape/vanilla",
+        "content": "Players who have owned both Java Edition \u0026 Bedrock Edition for PC on the same Microsoft account prior to June 6th 2022 get the __Vanilla cape__.\n\nIt can take up to two weeks, starting August 31st, for the cape to appear in your skin selection (Java) and your character creator (Bedrock).\n\n**Note:**  If you migrated your account after June 6th, you cannot get the cape.\n\nFor more info about the vanilla cape, please visit Mojang's FAQ: \u003chttps://help.minecraft.net/hc/en-us/articles/8381250552333\u003e"
+    },
+    {
+        "name": "changelog",
+        "content": "The changelog of the latest stable version can be found here: https://www.minecraft.wiki/wiki/Version_history\n\nThe changelog of the latest development builds can be found here: https://www.minecraft.wiki/wiki/Version_history/Development_versions"
+    },
+    {
+        "name": "chatreport",
+        "content": "This server is not a place to discuss the chat reporting feature recently added to Minecraft: Java Edition. If you wish to discuss the feature, visit the appropriate channel in https://discord.gg/minecraft"
+    },
+    {
+        "name": "chromebooks",
+        "content": "Minecraft is not supported on Chromebooks.  \n\nPlease consult the following article for more information:\nhttps://help.minecraft.net/hc/en-us/articles/4408901759117"
+    },
+    {
+        "name": "classic",
+        "content": "Minecraft Classic is a severely outdated, archaic, unsupported version of Minecraft. It can be played via the Minecraft launcher, but keep in mind that neither we nor Mojang offer support for Minecraft Classic.\n\nFor an up-to-date fork of Classic, see ClassiCube: https://www.classicube.net/"
+    },
+    {
+        "name": "contact/mj",
+        "content": "You can contact Mojang support here: https://help.minecraft.net/hc/en-us/requests/new"
+    },
+    {
+        "name": "contact/ms",
+        "content": "You can contact Microsoft support here: \u003chttps://support.microsoft.com/contactus\u003e"
+    },
+    {
+        "name": "contact/xbox",
+        "content": "You can contact Xbox support here: \u003chttps://support.xbox.com/contact-us\u003e"
+    },
+    {
+        "name": "crash/ java.lang.NoClassDefFoundError",
+        "content": "To fix java.lang.NoClassDefFoundError, update your graphics drivers."
+    },
+    {
+        "name": "crash/socketexception",
+        "content": "To solve the `Java.net.SocketException` error, open a Command Prompt (Cmd) window and type `netsh winsock reset`. If that doesn't work, run Microsoft's repair tool http://www.microsoft.com/en-us/download/details.aspx?id=30135"
+    },
+    {
+        "name": "ctcp",
+        "content": "Client To Client Protocol, a means for one IRC client to send messages or queries directly to another IRC client without broadbasting to other clients on the same server. Compare DCC."
+    },
+    {
+        "name": "dcc",
+        "content": "Direct Client Connection, a means for one IRC client to send messages directly to another without involving the IRC server to which both clients are connected. Can be used for messages, queries, and file transfers. Compare CTCP."
+    },
+    {
+        "name": "demo",
+        "content": "You can access a demo version of Minecraft, completely free of charge, by registering a Microsoft account at https://signup.live.com/ then downloading the standalone launcher available on https://minecraft.net/download ."
+    },
+    {
+        "name": "discord/ban",
+        "content": "We are not associated with the official Minecraft Discords in any way. This means we cannot assist with any moderation appeals related to those servers. \n\nWe cannot bypass this nor offer any way or help to appeal your ban from the official Minecraft Discords."
+    },
+    {
+        "name": "discord/full",
+        "content": "The official Minecraft Discord server (\u003chttps://discord.gg/minecraft\u003e) is currently full. Inactive users are removed periodically, you will be able to join then. This discord is not affiliated with the official Minecraft Discord in any way, so no one here can tell you when that will happen."
+    },
+    {
+        "name": "dl/client",
+        "content": "You may download the latest version of the launcher from https://minecraft.net/download"
+    },
+    {
+        "name": "dl/client/linux",
+        "content": "Tarball https://launcher.mojang.com/mc-staging/download/Minecraft_staging.tar.gz , .deb https://launcher.mojang.com/mc-staging/download/Minecraft_staging.deb , Arch package https://aur.archlinux.org/packages/minecraft-launcher Currently requires newer versions of glibc (16.10 Ubuntu, for example)."
+    },
+    {
+        "name": "dl/client/mac",
+        "content": "Launcher: https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.dmg"
+    },
+    {
+        "name": "dl/client/win",
+        "content": "**Windows 10/11 __Installer__**: \u003chttps://launcher.mojang.com/download/MinecraftInstaller.exe\u003e  \n\n**Windows 7/8 __Installer__** (also works on 10/11): \u003chttps://launcher.mojang.com/download/MinecraftInstaller.msi\u003e  \n\n**Windows 7/8 __Standalone__** (also works on 10/11):\n\u003chttps://launcher.mojang.com/download/Minecraft.exe\u003e"
+    },
+    {
+        "name": "dl/server",
+        "content": "For the Java Edition, you can get the server files from https://www.minecraft.net/download/server/"
+    },
+    {
+        "name": "dont-click",
+        "content": "You will have better luck holding down the mouse button. Clicking is for instant interactions like placing blocks and flipping switches. To mine, chop wood, or dig, hold down the mouse button."
+    },
+    {
+        "name": "dungeons/cloud-save",
+        "content": "Minecraft Dungeons does not have any cloud-save or account-linked saved data. All Dungeons save files are local to the device. \n\nTo Backup saved data, refer to this article: https://help.minecraft.net/hc/en-us/articles/360043504492"
+    },
+    {
+        "name": "dungeons/fail-launch",
+        "content": "Please install update KB3020369 and the convenience update from https://answers.microsoft.com/en-us/windows/forum/windows_7-update/how-to-obtain-and-install-windows-7-sp2/c2c7009f-3a10-4199-9c89-48e1e883051e"
+    },
+    {
+        "name": "dungeons/fail-login",
+        "content": "If you're getting a 'failed to login' error message when trying to launch Minecraft: Dungeons, please view this bug report: https://bugs.mojang.com/browse/MCL-14094"
+    },
+    {
+        "name": "dungeons/faq",
+        "content": "If you have any questions about Minecraft: Dungeons please view: https://help.minecraft.net/hc/en-us/articles/360041345271-Minecraft-Dungeons-FAQ"
+    },
+    {
+        "name": "dungeons/maml",
+        "content": "To access dungeons on the Minecraft Launcher:\n\n• Sign into the Microsoft account from SETTINGS -\u003e ACCOUNT -\u003e Add Microsoft Account.\n\n• Leave the SETTINGS -\u003e click the top left corner of the launcher where the account name is shown -\u003e Select the Microsoft Account.\n\nYou do not need to sign out of any preexisting Mojang Accounts. Dungeons has never used Mojang accounts, only Microsoft accounts. Ensure the top left of your launcher says Microsoft account, not Mojang account."
+    },
+    {
+        "name": "dungeons/online-play",
+        "content": "If you're getting the 'Online Play restricted' error message, please view this article: https://help.minecraft.net/hc/en-us/articles/360042221252-I-m-Getting-an-Error-When-Trying-to-Play-Realms-with-a-Child-Account"
+    },
+    {
+        "name": "dungeons/pre-order",
+        "content": "If you've pre-ordered Minecraft: Dungeons but you're getting a message to buy it again, please view this bug report: https://bugs.mojang.com/browse/MCL-14106"
+    },
+    {
+        "name": "dungeons/reset-progress",
+        "content": "If Minecraft Dungeons is resetting your progress when you restart the game please ensure you don't have the Avast Cleanup tool installed. If you have this installed please disable automatic maintenance and untick the 'System Junk' box for manual maintenance.\n\nIf you're still experiencing the issue after following these steps, please view this bug report: https://bugs.mojang.com/browse/MCD-1142"
+    },
+    {
+        "name": "dungeons/unified",
+        "content": "As of 18th January 2021, the Minecraft Dungeons launcher can no longer be used to launch the game purchased from minecraftdungeons.net. The Minecraft Launcher now must be used. See \u003chttps://help.minecraft.net/hc/articles/360053351331\u003e for information and visual steps."
+    },
+    {
+        "name": "email/eta",
+        "content": "There is no ETA for when your email will be answered, and there is no way to speed up your response time. Just wait for Mojang to reply."
+    },
+    {
+        "name": "error/bad-login",
+        "content": "Failed to login: Bad login\n\nThis error message occurs when logging in to an smp server fails because the server was unable to verify the client's login info. Frequently caused by piracy, as the client will not have a valid login, but also caused if someone logs in with the same username from 2 clients at once. Be sure you purchased the game, and only run minecraft once at any time."
+    },
+    {
+        "name": "error/cant-connect",
+        "content": "This error can occur for a number of reasons, including firewall/antivirus issues, outdated Java configuration, or incorrect system time. To fix it, make sure the system time is correct (see ?? {os}/synctime), check that Java is allowed to access the internet, disable or uninstall antiviruses (especially Norton and ZoneAlarm), and if that fails, uninstall and reinstall Java."
+    },
+    {
+        "name": "error/cant-connect/dns",
+        "content": "For some users, the recent login issues on the launcher can be fixed by changing the DNS (Domain Name System) Servers. It is recommended that you switch to Google's Public DNS.\n\nSteps here: https://developers.google.com/speed/public-dns/docs/using"
+    },
+    {
+        "name": "error/cant-connect/time",
+        "content": "If you fail to log into Minecraft but is able to get to the site, check your computer's time and date. If it's too far off, you won't be able to connect to secure sites, of which Minecraft's servers are.\n\nTo fix this, use NTP to keep your clock accurate; see **!?f win/ntp**, **!?f mac/ntp** and **!?f linux/ntp** for more information."
+    },
+    {
+        "name": "error/cant-keep-up",
+        "content": "Can't keep up! Did the system time change, or is the server overloaded? That message is perfectly normal, and happens all the time. However, if the console is spamming it or it occurs very frequently, then it is indicating that the machine is not powerful enough to run the server."
+    },
+    {
+        "name": "error/download",
+        "content": "If you are receiving a \"Failed to Download\" or \"Unable to Save Download\" error, please remove any software you have installed that is listed here https://minecrafthopper.net/help/known-incompatible-software/"
+    },
+    {
+        "name": "error/java-crash",
+        "content": "\"A fatal error has been detected by the Java Runtime Environment.\"\n\nThis error happens when something causes Java to become unstable. The usual culprit is broken video card drivers, however it can also be caused by a broken installation of Java. Update or reinstall your video card drivers, and if that fails, try reinstalling Java."
+    },
+    {
+        "name": "error/pfna",
+        "content": "Bad video card drivers! ... org.lwjgl.LWJGLException: Pixel format not accelerated\n\nThis error message occurs when Minecraft can't find graphics drivers with which it can render the game. This is caused by improperly installed or missing video drivers. Installing or reinstalling your video drivers usually fixes this problem, and if it does not, you probably need a new graphics card and/or computer."
+    },
+    {
+        "name": "error/sockets-error",
+        "content": "In order to fix your issue, you need to open a Command Prompt (cmd) window as Administrator. In the command prompt window, please type the following and press Enter: netsh winsock reset"
+    },
+    {
+        "name": "error/timed-out",
+        "content": "Failed to connect to the server - Connection timed out\n\nThis message occurs when Minecraft attempts to connect to a multiplayer server, but receives no response. It can be caused by firewall/antivirus issues, both client or server side, or by trying to connect to a nonexistent server. Make sure Java is allowed through any firewalls you have, and double check the server address."
+    },
+    {
+        "name": "esrb",
+        "content": "The Electronic Software Ratings Board; the MPAA of games."
+    },
+    {
+        "name": "esrb/console",
+        "content": "All console versions of Minecraft are rated E10 by the ESRB."
+    },
+    {
+        "name": "esrb/pc",
+        "content": "Minecraft on personal computers is not rated by the ESRB."
+    },
+    {
+        "name": "esrb/pe",
+        "content": "Minecraft on mobile devices is not rated by the ESRB."
+    },
+    {
+        "name": "exit-codes/-1073740777",
+        "content": "Exit Code -1073740777 is usually caused by a program called D3DGear. Currently the only fix is to uninstall it from your system.\r\n"
+    },
+    {
+        "name": "exit-codes/-1073740791",
+        "content": "If you're on Nvidia GPUs and are getting exit code -1073740791, you have a buggy driver installed and must be replaced.\r\nSee this link for more information: https://www.reddit.com/r/Minecraft/comments/5q05wu/psa_latest_nvidia_gpu_driver_crashes_minecraft/"
+    },
+    {
+        "name": "exit-codes/-805306369",
+        "content": "Code -805306369 is caused when Minecraft runs out of memory. This can be caused by the JVM not being allocated enough memory, a bug in the game, using client modifications or a dependency of the game that has unexpectedly terminated.\r\nHow to increase allocated memory: https://minecrafthopper.net/help/out-of-memory"
+    },
+    {
+        "name": "exit-codes/1073741819",
+        "content": "We're currently investigating the exact cause of Exit Code 1073741819. Try uninstalling D3Dgear if you have it, reinstalling Java (link TBA) or getting a DxDiag report so that we can help you upgrade your graphics drivers (https://minecrafthopper.net/help/dxdiag)"
+    },
+    {
+        "name": "exit-codes/2147483645",
+        "content": "This error is caused when the registry contains malformed information involving the current Java installation. In most cases, reinstalling the proper version of Java (Link TBA) should solve this, otherwise, you should get a registry cleaner to scan your computer (https://www.google.com/search?q=registry+cleaner)"
+    },
+    {
+        "name": "exit-codes/34",
+        "content": "If you are receiving this error, and a file called `hs_error_pid` is generated in either your desktop or your Minecraft directory, this may hint an issue with Java. See this article on how to reinstall Java: (TBA)"
+    },
+    {
+        "name": "feedback",
+        "content": "You can submit game feedback here: \u003chttps://feedback.minecraft.net/\u003e however please read this guide: \u003chttps://www.minecraft.net/en-us/article/give-us-your-minecraft-feedback\u003e before doing so."
+    },
+    {
+        "name": "fix/hosts",
+        "content": "There is an issue in your system's hosts file. Please follow the instructions found here: https://minecrafthopper.net/help/hosts-file/"
+    },
+    {
+        "name": "freebsd/securityexception",
+        "content": "The JVM seems to have issues with FreeBSD symlinking /dev/urandom to /dev/random, which can lead to a traceback like this: https://pastebin.com/9e8THiSm\n\nThis can be fixed by launching Minecraft with '-Djava.security.egd=file:/dev/random'."
+    },
+    {
+        "name": "fubar/constant-guard",
+        "content": "If you installed 'Constant Guard by Comcast' and suddenly the controls in Minecraft are insane or nonfunctional, uninstall it. This is a known issue."
+    },
+    {
+        "name": "fubar/ie",
+        "content": "Internet Explorer is a terrible browser with terrible issues. Many common problems are solved by using a better browser. Firefox: https://www.mozilla.org/firefox | Chrome: https://www.google.com/chrome"
+    },
+    {
+        "name": "fubar/mouse/synergy",
+        "content": "Mouse issues have been reported between Minecraft and Synergy. If your mouse movement is borked, going to extremes, up and down, uninstall Synergy."
+    },
+    {
+        "name": "gpu",
+        "content": "Graphical Processing Unit; also known as one's Video Card, Display Card or Graphics Adapter. **See !?f win/dxdiag** or **!?f tools/gpu-z** for how to get lots of information about yours."
+    },
+    {
+        "name": "gpu/amd",
+        "content": "You can get drivers for AMD GPUs here: https://support.amd.com/en-us/download/auto-detect-tool"
+    },
+    {
+        "name": "gpu/amd/uninstall",
+        "content": "Instructions for removing your AMD GPU drivers can be found at https://support.amd.com/en-us/kb-articles/Pages/AMD-Clean-Uninstall-Utility.aspx"
+    },
+    {
+        "name": "gpu/discrete",
+        "content": "Some laptops have 'discrete GPUs' which are more powerful, but usually remain inactive to conserve power. Sometimes, systems do not properly switch to the discrete GPU when minecraft is running. Make sure the drivers/support software for both devices is up to date.  Automatic switching may not work properly without additional settings changes."
+    },
+    {
+        "name": "gpu/discrete/settings",
+        "content": "Please Note: This information may not currently match the current location of the Java Runtime installed by the game for some users. To make sure Minecraft uses the discrete (dedicated) GPU, go to the \"**Settings**\" from your Start Menu, then click \"**System**\", then locate \"**Display**\" and scroll down to \"**Graphics Settings**\" and click it. \n\nNext, click \"**Browse**\" and enter `C:\\Program Files (x86)\\Minecraft Launcher\\runtime\\jre-x64\\bin\\javaw.exe` into the \"**File name**\" field, then click Add. Then click the \"**Options**\" button and change to \"**High Performance**\", then click \"**Save**\". The game should now start with your discrete GPU instead of the integrated one."
+    },
+    {
+        "name": "gpu/displaylink",
+        "content": "For some users, using docking stations and connecting monitors through DisplayLink can cause the game to crash on startup. Currently, the best fix is to either undock or disconnect the monitor(s). Once the game has started, these can be reconnected."
+    },
+    {
+        "name": "gpu/intel",
+        "content": "You can get drivers for Intel GPUs and chipsets here:  https://downloadcenter.intel.com/"
+    },
+    {
+        "name": "gpu/intel/965",
+        "content": "Due to a bug in the latest drivers from Intel, 965GM video cards are unable to play 1.7.4 and future versions of Minecraft using Microsoft Windows. You will need to buy a new video card or computer, or use Linux to play new versions.\n\nFor now, you can still play 1.7.2 or older versions of the game. See **!?f launcher/change-version**"
+    },
+    {
+        "name": "gpu/intel/ig4",
+        "content": "The Intel 4 Series (and older) video cards are unable to play 1.7.4 and future versions of Minecraft. You will need to buy a new video card or computer to play new versions.\n\nFor now, you can still play 1.7.2 or older versions of the game. See **!?f launcher/change-version**"
+    },
+    {
+        "name": "gpu/intel/ig7",
+        "content": "Some older versions of Intel integrated graphics hardware do not support features that Minecraft needs in order to work. If you are using a desktop computer, you can install a modern dedicated graphics card. If you are on a laptop you will need to use a computer with newer hardware. Alternatively you can use version 1.13.2 or lower of Minecraft, with the \"Use VBOs\" option in video settings set to off."
+    },
+    {
+        "name": "gpu/intel/old",
+        "content": "Starting with Minecraft: Java Edition version 1.17, support for OpenGL Core 3.2 is required for the game to run. Some older graphics hardware does not support that version, and will not be able to play 1.17 or later. You may still be able to play 1.16.5 or lower, as long as you allow it to use the bundled Java 8 runtime. All devices that meet the following requirements, should be able to continue to play: https://help.minecraft.net/hc/en-us/articles/4409225939853#h_01FFJMSQWJH31CH16H63GX4YKE"
+    },
+    {
+        "name": "gpu/intel/win10",
+        "content": "If you are running Windows 10 with Intel HD Graphics on 1st or 2nd Generation Intel Core processors, you may need to downgrade your Java to Java 8u51 to work around an issue with Java that prevents Minecraft from working. The default Minecraft installation comes with Java 8u25 and is hence not affected. Note that Intel HD Graphics on 1st or 2nd Gen processors are **below the minimum requirements for Minecraft**, hence **this configuration is unsupported**\n\nRelated bug report: https://bit.ly/1LjDe16"
+    },
+    {
+        "name": "gpu/matrix",
+        "content": "For advanced users only: The Minecraft graphics card compatibility matrix, listing every GPU and its supported OSes, will give you an overview of what works and what doesn't work on a computer.\n\nhttps://docs.google.com/spreadsheets/d/1VP1eCyo6gsBjulvuJkopincb452PLI4YSgnqD0Griks/edit?usp=drive_web"
+    },
+    {
+        "name": "gpu/mobile",
+        "content": "Many GPU chipsets used in laptops or cheap desktops are watered-down versions of their fully-powered variants. These chipsets usually have a monicker appended to the normal name (e.g. GeForce M series or AMD Radeon HD Mobility), and/or with a letter M after the model number. These are underpowered and, generally speaking, are not up to the task of running modern games."
+    },
+    {
+        "name": "gpu/nvidia",
+        "content": "You can get drivers for NVIDIA GPUs here:  https://www.nvidia.com/Download/index.aspx"
+    },
+    {
+        "name": "gpu/nvidia/downgrade",
+        "content": "A link to the downgraded drivers can be located here: https://www.reddit.com/r/Minecraft/comments/5q41ea/"
+    },
+    {
+        "name": "gpu/nvidia/lines",
+        "content": "To fix strange lines around blocks and chunks with an Nvidia GPU:\n**1.)** Close Minecraft and any other games, open Nvidia Control Panel (right click on the desktop then click Nvidia Control Panel)\n\n**2.)** Click `Adjust image settings with preview`\n\n**3.)** Click `Let the 3D application decide`, then click `Apply` in the bottom right"
+    },
+    {
+        "name": "gpu/nvidia/optimus",
+        "content": "Sometimes Minecraft uses the integrated rather than the dedicated graphics card. To fix this, follow the instructions given here: https://minecrafthopper.net/help/nvidia-optimus/ "
+    },
+    {
+        "name": "gpu/nvidia/uninstall",
+        "content": "Instructions for removing your NVIDIA GPU drivers can be found at https://nvidia.custhelp.com/app/answers/detail/a_id/10/~/how-do-i-uninstall-my-nvidia-display-drivers-on-a-microsoft-windows-based-pc%3F"
+    },
+    {
+        "name": "gpu/opengl/diag",
+        "content": "https://www.realtech-vr.com/glview/"
+    },
+    {
+        "name": "gpu/support",
+        "content": "You can see whether your graphics card can run Minecraft quickly with this table: https://docs.google.com/spreadsheets/d/1VP1eCyo6gsBjulvuJkopincb452PLI4YSgnqD0Griks/edit"
+    },
+    {
+        "name": "gpu/vbo",
+        "content": "If your game hangs with the message \"Java(tm) SE Binary Platform is not responding\", chances are your GPU does not support VBO (Vertex Buffer Object), a technology Minecraft uses. To fix this: From the game's title menu, select Options, then Video Settings, scroll down and make sure Use VBOs is set to Off. "
+    },
+    {
+        "name": "help",
+        "content": "To use the factoids: !?f \u003cfactoid\u003e [@mention]\n\nList of factoids: https://cp.minecrafthopper.net/factoids"
+    },
+    {
+        "name": "hosts",
+        "content": "In circumstances usually relating to piracy, the operating system's hosts file may need to be inspected to ensure that the system can connect to minecraft's login servers.\n\nFor operating system specific information regarding this, see one of the following factoids - Windows: win/hosts - Mac: mac/hosts - Linux: linux/hosts"
+    },
+    {
+        "name": "imgur",
+        "content": "Imgur is an image hosting website at https://www.imgur.com where you can upload screenshots, etc for free, no need to register.  Click the \"new post\" button at the top left of the page, and use the interface to pick an image from your computer. Once this is done, give us the URL you are taken to."
+    },
+    {
+        "name": "improve-fps",
+        "content": "Some pointers on how to improve FPS: update graphics drivers, use 64 bit java (if applicable), toggle VBOs, game graphics to fast, reduce view distance, reduce smooth lighting, disable alternate blocks, disable mipmapping, disable VSync, use a low resolution texture pack"
+    },
+    {
+        "name": "index",
+        "content": "See https://cp.minecrafthopper.net/factoids for the list of factoids Absol knows of. See https://cp.minecrafthopper.net/hjts for a list of programs picked up by the HiJackThis scanner."
+    },
+    {
+        "name": "info/alt",
+        "content": "The usage of alt account tools, such as MCLeaks, AltDispenser, Altening, etc. (which violate the EULA/ToS) have been causing issues for many Minecraft users.\n\nTo correct these, remove the tool, and remove all lines containing **mojang** in your system's **Host** file. After removing them, it is recommended to **change your password** to avoid having your account compromised."
+    },
+    {
+        "name": "info/altening",
+        "content": "Altening is an illegal account generator. To remove Altening do the following:\n\nPress the Windows key and type cmd. Right-click \"Command Prompt\" and choose `Run as Administrator`.  \nThen, In command prompt, type `taskkill /IM \"altening.launcher.exe\" /F` and press enter.  \nOnce you've completed that, press the Windows Key and R then type `%appdata%` and press enter. Look for a folder named \"Altening\" and delete it."
+    },
+    {
+        "name": "info/herobrine",
+        "content": "Herobrine is a mythical figure of the Minecraft originating from a community-made \"creepy-pasta\" (creepy story), and is the subject of many non-factual community myths and legends. Some mods have introduced herobrine-like content into Minecraft (some as an undocumented easter egg or joke), but no unmodified version of Minecraft contains Herobrine or anything like it. This has been confirmed many times by analysis of game files."
+    },
+    {
+        "name": "info/java16",
+        "content": "Starting with version 1.17 of Minecraft: Java Edition, the game will require Java 16 to run. The launcher should install this for you, and no additional work should be required for you to launch the game. If you are running a server, you will need to manually install Java 16 on the host computer. Please see java/16 for a download link."
+    },
+    {
+        "name": "info/java17",
+        "content": "Starting with version 1.18 of Minecraft: Java Edition, the game will require Java 17 to run. The launcher should install this for you, and no additional work should be required for you to launch the game. If you are running a server, you will need to manually install Java 16 on the host computer. Please see java/17 for a download link."
+    },
+    {
+        "name": "info/mcleaks",
+        "content": "The usage of MCLeaks or AltDispenser tools (which are illegal) have been causing issues for many Minecraft users. To correct these, remove the tool, and remove all lines containing **mojang** in your system's **Host** file. After removing it, you must **change your password** to avoid having your account compromised."
+    },
+    {
+        "name": "info/segurazo",
+        "content": "Segurazo is a fake antivirus which is known to cause issues with Minecraft. To remove it please follow the steps here: https://forums.malwarebytes.com/topic/249582-removal-instructions-for-segurazo/"
+    },
+    {
+        "name": "info/vars",
+        "content": "There may be a setting in your Environment Variables causing a memory limit. Please see this article for instructions on removing it https://minecrafthopper.net/help/env-vars/"
+    },
+    {
+        "name": "info/volunteer",
+        "content": "The people in this channel offering assistance have no affiliation with Mojang, and are volunteering their time."
+    },
+    {
+        "name": "info/wait-time",
+        "content": "Mojang is currently under heavy contact volume, so there are no estimates on when they will get to your ticket. For more information, please go to https://help.minecraft.net/hc/en-us/articles/360042503912-We-re-experiencing-very-heavy-contact-volume-right-now"
+    },
+    {
+        "name": "info/windscribe",
+        "content": "Windscribe VPN is known to cause issues when logging into and connecting to Minecraft. To remove this VPN open up the windscribe GUI and turn off 'startup on system startup', then proceed to uninstall the VPN. After completing that step, open your hosts file (ask if you don't know how to) and remove any entries that windscribe may have added."
+    },
+    {
+        "name": "invite/addons",
+        "content": "For help with developing Bedrock addons, please visit the unofficial [Bedrock Addons Discord](https://discord.gg/HMSRWuR78w)"
+    },
+    {
+        "name": "invite/caffeine",
+        "content": "For help with the Sodium, Lithium, Phosphor and Hydrogen mods, please visit the [CaffeineMC Discord](https://caffeinemc.net/discord)"
+    },
+    {
+        "name": "invite/curse",
+        "content": "For help with the CurseForge launcher and CurseForge in general, please visit the [CurseForge Discord](https://discord.com/invite/VakuZRa)"
+    },
+    {
+        "name": "invite/enginehub",
+        "content": "For help with WorldEdit and WorldGuard, please visit the [EngineHub Discord](https://discord.gg/UvedJ9m)"
+    },
+    {
+        "name": "invite/fabric",
+        "content": "For help with Fabric mods, please visit [The Fabric Project Discord](https://discord.gg/v6v4pMv)"
+    },
+    {
+        "name": "invite/forge",
+        "content": "For help with Forge mods, please visit [The Forge Project Discord](https://discord.gg/UvedJ9m)"
+    },
+    {
+        "name": "invite/geyser",
+        "content": "For help with Geyser software, please visit the [GeyserMC Discord](https://discord.gg/geysermc)"
+    },
+    {
+        "name": "invite/iris",
+        "content": "For help with Iris, a Fabric mod that runs OptiFine shaders, please visit the [Iris Discord](https://discord.gg/jQJnav2jPu)"
+    },
+    {
+        "name": "invite/mccommands",
+        "content": "For help with commands, data packs, and maps, please visit the [Minecraft Commands Discord](https://discord.gg/QAFXFtZ)"
+    },
+    {
+        "name": "invite/mccs",
+        "content": "The permanent invite link for this server is https://discord.gg/58Sxm23"
+    },
+    {
+        "name": "invite/modded",
+        "content": "For help with modded Minecraft in general, please visit the [Modded Minecraft Discord](https://discord.gg/moddedmc)"
+    },
+    {
+        "name": "invite/multimc",
+        "content": "For help with the MultiMC launcher, please visit the [MultiMC Discord](https://discord.gg/multimc)"
+    },
+    {
+        "name": "invite/of",
+        "content": "For help with OptiFine and OptiFine shaders, please visit the [OptiFine Discord](https://discord.gg/optifine)"
+    },
+    {
+        "name": "invite/paper",
+        "content": "For help with the Paper server software, please visit the [PaperMC Discord](https://discord.gg/papermc)"
+    },
+    {
+        "name": "invite/pcmr",
+        "content": "For help and recommendations for PC hardware, please visit the [PC Master Race Discord](https://discord.gg/pcmr)"
+    },
+    {
+        "name": "invite/pixelmon",
+        "content": "For help with the Pixelmon modpack, please visit the [Pixelmon Discord](https://discord.gg/pixelmon)"
+    },
+    {
+        "name": "invite/playit",
+        "content": "For support and information regarding running servers via playit.gg please visit the [playit.gg Discord Server.](https://discord.gg/BUPkfPW)"
+    },
+    {
+        "name": "invite/spigot",
+        "content": "For help with the Spigot server software, please visit the [Spigot Discord](https://discord.gg/spigotmc)"
+    },
+    {
+        "name": "invite/syscraft",
+        "content": "For help with general Minecraft server administration, please visit the [Syscraft Discord](https://discord.gg/syscraft)"
+    },
+    {
+        "name": "invite/technic",
+        "content": "For help with Technic modpacks, please visit the [Technic Discord](https://discord.gg/technic)"
+    },
+    {
+        "name": "invite/vt",
+        "content": "For help with Data Packs from Vanilla Tweaks, please visit the [Vanilla Tweaks Discord](https://discord.gg/nmSTW32Kf2)"
+    },
+    {
+        "name": "ios/client",
+        "content": "The iOS version of Minecraft PE can be found here:  https://itunes.apple.com/us/app/minecraft-pocket-edition/id479516143?mt=8"
+    },
+    {
+        "name": "irc",
+        "content": "Internet Relay Chat. You're using it."
+    },
+    {
+        "name": "irc/bots",
+        "content": "The bots in this channel are meant to be used for assisting users in need of help. Abuse of the bots will have you removed from the channel. If you are not using the bot for its intended purpose, you ARE abusing it."
+    },
+    {
+        "name": "irc/channel",
+        "content": "You're in one."
+    },
+    {
+        "name": "irc/help",
+        "content": "For IRC help, you should ask in the channel #help - you can get there using the command `\u0002/join #help`\u0002 in here. If you can't talk in #minecraft (\"Cannot send to channel\") you must register your IRC nickname, using the command \u0002`/msg NickServ REGISTER password email`\u0002 in here. Remember to use a valid email. Go to #help if you need further assistance with this."
+    },
+    {
+        "name": "irc/multitasking",
+        "content": "In IRC, many people can be having multiple conversations at the same time.  Don't presume that everything anyone says is meant for you.  In most cases, when there are several things going on at once, people will prefix the addressee's nick to the message to clarify for whom it is intended."
+    },
+    {
+        "name": "irc/multitasking/!",
+        "content": "\u003c-- this name here indicates who we're talking to. If you see someone else's name there, it means we're talking to someone else. Don't respond to messages directed at other people."
+    },
+    {
+        "name": "irc/nick",
+        "content": "You have apparently been given a random name by the web-based client you are using. Please select an intelligible one by thinking of a name, and typing \"/NICK YourNiftyNewName\". Thank you."
+    },
+    {
+        "name": "irc/pm",
+        "content": "To send someone a private message and/or start a private conversation, say '/query nick', for example, '/query VoxelHead'"
+    },
+    {
+        "name": "irc/pm/webchat",
+        "content": "Private messages, or PMs, are sent from one person to another directly, and prevent the main chat from getting clogged.\n\nPMs appear (in webchat) in the upper left, labelled by the nickname of the sender."
+    },
+    {
+        "name": "isp",
+        "content": "[b]Internet Service Provider[/b]. A company which provides access to the Internet."
+    },
+    {
+        "name": "java/16",
+        "content": "You can download the OpenJDK version of Java 16 for most platforms from this page: \u003chttps://adoptium.net/temurin/releases/?version=16\u003e"
+    },
+    {
+        "name": "java/17",
+        "content": "You can download the OpenJDK version of Java 17 for most platforms from this page: \u003chttps://adoptium.net/temurin/releases/?version=17\u003e"
+    },
+    {
+        "name": "java/8",
+        "content": "You can get Java 8 here: https://java.com/en/download/manual.jsp"
+    },
+    {
+        "name": "java/info",
+        "content": "You can go here to see what version of Java you currently have installed:  https://java.com/en/download/testjava.jsp"
+    },
+    {
+        "name": "lan",
+        "content": "Local Area Network. Not to be confused with an internet connection in general, or WAN (Wide-Area Network)"
+    },
+    {
+        "name": "lang/1337",
+        "content": "\\/\\/3 0|\\|ýý $p34|{ 3|\\|9ý1$|-| |-|3ý3. |-|0\\/\\/3\\/3ý, ý0ý |\\/|4ý, 1ý ý0ý \\/\\/1$|-|, 7ýý ý$1|\\|9 4 7ý4|\\|$ý470ý, $ý(|-| 4$ |-|77p://7ý4|\\|$ý473.9009ý3.(0|\\/|/"
+    },
+    {
+        "name": "lang/1337^2",
+        "content": "\\/\\/ý 0|\\|ýý ýpý@|\u003c ý|\\|9ýýý|-| |-|ý|2ý. |-|0\\/\\/ý\\/ý|2, ý0ý |\\/|@ý, ýý ý0ý \\/\\/ýý|-|, 7|2ý ýýý|\\|9 @ 7|2@|\\|ýý@70|2, ýýý|-| @ý |-|77p://7|2@|\\|ýý@7ý.9009ýý.ý0|\\/|/"
+    },
+    {
+        "name": "lang/da",
+        "content": "Vi kan kun snakke Englesk her. Du kan, hvis du ønsker, at brug en oversætter, som https://translate.google.com/#da/en"
+    },
+    {
+        "name": "lang/de",
+        "content": "Wir sprechen hier nur Englisch. Falls du kein Englisch sprichst empfehlen wir dir einen Übersetzer wie zum Beispiel https://translate.google.com/#de/en zu verwenden"
+    },
+    {
+        "name": "lang/en",
+        "content": "We only speak English here. However, you may, if you wish, try using a translator, such as https://translate.google.com/#auto/en"
+    },
+    {
+        "name": "lang/es",
+        "content": "En esta sala de chat solo hablamos ingles. Por favor escriba en ingles o use un traductor como https://translate.google.com/#es/en"
+    },
+    {
+        "name": "lang/fi",
+        "content": "Tällä kanavalla puhutaan vain Englantia. Jos et osaa puhua Englantia, käytä kääntäjää, esimerkiksi https://translate.google.com/#fi/en"
+    },
+    {
+        "name": "lang/fr",
+        "content": "Nous parlons uniquement en anglais ici. Cependant, vous pouvez, si vous le souhaitez, essayez d'utiliser un traducteur, comme https://translate.google.com/#fr/en"
+    },
+    {
+        "name": "lang/it",
+        "content": "Parliamo solo Inglese qui. Puoi usare, se vuoi, un traduttore come https://translate.google.com/#it/en"
+    },
+    {
+        "name": "lang/ja",
+        "content": "ここは英語のみ使うことができます。もし、英語が話せない、話したくない場合は https://translate.google.com/#auto/en にある翻訳を利用してみてください。"
+    },
+    {
+        "name": "lang/nl",
+        "content": "Wij spreken hier alleen Engels. U kunt echter, indien u dat wenst, het proberen met behulp van een vertaler, zoals https://translate.google.com/#nl/en"
+    },
+    {
+        "name": "lang/no",
+        "content": "Vi snakker bare engelsk her. Du kan, hvis du ønsker bruke en oversetter som https://translate.google.com/#no/en"
+    },
+    {
+        "name": "lang/pl",
+        "content": "Na tym kanale mowimy tylko w jezyku angielskim. Prosze uzyc Google Translate: https://translate.google.com/#pl/en"
+    },
+    {
+        "name": "lang/pt",
+        "content": "Nós só falamos inglês aqui. Você pode, no entanto, usar um tradutor se quiser, como https://translate.google.com/#pt/en"
+    },
+    {
+        "name": "lang/ro",
+        "content": "Noi vorbim aici doar engleză. Însă, dacă doriți, dumneavoastră puteți să încercați să utilizați un traducător, de exemplu https://translate.google.com/#auto/en"
+    },
+    {
+        "name": "lang/ru",
+        "content": "Мы говорим только по-английски. Однако вы можете при желании попробовать использовать переводчик, например \u003chttps://translate.google.com/#auto/en\u003e."
+    },
+    {
+        "name": "lang/we",
+        "content": "Dim ond Saesneg rydyn ni'n siarad yma. Fodd bynnag, gallwch geisio defnyddio cyfieithydd fel https://translate.google.com/#auto/en"
+    },
+    {
+        "name": "lang/zh",
+        "content": "這個頻道只能用英語提供技術支援。如需協助，請使用英文或使用Google Translate。"
+    },
+    {
+        "name": "lang/zh-cn",
+        "content": "这个频道只能用英语提供技术支援。如需协助，请使用英文或使用Google Translate／百度翻译。"
+    },
+    {
+        "name": "launcher/.minecraft",
+        "content": "To find your Minecraft data folder (also known as the `.minecraft` folder), please follow these instructions: https://minecrafthopper.net/help/finding-minecraft-data-folder/"
+    },
+    {
+        "name": "launcher/bootstrap",
+        "content": "Please send the Bootstrap Error Log, which is the text you see in your launcher.\n\nFirst, copy all of the text by pressing **Ctrl+A** and **Ctrl+C**. Then, go to https://paste.ubuntu.com/ and paste it. Click 'Submit', then share with us the link (the URL) that it takes you to."
+    },
+    {
+        "name": "launcher/change-version",
+        "content": "To change your game to a different version, start the launcher. Select **Installations -\u003e Add New**. In the \"Version\" dropdown menu, select the game version you want, and click **Save**. Finally, in the Java Edition tab, select the profile you just created using the drop down arrow left of the Play button, then click **Play**."
+    },
+    {
+        "name": "launcher/frozen",
+        "content": "If your Minecraft Launcher is freezing, has only a grey screen, or is \"Not Responding\". Please see the Potential Workaround listed on this bug tracker page: https://bugs.mojang.com/browse/MCL-11992.\n\nNote: This applies to these issues in the launcher window, not the game window."
+    },
+    {
+        "name": "launcher/game-directory",
+        "content": "To change your Game Directory, open the launcher, select **Installations**.\n\nClick on the profile you want to change (usually Latest Release), and look under the **Game Directory** setting. You may browse for or manually enter the new game directory in this text box. Save and launch Minecraft to complete."
+    },
+    {
+        "name": "launcher/gamepass",
+        "content": "If you are playing Minecraft for Windows 10, or Minecraft: Java Edition via a GamePass for PC subscription, you will need to use the new Windows Store app version of the launcher. You must also make sure you are logged into the Windows Store app with the same Microsoft/Xbox account you have your GamePass for PC subscription. Please Note: This launcher is new, and is currently experiencing some issues. If you are having a problem, please allow some time for Mojang to address the issues."
+    },
+    {
+        "name": "launcher/jvm",
+        "content": "If you are experiencing an error similar to \"**Unable to locate the Java runtime**\", head to **Installations**, click on the profile you intend to use (usually **Latest release**). Click the **More Options** drop down, if the text in the box for Java Executable does not say \"Use bundled Java runtime\" click the X button on that text box to make it. Save and restart the launcher."
+    },
+    {
+        "name": "launcher/login",
+        "content": "If you purchased Minecraft: Java Edition on or after December 1, 2020, please make sure the top left corner of the launcher says Microsoft Account.\n\nIf you purchased Minecraft: Java Edition before December 1, 2020, please make sure the top left corner of the launcher says Mojang Account.\n\nAccounts for Minecraft: Java Edition will be transitioned from Mojang accounts to Microsoft accounts, starting in 2021. For more information see: https://www.minecraft.net/en-us/article/java-edition-moving-house and https://help.minecraft.net/hc/en-us/articles/360050865492"
+    },
+    {
+        "name": "launcher/logs/copy",
+        "content": "To copy all text from the launcher's log tabs, right-click on the log and press \u0002**Copy All Text**. The text will now be copied to the clipboard for further use."
+    },
+    {
+        "name": "launcher/modded",
+        "content": "The Minecraft launcher now needs to have modded installations explicitly enabled in order to run mods. To do this, open the launcher, click the Installations tab and click the **Modded** check. You should now be able to run modded versions.\r\nExample Image: https://imgur.com/a/kon1PuL"
+    },
+    {
+        "name": "launcher/more-ram",
+        "content": "A forum post which explains how to allocate more RAM to Minecraft can be found here: https://www.minecraftforum.net/forums/support/java-edition-support/3001598-tutorial-how-to-allocate-more-ram-to-minecraft"
+    },
+    {
+        "name": "launcher/offline",
+        "content": "The launcher you download from https://minecraft.net/download is just that, the launcher. It contains no actual game files. The launcher only downloads those files once you login and start the game."
+    },
+    {
+        "name": "launcher/open",
+        "content": "To make sure the launcher stays open: click \u0002**Settings\u0002**, then check \"**Keep the Launcher open while games are running**\" and \"**Open output log when games start**\"."
+    },
+    {
+        "name": "launcher/profile",
+        "content": "How to create and switch between launcher profiles: https://help.minecraft.net/hc/articles/360034754852-Changing-game-versions-"
+    },
+    {
+        "name": "launcher/reinst/win",
+        "content": "Go to Control Panel, and click on \"Uninstall a Program\" (may also be called \"Programs and Features\"). Then, right click on the Minecraft Launcher entry and select \"Uninstall\". Afterwards, restart your PC, then download and install the game again from \u003chttps://minecraft.net/en-us/download\u003e."
+    },
+    {
+        "name": "launcher/relog",
+        "content": "Click your Minecraft username (or email address) in the upper left part of the launcher, select Log out, then re-enter your info and try the game again."
+    },
+    {
+        "name": "launcher/reparse",
+        "content": "The new Minecraft launcher does not currently support any sort of shortcut or reparse point for the .minecraft directory, including symlinks and directory junctions. You will need to either delete the shortcut and move the .minecraft folder back to the original location, type ?? dl/win/alternate for the old launcher, or ask for help with using a different location for your .minecraft folder."
+    },
+    {
+        "name": "launcher/reset",
+        "content": "To reset your Minecraft Launcher, first close the game and launcher. After that, press the Windows key, type `Minecraft Launcher`, right click on the launcher, and select \"App settings\". If you do not see this option, click on \"More\" first. Once you're in the settings, scroll down and click the \"Reset\" button, then try the Launcher again."
+    },
+    {
+        "name": "launcher/revert-beta",
+        "content": "Go to your .minecraft folder. In that folder, edit 'launcher_profiles.json'. At the bottom of the file and change \"channel\": \"beta\", to \"channel\": \"release\""
+    },
+    {
+        "name": "launcher/wsreset",
+        "content": "To reset your Microsoft Store cache, press the Windows key + R and type `WSreset` in the window that pops up, then press Enter. Wait a few seconds until the black window closes and the store opens, then restart your PC and try installing the launcher again."
+    },
+    {
+        "name": "legal",
+        "content": "Discussions of any legal documents (including but not limited to EULA and ToS) are limited to questions only. We are not Mojang and we do not have the authority to determine whether a given condition is allowed.\n\nDiscussion of legal loopholes are strictly forbidden. If you require further assistance, hire a laywer."
+    },
+    {
+        "name": "legal/report",
+        "content": "You can report servers that may be violating the EULA or the ToS here: https://is.gd/mc_report_serv.\n\nIf you are in immediate danger or were scammed, contact the local authorities. Mojang will not disclose information of individual users to anyone unless required by court."
+    },
+    {
+        "name": "linux/.minecraft",
+        "content": "`~/.minecraft`\n\nIf you need more details, you should look into learning some of the basics.  `~` is your home directory, usually `/home/YOURNAME`.  So `~/.minecraft` would be `/home/YOURNAME/.minecraft/`."
+    },
+    {
+        "name": "linux/certs",
+        "content": "On default installations of Java in Linux, there are no CA certs installed. To install them run the following in the terminal\n`sudo apt install ca-certificates-java \u0026\u0026 sudo update-ca-certificates -f`"
+    },
+    {
+        "name": "linux/dns",
+        "content": "To clear the local DNS cache under most Linux distributions, you should restart the networking service.\n\nUnder Debian and Debian-based system (Ubuntu, Mint) you can accomplish this with `sudo /etc/init.d/networking restart`. Note that this might disconnect you from Discord."
+    },
+    {
+        "name": "linux/hosts",
+        "content": "You may have a problem with your hosts file, which overrides DNS queries.  Please follow the following directions:\n\nFrom the filesystem, navigate to the following file: \"/etc/hosts\".  Open that file in your editor of choice, and copy the contents onto https://paste.ubuntu.com/ , and give us the resulting URL."
+    },
+    {
+        "name": "linux/jar",
+        "content": "To make the Minecraft JAR file executable, run the following command:\n\n`chmod +x /path/to/minecraft.jar`"
+    },
+    {
+        "name": "linux/local-ip",
+        "content": "In order to get the local IPv4 address on Linux, open a terminal and type `ip addr | grep inet`"
+    },
+    {
+        "name": "linux/lspci",
+        "content": "Run the following command in a terminal: `curl -L https://git.io/udebug | sh`\n\nThen, copy the link that appears in your terminal into this chat."
+    },
+    {
+        "name": "linux/noexec",
+        "content": "Don't ever mount /tmp with the noexec flag unless you want to run 3D programs with NVIDIA drivers."
+    },
+    {
+        "name": "linux/ntp",
+        "content": "Run this command in the terminal if you have ntpd installed: `ntpd -q`\n\nOtherwise, run this command in the terminal as root for a quick time sync: `ntpdate pool.ntp.org`"
+    },
+    {
+        "name": "linux/path",
+        "content": "You probably need to add Java's binaries to your PATH.  This varies based on distribution and how you installed Java, but is usually `\u0002/usr/local/bin/java\u0002` or `\u0002/usr/bin/java\u0002`.  Run this command after verifying the path to java:\n\n`echo 'export PATH=$PATH:/path/to/jre/bin' \u003e\u003e ~/.profile`"
+    },
+    {
+        "name": "linux/reinst",
+        "content": "You may need to reinstall the locally installed files that Minecraft puts into place. To do so, run the following command in a terminal: `\u0002curl -L https://git.io/rmc | sh`\u0002"
+    },
+    {
+        "name": "linux/ubuntu/java",
+        "content": "Go here for directions for installing Oracle Java on recent Ubuntu releases:  https://is.gd/mKiYMt"
+    },
+    {
+        "name": "log/crash",
+        "content": "Please follow these instructions to obtain a Minecraft crash report: https://minecrafthopper.net/help/guides/getting-minecraft-crash-report/"
+    },
+    {
+        "name": "log/event",
+        "content": "Sometimes, Windows Event Viewer may log some errors related to Minecraft. Please follow the instructions at:\nhttps://minecrafthopper.net/help/using-event-viewer\nPaste the copied text from the instructions into \u003chttps://paste.gg\u003e, click Submit Anonymously, and post the generated link in this channel."
+    },
+    {
+        "name": "log/game",
+        "content": "Please follow these instructions to obtain a Minecraft Game Output log: https://minecrafthopper.net/help/guides/getting-minecraft-logs"
+    },
+    {
+        "name": "log/hjt",
+        "content": "Please follow these instructions to obtain a HiJackThis diagnostic report: https://minecrafthopper.net/help/hjt/"
+    },
+    {
+        "name": "log/jvm",
+        "content": "Please follow these instructions to obtain a JVM crash report:\nhttps://minecrafthopper.net/help/guides/getting-minecraft-jvm-crash-report/"
+    },
+    {
+        "name": "log/latest",
+        "content": "Please follow these instructions to obtain a `latest.log` file: https://minecrafthopper.net/help/guides/getting-minecraft-latest-log/"
+    },
+    {
+        "name": "log/launcher",
+        "content": "Please follow these instructions to obtain a Minecraft Launcher log: https://minecrafthopper.net/help/guides/getting-minecraft-launcher-log/"
+    },
+    {
+        "name": "login/diagnosis",
+        "content": "Please tell us whether you can log into 1. The launcher, 2. https://account.mojang.com/me 3. https://minecraft.net"
+    },
+    {
+        "name": "login/throttle",
+        "content": "After 3 incorrect login attempts, a lockout is placed automatically by Mojang's systems on your network to protect accounts against brute force attacks to gain access. This lockout is automatic, lasts for 1 hour, and **cannot be overridden**. Wait 1 hour, don't log in at all (to *any* account). Then reset your password using https://www.minecraft.net/en-us/password/forgot and try again."
+    },
+    {
+        "name": "mac/.minecraft",
+        "content": "To get at Minecraft's locally stored files on a Mac, in the Finder, press Shift-Cmd-G, type in: `~/Library/Application Support/minecraft`, and click Go."
+    },
+    {
+        "name": "mac/10.9/java",
+        "content": " If you are getting \"Cannot find Java\" error on Mac OSX 10.9, use this workaround: https://bugs.mojang.com/browse/MCL-1049"
+    },
+    {
+        "name": "mac/ABI",
+        "content": "First, open Finder, press Shift-Cmd-G and type: `~/Library/Application Support/minecraft`\n\nThat should open a Finder window showing your Minecraft folder; delete the `launcher` folder found there. Restart Minecraft using the App found in the Applications folder."
+    },
+    {
+        "name": "mac/adblock-master",
+        "content": "Adblock Master is known to prevent the download of files required for Minecraft to run. To correct this, disable or remove the blocker, and retry opening the launcher."
+    },
+    {
+        "name": "mac/dns",
+        "content": "To clear your DNS cache on Mac OS X Leopard/Snow Leopard (10.5+), open a Terminal window (in Applications-\u003eUtilities). In this window, type `sudo dscacheutil -flushcache` and press enter. When prompted for a password, enter your Mac user password."
+    },
+    {
+        "name": "mac/edit",
+        "content": "As in all programs, Command+A is Select All. Command+C is Copy, Command+V is Paste."
+    },
+    {
+        "name": "mac/hosts",
+        "content": "You may have a problem with your hosts file, which overrides DNS queries.  Please do the following:\n\nIn Finder, press Shift-Cmd-G and type: `/private/etc/hosts`.  Open the highlighted file in the text editor, copy the contents onto https://paste.ubuntu.com , submit it, and give us the resulting URL."
+    },
+    {
+        "name": "mac/hosts/edit",
+        "content": "To edit your hosts file, launch **Terminal**, type `sudo nano /private/etc/hosts` and press **Return**.\n\nThe file will open in the Nano editor - it can be navigated using the arrow keys. After you have finished editing the file, press **Control+O**."
+    },
+    {
+        "name": "mac/key",
+        "content": "The Command key (Cmd), labeled with the ⌘ symbol, is typically found to the left of the spacebar on your keyboard."
+    },
+    {
+        "name": "mac/library",
+        "content": "If your Library folder in your home directory is hidden, run the following command in Terminal to reveal it: `chflags nohidden ~/Library/`"
+    },
+    {
+        "name": "mac/library/miss",
+        "content": "The system Library, /Library, and your user library, ~/Library are different places.  Please look at what we're telling you to look at."
+    },
+    {
+        "name": "mac/local-ip",
+        "content": "To get your IPv4 address in macOS, open System Preferences and click on Network. Your IP address is located under Status."
+    },
+    {
+        "name": "mac/not-charging",
+        "content": "Your Mac may not charge properly when you play Minecraft. This happens more often in Mac models with a lower CPU speed, and Apple claims this to be 'normal operation' when the system is under heavy load.\n\nYou can try reducing Minecraft resource usage by decreasing graphics quality and closing other running applications as a workaround to this problem."
+    },
+    {
+        "name": "mac/old",
+        "content": "Macs running macOS Mojave 10.14.4 or older are unable to run Minecraft 1.18 and newer. If your model of Mac is listed on [this page](https://support.apple.com/kb/SP777?locale=en_GB) under \"Mac Hardware Requirements\", then you should be able to upgrade to 10.14.6, or a newer version, via the App Store. You can check what model of Mac you have and what version of macOS you are running by clicking the Apple logo in the menu bar and then clicking \"About This Mac\".\n\nIf you are not able to upgrade to a newer version of macOS, you will be unable to play Minecraft 1.18 or newer. For more information, please see https://help.minecraft.net/hc/en-us/articles/4420326353933"
+    },
+    {
+        "name": "mac/permissions",
+        "content": "You need to open Applications, go to Utilities, open Terminal, and run the following command (assuming you put Minecraft into Applications): chmod +x /Applications/Minecraft.app/Contents/MacOS/JavaApplicationStub"
+    },
+    {
+        "name": "mac/profile",
+        "content": "It may be helpful to isolate whether this is a problem with your user account, or with your system as a whole. Please create a new system account (System Preferences =\u003e Users and Groups), log in as that user, and try Minecraft from there. If it works, there's something on your profile that's breaking Java or Minecraft. If not, there's something amiss with your system as a whole."
+    },
+    {
+        "name": "mac/reinst",
+        "content": "Script is outdated, please use: **mac/reinst/manual**\n\nYou may need to reinstall the locally installed files that Minecraft puts into place. To do so, run the following command in a terminal: `curl -L https://git.io/rmc | sh`"
+    },
+    {
+        "name": "mac/reinst/manual",
+        "content": "First, open Finder, press Shift-Cmd-G and type: `~/Library/Application Support/minecraft`\n\nThat should open a Finder window showing your Minecraft folder. Delete everything except the `saves` folder, then restart the game by launching the app in the Applications folder."
+    },
+    {
+        "name": "mac/reinst/rename",
+        "content": "You may need to try running Minecraft with a blank slate. To do this, you first need to open a Terminal window. Once you have done that, run the following command: `mv ~/Library/Application\\ Support/minecraft ~/Library/Application\\ Support/oldminecraft`"
+    },
+    {
+        "name": "mac/reinst/unrename",
+        "content": "To move your renamed folder back to its original location, open a terminal window. Once you have done that, run the following command: `mv ~/Library/Application\\ Support/minecraft ~/Library/Application\\ Support/minecraft-old \u0026\u0026 mv ~/Library/Application\\ Support/oldminecraft ~/Library/Application\\ Support/minecraft`"
+    },
+    {
+        "name": "mac/software-update",
+        "content": "You need to install all available Software Updates available for your Mac.\n\nTo do so, click the Apple icon in the top left of the screen, and click Software Update. Continue to install updates until there are none."
+    },
+    {
+        "name": "mac/terminal",
+        "content": "You can reach the Terminal by going to Applications \u003e Utilities \u003e Terminal. Alternatively, press Cmd-Space to bring up Spotlight search, type “terminal” and press enter."
+    },
+    {
+        "name": "mac/version",
+        "content": "We need to find what version of macOS you have. Click the Apple () in the menu bar, select **About This Mac**, copy the first two lines from the resulting window and paste them in this channel."
+    },
+    {
+        "name": "mcpe",
+        "content": "Minecraft Pocket Edition, the tablet- and smartphone-compatible version of Minecraft, can be found on Google's, Amazon's, and Apple's App Stores:\n\nAmazon: https://is.gd/jiLHxb | Apple: https://is.gd/XVWvT5 | Google Play: https://is.gd/Aobg0L"
+    },
+    {
+        "name": "mods",
+        "content": "This channel is **not** a venue for mod/plugin support or support for modded clients or servers. As it is impossible for anybody to know every combination of mods out there, this channel **does not assist with unofficial third-party modded content**.\n\nYou can try seeking help in the relevant Discord server, in the forum \u003chttps://www.minecraftforum.net/forums/support/java-edition-support\u003e, or in the FTB subreddit \u003chttps://www.reddit.com/r/feedthebeast/\u003e."
+    },
+    {
+        "name": "mods/!",
+        "content": "This server is for support with **vanilla Minecraft only**. Try using a search engine."
+    },
+    {
+        "name": "mods/optifine",
+        "content": "For help with optifine, you can go to their support server: \u003chttps://discord.gg/3mMpcwW\u003e"
+    },
+    {
+        "name": "mojang/email",
+        "content": "You can email Mojang by going here: \u003chttps://aka.ms/Minecraft-Support\u003e.\n\nNote: Do **NOT** send more than one at a time."
+    },
+    {
+        "name": "mojang/eula",
+        "content": "https://account.mojang.com/documents/minecraft_eula"
+    },
+    {
+        "name": "mojang/server-status",
+        "content": "See http://status.mojang.com/check for the current status of Mojang's web sites."
+    },
+    {
+        "name": "mojang/tos",
+        "content": "https://account.mojang.com/terms#terms-full"
+    },
+    {
+        "name": "mojang/twitter",
+        "content": "There is a compilation of the Twitter feeds of all Mojang staff at https://twitter.com/Mojang/lists/mojang-employees"
+    },
+    {
+        "name": "mp/bans",
+        "content": "This server is not in charge of anyone's Minecraft servers. All servers are privately run. No one in this server can get you unbanned if you have been banned from a server. Contact the server's administrators if you are banned from a server and wish to be unbanned."
+    },
+    {
+        "name": "mp/blacklist",
+        "content": "As a result of non-compliance with the Minecraft EULA, Mojang has implemented a blacklist to block connection with violating servers.\n\nThis may result in error messages such as \"**Can not connect to server, network unreachable**\". we will not assist in attempts to bypass this, or discuss the reasoning for blocking said servers."
+    },
+    {
+        "name": "mp/chat",
+        "content": "If you are getting the error \"Cannot send chat message\" or your client is crashing when you try to talk on a server, your chat settings are set to prevent chat from being shown. To change your chat settings to show chat, go to \"Options\", then click \"Chat Settings\", then change \"Chat\" to be \"Shown\". For a similar, yet unrelated, issue, see mp/chat/opacity"
+    },
+    {
+        "name": "mp/chat/opacity",
+        "content": "If you can not see chat on servers, make sure that Options -\u003e Multiplayer Settings -\u003e Opacity is set to anything above 0%."
+    },
+    {
+        "name": "mp/hypixel/verify",
+        "content": "If you bought Minecraft after December 1st, 2020, and do not have a migrator cape to verify that your account is genuine, you can link your Microsoft account to Hypixel at https://link.hypixel.net"
+    },
+    {
+        "name": "mp/op-yourself",
+        "content": "If you cannot dig, place blocks, or generally do anything other than walk around near the spawn point, it's because you're not an op on the server. Presuming that it's your server, you can run the command `op YourJavaUsername` in the server console to op yourself."
+    },
+    {
+        "name": "mp/port",
+        "content": "Minecraft servers use TCP port **25565** by default."
+    },
+    {
+        "name": "mp/recent-update",
+        "content": "Many server admins don't update their servers to the latest version right away and wait for subsequent bugfix releases. Be patient or contact your server administrator if they do not update in what you perceive to be a timely fashion. Our helpers are not in charge of every multiplayer server and do not have a magic wand to wave to update your favorite server remotely."
+    },
+    {
+        "name": "mp/saves-swap",
+        "content": "Yes, you can use your single-player world as a multiplayer map (or vice versa). Just make the `world=` line in `server.properties` match the name of the directory the world you want to use is in.\n\nTo use a Multiplayer save in single-player, copy or rename the world directory to `world#` (where `#` is a number from one to five), and use that save slot in single-player."
+    },
+    {
+        "name": "mp/server-setup",
+        "content": "Lots of information about setting up a server can be found here: https://minecrafthopper.net/help/setting-up-java-server/"
+    },
+    {
+        "name": "mp/server-setup/eula",
+        "content": "Starting with Minecraft 1.8, you have to accept the EULA for the server to start. Follow the directions in the file `\u0002eula.txt`\u0002, which you can find in the same location as the server .jar or .exe file after you start the server for the first time."
+    },
+    {
+        "name": "mp/server-setup/server-ip",
+        "content": "Do not enter anything on the `server-ip=` line of the `server.properties` file. In nearly all cases, you want to leave it blank."
+    },
+    {
+        "name": "mp/servers",
+        "content": "There currently is no master list of all Multiplayer servers. Fan-made indexes include \u003chttps://minecraftservers.biz/\u003e; \u003chttps://www.reddit.com/r/mcservers\u003e; \u003chttps://minecraftservers.net/\u003e.\n\nMinecraft Forum's list can be found at \u003chttps://www.minecraftforum.net/forums/servers\u003e."
+    },
+    {
+        "name": "mp/spawn-zone",
+        "content": "The spawn zone is, as a way to avoid griefing, protected from any changes by any users who are not administrators. Try moving away from the spawn area.\n\nIf you are the server admin, see `!?f mp/op-yourself`"
+    },
+    {
+        "name": "mp/test",
+        "content": "You can test Minecraft servers easily using [mcsrvstatus](https://mcsrvstat.us)."
+    },
+    {
+        "name": "mp/test-server",
+        "content": "To check if the problem you are having affects all servers or just some, please try connecting to our test server using a **vanilla** client at `mctest.minecrafthopper.net` (1.19.2)"
+    },
+    {
+        "name": "net/bind-port",
+        "content": "If you get a message like \"failed to bind to port!\", one of three things is happening: 1) Either you are starting a Minecraft server when you already have one running, 2) there is a firewall or other service using or blocking the port, 3) you have specified an IP address in server.properties that does not exist on your server.  The server-ip line of server.properties should in nearly all cases remain blank."
+    },
+    {
+        "name": "net/cgnat",
+        "content": "**How to check if your internet connection is behind a Carrier-Grade NAT (CGNAT):**\n\n**1.** Google `what's my IP`. Make a note of the IP address given.\n\n**2.** In your router administration page, look for the status pages. On the Status page, look for `WAN IP`, `External IP` or similar. The first set of numbers should not start with 10, 192, or 172. Make a note of this IP.\n\n**3.** Compare the IP address obtained by steps 1 and 2. If they are different, you are behind a CGNAT and you will not be able to port forward. An alternative is to use a tunneling service such as \u003chttps://ngrok.com/\u003e or \u003chttps://playit.gg/\u003e. "
+    },
+    {
+        "name": "net/dns/public",
+        "content": "In some cases, your ISP's DNS (Domain Name Server) may have incorrect records. In this case, switching to Google Public DNS may solve the problem.\n\nInstructions on how to proceed here: https://developers.google.com/speed/public-dns/docs/using#setup"
+    },
+    {
+        "name": "net/dns/public-alt",
+        "content": "In some cases, your ISP's DNS (Domain Name Server) may have incorrect records. In this case, switching to Cloudflare's DNS may solve the problem\r\nInstructions on how to proceed here: https://1.1.1.1/dns/#setup-instructions"
+    },
+    {
+        "name": "net/double-nat",
+        "content": "Fill in the blanks: Outer router WAN IP:___.___.___.___; Outer router LAN IP:  ___.___.___.___; Inner router WAN IP:___.___.___.___; PC LAN IP:___.___.___.___"
+    },
+    {
+        "name": "net/hamachi",
+        "content": "Hamachi has been squatting on an IANA-allocated IP block (25.0.0.0/8). As such, **Hamachi fundamentally conflicts with the internet itself.** Therefore, servers hosted via Hamachi are not supported here.\n\nIf you are using Hamachi, use a different solution such as proper port forwarding (preferred) or tunneling."
+    },
+    {
+        "name": "net/ip/external",
+        "content": "Your external (WAN) IP can be found at the following places: \u003chttps://www.whatismyip.com\u003e or \u003chttp://www.ipchicken.com\u003e.\n\nAlternatively, google \"what is my ip address\": https://www.google.com/search?q=what+is+my+ip+address"
+    },
+    {
+        "name": "net/lan/null-ip",
+        "content": "If when creating a LAN server the IP address given to you is 0.0.0.0, it means that it cannot properly identify your NIC. This is an unfixable bug caused by your NIC. The best workaround is either opening command prompt and running `ipconfig | find \"IPv4\"` and using that IP address, or creating a full-fledged server. See **!?f net/nic-error** for more details."
+    },
+    {
+        "name": "net/nic-error",
+        "content": "Unfortunately, Minecraft has an incompatibility with certain network interface chipsets that manifests with a \"Recv Timed Out\" or a \"Socket Write\" error. Your only three solutions at the moment are to buy a new NIC, to switch to Linux or Mac OSX (which does not have this problem), or to wait for Jeb to find and fix the problem."
+    },
+    {
+        "name": "net/pf/forum",
+        "content": "https://www.minecraftforum.net/topic/1598228-guide-included-portforwarding-megathread-post-your-port-forwarding-questions-here/"
+    },
+    {
+        "name": "net/speed-test",
+        "content": "In order to help diagnose your issue, an internet speed test is required. Visit https://speedtest.net/ to run a test, and give both the Download and Upload speed results in chat."
+    },
+    {
+        "name": "net/tunngle",
+        "content": "Tunngle has been squatting on an IANA-allocated IP block (7.0.0.0/8). See **!?f net/hamachi**."
+    },
+    {
+        "name": "nic",
+        "content": "Network Interface Card"
+    },
+    {
+        "name": "oem",
+        "content": "Original Equipment Manufacturer"
+    },
+    {
+        "name": "oem/dell/service-tag",
+        "content": "You can find your Service Tag here: https://www.dell.com/support/contents/us/en/19/category/Product-Support/Self-support-Knowledgebase/locate-service-tag"
+    },
+    {
+        "name": "oem/hp/product-number",
+        "content": "Please follow these steps to get your HP product number: \nPress \"Fn + Esc\", and it should tell you the product number. If this doesn't work, search for \"HP Support Assistant\" in Windows. On the HP Support Assistant Home page, click My Computer and find the product number listed in the System Information tab."
+    },
+    {
+        "name": "oem/toshiba/model-number",
+        "content": "Get your model-part number here: https://support.toshiba.com/images/support/frontend/pc_unit_label_2011.png"
+    },
+    {
+        "name": "options/anaglyph",
+        "content": "You may have the Anaglyphic Stereoscopy setting turned on, which may make things look odd unless you have the appropriate headgear. To turn it off, go to **Options**, then **Video Settings**, and turn **3D Anaglyph** off."
+    },
+    {
+        "name": "options/reset",
+        "content": "You may need to reset Minecraft's settings back to the defaults. To do so open the Options menu, select Controls and press Reset on any options that you want to reset."
+    },
+    {
+        "name": "options/touchscreen",
+        "content": "The touchscreen setting is known to cause issues with clicking and mouse actions. If you having issues, this is probably on. To change your touchscreen settings, go to \"Options\", then \"Controls\", and change \"Touchscreen\" to be \"Off\""
+    },
+    {
+        "name": "options/vbo",
+        "content": "Go to Minecraft options \u003e Video Settings \u003e Use VBOs. If it's **ON**, set it to **OFF**. If its **OFF**, set it to **ON**"
+    },
+    {
+        "name": "os",
+        "content": "Some examples of **Operating Systems** are Windows 10, Windows 8/8.1, Windows 7, OS X Yosemite, macOS Catalina, Ubuntu Linux, Fedora Linux and Debian Linux."
+    },
+    {
+        "name": "ot",
+        "content": "**This is NOT a support channel.**\nPlease use one of the following for support:\n\u003c#704084360294301736\u003e\n\u003c#607127302010175488\u003e\n\u003c#607127320490147850\u003e\n\u003c#692811136772341870\u003e"
+    },
+    {
+        "name": "paste",
+        "content": "Paste.gg is a service run at https://paste.gg/ which allows us to read text files in full without having to download them. Paste your text into the big box, enter your *Discord username* into the \"**Paste name**\" field, and leave all the other fields/boxes alone. Click \"Submit anonymously\" and give us the link of the site it takes you to."
+    },
+    {
+        "name": "paste/all",
+        "content": "\u003chttps://gist.github.com\u003e | \u003chttps://hastebin.com\u003e | \u003chttps://paste.ubuntu.com\u003e | \u003chttps://0bin.net\u003e | \u003chttps://paste.mozilla.org/\u003e | \u003chttp://pastie.org/\u003e | \u003chttps://paste.gg\u003e"
+    },
+    {
+        "name": "paste/crash",
+        "content": "Please paste the crash report on https://paste.ubuntu.com and give us the link it takes you to after clicking **Submit**. You can use F6 to highlight it."
+    },
+    {
+        "name": "paypal/history",
+        "content": "To view older PayPal account history(up to 7 years ago), login to https://paypal.com , select Activity, Statements -\u003e Custom, and choose \"all transactions\" and a date range. This will allow you to search older transaction history."
+    },
+    {
+        "name": "pebcak",
+        "content": "Problem Exists Between Chair And Keyboard"
+    },
+    {
+        "name": "performance/compare",
+        "content": "You cannot compare the performance of Minecraft with performance with other games, since other games commonly use DirectX or Vulkan to power the game while Minecraft uses OpenGL, which are completely different standards. Any comparisons between them would be comparing apples to oranges."
+    },
+    {
+        "name": "picnic",
+        "content": "Problem In Chair, Not In Computer"
+    },
+    {
+        "name": "pins",
+        "content": "To check this channels pinned comments,\r\nPC: Windows/Linux (Ctrl + P), Mac (Cmd + P)\r\nMobile: From the chat, swipe to the left. The click on the \"Pins\" button."
+    },
+    {
+        "name": "razer/synapse",
+        "content": "Razer Synapse causes issues with Java that will effect the way Minecraft runs, you will need to remove it and the settings it created by following the notes on Razer Synapse listed here \u003chttps://minecrafthopper.net/help/known-incompatible-software/\u003e"
+    },
+    {
+        "name": "realms",
+        "content": "Realms is a server option hosted by Mojang intended for an easy way to play with friends. The Minecraft Realms site can be found here: https://minecraft.net/realms"
+    },
+    {
+        "name": "realms/outdated",
+        "content": "If trying to join Realms gives you the message that your client is outdated, means that your Realms libraries are outdated. Remove any modifications you have installed and restart the launcher for the libraries to update."
+    },
+    {
+        "name": "realms/throttle",
+        "content": "Your Realms upload/download feature is being throttled. You may only download or upload **three times in a 3-day period**."
+    },
+    {
+        "name": "requirements",
+        "content": "Minecraft is a modern game with modern requirements, which are belied by its retro style. https://is.gd/mc_requirements"
+    },
+    {
+        "name": "requirements/opengl",
+        "content": "Minecraft requires at least OpenGL 4.4. Note that some GPUs says that they support a particular OpenGL API version but actually do not, and some GPUs are too underpowered to run Minecraft, so OpenGL version support is just for your reference, and does not directly translate to \"You can run Minecraft on this decade-old junk\"."
+    },
+    {
+        "name": "rules",
+        "content": "Please read \u003c#607127008173883403\u003e. Upon joining this Discord server, you indicated that you read the rules and agreed to follow them before you were allowed to send messages. Failure to follow the rules will result in moderator action being taken against you."
+    },
+    {
+        "name": "rules/1",
+        "content": "**Rule 1: Treat your fellow members with respect and keep chat appropriate.** Harassment, hate speech, NSFW content and insults of any kind are strictly prohibited."
+    },
+    {
+        "name": "rules/10",
+        "content": "**Rule 10: This is a support server.** Please take multiplayer requests and unrelated random memes/gifs/images elsewhere as this is not the server for them. Remember that all rules also apply to the \u003c#738362110878416917\u003e channel."
+    },
+    {
+        "name": "rules/10/lfg",
+        "content": "**Multiplayer requests are not allowed anywhere in this server.** To look for games/people to play with, Google \"Minecraft LFG\" or use Discord's server discovery to find a suitable server."
+    },
+    {
+        "name": "rules/11",
+        "content": "**Rule 11: Do not randomly @mention or DM users who are not currently speaking to you.**\r\nThat includes Staff, Helpers and Operators."
+    },
+    {
+        "name": "rules/12",
+        "content": "**Rule 12: Speak English.** \nFor purposes of moderation and to ensure any information being given is accurate, support on this server is done in English. If you need help communicating in English, please use a translator such as \u003chttps://translate.google.com\u003e"
+    },
+    {
+        "name": "rules/2",
+        "content": "**Rule 2: Do not spam.** This includes but is not limited to: Cross-posting the same message across multiple channels; Excessive use of messages, images, formatting, emoji, commands; Mass @ mentions and unsolicited @mentions."
+    },
+    {
+        "name": "rules/2/caps",
+        "content": "There is no need to yell. The acoustics in here are wonderful."
+    },
+    {
+        "name": "rules/2/crosspost",
+        "content": "**Do not post your issue across multiple channels (crossposting).** This is considered a form of spam. Post your issue in the appropriate channel, then wait for a response."
+    },
+    {
+        "name": "rules/2/enter",
+        "content": "**Please do not use the Enter key as a comma.** Spreading out your information across many messages is considered a form of spam. Please use complete sentences and paragraphs to put what you want to say into 1-2 messages."
+    },
+    {
+        "name": "rules/2/repeat",
+        "content": "**Do not post your issue repeatedly (repeat posting).** This is considered a form of spam. Wait patiently for a response from someone that knows about your problem and is available to help you."
+    },
+    {
+        "name": "rules/3",
+        "content": "**Rule 3: Do not advertise.** This is not the server to advertise your server, realm, job/staff position or other services and goods. This also includes LFG/Looking to play requests."
+    },
+    {
+        "name": "rules/4",
+        "content": "**Rule 4: Do not express elitism.** Let everyone enjoy the edition and platform that they prefer. List possible advantages and disadvantages of an edition or platform in an objective manner."
+    },
+    {
+        "name": "rules/5",
+        "content": "**Rule 5: Do not share private information.** Do not share your email address, password, Transaction ID, card information, legal name, address or similar personal information. **Protect your privacy and the privacy of others**."
+    },
+    {
+        "name": "rules/6",
+        "content": "**Rule 6: Do not discuss EULA/ToS violations or other suspicious activity.** Discussing or encouraging the violation of ToS, Agreements, Guidelines or laws is strictly prohibited."
+    },
+    {
+        "name": "rules/6/piracy",
+        "content": "Do not advocate piracy. We do not help with pirated, cracked, or otherwise illegally obtained copies of the game. Buy the game from https://minecraft.net to get help."
+    },
+    {
+        "name": "rules/7",
+        "content": "**Rule 7: Stay on topic.** Please use the support channels for their intended purpose. For off-topic discussions please use the \u003c#738362110878416917\u003e channel. **All rules still apply in the \u003c#738362110878416917\u003e channel**"
+    },
+    {
+        "name": "rules/8",
+        "content": "**Rule 8: Use an appropriate username and avatar.** Avoid impersonation, obscenities, profanities, vulgarities, and do not use excessive special characters and emojis. Please don't use anything that might confuse others into thinking you are official. (“Helper”, “Support”, etc.)"
+    },
+    {
+        "name": "rules/9",
+        "content": "**Rule 9: Keep support serious, helpful and within the support channels.** Don’t spread misinformation or give bad advice on purpose. To ensure that support given is helpful and follows our rules, we want users to give and receive support in the public channels."
+    },
+    {
+        "name": "rules/9/dm",
+        "content": "**Keep support within the support channels. **  \nTo ensure that support given is helpful and follows our rules, we ask that users give and receive support in the public channels."
+    },
+    {
+        "name": "scold/attitude",
+        "content": "The people in this discord offering assistance have no affiliation with Mojang, and are volunteering their time. Please treat them, and the discord, with respect. We understand that if you're here, you're probably upset because something isn't working properly. Try to remember that we are volunteering our time to try to assist people such as yourself."
+    },
+    {
+        "name": "scold/freespeech",
+        "content": "**The right to free speech means the government can't arrest you for what you say**\n\nIt doesn't mean that anyone else has to listen to you or host you while you share it. **The 1st amendment doesn't shield you from criticism or consequences** If you you're yelled at, boycotted or get banned from an internet community, **your free speech rights aren't being violated**. It's just that the people listening think you're a jerk and are showing you the door.\n\nSee: https://en.wikipedia.org/wiki/Freedom_of_speech"
+    },
+    {
+        "name": "scold/patience",
+        "content": "Please be patient when waiting for a response. Many of the helpers here are helping in their free time at school or work, and often get called away. In short, your supplications will be answered, in the order in which they are received."
+    },
+    {
+        "name": "scold/pm",
+        "content": "We prefer to assist people publicly, so that others can benefit if they have similar questions. Please don't PM people who are assisting you unless they have asked you to, or you are sending private information."
+    },
+    {
+        "name": "scold/specific",
+        "content": "Please be specific when asking questions and when giving answers. This includes giving complete error messages or logs when requested, and actual version numbers and not \"the latest version\". These details are very important when troubleshooting problems and can help us solve your problem more quickly. Help us help you help yourself help us all."
+    },
+    {
+        "name": "scold/version",
+        "content": "When you are asked what version of something you are running, [b]do not[/b] just say [b]the latest[/b]. We know what the latest version is; we want to confirm that you are actually running the latest version. [b]Please[/b] give us actual version or release numbers."
+    },
+    {
+        "name": "screenshot",
+        "content": "To take a screenshot in-game, press F2 while in the game. You should get a notification of the screenshot filename in-game.;;Screenshots are saved in the \"screenshots\" folder of the .minecraft folder. To locate your minecraft folder, see \u0002?? launcher/.minecraft\u0002"
+    },
+    {
+        "name": "screenshot/external",
+        "content": "How to take a screenshot: https://take-a-screenshot.org"
+    },
+    {
+        "name": "screenshot/minecraft",
+        "content": "To take a screenshot in-game, press F2 while in the game. You should get a notification of the screenshot filename in-game.\r\nScreenshots are saved in the \"screenshots\" folder of the .minecraft folder. To locate your minecraft folder, see \u0002 !?f launcher/.minecraft\u0002"
+    },
+    {
+        "name": "seeds",
+        "content": "Some people have been collecting interesting seeds here: https://www.minecraftforum.net/forums/minecraft-java-edition/seeds ;;https://www.reddit.com/r/minecraftseeds/"
+    },
+    {
+        "name": "sku",
+        "content": "Minecraft for personal computers, Minecraft Windows 10 Edition, Minecraft for Xbox One, Minecraft for Xbox, Minecraft for PlayStation 3, Minecraft for PlayStation 4, Minecraft for Wii U, Minecraft for Nintendo Switch, Minecraft PE for Android (Kindle App Store or Google Play) and Minecraft PE for iOS, are all different products which must each be purchased separately."
+    },
+    {
+        "name": "sku/realms",
+        "content": "Minecraft Realms for PC works on Minecraft for PC only. Minecraft Realms for Minecraft PE works on Minecraft PE and Minecraft Windows 10 Edition Beta.;;Other editions of Minecraft do not have the Realms feature, and will not be able to join any realms."
+    },
+    {
+        "name": "sku/upgrade",
+        "content": "If you have Minecraft for Xbox 360, you can upgrade to the Xbone for $5. If you have Minecraft for PlayStation 3, you can upgrade to the PlayStation 4 for $5.  See the Live or PSN Store, depending upon your platform. Upgrading is not possible across different console families (e.g Xbox 360 to PlayStation 4, or PlayStation 3 to Xbox One)"
+    },
+    {
+        "name": "sp/guide",
+        "content": "https://www.minecraft.wiki/wiki/Tutorials/Beginner%27s_guide"
+    },
+    {
+        "name": "store/login",
+        "content": "Please enter the following into a browser or File Explorer address bar: \nms-windows-store://signin\nIt will open the Windows Store app, and allow you to log in. When signing in, make sure you use the Microsoft account that your copy of Minecraft is on, or that you have a GamePass for PC subscription on."
+    },
+    {
+        "name": "test",
+        "content": "I am the very model of a modern major-general."
+    },
+    {
+        "name": "tools/ccleaner",
+        "content": "CCleaner is a tool to clean up unneeded files on a PC and also includes a windows registry cleaner.;;You can download CCleaner from here: https://www.piriform.com/ccleaner/download/standard"
+    },
+    {
+        "name": "tools/cpu-z",
+        "content": "An alternate tool you can use to identify the specifications of your computer (including your GPU) is called CPU-Z, which you can obtain here:;;https://www.cpuid.com/softwares/cpu-z.html"
+    },
+    {
+        "name": "tools/gpu-z",
+        "content": "GPU-z is a utility which can, in some cases, help identify the model of graphics card on a system, even if there are no (or incorrect) drivers installed for it.;;GPU-z's download page (download the one without ASUS ROG Skin): https://www.techpowerup.com/downloads/SysInfo/GPU-Z/"
+    },
+    {
+        "name": "tools/jarfix",
+        "content": "To fix broken JAR filetype Association on Windows, download and run JarFix https://johann.loefflmann.net/downloads/jarfix.exe"
+    },
+    {
+        "name": "tools/mcedit",
+        "content": "If your world got corrupted you can try to repair it with MCEdit. Open the offending world in MCEdit, press 'Ctrl-I' and select 'Repair regions' in the dialogue which pops up. Once this has completed, save your world and exit MCEdit.;;To download MCEdit, go to https://www.mcedit-unified.net/ and choose the version appropriate for your OS."
+    },
+    {
+        "name": "tools/mcedit/entity",
+        "content": "In order to remove entities from a map, follow these steps. Warning: This will delete \u0002any and all\u0002 entities in the selected region, including tamed animals!;;Open the map in MCEdit, select the affected region or use CTRL-A to select the whole world,  then click on 'Delete Entities' in the menu on the left hand side."
+    },
+    {
+        "name": "tools/mch",
+        "content": "Download: https://github.com/urielsalis/mchtool/raw/master/bin/mchtool.exe ;;We created a tool to gather some common diagnostic reports in a easier way. Please run it and follow its instructions. When you are done, paste the output in the channel"
+    },
+    {
+        "name": "tools/otl",
+        "content": "OldTimer's List-It is a replacement for HijackThis when more through diagnosis of the computer is needed. Run a scan (not a Quick Scan), wait for it to finish (may take 15 minutes or so), then a notepad window will pop up. Copy everything inside, and paste it on https://paste.ubuntu.com .;; Download OTL here: https://oldtimer.geekstogo.com/OTL.exe "
+    },
+    {
+        "name": "tools/pcidatabase",
+        "content": "PCIDatabase can be used to determine someone's graphics hardware from their device ID and vendor ID. (Device and Vendor IDs are in DxDiag reports (or the device manager) and lspci reports)\n\nhttps://pci-ids.ucw.cz/ - https://www.pcilookup.com/"
+    },
+    {
+        "name": "tools/port-test",
+        "content": "Port testing softwares can be used to determine whether security softwares are blocking the use of certain ports. A helper will assist you in using the software. \n\nPort listener: https://is.gd/mc_portlisten | Port tester: https://is.gd/mc_porttest"
+    },
+    {
+        "name": "tools/process-explorer",
+        "content": "An excellent utility that's more powerful and capable than is the Task Manager is Process Explorer. You can get it here: https://technet.microsoft.com/en-us/sysinternals/bb896653"
+    },
+    {
+        "name": "tools/pymclevel",
+        "content": "https://github.com/mcedit/pymclevel"
+    },
+    {
+        "name": "tools/speccy",
+        "content": "Yet another free tool one can use to determining the characteristics of your computer is Speccy, which you can obtain here: https://www.piriform.com/speccy"
+    },
+    {
+        "name": "tools/speedfan",
+        "content": "Speedfan is an utility program that monitors your Temperature, Fan Speed and Voltages of your CPU, GPU and HDD in real time. It also provides model number so it is very useful for troubleshooting. Download here: https://www.almico.com/sfdownload.php"
+    },
+    {
+        "name": "tools/teamviewer",
+        "content": "Teamviewer is a remote access software, which enables other people to, with your permission, access your computer remotely and attempt to perform troubleshooting and diagnostics. Teamviewer's website is here: https://www.teamviewer.com/en/index.aspx"
+    },
+    {
+        "name": "tools/teamviewer/quick-support",
+        "content": "A quick support version of Teamviewer which may be used to quickly get assistance may be downloaded here: https://download.teamviewer.com/download/TeamViewerQS_en.exe \nOnce you downloaded and ran it, send the helper your information by using this command, in here (without brackets): /msg \\\u003chelper name\\\u003e \\\u003cteamviewer ID\\\u003e \\\u003cteamviewer password\\\u003e"
+    },
+    {
+        "name": "tools/teamviewer/send-info",
+        "content": "After you have downloaded and installed TeamViewer, send the helper your information by using this command, in here (without brackets): \u0002`/msg \u003chelper name\u003e \u003cteamviewer ID\u003e \u003cteamviewer password\u003e\u0002`"
+    },
+    {
+        "name": "tools/unchecky",
+        "content": "Unchecky is a tool that keeps you from accidentally installing malware when installing other software. Install it here: https://unchecky.com"
+    },
+    {
+        "name": "tools/unstitcher",
+        "content": "Since Minecraft 1.5, the texture rendering system has changed, causing texture packs before 1.5 to no longer work. In order to upgrade old texture packs to the new format, You can run it against this program: https://assets.minecraft.net/unstitcher/unstitcher.jar"
+    },
+    {
+        "name": "tools/wireshark",
+        "content": "Wireshark is a network traffic analysis program which may be helpful in troubleshooting problems with SMP server or client connections. It can be obtained at https://www.wireshark.org"
+    },
+    {
+        "name": "type/normal",
+        "content": "Typing Like This Is Dumb And Requires More Effort For You To Think You're Special. Stop upper-casing the first letter of each word. It is a waste of time and is spam."
+    },
+    {
+        "name": "unix/debug",
+        "content": "Run the following command in a terminal and then give us the link it creates: `curl -L https://git.io/udbg | sh`"
+    },
+    {
+        "name": "url",
+        "content": "Uniform Resource Locator; usually of the form protocol://host/path/to/resource"
+    },
+    {
+        "name": "vanilla",
+        "content": "vanilla (adj.): Bland; original; with no garnish. In the context of Minecraft, a server or client with no mods, skins, texture packs, or other customizations."
+    },
+    {
+        "name": "version/3d",
+        "content": "Your Minecraft version is **heavily outdated**. You're playing Minecraft 3D Shareware v1.34 from 1994. In this channel we only help with the latest release version"
+    },
+    {
+        "name": "web/login/url",
+        "content": "Current: https://authserver.mojang.com/authenticate - https://sessionserver.mojang.com/session/minecraft/join \n\nLegacy: http://session.minecraft.net/game/joinserver.jsp?user=Meep\u0026sessionId=test\u0026serverId=test"
+    },
+    {
+        "name": "web/skin/url",
+        "content": "https://s3.amazonaws.com/MinecraftSkins/username.png - case sensitive."
+    },
+    {
+        "name": "wiki",
+        "content": "For general questions about Minecraft gameplay, the Minecraft Wiki is an excellent resource. Go to https://minecraft.wiki and enjoy!"
+    },
+    {
+        "name": "wiki/cheats",
+        "content": "https://www.minecraft.wiki/wiki/Cheats"
+    },
+    {
+        "name": "wiki/mods",
+        "content": "https://www.minecraft.wiki/wiki/Mods/Installing_Mods"
+    },
+    {
+        "name": "wiki/server-setup",
+        "content": "Lots of information about setting up a server can be found here: https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server"
+    },
+    {
+        "name": "win/!",
+        "content": "Having exclamation marks or other special characters in your Windows username can break Java, which in turn breaks Minecraft. To fix this issue, please create a new Windows account without any special characters (only a-z, A-Z and 0-9). See https://minecrafthopper.net/help/special-characters/ for more information on working around this problem."
+    },
+    {
+        "name": "win/.minecraft",
+        "content": "To get at Minecraft's locally stored files on Windows, press Win+R, and in the window that appears, type **%AppData%\\\\.minecraft** and click OK."
+    },
+    {
+        "name": "win/10",
+        "content": "Windows 10 is a new release, and as such, not all drivers have been updated for it. A machine also may not support Windows 10 even though Microsoft says it does."
+    },
+    {
+        "name": "win/11",
+        "content": "Windows 11 is a new release, and as such, not all drivers have been updated for it. A machine also may not support Windows 11 even though Microsoft says it does."
+    },
+    {
+        "name": "win/av/detect",
+        "content": "Go to the \u0002**Control Panel**\u0002, \u0002**Programs and Features**\u0002, and tell us all entries that have the word \u0002**Antivirus\u0002**, \u0002*Firewall**\u0002, or \u0002\"**Security**\"\u0002 in it."
+    },
+    {
+        "name": "win/cmd",
+        "content": "You can reach the Command Prompt on Windows by pressing Win+R, and in the window that appears, type \"cmd\", and click OK."
+    },
+    {
+        "name": "win/cmd/admin",
+        "content": "In the start menu/screen, search for \"cmd\" (without quotes). Right-click on the result listed as \"cmd.exe\", and choose Run as Administrator."
+    },
+    {
+        "name": "win/cmd/copy",
+        "content": "To copy text in Windows's Command Prompt, right click, select \"Select\", highlight all text, then press Enter. The text hightlighted is now in your clipboard and ready to be pasted (with Ctrl+V)."
+    },
+    {
+        "name": "win/compat",
+        "content": "To turn off Compatibility Mode for the Minecraft launcher, right-click the launcher and click **Properties**. Then go to the **Compatibility** tag and uncheck **Run this program in compatibility mode for**. Then save your changes and restart the launcher."
+    },
+    {
+        "name": "win/covenant-eyes",
+        "content": "Covenant Eyes is known to cause problems with Minecraft. To fix this, log into your Covenant Eyes account here: https://covenanteyes.com/myaccount/login/ and go to the Downloads section, make sure you download and use version 7.2.41 or newer. \n\nIf you have a much older version of Covenant Eyes (4.5.3 or older), uninstall Covenant Eyes and then install it again with the most recent version."
+    },
+    {
+        "name": "win/d3dgear",
+        "content": "If you are receiving exit code -1073740777, you may have D3DGear, a game recording software, installed on your computer, which crashes Minecraft. This is a problem on D3DGear's end. Current solutions are either uninstalling D3DGear or updating D3DGear to the latest version, which fixes the bug."
+    },
+    {
+        "name": "win/dns",
+        "content": "To clear your DNS cache on Windows, you need to open a Command Prompt (cmd) window as Administrator. In this window, please type **ipconfig /flushdns** and press enter."
+    },
+    {
+        "name": "win/dns/bat",
+        "content": "DNS Cache Flusher: https://is.gd/mc_dnsflush (Note: Ignore any warnings about unsafe files, this file is safe)"
+    },
+    {
+        "name": "win/downgrade",
+        "content": "To downgrade from Windows 10 to a previous version, please follow this link: https://minecrafthopper.net/help/references/windows-10/check-compatibility/#downgrade"
+    },
+    {
+        "name": "win/drivers",
+        "content": "Device Manager and Windows Update are not good choices for driver updates. Please go to the manufacturers' web sites for driver updates. See **!?f gpu/amd**, **!?f gpu/intel** and **!?f gpu/nvidia** for GPU driver download sites."
+    },
+    {
+        "name": "win/dxdiag",
+        "content": "Follow the instructions here: https://minecrafthopper.net/help/dxdiag and send the URL it has you create."
+    },
+    {
+        "name": "win/dxdiag/manual",
+        "content": "Press the Win+R keys, and type `dxdiag` in the box. Press enter. If prompted about verifying WHQL, select Yes. Once it has finished loading, click the \"Save All Information\" button and save it to your desktop. Open the file you just saved, and copy the contents. Paste them on https://paste.ubuntu.com/ and click **Submit**. Then, copy the link in your browser's address bar and paste it back here."
+    },
+    {
+        "name": "win/edit",
+        "content": "As in all programs, CTRL+A is Select All. CTRL+C is Copy, CTRL+V is Paste."
+    },
+    {
+        "name": "win/elevated-cmd",
+        "content": "To get a command prompt with elevated privileges, do the following: Tap the Win key, type 'cmd', and press Ctrl+Alt+Shift+Enter."
+    },
+    {
+        "name": "win/evolve",
+        "content": "The Game Overlay feature of Evolve is not compatible with Minecraft, and will cause the latter to crash. To fix this, open the Preferences dialog in Evolve, uncheck the Game Overlay feature in the Features tab. Click Save, and run Minecraft again."
+    },
+    {
+        "name": "win/firewall/disable",
+        "content": "How to turn off your Windows Firewall: https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off"
+    },
+    {
+        "name": "win/hosts",
+        "content": "You may have a problem with your hosts file, which overrides DNS queries. Please do the following: Go to the **Start Menu** and locate **notepad**. Right-click **notepad** and select **Run as Administrator**. Press **File**, then **Open**. Enter **%SystemRoot%\\System32\\drivers\\etc\\hosts** as the \"File name\" and press \"Open\". Copy the contents onto https://paste.ubuntu.com , and give us the resulting URL."
+    },
+    {
+        "name": "win/hosts/cmd",
+        "content": "To edit your hosts file, press the Windows key + R key at the same time and type `powershell -command \"Start-Process notepad $env:windir\\system32\\drivers\\etc\\hosts\" -Verb runas` in the window that opens. If a Windows **UAC** window pops up. Press the **Yes/OK** button to allow it. You can now edit your hosts file in the notepad window that opened."
+    },
+    {
+        "name": "win/hosts/edit",
+        "content": "To edit your Host file, please do the following: Go to the **Start Menu** and locate **notepad**. Right-click **notepad** and select **Run as Administrator**. Press **File**, then **Open**. Enter `%SystemRoot%\\System32\\drivers\\etc\\hosts` as the \"File name\" and press \"Open\""
+    },
+    {
+        "name": "win/hosts/remove",
+        "content": "Look for any lines that have \"mojang\" in them and remove them.(Example: https://imgur.com/qBb9vZA ) Save the file and then try to login to your Minecraft account. If it works, reset your password."
+    },
+    {
+        "name": "win/java-options",
+        "content": "You may need to remove an extra Java setting that is causing a memory limitation, to do so please follow the instructions here https://minecrafthopper.net/help/env-vars/"
+    },
+    {
+        "name": "win/java/reinst",
+        "content": "You need to reinstall Java. First, go to **Programs and Features** in Control Panel. Uninstall **everything** that says Java in the name. Then, go to https://java.com/en/download/manual.jsp to re-install Java."
+    },
+    {
+        "name": "win/key",
+        "content": "Hold down the Windows key (between Control and Alt, usually to the left of the space bar), and then press the other specified key.  Think of it as typing a capital letter, but using that key instead of Shift."
+    },
+    {
+        "name": "win/key/image",
+        "content": "NOTE: It is the one in the middle. May not appear exactly as shown. https://upload.wikimedia.org/wikipedia/commons/3/3c/Touche_Windows_8_10.jpg"
+    },
+    {
+        "name": "win/local-ip",
+        "content": "In order to get the local IPv4 address on Windows, open a command prompt and type `ipconfig`\n\nIf prompted that `ipconfig` is not a command, run Command Prompt as Administrator."
+    },
+    {
+        "name": "win/malware",
+        "content": "If you have malware on your computer, it is your responsibility to get rid of it. We help with Minecraft, not basic computer protection. If you wish, Malwarebytes' is a utility for cleaning infected computers; see **!?f av/malwarebytes** for more information."
+    },
+    {
+        "name": "win/ntp",
+        "content": "Here is a tutorial on how to sync time with an Internet Time Server. We recommend pool.ntp.org as your NTP server over the default server used by Windows. How to sync time on Windows: https://mintywhite.com/windows-7/7maintenance/windows-seven-7-sync-system-clock-with-internet-time-how-to/"
+    },
+    {
+        "name": "win/path",
+        "content": "You probably need to add Java's binaries to your system's path. This should have been done for you automagically when Java was installed. Windows version vary enough that attempting to explain how do to this in a couple of lines is problematic at best."
+    },
+    {
+        "name": "win/profile",
+        "content": "It may be helpful to isolate whether this is a problem with your user account, or with your system as a whole. Please create a new user profile (a computer user, not a new Minecraft account), log in as that user, and try Minecraft from there.  If it works, there's something on your profile that's breaking Java or Minecraft.  If not, there's something amiss with your system as a whole."
+    },
+    {
+        "name": "win/qustodio",
+        "content": "Certain versions of Qustodio cause issues blocking Minecraft. Uninstall the software, restart your computer, and reinstall it from: https://www.qustodio.com/family/download . After this restart your computer again."
+    },
+    {
+        "name": "win/reinst",
+        "content": "You may need to reinstall the locally installed files that Minecraft puts into place. To do so, press your Windows+R keys, type in `%AppData%` at the dialog, and press Enter. In the window that appears, open the .minecraft directory, and delete everything except for the saves directory that you see therein. Then, try running Minecraft again. Good luck!"
+    },
+    {
+        "name": "win/reinst/full",
+        "content": "You may need to reinstall the locally installed files that Minecraft puts into place. To do so, press your **Windows+R keys**, type in **%AppData%** at the dialog, and press **Enter**. In the window that appears, open the **.minecraft** directory, and delete everything except for the saves directory that you see therein. Next, go to **Control Panel**, and click on \"**Uninstall a Program**\" (may also be called \"**Programs and Features**\"). Then, right-click on the **Minecraft** entry and select \"**Uninstall**\". Afterwards, restart your PC, then download and run the .msi at https://minecraft.net/en-us/download . Then, try running Minecraft again."
+    },
+    {
+        "name": "win/reinst/rename",
+        "content": "You may need to try running Minecraft with a blank slate. To do this, press your Windows+R keys, type in `%AppData%` at the dialog, and press Enter. In the window that appears, find the directory called `.minecraft` and right-click it to rename. Rename it to `oldminecraft`. After that, open up the launcher and run Minecraft again."
+    },
+    {
+        "name": "win/reinstall-7",
+        "content": "If you have your Windows 7 Product Key, all required files and instruction to reinstall Windows 7 on your computer can be found here: https://www.microsoft.com/en-us/software-download/windows7"
+    },
+    {
+        "name": "win/safe-mode",
+        "content": "If Windows won't start after making changes to critical system components (like display drivers), you may have to boot into safe mode to fix it.\n\nOn Windows 7 or 8(.1): Restart the computer, and hold F8 while the computer is starting.  When prompted, choose \"Safe mode with networking\".\n\nOn Windows 10, follow: \u003chttps://support.microsoft.com/windows/10-92c27cff-db89-8644-1ce4-b3e5e56fe234\u003e"
+    },
+    {
+        "name": "win/sfc",
+        "content": "To run a sfc scan, press the Windows key and type `cmd`, then right click the first result and choose \"Run as Administrator\". In the command prompt window that appeared, type `sfc /scannow`, and press Enter. Keep this window open until it is finished."
+    },
+    {
+        "name": "win/start-menu",
+        "content": "If you can't find the Start Button on your screen, press Ctrl+Esc, or the Windows key (between Ctrl and Alt on most keyboards, see **!?f win/key** for more information)"
+    },
+    {
+        "name": "win/update",
+        "content": "Go to your Settings, then to \"Update and Security\", then \"Windows Update\", and install all updates."
+    },
+    {
+        "name": "win/update/gpu",
+        "content": "Just because your machine is running the latest version of Windows does not mean that your video card has supported drivers. Support will be able to tell you if your card is supported.\n\nIf you have not done so, please provide a dxdiag report: https://minecrafthopper.net/help/dxdiag"
+    },
+    {
+        "name": "win10/reinst/manual",
+        "content": "This factoid is under construction."
+    },
+    {
+        "name": "xbox/splitscreen",
+        "content": "Split-screen play in the Xbox version of Minecraft is as simple as pressing Start on another controller once the game has been started."
+    }
+]
