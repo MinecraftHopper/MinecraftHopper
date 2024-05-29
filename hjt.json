@@ -854,5 +854,21 @@
         "category": "AV",
         "severity": 3,
         "severity_description": "High"
+    },
+    {
+        "name": "Killer",
+        "match_criteria": ".*Killer.*",
+        "description": "Can cause errors such as “connection reset”, “multiplayer is disabled”, “Failed to Download File”, “failed to receive handshake, SSL/TLS connection failed” errors.",
+        "category": "PUP",
+        "severity": 3,
+        "severity_description": "High"
+    },
+    {
+        "name": "McAfee WebAdvisor",
+        "match_criteria": ".*WebAdvisor.*",
+        "description": "Causes login and multiplayer issues. Remove with av/mcafee/uninstall",
+        "category": "AV",
+        "severity": 3,
+        "severity_description": "High"
     }
 ]
