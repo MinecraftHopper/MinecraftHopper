@@ -870,5 +870,13 @@
         "category": "AV",
         "severity": 3,
         "severity_description": "High"
+    },
+        {
+        "name": "Vanya VPN",
+        "match_criteria": ".*VanyaVPN.*",
+        "description": "VPN",
+        "category": "VPN",
+        "severity": 0,
+        "severity_description": "Info"
     }
 ]
