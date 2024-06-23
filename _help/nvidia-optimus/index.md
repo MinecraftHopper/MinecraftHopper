@@ -33,8 +33,10 @@ If you do not have the Nvidia icon in your system tray, you can access the Nvidi
 
 3\. Click on the "Add" button, and in the window that opens, click the "Browse" button.
 
-4\. By default Minecraft uses its bundled version of Java, which can be found at `C:\Program Files (x86)\Minecraft Launcher\runtime\jre-x64\bin`
+4\. Depending on the Minecraft launcher you use, the path you need to enter may vary.
+- For the legacy launcher (Grey creeper icon): `C:\Program Files (x86)\Minecraft Launcher\runtime\java-runtime-delta\windows-x64\java-runtime-delta\bin`
 Enter that in the address bar at the top of the Browse window select `javaw.exe`, then hit "Open".
+- For the MS store launcher (Green creeper icon): `C:\Users\User\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-delta\windows-x64\java-runtime-delta\bin` Enter that in the address bar at the top of the Browse window select `javaw.exe`, then hit "Open".
 
 ![](/static/images/help/nvidia/browseadd.png)
 
