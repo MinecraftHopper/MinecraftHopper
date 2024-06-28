@@ -721,7 +721,7 @@
     },
     {
         "name": "help",
-        "content": "To use the factoids: !?f \u003cfactoid\u003e [@mention]\n\n[List of factoids](https://github.com/MinecraftHopper/MinecraftHopper/edit/master/factoids.json)"
+        "content": "To use the factoids: !?f \u003cfactoid\u003e [@mention]\n\n[List of factoids](https://github.com/MinecraftHopper/MinecraftHopper/blob/master/factoids.json)"
     },
     {
         "name": "hosts",
