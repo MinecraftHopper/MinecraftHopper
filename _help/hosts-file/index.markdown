@@ -89,7 +89,7 @@ A blue window will briefly appear, then a UAC window. Click **Yes** in the UAC w
 
 #### Step 4
 
-Look for 2 lines that contain the word *'mojang'* and delete those two lines completely.
+Look for lines that contain the word *'mojang'* and delete them completely.
 ![](/static/images/help/hosts-file/win-hosts-edited.png)
 
 #### Step 5
@@ -137,7 +137,7 @@ Double-click the hosts file on the desktop and open with Notepad.
 
 #### Step 6
 
-Look for 2 lines containing *'mojang'* and delete those two lines completely. Save and close Notepad.
+Look for all lines containing *'mojang'* and delete these lines completely. Save and close Notepad.
 ![](/static/images/help/hosts-file/win-hosts-initial.png)
 
 #### Step 7
@@ -183,11 +183,11 @@ The hosts file will appear in the terminal. Use the arrow keys to navigate the f
 
 #### Step 5
 
-Go down to the bottom of the file. There should be 2 lines containing *'mojang'*.
+Go down to the bottom of the file. There should be lines containing *'mojang'*.
 
 #### Step 6
 
-Using the arrow keys and the Backspace key, delete those two lines entirely.
+Using the arrow keys and the Backspace key, delete these lines entirely.
 ![](/static/images/help/hosts-file/mac-terminal-hosts-edited.png)
 
 #### Step 7
@@ -227,11 +227,11 @@ The hosts file will appear in the terminal. Use the arrow keys to navigate the f
 
 #### Step 5
 
-Go down to the bottom of the file. There should be 2 lines containing *'mojang.'*
+Go down to the bottom of the file. There should be lines containing *'mojang.'*
 
 #### Step 6
 
-Using the arrow keys and the Backspace key, delete those two lines entirely.
+Using the arrow keys and the Backspace key, delete these lines entirely.
 ![](/static/images/help/hosts-file/linux-nano-edited.jpg)
 
 #### Step 7
