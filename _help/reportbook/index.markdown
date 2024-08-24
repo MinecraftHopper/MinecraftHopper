@@ -27,11 +27,12 @@ Download the latest release [here](https://github.com/Loudbooks/ReportBook/relea
 
 #### **Step 2**
 Navigate to your Downloads folder and double-click the downloaded executable.
-![](/static/images/help/reportbook/windows-download.png)
+![](/static/images/help/reportbook/win-download.png)
 <br><br>
 
 #### **Step 3**
 Press **Enter** to agree to the terms listed in the console.
+![](/static/images/help/reportbook/win-accept-terms.png)
 <br><br>
 
 #### **Step 4**
@@ -40,7 +41,7 @@ The program will run briefly. When prompted for a username, enter your Discord u
 
 #### **Step 5**
 Click and drag your mouse across the URL text to select it, then press <strong>Control-C</strong> to copy the URL text.
-![](/static/images/help/reportbook/copy-link-win.png)
+![](/static/images/help/reportbook/win-copy-link.png)
 <br><br>
 
 #### **Step 6**
@@ -51,12 +52,12 @@ Give the URL to whoever requested it and wait for further instructions.
 {% capture accordion_body_macos %}
 #### **Step 1**
 Press **Command-Space** to open Spotlight, and type `terminal`. Press **Enter**.
-![](/static/images/help/reportbook/terminal-search.png)
+![](/static/images/help/reportbook/mac-terminal-search.png)
 <br><br>
 
 #### **Step 2**
 In the terminal, type `curl -O https://raw.githubusercontent.com/Loudbooks/ReportBook/master/macos-run.sh ; sh ./macos-run.sh` and press **Enter**.
-![](/static/images/help/reportbook/paste-command.png)
+![](/static/images/help/reportbook/mac-paste-command.png)
 <br><br>
 
 #### **Step 3**
@@ -69,7 +70,7 @@ The program will run briefly. When prompted for a username, enter your Discord u
 
 #### **Step 5**
 Click and drag your mouse across the URL text to select it, then press <strong>Command-C</strong> to copy the URL text.
-![](/static/images/help/reportbook/copy-link.png)
+![](/static/images/help/reportbook/mac-copy-link.png)
 <br><br>
 
 #### **Step 6**
