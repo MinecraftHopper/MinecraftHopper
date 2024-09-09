@@ -50,9 +50,9 @@
     </div>
       
     
-      <footer class="text-bg-light text-center mt-3">
-        <div class="container p-4">
-          <small>
+      <footer class="text-bg-light text-center mt-3 footer">
+        <div class="container p-4 footer-container">
+          <small class="footer-text">
             <div><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the community.</div>
           <div>Need more help? <a href="https://discord.gg/58Sxm23">Click here</a> to ask our volunteers!</div></small>
           </div>
@@ -72,5 +72,22 @@
         </script>
         {% endif %}
       </body>
-      </html>
-      
+  <style>
+    .navbar-nav {
+      --bs-nav-link-color: var(--primary-color);
+    }
+
+    .navbar-brand {
+      --bs-navbar-brand-color: var(--primary-color);
+    }
+
+    .footer-text {
+      color: var(--primary-color);
+    }
+
+    .footer {
+      background-color: var(--table-selected-color) !important;
+    }
+  </style>
+    </html>
+    
