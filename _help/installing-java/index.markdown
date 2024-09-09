@@ -28,7 +28,7 @@ The Minecraft launcher includes the version(s) of Java required to run the game,
 
 If you are using the official launcher, you normally do not have to manually install Java, but you may want to if you are trying to run a server, trying to fix an issue, or using it for Java applications other than Minecraft. If you are not are not sure if you are using the correct Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
 
-**Note:** Java versions 6 and 16 no longer receive security updates, and are therefore more risky to use. You should use Java 8, 11, 17, or 21 if you can, as they will receive security updates for years to come.
+**Note:** Java versions 6 and 16 no longer receive security updates, and are therefore more risky to use. You should use any LTS version supported by Mojang if possible, as they will receive security updates for years to come.
 
 The below compatibility chart was last updated 2024-09-08.
 
