@@ -48,6 +48,23 @@
     function getThemeCookie() {
       return document.cookie.split('; ').find(row => row.startsWith('theme=')).split('=')[1];
     }
+
+    function setThemeCookie(theme) {
+      document.cookie = `theme=${theme};path=/;`;
+    }
+
+    function toggleTheme() {
+      const body = document.body;
+      if (body.classList.contains('dark')) {
+        body.classList.remove('dark');
+        body.classList.add('light');
+        setThemeCookie('light');
+      } else {
+        body.classList.remove('light');
+        body.classList.add('dark');
+        setThemeCookie('dark');
+      }
+    }
   </script>
 
   <div class="container">
@@ -115,26 +132,6 @@
         </script>
         {% endif %}
       </body>
-
-
-  <script>
-    function toggleTheme() {
-      const body = document.body;
-      if (body.classList.contains('dark')) {
-        body.classList.remove('dark');
-        body.classList.add('light');
-        setThemeCookie('light');
-      } else {
-        body.classList.remove('light');
-        body.classList.add('dark');
-        setThemeCookie('dark');
-      }
-    }
-
-    function setThemeCookie(theme) {
-      document.cookie = `theme=${theme};path=/;`;
-    }
-  </script>
   <style>
     .navbar-nav {
       --bs-nav-link-color: var(--primary-color);
