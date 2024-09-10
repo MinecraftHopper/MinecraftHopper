@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-:root {
+
+.dark {
+  --primary-color: #8A9A9E;
+  --body-background-color: #1E1E1E;
+  --page-header-bg-color: #2C3A3D;
+  --page-header-text-color: #E0E0E0;
+  --header-text-color: #B0C1D4;
+  --home-border-color: #444;
+  --table-background-color: #1E1E1E;
+  --table-border-color: #555;
+  --table-color: #CCCCCC;
+  --table-content-color: #999;  
+  --table-selected-color: #333; 
+}
+
+.light {
   --primary-color: #606c71;
   --body-background-color: #f5f5f5;
   --page-header-bg-color: darkslategray;
@@ -11,22 +26,6 @@
   --table-color: #333;
   --table-content-color: #777;
   --table-selected-color: #e8e8e8;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-color: #8A9A9E;
-    --body-background-color: #1E1E1E;
-    --page-header-bg-color: #2C3A3D;
-    --page-header-text-color: #E0E0E0;
-    --header-text-color: #B0C1D4;
-    --home-border-color: #444;
-    --table-background-color: #1E1E1E;
-    --table-border-color: #555;
-    --table-color: #CCCCCC;
-    --table-content-color: #999;  
-    --table-selected-color: #333;  
-  }
 }
 
 body {
