@@ -28,14 +28,15 @@ The Minecraft launcher includes the version(s) of Java required to run the game,
 
 If you are using the official launcher, you normally do not have to manually install Java, but you may want to if you are trying to run a server, trying to fix an issue, or using it for Java applications other than Minecraft. If you are not are not sure if you are using the correct Minecraft launcher or are getting "This application requires a Java Runtime Environment" when launching Minecraft, then you can download the Minecraft Launcher from [https://minecraft.net/download](https://minecraft.net/download).
 
-**Note:** Java versions 6 and 16 no longer receive security updates, and are therefore more risky to use. You should use Java 8, 11 or 17 if you can, as they will receive security updates for years to come.
+**Note:** Java versions 6 and 16 no longer receive security updates, and are therefore more risky to use. You should use any LTS version supported by Mojang if possible, as they will receive security updates for years to come.
 
-The below compatibility chart was last updated 2022-02-22.
+The below compatibility chart was last updated 2024-09-08.
 
 | Version of Minecraft | Recommended Java version | Minimum Java version |
 |:-:|-|-|
 | Future versions not listed | Latest you can find | (unknown) |
-| **1.18** | **Java 17** | 17 |
+| **1.20.5** to **Latest** (inclusive) | **Java 21** | 21 |
+| **1.18** to **1.20.4** (inclusive) | **Java 17** | 17 |
 | **1.17** | **Java 17** | 16 (use Java 17 if you can) |
 | Some custom server software before 1.17 |  | 11 |
 | **1.12** to **1.16** (inclusive) | **Java 8** | 8 |
@@ -58,6 +59,8 @@ Java 8 will show up as either `Java version "1.8. [...]` or `openjdk version "1.
 Java 11 will show up as either `Java version "11. [...]` or `openjdk version "11. [...]`.
 
 Java 17 will show up as either `Java version "17. [...]` or `openjdk version "17. [...]`.
+
+Java 21 will show up as either `Java version "21. [...]` or `openjdk version "21. [...]`.
 
 ### Downloading Java (OpenJDK) {#downloading-java}
 
@@ -157,10 +160,17 @@ Install Java with your package manager.
 
 ##### Ubuntu/Debian/Pop!\_OS/Linux Mint
 
-Use one of these commands to install Java 17, 11, or 8, respectively:
+Use one of these commands to install Java 21, 17, 11, or 8, respectively:
+```
+sudo apt install openjdk-21-jdk
+```
 ```
 sudo apt install openjdk-17-jdk
+```
+```
 sudo apt install openjdk-11-jdk
+```
+```
 sudo apt install openjdk-8-jdk
 ```
 
@@ -168,19 +178,33 @@ There are also PPAs available for Adoptium and other Java distributions.
 
 ##### Fedora
 
-Use one of these commands to install Java 17, 11, or 8, respectively:
+Use one of these commands to install Java 21, 17, 11, or 8, respectively:
 ```
-sudo dnf install java-latest-openjdk.x86_64
+sudo dnf install java-21-openjdk.x86_64
+```
+```
+sudo dnf install java-17-openjdk.x86_64
+```
+```
 sudo dnf install java-11-openjdk.x86_64
+```
+```
 sudo dnf install java-1.8.0-openjdk.x86_64
 ```
 
 ##### Archlinux/EndeavorOS/Manjaro
 
-Use one of these commands to install Java 17, 11, or 8, respectively:
+Use one of these commands to install Java 21, 17, 11, or 8, respectively:
 ```
-sudo pacman -S jdk-openjdk
+sudo pacman -S jdk21-openjdk
+```
+```
+sudo pacman -S jdk17-openjdk
+```
+```
 sudo pacman -S jdk11-openjdk
+```
+```
 sudo pacman -S jdk8-openjdk
 ```
 
@@ -188,10 +212,17 @@ There are also AUR packages available for Adoptium and other Java distributions.
 
 ##### RHEL/CentOS/RockyLinux/Amazon Linux
 
-Use one of these commands to install Java 17, 11, or 8, respectively:
+Use one of these commands to install Java 21, 17, 11, or 8, respectively:
+```
+sudo yum install java-21-openjdk
+```
 ```
 sudo yum install java-17-openjdk
+```
+```
 sudo yum install java-11-openjdk
+```
+```
 sudo yum install java-1.8.0-openjdk
 ```
 
@@ -209,9 +240,9 @@ To show available Java versions:
 ```
 update-java-alternatives --list
 ```
-To switch to use Java 17 by default:
+To switch to use Java 21 by default:
 ```
-sudo update-java-alternatives --set java-1.17.0-openjdk-amd64
+sudo update-java-alternatives --set java-1.21.0-openjdk-amd64
 ```
 
 ##### Fedora/RHEL/CentOS/RockyLinux/Amazon Linux
@@ -228,9 +259,9 @@ To show available Java versions:
 ```
 archlinux-java status
 ```
-To switch to use Java 17 by default:
+To switch to use Java 21 by default:
 ```
-sudo archlinux-java set java-17-openjdk
+sudo archlinux-java set java-21-openjdk
 ```
 
 ![Terminal with Java alternatives command executed](/static/images/help/installing-java/linux/install-java-4.jpg)
