@@ -27,7 +27,7 @@
     loadTheme();
 
     function loadTheme() {
-      let html = document.documentElement;
+      const html = document.documentElement;
 
       if (document.cookie.split('; ').find(row => row.startsWith('theme='))) {
         const theme = getThemeCookie();
@@ -38,10 +38,8 @@
         }
       } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         html.classList.add('dark');
-        setThemeCookie('dark');
       } else {
         html.classList.add('light');
-        setThemeCookie('light');
       }
     }
 
@@ -54,14 +52,15 @@
     }
 
     function toggleTheme() {
-      const body = document.body;
-      if (body.classList.contains('dark')) {
-        body.classList.remove('dark');
-        body.classList.add('light');
+      const html = document.documentElement;
+      
+      if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        html.classList.add('light');
         setThemeCookie('light');
       } else {
-        body.classList.remove('light');
-        body.classList.add('dark');
+        html.classList.remove('light');
+        html.classList.add('dark');
         setThemeCookie('dark');
       }
     }
