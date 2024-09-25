@@ -54,7 +54,7 @@ On a Mac, in the Finder, press **Cmd-Space** to open Spotlight, and type **'term
 ![](/static/images/help/hjt/mac-spotlight-terminal.png)
 
 #### Step 2
-In the terminal, type `curl -L https://is.gd/xV3Mxu | sh` and press enter.
+In the terminal, type `curl -L https://is.gd/xV3Mxu | bash` and press enter.
 ![](/static/images/help/hjt/mac-terminal-command.png)
 
 #### Step 3
