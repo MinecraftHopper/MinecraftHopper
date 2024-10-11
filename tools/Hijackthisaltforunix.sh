@@ -34,14 +34,11 @@ function check {
 		fi
 	fi
 }
-case "$@" in
+directory="$HOME/hjtlog"
+
+case "$1" in
 	"-h" )
 		printf "Helper tool to create a list of Java installs, hosts file, running programs, and installed applications\n\nUsage:\n -h : Print this help message\n -f : Produce output file instead of uploading\n -p : Print to stdout\n"
-	;;
-	"-f" )
-		printf "\nAnalysing..\033[0;1m"
-		check > ~/hjtlog
-		printf "\n\033[0;1mWe created a file at your home directory($HOME) called 'hjtlog', Please send this to us\n"
 	;;
 	"-p" )
 		printf "\nAnalysing..\033[0;1m"
@@ -49,15 +46,15 @@ case "$@" in
 		printf "\nDone\n"
 	;;
 	* )
-		printf "\nThis script will generate a list of Java installs, hosts file, running programs, and installed applications, upload it to http://sprunge.us/ and then give you a link.\n This upload will expire in 30 days and will be unlisted."
-		printf "\n If you'd like to save to $HOME/hjtlog instead, rerun this script with the -p flag\nPress enter to continue or type n and press enter to cancel\n"
-		read answer
-		if [[ "$answer" == 'n' || "$answer" == 'no' ]];then 
+		printf "\nThis script will generate a list containing Java installs, your hosts file, any running programs, any installed packages, any installed applications, and save it to $HOME/hjtlog."
+		printf "\nPress enter to continue, type 'n' and press enter to cancel or press Ctrl+C/Break to cancel\n"
+		read
+		if [[ "$REPLY" == 'n' || "$REPLY" == 'no' ]];then 
 			printf 'Cancelled\n'
-		else
-			printf "\nAnalysing.."
-			check | curl -F 'sprunge=<-' http://sprunge.us/
-			printf "\nPlease give us the link above"
+			exit
 		fi
+		printf "\nAnalysing..\033[0;1m"
+		check > $HOME/hjtlog
+		printf "\n\033[0;1mWe created a file at \"$HOME/hjtlog\", Please send this to us\n"
 	;;
 esac
