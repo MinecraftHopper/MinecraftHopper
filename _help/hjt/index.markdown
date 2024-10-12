@@ -58,7 +58,7 @@ In the terminal, type `curl https://minecrafthopper.net/tools/Hijackthisaltforun
 ![](/static/images/help/hjt/mac-terminal-command.png)
 
 #### Step 3
-<p>The script will run for a minute or two. If a java error pops up asking you to install JDK, click OK. When the script completes, a URL will appear in the terminal.</p>
+<p>The script will run for a minute or two. If a java error pops up asking you to install JDK, click OK. When the script completes, a file path will appear in the terminal..</p>
 ![](/static/images/help/hjt/mac-terminal-command-java-error.png)
 ![](/static/images/help/hjt/mac-terminal-command-completed.png)
 
