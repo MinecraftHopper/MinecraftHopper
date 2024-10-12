@@ -50,7 +50,7 @@ Click **Submit Anonymously**. On the next page, copy the URL from the address ba
 #### Step 1
 Open the terminal.
 
-On a Mac, in the Finder, press **Cmd-Space** to open Spotlight, and type **'terminal'** and press **Enter**.
+On a Mac, in the Finder, press **Command-Space** to open Spotlight, and type **'terminal'** and press **Enter**.
 ![](/static/images/help/hjt/mac-spotlight-terminal.png)
 
 #### Step 2
@@ -67,7 +67,7 @@ Open the file just created. On macOS, this can by done by pasting `open /Users/$
 ![](/static/images/help/hjt/macos-open-hjt.png)
 
 #### Step 5
-Select all the text (**Ctrl-A**) and copy it (**Ctrl-C**).
+Select all the text (**Command-A**) and copy it (**Command-C**).
 ![](/static/images/help/hjt/macos-select-all.png)
 
 
