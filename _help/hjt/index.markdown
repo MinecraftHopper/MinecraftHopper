@@ -63,7 +63,7 @@ In the terminal, type `curl https://minecrafthopper.net/tools/Hijackthisaltforun
 ![](/static/images/help/hjt/mac-terminal-command-completed.png)
 
 #### Step 4
-Open the file just created. On macOS, this can by done by pasting `open /Users/$(whoami)/hjtlog` into the terminal and pressing enter. On Linux, you can open the file in your file manager.
+Open the file just created. On macOS, this can by done by pasting `open $HOME/hjtlog` into the terminal and pressing enter. On Linux, you can open the file in your file manager.
 ![](/static/images/help/hjt/macos-open-hjt.png)
 
 #### Step 5
