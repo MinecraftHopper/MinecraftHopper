@@ -50,7 +50,7 @@ Click **Submit Anonymously**. On the next page, copy the URL from the address ba
 #### Step 1
 Open the terminal.
 
-On a Mac, in the Finder, press **Cmd-Space** to open Spotlight, and type **'terminal'** and press **Enter**.
+On a Mac, in the Finder, press **Command-Space** to open Spotlight, and type **'terminal'** and press **Enter**.
 ![](/static/images/help/hjt/mac-spotlight-terminal.png)
 
 #### Step 2
@@ -58,18 +58,32 @@ In the terminal, type `curl https://minecrafthopper.net/tools/Hijackthisaltforun
 ![](/static/images/help/hjt/mac-terminal-command.png)
 
 #### Step 3
-<p>The script will run for a minute or two. If a java error pops up asking you to install JDK, click OK. When the script completes, a URL will appear in the terminal.</p>
+<p>The script will run for a minute or two. If a java error pops up asking you to install JDK, click OK. When the script completes, a file path will appear in the terminal..</p>
 ![](/static/images/help/hjt/mac-terminal-command-java-error.png)
 ![](/static/images/help/hjt/mac-terminal-command-completed.png)
 
 #### Step 4
-Click and drag your mouse across the URL text to select it, then press <strong>Cmd-C</strong> (Mac) to copy the URL text.
-![](/static/images/help/hjt/mac-terminal-command-select.png)
+Open the file just created. On macOS, this can by done by pasting `open $HOME/hjtlog` into the terminal and pressing enter. On Linux, you can use `xdg-open $HOME/hjtlog` instead.
+![](/static/images/help/hjt/macos-open-hjt.png)
 
 #### Step 5
-Give the URL to whoever requested it and wait for further instructions.
-{% endcapture %}
+Select all the text (**Command-A**) and copy it (**Command-C**).
+![](/static/images/help/hjt/macos-select-all.png)
 
+
+#### Step 6
+Paste all of this text a text sharing website, such as [Paste.gg](https://paste.gg).
+
+First, paste the text that you copied from the file into the largest text field in Paste.gg. Put your Discord username into the "Paste name" field and a description (e.g "HJT") in the "Description" field.
+
+![](/static/images/help/hjt/macos-pastegg.png)
+
+#### Step 7
+
+Press the "Submit Anonymously" option and it will redirect you to a URL with all the text you pasted. Copy the URL out of your address bar give that URL to whoever requested it.
+
+Once shared, wait for further instructions.
+{% endcapture %}
 <div class="accordion" id="hjtInstructions">
     {% include accordion_item.html id="windows" title="Windows"         parent_id="hjtInstructions" data-platform="windows" content=accordion_body_windows %}
     {% include accordion_item.html id="unix"    title="macOS and Linux" parent_id="hjtInstructions" data-platform="macos linux" content=accordion_body_unix %}
