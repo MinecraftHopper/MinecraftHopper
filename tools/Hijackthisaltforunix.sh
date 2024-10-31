@@ -28,34 +28,34 @@ function check {
 		printf "\nSecond host file:\n";cat /private/etc/hosts
 	fi
 	printf "\nProcess List:\n";ps -ax
-	if [[ -e /Applications ]];then
+	if [[ -e "/Applications" ]];then
 		printf "\nInstalled applications (Darwin):\n";ls -1 /Applications
-		printf '\n\nDetected launchers:\n'
-		findLauncherByFile 'Base Launcher' "$HOME/Library/Application Support/minecraft/launcher_log.txt"
-		findLauncherByFolder 'Prism Launcher' "$HOME/Library/Application Support/PrismLauncher"
-		findLauncherByFolder 'Technic' "$HOME/Library/Application Support/technic/"
-		findLauncherByFolder 'Modrinth' "$HOME/Library/Application Support/com.modrinth.theseus"
-		findLauncherByFolder 'CurseForge Launcher' "$HOME/Library/Application Support/CurseForge"
+		printf "\n\nDetected launchers:\n"
+		findLauncherByFile "Base Launcher" "$HOME/Library/Application Support/minecraft/launcher_log.txt"
+		findLauncherByFolder "Prism Launcher" "$HOME/Library/Application Support/PrismLauncher"
+		findLauncherByFolder "Technic" "$HOME/Library/Application Support/technic/"
+		findLauncherByFolder "Modrinth" "$HOME/Library/Application Support/com.modrinth.theseus"
+		findLauncherByFolder "CurseForge Launcher" "$HOME/Library/Application Support/CurseForge"
 
-		findLauncherByFolder 'TLauncher(!)' '$HOME/Library/Application Support/tlauncher'
+		findLauncherByFolder "TLauncher(!)" "$HOME/Library/Application Support/tlauncher"
 	else
 		printf "\nInstalled applications (/usr/local):\n"; ls -1 /usr/share/applications
 		printf "\nInstalled applications (~/.local/share/applications):\n"; ls -1 ~/.local/share/applications
 		test -f "/usr/bin/pacman" && (printf "\nInstalled packages (pacman):\n"; pacman -Q)
 		test -f "/usr/bin/apt" && (printf "\nInstalled packages (apt):\n"; apt list --installed)
-		printf '\n\nDetected launchers:\n'
-		findLauncherByFile 'Base Launcher' "$HOME/.minecraft/launcher_log.txt" # .minecraft is actually used by some launchers
-		findLauncherByFolder 'Prism Launcher' "$HOME/.local/share/PrismLauncher"
-		findLauncherByFolder 'Prism Launcher' "$HOME/.local/share/prismlauncher"
-		findLauncherByFolder 'MultiMC' "$HOME/.local/share/MultiMC"
-		findLauncherByFolder 'Modrinth' "$HOME/.local/share/modrinth-app"
-		findLauncherByFolder 'Modrinth' "$HOME/.modrinth"
-		findLauncherByFolder 'CurseForge Launcher' "$HOME/Library/Application Support/CurseForge" # This is the official location according to their FAQ so :shrug:
-		findLauncherByFolder 'CurseForge Launcher' "$HOME/.config/CurseForge"
-		findLauncherByFolder 'CurseForge Launcher' "$HOME/.config/curseforge"
+		printf "\n\nDetected launchers:\n"
+		findLauncherByFile "Base Launcher" "$HOME/.minecraft/launcher_log.txt" # .minecraft is actually used by some launchers
+		findLauncherByFolder "Prism Launcher" "$HOME/.local/share/PrismLauncher"
+		findLauncherByFolder "Prism Launcher" "$HOME/.local/share/prismlauncher"
+		findLauncherByFolder "MultiMC" "$HOME/.local/share/MultiMC"
+		findLauncherByFolder "Modrinth" "$HOME/.local/share/modrinth-app"
+		findLauncherByFolder "Modrinth" "$HOME/.modrinth"
+		findLauncherByFolder "CurseForge Launcher" "$HOME/Library/Application Support/CurseForge" # This is the official location according to their FAQ so :shrug:
+		findLauncherByFolder "CurseForge Launcher" "$HOME/.config/CurseForge"
+		findLauncherByFolder "CurseForge Launcher" "$HOME/.config/curseforge"
 
-		findLauncherByFolder 'TLauncher(!)' "$HOME/.local/share/tlauncher"
-		findLauncherByFolder 'TLauncher(!)' "$HOME/.tlauncher"
+		findLauncherByFolder "TLauncher(!)" "$HOME/.local/share/tlauncher"
+		findLauncherByFolder "TLauncher(!)" "$HOME/.tlauncher"
 
 	fi
 }
