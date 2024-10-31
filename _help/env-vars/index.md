@@ -33,6 +33,6 @@ In the Environment Variables window you should see two lists. You need to check 
 
 If you find that setting in either list, click on it, then press the **Delete** button. Afterwards press the **OK** or **Apply** buttons until all the windows are closed.
 
-* If you did not add this variable yourself, make sure you have removed the [incompatible program](/support-articles/known-incompatible-software/) that caused it, otherwise it will re-add this setting and you will need to repeat these instructions.
+* If you did not add this variable yourself, make sure you have removed the [incompatible program](/help/known-incompatible-software/) that caused it, otherwise it will re-add this setting and you will need to repeat these instructions.
 
 Restart your computer. Open the Minecraft launcher and try running the game again.
