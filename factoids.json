@@ -1013,7 +1013,7 @@
     },
     {
         "name": "launcher/bootstrap",
-        "content": "Please send the Bootstrap Error Log, which is the text you see in your launcher.\n\nFirst, copy all of the text by pressing **Ctrl+A** and **Ctrl+C**. Then, go to https://paste.gg/ and paste it. Click 'Submit', then share with us the link (the URL) that it takes you to."
+        "content": "Please send the Bootstrap Error Log, which is the text you see in your launcher.\n\nFirst, copy all of the text by pressing **Ctrl+A** and **Ctrl+C**. Then, go to https://sending.pastefor.help/ and paste it. Click 'Save', then share with us the link (the URL) that it takes you to."
     },
     {
         "name": "launcher/change-version",
@@ -1109,7 +1109,7 @@
     },
     {
         "name": "linux/hosts",
-        "content": "You may have a problem with your hosts file, which overrides DNS queries.  Please follow the following directions:\n\nFrom the filesystem, navigate to the following file: \"/etc/hosts\".  Open that file in your editor of choice, and copy the contents onto https://paste.gg/ , and give us the resulting URL."
+        "content": "You may have a problem with your hosts file, which overrides DNS queries.  Please follow the following directions:\n\nFrom the filesystem, navigate to the following file: \"/etc/hosts\".  Open that file in your editor of choice, and copy the contents onto https://sending.pastefor.help/ , and give us the resulting URL."
     },
     {
         "name": "linux/jar",
@@ -1149,7 +1149,7 @@
     },
     {
         "name": "log/event",
-        "content": "Sometimes, Windows Event Viewer may log some errors related to Minecraft. Please follow the instructions at:\nhttps://minecrafthopper.net/help/using-event-viewer\nPaste the copied text from the instructions into \u003chttps://paste.gg\u003e, click Submit Anonymously, and post the generated link in this channel."
+        "content": "Sometimes, Windows Event Viewer may log some errors related to Minecraft. Please follow the instructions at:\nhttps://minecrafthopper.net/help/using-event-viewer\nPaste the copied text from the instructions into \u003chttps://sending.pastefor.help/\u003e, click Save, and post the generated link in this channel."
     },
     {
         "name": "log/game",
@@ -1205,7 +1205,7 @@
     },
     {
         "name": "mac/hosts",
-        "content": "You may have a problem with your hosts file, which overrides DNS queries.  Please do the following:\n\nIn Finder, press Shift-Cmd-G and type: `/private/etc/hosts`.  Open the highlighted file in the text editor, copy the contents onto https://paste.gg/ , submit it, and give us the resulting URL."
+        "content": "You may have a problem with your hosts file, which overrides DNS queries.  Please do the following:\n\nIn Finder, press Shift-Cmd-G and type: `/private/etc/hosts`.  Open the highlighted file in the text editor, copy the contents onto https://sending.pastefor.help/ , submit it, and give us the resulting URL."
     },
     {
         "name": "mac/hosts/edit",
@@ -1465,15 +1465,15 @@
     },
     {
         "name": "paste",
-        "content": "Paste.gg is a service run at https://paste.gg/ which allows us to read text files in full without having to download them. Paste your text into the big box, enter your *Discord username* into the \"**Paste name**\" field, and leave all the other fields/boxes alone. Click \"Submit anonymously\" and give us the link of the site it takes you to."
+        "content": "PasteFor.Help is a service run at https://sending.pastefor.help/ which allows us to read text files in full without having to download them. Paste your text into the big box. Click \"Save\" and give us the link of the site it takes you to."
     },
     {
         "name": "paste/all",
-        "content": "\u003chttps://gist.github.com\u003e | \u003chttps://hastebin.com\u003e | \u003chttps://paste.ubuntu.com\u003e | \u003chttps://0bin.net\u003e | \u003chttps://paste.mozilla.org/\u003e | \u003chttp://pastie.org/\u003e | \u003chttps://paste.gg\u003e"
+        "content": "\u003chttps://sending.pastefor.help/\u003e |\u003chttps://gist.github.com\u003e | \u003chttps://hastebin.com\u003e | \u003chttps://paste.ubuntu.com\u003e | \u003chttps://0bin.net\u003e | \u003chttps://paste.mozilla.org/\u003e | \u003chttp://pastie.org/\u003e | \u003chttps://paste.gg\u003e"
     },
     {
         "name": "paste/crash",
-        "content": "Please paste the crash report on https://paste.gg/ and give us the link it takes you to after clicking **Submit**. You can use F6 to highlight it."
+        "content": "Please paste the crash report on https://sending.pastefor.help/ and give us the link it takes you to after clicking **Save**. You can use F6 to highlight it."
     },
     {
         "name": "paypal/history",
@@ -1693,7 +1693,7 @@
     },
     {
         "name": "tools/otl",
-        "content": "OldTimer's List-It is a replacement for HijackThis when more through diagnosis of the computer is needed. Run a scan (not a Quick Scan), wait for it to finish (may take 15 minutes or so), then a notepad window will pop up. Copy everything inside, and paste it on https://paste.gg/ .;; Download OTL here: https://oldtimer.geekstogo.com/OTL.exe "
+        "content": "OldTimer's List-It is a replacement for HijackThis when more through diagnosis of the computer is needed. Run a scan (not a Quick Scan), wait for it to finish (may take 15 minutes or so), then a notepad window will pop up. Copy everything inside, and paste it on https://sending.pastefor.help/ .;; Download OTL here: https://oldtimer.geekstogo.com/OTL.exe "
     },
     {
         "name": "tools/pcidatabase",
@@ -1853,7 +1853,7 @@
     },
     {
         "name": "win/dxdiag/manual",
-        "content": "Press the Win+R keys, and type `dxdiag` in the box. Press enter. If prompted about verifying WHQL, select Yes. Once it has finished loading, click the \"Save All Information\" button and save it to your desktop. Open the file you just saved, and copy the contents. Paste them on https://paste.gg/ and click **Submit**. Then, copy the link in your browser's address bar and paste it back here."
+        "content": "Press the Win+R keys, and type `dxdiag` in the box. Press enter. If prompted about verifying WHQL, select Yes. Once it has finished loading, click the \"Save All Information\" button and save it to your desktop. Open the file you just saved, and copy the contents. Paste them on https://sending.pastefor.help/ and click **Save**. Then, copy the link in your browser's address bar and paste it back here."
     },
     {
         "name": "win/edit",
@@ -1873,7 +1873,7 @@
     },
     {
         "name": "win/hosts",
-        "content": "You may have a problem with your hosts file, which overrides DNS queries. Please do the following: Go to the **Start Menu** and locate **notepad**. Right-click **notepad** and select **Run as Administrator**. Press **File**, then **Open**. Enter **%SystemRoot%\\System32\\drivers\\etc\\hosts** as the \"File name\" and press \"Open\". Copy the contents onto https://paste.gg/ , and give us the resulting URL."
+        "content": "You may have a problem with your hosts file, which overrides DNS queries. Please do the following: Go to the **Start Menu** and locate **notepad**. Right-click **notepad** and select **Run as Administrator**. Press **File**, then **Open**. Enter **%SystemRoot%\\System32\\drivers\\etc\\hosts** as the \"File name\" and press \"Open\". Copy the contents onto https://sending.pastefor.help/ , and give us the resulting URL."
     },
     {
         "name": "win/hosts/cmd",

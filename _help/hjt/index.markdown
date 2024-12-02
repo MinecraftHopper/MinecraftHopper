@@ -37,12 +37,11 @@ When the scan completes, a Notepad window will open. Select all the text (**Ctrl
 
 #### Step 5
 
-Open [https://paste.gg](https://paste.gg) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. Put your Discord username into the **'Paste name'** field, and a description (e.g. 'HiJackThis report') in the **'Description'** field.
-![](/static/images/help/hjt/win-pastegg-pasted.png)
+Open [https://sending.pastefor.help/](https://sending.pastefor.help/) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field.
 
 #### Step 6
 
-Click **Submit Anonymously**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
+Click **Save**. On the next page, copy the URL from the address bar and give that URL to whoever requested it. Wait for further instructions.
 ![](/static/images/help/hjt/win-pastegg-url.png)
 {% endcapture %}
 
@@ -72,15 +71,13 @@ Select all the text (**Command-A**) and copy it (**Command-C**).
 
 
 #### Step 6
-Paste all of this text a text sharing website, such as [Paste.gg](https://paste.gg).
+Paste all of this text a text sharing website, such as [pastefor.help](https://sending.pastefor.help/).
 
-First, paste the text that you copied from the file into the largest text field in Paste.gg. Put your Discord username into the "Paste name" field and a description (e.g "HJT") in the "Description" field.
-
-![](/static/images/help/hjt/macos-pastegg.png)
+Paste the text that you copied from the file into the largest text field.
 
 #### Step 7
 
-Press the "Submit Anonymously" option and it will redirect you to a URL with all the text you pasted. Copy the URL out of your address bar give that URL to whoever requested it.
+Press the "Save" option and it will redirect you to a URL with all the text you pasted. Copy the URL out of your address bar give that URL to whoever requested it.
 
 Once shared, wait for further instructions.
 {% endcapture %}
