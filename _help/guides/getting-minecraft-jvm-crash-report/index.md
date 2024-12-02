@@ -45,9 +45,7 @@ Double-click to open the file identified in Step 2 in Notepad. Select the entire
 #### Step 4
 
 Open [https://sending.pastefor.help/](https://sending.pastefor.help/) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field.
-![Example with data pasted](/static/images/help/guides/getting-minecraft-jvm-crash-report/pastegg-hs_err.png)
 
 #### Step 5
 
 Click **Save**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![Example with data pasted and showing URL](/static/images/help/guides/getting-minecraft-jvm-crash-report/pastegg-hs_err-url.png)

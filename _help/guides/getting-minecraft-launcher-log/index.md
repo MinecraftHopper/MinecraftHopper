@@ -42,12 +42,10 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 #### Step 5
 
 Open [https://sending.pastefor.help/](https://sending.pastefor.help/) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field.
-![Example with contents pasted](/static/images/help/guides/getting-minecraft-launcher-log/pastegg-launcher_log.png)
 
 #### Step 6
 
 Click **Save**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![Example with data pasted showing URL](/static/images/help/guides/getting-minecraft-launcher-log/pastegg-launcher_log-url.png)
 
 ## Troubleshooting
 

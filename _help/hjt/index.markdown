@@ -38,7 +38,6 @@ When the scan completes, a Notepad window will open. Select all the text (**Ctrl
 #### Step 5
 
 Open [https://sending.pastefor.help/](https://sending.pastefor.help/) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field.
-![](/static/images/help/hjt/win-pastegg-pasted.png)
 
 #### Step 6
 
@@ -75,8 +74,6 @@ Select all the text (**Command-A**) and copy it (**Command-C**).
 Paste all of this text a text sharing website, such as [pastefor.help](https://sending.pastefor.help/).
 
 Paste the text that you copied from the file into the largest text field.
-
-![](/static/images/help/hjt/macos-pastegg.png)
 
 #### Step 7
 

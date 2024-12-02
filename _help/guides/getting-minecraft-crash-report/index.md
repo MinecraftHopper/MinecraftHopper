@@ -40,9 +40,7 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 #### Step 4
 
 Open [https://sending.pastefor.help/](https://sending.pastefor.help/) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. 
-![Example](/static/images/help/guides/getting-minecraft-crash-report/pastegg-crash-report.png)
 
 #### Step 5
 
 Click **Save**. On the next page, copy the URL from the address bar and give it to whoever requested the log. Wait for further instructions.
-![Example with pasted data and URL](/static/images/help/guides/getting-minecraft-crash-report/pastegg-crash-report-url.png)

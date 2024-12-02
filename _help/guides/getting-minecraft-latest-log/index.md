@@ -42,7 +42,6 @@ Select the entire contents (**Ctrl-A** or **Cmd-A**) of the file and copy it (**
 #### Step 5
 
 Open [https://sending.pastefor.help/](https://sending.pastefor.help/) and paste (**Ctrl-V** or **Cmd-V**) the contents into the largest field. 
-![Example with contents pasted](/static/images/help/guides/getting-minecraft-latest-log/pastegg-latest-log.png)
 
 #### Step 6
 
