@@ -313,7 +313,7 @@
     },
     {
         "name": "av/norton/uninstall",
-        "content": "To completely uninstall Norton Internet Security, use this tool: https://liveupdate.symantecliveupdate.com/upgrade/RnR/NRnR.exe"
+        "content": "To completely uninstall Norton Internet Security, use this tool: https://norton.com/nrnr"
     },
     {
         "name": "av/webroot",
