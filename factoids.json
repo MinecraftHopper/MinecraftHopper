@@ -348,42 +348,6 @@
         "content": "I am a bot. Whoever is listed as issuing the command at the bottom of this message is the actual person helping you. Talk to the person who issued the command, not me!"
     },
     {
-        "name": "bot/absol/ops",
-        "content": "!remove \u003cusername\u003e Kicks a user if the sender has voice in the channel\n\n!terminate \u003cusername\u003e Bans a user if the sender has voice in the channel"
-    },
-    {
-        "name": "bot/help",
-        "content": "To use this service, there are several commands. ?? will answer a FAQ in-channel.  ??\u003c will privately send you the answer to a FAQ.  ??\u003e will answer a FAQ in channel with attention to the person you specify.  ??\u003e\u003e will do the same, only privately. For a list of FAQs I can answer (or more accurately, a link to one), check the keyword 'index' with '??\u003c index'\n\nPlease note that these instructions do not apply to Discord."
-    },
-    {
-        "name": "bot/help/ops",
-        "content": "Additional commands for authorized personnel: ??+ to add a FAQ\n\n??~ to rewrite a FAQ; ??- to remove a FAQ; .sitedown to give a specific message to anyone joining the channel; .siteup to reverse a .sitedown; !!!! to purge the bot's internal message queue (for emergency use only)\n\nFor queue system help, see ?? bot/help/queue\n\nPlease note that these instructions do not apply to Discord."
-    },
-    {
-        "name": "bot/help/queue",
-        "content": "Authorized personnel can put the channel into moderated one-at-a-time queue mode. Available commands are: (@ indicates Bot admin only, others are authorized personnel only) @.on, @.off, .next, .helped nick, .list, .skip nick, .put nick"
-    },
-    {
-        "name": "bot/panel",
-        "content": "The Absol control panel may be located at https://cp.minecraftirc.net"
-    },
-    {
-        "name": "bot/vox",
-        "content": "I just type quickly.\n\nIf you're looking for the AIs, see ?? bot/xales and ?? bot/wug"
-    },
-    {
-        "name": "bot/wug",
-        "content": "Wug does not just type quickly. He is an artifically-intelligent computer program.\n\nSee ?? bot/xales for a counterpart of Wug."
-    },
-    {
-        "name": "bot/wug/image",
-        "content": "This is a wug. https://i.imgur.com/4dt56.png"
-    },
-    {
-        "name": "bot/xales",
-        "content": "xales does not just type quickly. He is an artifically-unintelligent computer program. See ?? bot/wug for a counterpart of xales."
-    },
-    {
         "name": "bug-report",
         "content": "To report an ingame bug, please go to Mojang's JIRA System (also called Mojira), available here: https://bugs.mojang.com/browse/MC \n\nBefore reporting a bug, please verify that 1. Your \"bug\" is not caused by your system, or a mod, and 2. the bug has not been reported before or fixed."
     },
