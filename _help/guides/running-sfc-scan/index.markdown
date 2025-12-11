@@ -21,7 +21,7 @@ At the first option, "cmd," right click it and in the bottom menu choose **Run a
 
 In the new window that pops up (with a black background), type `sfc /scannow` and press enter. Your window should be similar to this:
 
-![Commmand Prompt showing sfc command](http://i.imgur.com/ACdL2i1.png)
+![Commmand Prompt showing sfc command](/static/images/help/guides/running-sfc-scan/cmd.png)
 
 #### Step 4
 
